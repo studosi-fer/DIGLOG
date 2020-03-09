@@ -1,0 +1,134 @@
+INACICA 10:
+
+(B-1)KOMPLEMENT:
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY B3kompl IS PORT (
+x : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+y : OUT STD_LOGIC_VECTOR (1 DOWNTO 0));
+end B3kompl;
+
+ARCHITECTURE arch OF B3kompl IS
+
+BEGIN
+
+y(1) <= x(1) after 10 ns;
+y(0) <= not x(0) after 10 ns;
+
+END arch;
+
+
+DMUX:
+
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY DMUX IS PORT (
+x : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+y : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+s : IN STD_LOGIC;
+z : OUT STD_LOGIC_VECTOR (1 DOWNTO 0));
+end DMUX;
+
+ARCHITECTURE arch OF DMUX IS
+
+BEGIN
+
+z(1) <= (x(1) and not s)or( y(1) and s) after 10 ns;
+z(0) <= (x(0) and not s) or (y(0) and s) after 10 ns;
+
+END arch;
+
+FA:
+
+
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY fa IS PORT(
+a,b: IN std_logic_vector(1 downto 0);
+cin: IN std_logic;
+r: OUT std_logic_vector(1 downto 0);
+cout: OUT std_logic); 
+END fa;
+
+ARCHITECTURE arch OF fa IS 
+
+BEGIN
+cout<=(a(0) and b (0))or(not a(1) and b(1) and b(0))or(b(1) and b(0)and cin)or(a(1) and a(0) and not b(1))or(a(0) and not b(1) and cin)or(not a(1) and b(0) and cin)or(a(1) and a(0) and cin) after 10        ns;
+
+r(1)<=(not a(1) and not a(0) and not b(1) and cin)or(not a(1) and not a(0) and b(0) and not cin)or(not a(1) and a(0) and not b(0) and cin)or(not a(1) and a(0) and not b(1) and not cin)or(a(1) and not a(0) and b(0) and cin)or(a(1) and not a(0) and b(1) and not cin)or(a(1) and a(0) and b(1) and cin)or(a(1) and a(0) and not b(0) and not cin) after 10 ns;
+
+r(0)<=(not a(1) and not a(0) and not b(1) and not cin)or(not a(1) and not a(0) and not b(0) and cin)or(not a(1) and a(0) and b(1) and cin)or(not a(1) and a(0) and not b(0) and not cin)or(a(1) and not a(0) and not b(1) and cin)or(a(1) and not a(0) and b(0) and not cin)or(a(1) and a(0) and b(1) and not cin)or(a(1) and a(0) and b(0) and cin) after 10 ns;
+
+
+
+
+END arch;
+
+
+
+PRIMITIV:
+
+
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY PRIMITIV IS PORT(
+a: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+b: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+cin: IN STD_LOGIC;
+oper: IN STD_LOGIC;
+r: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+cout: OUT STD_LOGIC);
+END PRIMITIV;
+
+ARCHITECTURE arch OF PRIMITIV IS
+signal i,j: std_logic_vector(1 DOWNTO 0); 
+
+BEGIN
+kom:ENTITY work.b3kompl port map (b(1 DOWNTO 0),i(1 DOWNTO 0));
+dmux:ENTITY work.DMUX port map (b(1 DOWNTO 0),i(1 DOWNTO 0),oper,j(1 DOWNTO 0));
+fulla:ENTITY work.FA port map(a(1 DOWNTO 0),j(1 DOWNTO 0),cin,r(1 DOWNTO 0),cout);
+
+END arch;
+
+
+
+
+
+ZBRAJALO:
+
+
+
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY zbrajalo IS PORT(
+a: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+b: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+oper: IN STD_LOGIC;
+r: OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+cout: OUT STD_LOGIC);
+END zbrajalo;
+
+ARCHITECTURE arch OF zbrajalo IS 
+signal c1,c2,c3 : std_logic;
+
+BEGIN
+prim1:ENTITY work.PRIMITIV PORT MAP(a(1 DOWNTO 0),b(1 DOWNTO 0),oper,oper,r(1 DOWNTO 0),c1);
+prim2:ENTITY work.PRIMITIV PORT MAP(a(3 DOWNTO 2),b(3 DOWNTO 2),c1,oper,r(3 DOWNTO 2),c2);
+prim3:ENTITY work.PRIMITIV PORT MAP(a(5 DOWNTO 4),b(5 DOWNTO 4),c2,oper,r(5 DOWNTO 4),c3);
+prim4:ENTITY work.PRIMITIV PORT MAP(a(7 DOWNTO 6),b(7 DOWNTO 6),c3,oper,r(7 DOWNTO 6),cout);
+
+END arch;

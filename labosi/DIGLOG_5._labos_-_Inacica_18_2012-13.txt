@@ -1,0 +1,164 @@
+DMUX	--- napravi se tablica od 5 varijabli (x1x0y1y0s) ako je s-1 onda se u z1z0 prepisuje y1y0 inace ako je s-0 prepisuje se x1x0
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY DMUX IS PORT (
+x : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+y : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+s : IN STD_LOGIC;
+z : OUT STD_LOGIC_VECTOR (1 DOWNTO 0));
+end DMUX;
+
+ARCHITECTURE arch OF DMUX IS 
+
+BEGIN
+
+z(1) <= (x(1) and not s)or( y(1) and s) after 10 ns;
+z(0) <= (x(0) and not s) or (y(0) and s) after 10 ns;
+
+END arch;
+
+
+
+B-1 KOMPLEMENT--- jednostavno se napravi tablica u kojoj se za y1y0 upisu od 0-3 kako su zadane vrijednosti u inacici
+			i onda se samo zamjenjuju tj 0 je sad 3(3 je 0), 1 je 2(2 je 1), rijesenje je minimalizacija dobivenih funkcija x0(y1y0) i x1(y1y0)
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY B3Komp IS PORT (
+x : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+y : OUT STD_LOGIC_VECTOR (1 DOWNTO 0));
+END B3Komp;
+
+ARCHITECTURE arch OF B3Komp IS 
+
+BEGIN
+
+y(1) <= x(1) after 10 ns;
+y(0) <= not x(0) after 10 ns;
+
+END arch;
+
+
+
+FULL ADDER--- r1,r0, i cout se dobiju take da se napravi tablica s pet varijabli (a1a0b1b0cin)
+		pokraj tablice napisite si svoju inacicu i sad zbrajate a1a0+b1b0+cin---
+		cout ce biti ako postoji preljev u zbrajanju, a r1r0 ce biti zbroj ova tri
+		na kraju minimalizirate(preporucam s nekim minimlizatorom) svaki izlaz posebno
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY FA IS PORT (
+a,b: IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+cin: IN STD_LOGIC;
+r: OUT STD_LOGIC_VECTOR (1 DOWNTO 0);
+cout: OUT STD_LOGIC);
+
+END FA;
+
+ARCHITECTURE arch OF FA IS 
+
+BEGIN
+
+cout<= ((not a(0) and not b(0)) or 
+(not a(1) and not b(0) and cin) or 
+(not a(0) and not b(1) and cin) or 
+(not a(1) and b(1) and not b(0)) or 
+(b(1) and not b(0) and cin) or 
+(a(1) and not a(0) and not b(1)) or 
+(a(1) and not a(0) and cin))  after 10 ns;
+
+
+r(1)<=  ((not a(1) and not b(0) and not b(1) and not cin) or 
+(not a(0) and not b(1) and b(0) and not cin) or 
+(not a(1) and b(0) and not b(1) and cin) or 
+( not a(0) and b(1) and b(0) and cin) or 
+(a(0) and not b(0) and not b(1) and cin) or 
+(a(0) and b(1) and not b(0) and not cin) or
+(a(1) and b(1) and not b(0) and cin) or 
+(a(1) and b(1) and b(0) and not cin)) after 10 ns;
+
+
+r(0)<=  ((not a(0) and not cin and not b(1) and not b(0)) or 
+(not a(1) and not b(1) and not b(0) and cin) or 
+(not a(0) and not b(1) and b(0) and cin) or 
+(not a(1) and b(1) and not b(0) and not cin) or 
+(a(0) and b(1) and not b(0) and cin) or 
+(a(0) and b(0) and b(1) and not cin) or 
+(a(1) and not b(1) and b(0) and not cin) or 
+(a(1) and b(1) and b(0) and cin)) after 10 ns;
+
+END arch;
+
+
+
+PRIMITIV---OVO JE ISTO KOD SVIH(pazite kako oznacavate signale)
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY primitiv IS PORT (
+
+a : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+b:  IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+cin: IN STD_LOGIC;
+oper: IN STD_LOGIC;
+r: OUT STD_LOGIC_VECTOR (1 DOWNTO 0);
+cout: OUT STD_LOGIC);
+
+END primitiv;
+
+ARCHITECTURE arch OF primitiv IS 
+
+signal i, j: std_logic_vector (1 downto 0);
+
+BEGIN
+
+kom: ENTITY work.B3Komp port map (b(1 downto 0), i(1 downto 0));
+dmux: ENTITY work.DMUX port map (b(1 downto 0), i(1 downto 0), oper, j(1 downto 0));
+fulla: ENTITY work. FA port map (a(1 downto 0), j(1 downto 0), cin, r(1 downto 0), cout);
+
+
+END arch;
+
+
+
+ZBRAJALO--- ISTO JE KOD SVIH(pazte kako oznacavate signale)
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY zbrajalo IS PORT(
+ a:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+ b:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+ oper: IN STD_LOGIC;
+ r: OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+ cout: OUT STD_LOGIC);
+END zbrajalo;
+
+ARCHITECTURE arch OF zbrajalo IS 
+
+signal c1,c2,c3 : std_logic;
+
+BEGIN
+
+prim1: ENTITY work.primitiv PORT MAP (a(1 downto 0), b(1 downto 0), oper, oper, r(1 downto 0), c1);
+prim2: ENTITY work.primitiv PORT MAP (a(3 downto 2), b(3 downto 2), c1, oper, r(3 downto 2), c2);
+prim3: ENTITY work.primitiv PORT MAP (a(5 downto 4), b(5 downto 4), c2, oper, r(5 downto 4), c3);
+prim4: ENTITY work.primitiv PORT MAP (a(7 downto 6), b(7 downto 6), c3, oper, r(7 downto 6), cout);
+
+END arch;
+
+
+
+
+
+
+---NIJE TESKO, POGLEDAJTE IZLAZNE NA MATERIJALIMA PONAVLJAJU SE
+---PROBAJTE STO VISE SHVATITI I IZANALIZIRATI, NEMOJTE SLIJEPO KOPIRATI

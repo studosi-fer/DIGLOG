@@ -1,0 +1,107 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+use ieee.numeric_std.all;
+
+
+entity sviraj is
+    port (
+	clk_25m: in std_logic;
+	sw: in std_logic_vector(3 downto 0);
+	btn_left, btn_right, btn_up, btn_down, btn_center: in std_logic;
+	led: out std_logic_vector(7 downto 0);
+	p_tip: out std_logic_vector(3 downto 0);
+	p_ring: out std_logic;
+	dil: out std_logic_vector (23 downto 20)
+    );
+end sviraj;
+
+
+architecture x of sviraj is
+    signal tone_out: std_logic;
+	signal tone_out1: std_logic;
+	signal code: std_logic_vector(6 downto 0);
+	signal code1: std_logic_vector(6 downto 0);
+	signal k: std_logic;
+	signal z: std_logic_vector(6 downto 0);
+	signal m1: std_logic_vector(6 downto 0);
+	signal m2: std_logic_vector(6 downto 0);
+	signal fm_out: std_logic;
+	signal cw_freq: std_logic_vector(31 downto 0); 
+	
+	
+
+
+begin
+    I_tonegen: entity tonegen
+    port map (
+	clk_25m => clk_25m, code => code, volume => sw(1 downto 0),
+	tone_out => tone_out
+    );
+
+    I_enkoder: entity enkoder
+    port map (
+	btn_up => btn_up, btn_right => btn_right, btn_left => btn_left,
+	btn_down => btn_down, btn_center => btn_center,
+	code => code
+    );
+	
+	II_tonegen: entity tonegen
+    port map (
+	clk_25m => clk_25m, code => m2, volume => sw(1 downto 0),
+	tone_out => tone_out1
+    );
+	
+	fmgen: entity fmgen
+		generic map (
+			C_fm_dev => 30000
+			)
+    port map (
+	clk_25m => clk_25m,
+	pwm_in =>tone_out1,
+	fm_out => fm_out,
+	cw_freq => std_logic_vector(to_unsigned(100000000, 32))
+	    );
+	
+	k <= '1' when code = "0000000"	else '0';
+	
+	with sw(3 downto 2) select	
+		m1 <= 
+		"0000011" when "00",
+		"0000100" when "01",
+		"0000101" when "10",
+		"0000111" when "11",
+		"-------" when others;
+	
+	z<= code + m1;
+	
+	with k select
+		m2 <=
+		code when '1',
+		z when '0',
+		"-------" when others;
+		
+	
+	
+	
+	
+	dil(23) <= fm_out;
+	dil(22) <= fm_out;
+	dil(22) <= fm_out;
+	dil(21) <= fm_out;
+	dil(20) <= fm_out;
+	
+	
+	
+	
+	
+
+    led <= '0' & code;
+
+    p_ring <= tone_out1;
+    p_tip(3) <= tone_out;
+    p_tip(2) <= tone_out;
+    p_tip(1) <= tone_out;
+    p_tip(0) <= tone_out;
+end;

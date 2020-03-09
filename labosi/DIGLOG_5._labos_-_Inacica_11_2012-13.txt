@@ -1,0 +1,130 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY FA IS PORT (
+	a: IN std_logic_vector (1 downto 0);
+	b: IN std_logic_vector (1 downto 0);
+	cin: IN std_logic;
+	r: OUT std_logic_vector (1 downto 0);
+	cout: OUT std_logic );	
+
+END FA;
+
+ARCHITECTURE arch OF FA IS 
+
+BEGIN
+
+r(1) <= ((not a(1) and b(1) and cin) or 
+(not a(1) and not b(1) and not cin) or 
+(a(1) and not b(1) and cin) or 
+(a(1) and b(1) and not cin)) after 10 ns;
+
+r(0) <= ((not a(1) and not a(0) and not b(1) and  not b(0)) or 
+(not a(1) and not a(0) and not b(0) and cin) or 
+(not a(0) and not b(1) and not b(0) and cin) or 
+(not a(0) and b(1) and b(0) and not cin) or 
+(not a(1) and a(0) and b(0) and not b(1)) or 
+(not a(1) and a(0) and b(0) and cin) or 
+(a(0) and b(1) and not b(0) and not cin) or 
+(a(1) and not a(0) and b(0) and not cin) or 
+(a(1) and not a(0) and b(1) and b(0)) or 
+(a(1) and a(0) and not cin and not b(0)) or 
+(a(0) and not b(1) and b(0) and cin) or
+(a(1) and a(0) and b(1) and not b(0))) after 10 ns;
+
+cout <= ((not a(1) and not b(1) and b(0)) or (not a(1) and b(0) and cin) or 
+(not b(1) and b(0) and cin) or (not a(1) and a(0) and not b(1)) or 
+(not a(1) and a(0) and cin) or (a(0) and not b(1) and cin) or 
+(a(0) and b(0))) after 10 ns;
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY Komplement IS PORT (
+
+	x: IN std_logic_vector (1 downto 0);
+	y: OUT std_logic_vector (1 downto 0) );
+
+END Komplement;
+
+ARCHITECTURE arch OF Komplement IS 
+
+BEGIN
+
+y(1) <= (not x(1)) after 10 ns;
+y(0) <= (not x(0)) after 10 ns;
+
+END arch;
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY DMUX IS PORT (
+
+	x: IN std_logic_vector (1 downto 0);
+	y: IN std_logic_vector (1 downto 0);
+	s: IN std_logic;
+	z: OUT std_logic_vector (1 downto 0));
+
+END DMUX;
+
+ARCHITECTURE arch OF DMUX IS 
+
+BEGIN
+
+z(1) <= ((x(1) and not s) or (y(1) and s)) after 10 ns;
+z(0) <= ((x(0) and not s) or (y(0) and s)) after 10 ns;
+
+END arch;
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+ENTITY Primitiv IS PORT (
+
+	a,b: IN std_logic_vector (1 downto 0);
+	cin: IN std_logic;
+	oper: IN std_logic;
+	r: OUT std_logic_vector (1 downto 0);
+	cout: OUT std_logic );
+
+END Primitiv;
+
+ARCHITECTURE arch OF Primitiv IS 
+
+	signal i,j: std_logic_vector (1 downto 0);
+
+BEGIN
+
+kompl: ENTITY work.Komplement PORT MAP (b(1 downto 0), i(1 downto 0));
+mux: ENTITY work.DMUX PORT MAP (b(1 downto 0), i(1 downto 0), oper, j(1 downto 0));
+fulla: ENTITY work.FA PORT MAP (a(1 downto 0), j(1 downto 0), cin, r(1 downto 0), cout);
+
+END arch;
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+ENTITY Zbrajalo IS PORT (
+
+	a: IN std_logic_vector (7 downto 0);
+	b: IN std_logic_vector (7 downto 0);
+	oper: IN std_logic;
+	r: OUT std_logic_vector (7 downto 0);
+	cout: OUT std_logic );	
+
+END Zbrajalo;
+
+ARCHITECTURE arch OF Zbrajalo IS 
+
+	signal m: std_logic_vector (1 to 3);
+
+BEGIN
+
+prvi: ENTITY work.Primitiv PORT MAP (a(1 downto 0), b(1 downto 0), oper, oper, r(1 downto 0), m(1));
+drugi: ENTITY work.Primitiv PORT MAP (a(3 downto 2), b(3 downto 2), m(1), oper, r(3 downto 2), m(2));
+treci: ENTITY work.Primitiv PORT MAP (a(5 downto 4), b(5 downto 4), m(2), oper, r(5 downto 4), m(3));
+cetvrti: ENTITY work.Primitiv PORT MAP (a(7 downto 6), b(7 downto 6), m(3), oper, r(7 downto 6), cout);
+
+END arch;

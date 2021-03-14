@@ -1,0 +1,5 @@
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd":5:7:5:9|Synthesizing work.sem.struct 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\sem_automat.vhd":5:7:5:17|Synthesizing work.sem_automat.mix_moore_mealy 
+Post processing for work.sem_automat.mix_moore_mealy
+Post processing for work.sem.struct
+@W: CL246 :"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd":9:1:9:2|Input port bits 3 to 1 of sw(3 downto 0) are unused 

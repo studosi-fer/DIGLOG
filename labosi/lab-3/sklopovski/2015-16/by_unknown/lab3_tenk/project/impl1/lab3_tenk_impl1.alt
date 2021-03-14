@@ -1,0 +1,23 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun Dec  6 23:28:54 2015 *
+NOTE DESIGN NAME: daljinski_upravljac *
+NOTE DEVICE NAME: LFXP2-8E-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS p_tip[0] : 32 : out *
+NOTE PINS clk_25m : 30 : in *
+NOTE PINS p_ring : 44 : out *
+NOTE PINS p_tip[3] : 43 : out *
+NOTE PINS p_tip[2] : 28 : out *
+NOTE PINS p_tip[1] : 27 : out *
+NOTE PINS btn_center : 22 : in *
+NOTE PINS btn_down : 1 : in *
+NOTE PINS btn_up : 11 : in *
+NOTE PINS btn_right : 38 : in *
+NOTE PINS btn_left : 2 : in *
+NOTE PINS sw[3] : 130 : in *
+NOTE PINS sw[2] : 129 : in *
+NOTE PINS sw[1] : 46 : in *
+NOTE PINS sw[0] : 45 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

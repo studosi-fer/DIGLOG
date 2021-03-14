@@ -1,0 +1,6 @@
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[19] reduced to a combinational gate by constant propagation
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[20] reduced to a combinational gate by constant propagation
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[21] reduced to a combinational gate by constant propagation
+@W: MT246 :"z:\lab2\labv2\enkoder.v":46:4:46:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"z:\lab2\labv2\enkoder.v":35:4:35:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sviraj|clk_25m with period 7.31ns. Please declare a user-defined clock on object "p:clk_25m"

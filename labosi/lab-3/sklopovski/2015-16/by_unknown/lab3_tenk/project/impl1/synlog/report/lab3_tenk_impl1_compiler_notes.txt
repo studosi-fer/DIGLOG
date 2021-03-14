@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":6:7:6:25|Top entity is set to daljinski_upravljac.
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":6:7:6:25|Synthesizing work.daljinski_upravljac.behavioral 
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure 
+@N: CD630 :"/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd":767:10:767:15|Synthesizing work.eplld1.syn_black_box 
+@N|Running in 64-bit mode
+

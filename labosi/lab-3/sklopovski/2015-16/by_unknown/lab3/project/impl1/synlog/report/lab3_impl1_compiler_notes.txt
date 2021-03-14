@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":7:7:7:11|Top entity is set to slova.
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":4:7:4:11|Synthesizing work.slova.behavioral 
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/project/brojke.vhd":4:7:4:12|Synthesizing work.brojke.behavioral 
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral 
+@N|Running in 64-bit mode
+

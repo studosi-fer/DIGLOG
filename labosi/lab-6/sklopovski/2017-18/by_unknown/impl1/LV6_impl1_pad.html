@@ -1,0 +1,342 @@
+<HTML>
+<HEAD><TITLE>PAD Specification File</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Pad"></A>PAD Specification File
+***************************
+
+PART TYPE:        LFXP2-5E
+Performance Grade:      5
+PACKAGE:          TQFP144
+Package Status:                     Final          Version 1.42
+
+Sun Jan 14 00:09:08 2018
+
+Pinout by Port Name:
++-----------+----------+--------------+-------+-----------------------+
+| Port Name | Pin/Bank | Buffer Type  | Site  | Properties            |
++-----------+----------+--------------+-------+-----------------------+
+| btn_down  | 1/7      | LVCMOS33_IN  | PL2A  | SLEW:FAST PULL:DOWN   |
+| clk_25m   | 30/6     | LVCMOS33_IN  | PL14B | SLEW:FAST             |
+| led[0]    | 29/6     | LVCMOS33_OUT | PL15B | DRIVE:12mA SLEW:FAST  |
+| led[1]    | 37/5     | LVCMOS33_OUT | PB8A  | DRIVE:12mA SLEW:FAST  |
+| led[2]    | 36/6     | LVCMOS33_OUT | PL25B | DRIVE:12mA SLEW:FAST  |
+| led[3]    | 35/6     | LVCMOS33_OUT | PL25A | DRIVE:12mA SLEW:FAST  |
+| led[4]    | 144/0    | LVCMOS33_OUT | PT8A  | DRIVE:12mA SLEW:FAST  |
+| led[5]    | 5/7      | LVCMOS33_OUT | PL5A  | DRIVE:12mA SLEW:FAST  |
+| led[6]    | 6/7      | LVCMOS33_OUT | PL5B  | DRIVE:12mA SLEW:FAST  |
+| led[7]    | 138/0    | LVCMOS33_OUT | PT9A  | DRIVE:12mA SLEW:FAST  |
+| sw[0]     | 45/5     | LVCMOS33_IN  | PB15A | SLEW:FAST PULL:DOWN   |
++-----------+----------+--------------+-------+-----------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 0    | 3.3V  |
+| 5    | 3.3V  |
+| 6    | 3.3V  |
+| 7    | 3.3V  |
++------+-------+
+
+
+<A name="pad_vref"></A><B><U><big>Vref by Bank:</big></U></B>
++------+-----+-----------------+---------+
+| Vref | Pin | Bank # / Vref # | Load(s) |
++------+-----+-----------------+---------+
++------+-----+-----------------+---------+
+
+<A name="pad_pin"></A><B><U><big>Pinout by Pin Number:</big></U></B>
++----------+---------------------+------------+--------------+-------+----------------------+
+| Pin/Bank | Pin Info            | Preference | Buffer Type  | Site  | Dual Function        |
++----------+---------------------+------------+--------------+-------+----------------------+
+| 1/7      | btn_down            | LOCATED    | LVCMOS33_IN  | PL2A  | VREF1_7              |
+| 2/7      |     unused, PULL:UP |            |              | PL2B  | VREF2_7              |
+| 5/7      | led[5]              | LOCATED    | LVCMOS33_OUT | PL5A  | LDQ9                 |
+| 6/7      | led[6]              | LOCATED    | LVCMOS33_OUT | PL5B  | LDQ9                 |
+| 7/7      |     unused, PULL:UP |            |              | PL6A  | PROGRAMN/LDQ9        |
+| 8/7      |     unused, PULL:UP |            |              | PL6B  | DONE/LDQ9            |
+| 9/7      |     unused, PULL:UP |            |              | PL7A  | CFG1/LDQ9            |
+| 10/7     |     unused, PULL:UP |            |              | PL7B  | LDQ9                 |
+| 11/7     |     unused, PULL:UP |            |              | PL8A  | CSSPISN/LDQ9         |
+| 13/7     |     unused, PULL:UP |            |              | PL8B  | CSSPIN/LDQ9          |
+| 15/7     |     unused, PULL:UP |            |              | PL9A  | LDQS9                |
+| 16/7     |     unused, PULL:UP |            |              | PL10A | CCLK/LDQ9            |
+| 17/7     |     unused, PULL:UP |            |              | PL9B  | LDQ9                 |
+| 18/7     |     unused, PULL:UP |            |              | PL10B | SO/LDQ9              |
+| 19/7     |     unused, PULL:UP |            |              | PL11A | SI/LDQ9              |
+| 20/7     |     unused, PULL:UP |            |              | PL11B | INITN/LDQ9           |
+| 21/7     |     unused, PULL:UP |            |              | PL12A | PCLKT7_0/LDQ9        |
+| 22/7     |     unused, PULL:UP |            |              | PL12B | PCLKC7_0/LDQ9        |
+| 27/6     |     unused, PULL:UP |            |              | PL15A | LDQ18                |
+| 28/6     |     unused, PULL:UP |            |              | PL14A | PCLKT6_0/LDQ18       |
+| 29/6     | led[0]              | LOCATED    | LVCMOS33_OUT | PL15B | LDQ18                |
+| 30/6     | clk_25m             | LOCATED    | LVCMOS33_IN  | PL14B | PCLKC6_0/LDQ18       |
+| 31/6     |     unused, PULL:UP |            |              | PL16B | LDQ18                |
+| 32/6     |     unused, PULL:UP |            |              | PL16A | LDQ18                |
+| 35/6     | led[3]              | LOCATED    | LVCMOS33_OUT | PL25A | VREF1_6              |
+| 36/6     | led[2]              | LOCATED    | LVCMOS33_OUT | PL25B | VREF2_6              |
+| 37/5     | led[1]              | LOCATED    | LVCMOS33_OUT | PB8A  |                      |
+| 38/5     |     unused, PULL:UP |            |              | PB7A  | VREF1_5              |
+| 39/5     |     unused, PULL:UP |            |              | PB8B  |                      |
+| 40/5     |     unused, PULL:UP |            |              | PB7B  | VREF2_5              |
+| 43/5     |     unused, PULL:UP |            |              | PB13B | BDQ15                |
+| 44/5     |     unused, PULL:UP |            |              | PB13A | BDQ15                |
+| 45/5     | sw[0]               | LOCATED    | LVCMOS33_IN  | PB15A | BDQS15               |
+| 46/5     |     unused, PULL:UP |            |              | PB14A | BDQ15                |
+| 47/5     |     unused, PULL:UP |            |              | PB15B | BDQ15                |
+| 48/5     |     unused, PULL:UP |            |              | PB14B | BDQ15                |
+| 50/5     |     unused, PULL:UP |            |              | PB16A | BDQ15                |
+| 52/5     |     unused, PULL:UP |            |              | PB16B | BDQ15                |
+| 53/5     |     unused, PULL:UP |            |              | PB17A | BDQ15                |
+| 54/5     |     unused, PULL:UP |            |              | PB17B | BDQ15                |
+| 55/5     |     unused, PULL:UP |            |              | PB18A | BDQ15                |
+| 56/5     |     unused, PULL:UP |            |              | PB19A | PCLKT5_0/BDQ15       |
+| 57/5     |     unused, PULL:UP |            |              | PB18B | BDQ15                |
+| 58/5     |     unused, PULL:UP |            |              | PB19B | PCLKC5_0/BDQ15       |
+| 61/4     |     unused, PULL:UP |            |              | PB20A | PCLKT4_0/BDQ24       |
+| 62/4     |     unused, PULL:UP |            |              | PB20B | PCLKC4_0/BDQ24       |
+| 65/4     |     unused, PULL:UP |            |              | PB26A | LRC_GPLLT_IN_A/BDQ24 |
+| 66/4     |     unused, PULL:UP |            |              | PB26B | LRC_GPLLC_IN_A/BDQ24 |
+| 69/4     |     unused, PULL:UP |            |              | PB27A | LRC_GPLLT_FB_A/BDQ24 |
+| 70/4     |     unused, PULL:UP |            |              | PB28A | VREF1_4/BDQ24        |
+| 71/4     |     unused, PULL:UP |            |              | PB27B | LRC_GPLLC_FB_A/BDQ24 |
+| 72/4     |     unused, PULL:UP |            |              | PB28B | VREF2_4/BDQ24        |
+| 73/3     |     unused, PULL:UP |            |              | PR24A | VREF1_3              |
+| 74/3     |     unused, PULL:UP |            |              | PR24B | VREF2_3              |
+| 77/3     |     unused, PULL:UP |            |              | PR14B | PCLKC3_0/RDQ18       |
+| 78/3     |     unused, PULL:UP |            |              | PR14A | PCLKT3_0/RDQ18       |
+| 87/2     |     unused, PULL:UP |            |              | PR12B | PCLKC2_0/RDQ9        |
+| 88/2     |     unused, PULL:UP |            |              | PR12A | PCLKT2_0/RDQ9        |
+| 89/2     |     unused, PULL:UP |            |              | PR11B | RDQ9                 |
+| 90/2     |     unused, PULL:UP |            |              | PR11A | MFG_EXT_CLK/RDQ9     |
+| 91/2     |     unused, PULL:UP |            |              | PR10B | FL_EXT_PULSE_D/RDQ9  |
+| 92/2     |     unused, PULL:UP |            |              | PR9B  | RDQ9                 |
+| 93/2     |     unused, PULL:UP |            |              | PR10A | FL_EXT_PULSE_G/RDQ9  |
+| 94/2     |     unused, PULL:UP |            |              | PR9A  | RDQS9                |
+| 96/2     |     unused, PULL:UP |            |              | PR8B  | RDQ9                 |
+| 98/2     |     unused, PULL:UP |            |              | PR8A  | RDQ9                 |
+| 99/2     |     unused, PULL:UP |            |              | PR7B  | RDQ9                 |
+| 100/2    |     unused, PULL:UP |            |              | PR6B  | RDQ9                 |
+| 101/2    |     unused, PULL:UP |            |              | PR7A  | RDQ9                 |
+| 102/2    |     unused, PULL:UP |            |              | PR6A  | RDQ9                 |
+| 103/2    |     unused, PULL:UP |            |              | PR5B  | RDQ9                 |
+| 104/2    |     unused, PULL:UP |            |              | PR5A  | RDQ9                 |
+| 107/2    |     unused, PULL:UP |            |              | PR2B  | VREF2_2              |
+| 108/2    |     unused, PULL:UP |            |              | PR2A  | VREF1_2              |
+| 109/1    |     unused, PULL:UP |            |              | PT28B | VREF2_1/TDQ24        |
+| 110/1    |     unused, PULL:UP |            |              | PT28A | VREF1_1/TDQ24        |
+| 113/1    |     unused, PULL:UP |            |              | PT21B | TDQ24                |
+| 114/1    |     unused, PULL:UP |            |              | PT20B | PCLKC1_0/TDQ24       |
+| 115/1    |     unused, PULL:UP |            |              | PT21A | TDQ24                |
+| 116/1    |     unused, PULL:UP |            |              | PT20A | PCLKT1_0/TDQ24       |
+| 119/0    |     unused, PULL:UP |            |              | PT19B | PCLKC0_0/TDQ15       |
+| 120/0    |     unused, PULL:UP |            |              | PT19A | PCLKT0_0/TDQ15       |
+| 121/0    |     unused, PULL:UP |            |              | PT18B | TDQ15                |
+| 122/0    |     unused, PULL:UP |            |              | PT17B | TDQ15                |
+| 123/0    |     unused, PULL:UP |            |              | PT18A | TDQ15                |
+| 124/0    |     unused, PULL:UP |            |              | PT17A | TDQ15                |
+| 125/0    |     unused, PULL:UP |            |              | PT16B | TDQ15                |
+| 127/0    |     unused, PULL:UP |            |              | PT16A | TDQ15                |
+| 129/0    |     unused, PULL:UP |            |              | PT15B | TDQ15                |
+| 130/0    |     unused, PULL:UP |            |              | PT14B | TDQ15                |
+| 131/0    |     unused, PULL:UP |            |              | PT15A | TDQS15               |
+| 132/0    |     unused, PULL:UP |            |              | PT14A | TDQ15                |
+| 133/0    |     unused, PULL:UP |            |              | PT13B | TDQ15                |
+| 134/0    |     unused, PULL:UP |            |              | PT13A | TDQ15                |
+| 137/0    |     unused, PULL:UP |            |              | PT9B  | ULC_GPLLC_FB_A       |
+| 138/0    | led[7]              | LOCATED    | LVCMOS33_OUT | PT9A  | ULC_GPLLT_FB_A       |
+| 141/0    |     unused, PULL:UP |            |              | PT7B  | VREF2_0              |
+| 142/0    |     unused, PULL:UP |            |              | PT8B  | ULC_GPLLC_IN_A       |
+| 143/0    |     unused, PULL:UP |            |              | PT7A  | VREF1_0              |
+| 144/0    | led[4]              | LOCATED    | LVCMOS33_OUT | PT8A  | ULC_GPLLT_IN_A       |
+| PB2A/0   |     unused, PULL:UP |            |              | PB2A  |                      |
+| PB2B/0   |     unused, PULL:UP |            |              | PB2B  |                      |
+| PB3A/0   |     unused, PULL:UP |            |              | PB3A  |                      |
+| PB3B/0   |     unused, PULL:UP |            |              | PB3B  |                      |
+| PB4A/0   |     unused, PULL:UP |            |              | PB4A  |                      |
+| PB4B/0   |     unused, PULL:UP |            |              | PB4B  |                      |
+| PB5A/0   |     unused, PULL:UP |            |              | PB5A  |                      |
+| PB5B/0   |     unused, PULL:UP |            |              | PB5B  |                      |
+| PB6A/0   |     unused, PULL:UP |            |              | PB6A  |                      |
+| PB6B/0   |     unused, PULL:UP |            |              | PB6B  |                      |
+| PB9A/5   |     unused, PULL:UP |            |              | PB9A  |                      |
+| PB9B/5   |     unused, PULL:UP |            |              | PB9B  |                      |
+| PB10A/5  |     unused, PULL:UP |            |              | PB10A |                      |
+| PB10B/5  |     unused, PULL:UP |            |              | PB10B |                      |
+| PB11A/5  |     unused, PULL:UP |            |              | PB11A | BDQ15                |
+| PB11B/5  |     unused, PULL:UP |            |              | PB11B | BDQ15                |
+| PB12A/5  |     unused, PULL:UP |            |              | PB12A | BDQ15                |
+| PB12B/5  |     unused, PULL:UP |            |              | PB12B | BDQ15                |
+| PB21A/4  |     unused, PULL:UP |            |              | PB21A | BDQ24                |
+| PB21B/4  |     unused, PULL:UP |            |              | PB21B | BDQ24                |
+| PB22A/4  |     unused, PULL:UP |            |              | PB22A | BDQ24                |
+| PB22B/4  |     unused, PULL:UP |            |              | PB22B | BDQ24                |
+| PB23A/4  |     unused, PULL:UP |            |              | PB23A | BDQ24                |
+| PB23B/4  |     unused, PULL:UP |            |              | PB23B | BDQ24                |
+| PB24A/4  |     unused, PULL:UP |            |              | PB24A | BDQS24               |
+| PB24B/4  |     unused, PULL:UP |            |              | PB24B | BDQ24                |
+| PB25A/4  |     unused, PULL:UP |            |              | PB25A | BDQ24                |
+| PB25B/4  |     unused, PULL:UP |            |              | PB25B | BDQ24                |
+| PL3A/7   |     unused, PULL:UP |            |              | PL3A  |                      |
+| PL3B/7   |     unused, PULL:UP |            |              | PL3B  |                      |
+| PL4A/7   |     unused, PULL:UP |            |              | PL4A  |                      |
+| PL4B/7   |     unused, PULL:UP |            |              | PL4B  |                      |
+| PL17A/6  |     unused, PULL:UP |            |              | PL17A | LDQ18                |
+| PL17B/6  |     unused, PULL:UP |            |              | PL17B | LDQ18                |
+| PL18A/6  |     unused, PULL:UP |            |              | PL18A | LDQS18               |
+| PL18B/6  |     unused, PULL:UP |            |              | PL18B | LDQ18                |
+| PL19A/6  |     unused, PULL:UP |            |              | PL19A | LDQ18                |
+| PL19B/6  |     unused, PULL:UP |            |              | PL19B | LDQ18                |
+| PL20A/6  |     unused, PULL:UP |            |              | PL20A | LDQ18                |
+| PL20B/6  |     unused, PULL:UP |            |              | PL20B | LDQ18                |
+| PL21A/6  |     unused, PULL:UP |            |              | PL21A | LDQ18                |
+| PL21B/6  |     unused, PULL:UP |            |              | PL21B | LDQ18                |
+| PL23A/6  |     unused, PULL:UP |            |              | PL23A |                      |
+| PL23B/6  |     unused, PULL:UP |            |              | PL23B |                      |
+| PL24A/6  |     unused, PULL:UP |            |              | PL24A |                      |
+| PL24B/6  |     unused, PULL:UP |            |              | PL24B |                      |
+| PR3A/2   |     unused, PULL:UP |            |              | PR3A  |                      |
+| PR3B/2   |     unused, PULL:UP |            |              | PR3B  |                      |
+| PR4A/2   |     unused, PULL:UP |            |              | PR4A  |                      |
+| PR4B/2   |     unused, PULL:UP |            |              | PR4B  |                      |
+| PR15A/3  |     unused, PULL:UP |            |              | PR15A | RDQ18                |
+| PR15B/3  |     unused, PULL:UP |            |              | PR15B | RDQ18                |
+| PR16A/3  |     unused, PULL:UP |            |              | PR16A | RDQ18                |
+| PR16B/3  |     unused, PULL:UP |            |              | PR16B | RDQ18                |
+| PR17A/3  |     unused, PULL:UP |            |              | PR17A | RDQ18                |
+| PR17B/3  |     unused, PULL:UP |            |              | PR17B | RDQ18                |
+| PR18A/3  |     unused, PULL:UP |            |              | PR18A | RDQS18               |
+| PR18B/3  |     unused, PULL:UP |            |              | PR18B | RDQ18                |
+| PR19A/3  |     unused, PULL:UP |            |              | PR19A | RDQ18                |
+| PR19B/3  |     unused, PULL:UP |            |              | PR19B | RDQ18                |
+| PR20A/3  |     unused, PULL:UP |            |              | PR20A | RDQ18                |
+| PR20B/3  |     unused, PULL:UP |            |              | PR20B | RDQ18                |
+| PR21A/3  |     unused, PULL:UP |            |              | PR21A | RDQ18                |
+| PR21B/3  |     unused, PULL:UP |            |              | PR21B | RDQ18                |
+| PR23A/3  |     unused, PULL:UP |            |              | PR23A |                      |
+| PR23B/3  |     unused, PULL:UP |            |              | PR23B |                      |
+| PR25A/0  |     unused, PULL:UP |            |              | PR25A |                      |
+| PR25B/0  |     unused, PULL:UP |            |              | PR25B |                      |
+| PT2A/0   |     unused, PULL:UP |            |              | PT2A  |                      |
+| PT2B/0   |     unused, PULL:UP |            |              | PT2B  |                      |
+| PT3A/0   |     unused, PULL:UP |            |              | PT3A  |                      |
+| PT3B/0   |     unused, PULL:UP |            |              | PT3B  |                      |
+| PT4A/0   |     unused, PULL:UP |            |              | PT4A  |                      |
+| PT4B/0   |     unused, PULL:UP |            |              | PT4B  |                      |
+| PT5A/0   |     unused, PULL:UP |            |              | PT5A  |                      |
+| PT5B/0   |     unused, PULL:UP |            |              | PT5B  |                      |
+| PT6A/0   |     unused, PULL:UP |            |              | PT6A  |                      |
+| PT6B/0   |     unused, PULL:UP |            |              | PT6B  |                      |
+| PT10A/0  |     unused, PULL:UP |            |              | PT10A |                      |
+| PT10B/0  |     unused, PULL:UP |            |              | PT10B |                      |
+| PT11A/0  |     unused, PULL:UP |            |              | PT11A | TDQ15                |
+| PT11B/0  |     unused, PULL:UP |            |              | PT11B | TDQ15                |
+| PT12A/0  |     unused, PULL:UP |            |              | PT12A | TDQ15                |
+| PT12B/0  |     unused, PULL:UP |            |              | PT12B | TDQ15                |
+| PT22A/1  |     unused, PULL:UP |            |              | PT22A | TDQ24                |
+| PT22B/1  |     unused, PULL:UP |            |              | PT22B | TDQ24                |
+| PT23A/1  |     unused, PULL:UP |            |              | PT23A | TDQ24                |
+| PT23B/1  |     unused, PULL:UP |            |              | PT23B | TDQ24                |
+| PT24A/1  |     unused, PULL:UP |            |              | PT24A | TDQS24               |
+| PT24B/1  |     unused, PULL:UP |            |              | PT24B | TDQ24                |
+| PT25A/1  |     unused, PULL:UP |            |              | PT25A | TDQ24                |
+| PT25B/1  |     unused, PULL:UP |            |              | PT25B | TDQ24                |
+| PT26A/1  |     unused, PULL:UP |            |              | PT26A | TDQ24                |
+| PT26B/1  |     unused, PULL:UP |            |              | PT26B | TDQ24                |
+| PT27A/1  |     unused, PULL:UP |            |              | PT27A | TDQ24                |
+| PT27B/1  |     unused, PULL:UP |            |              | PT27B | TDQ24                |
+| TCK/8    |                     |            |              | TCK   |                      |
+| TDI/8    |                     |            |              | TDI   |                      |
+| TDO/8    |                     |            |              | TDO   |                      |
+| TMS/8    |                     |            |              | TMS   |                      |
++----------+---------------------+------------+--------------+-------+----------------------+
+
+
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "btn_down"  SITE  "1";
+LOCATE  COMP  "clk_25m"  SITE  "30";
+LOCATE  COMP  "led[0]"  SITE  "29";
+LOCATE  COMP  "led[1]"  SITE  "37";
+LOCATE  COMP  "led[2]"  SITE  "36";
+LOCATE  COMP  "led[3]"  SITE  "35";
+LOCATE  COMP  "led[4]"  SITE  "144";
+LOCATE  COMP  "led[5]"  SITE  "5";
+LOCATE  COMP  "led[6]"  SITE  "6";
+LOCATE  COMP  "led[7]"  SITE  "138";
+LOCATE  COMP  "sw[0]"  SITE  "45";
+
+
+
+
+
+PAR: Place And Route Diamond (64-bit) 3.9.0.99.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Jan 14 00:09:08 2018
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

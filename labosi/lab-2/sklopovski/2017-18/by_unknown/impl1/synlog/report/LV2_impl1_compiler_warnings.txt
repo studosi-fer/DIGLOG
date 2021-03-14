@@ -1,0 +1,2 @@
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\source\serial_tx.vhd":54:11:54:20|Signal r_baudrate is undriven. Either assign the signal a value or remove the signal declaration.
+

@@ -1,0 +1,3 @@
+@W: BN132 :"d:\ivan\faks\1. semestar\diglog\lv5\upravljac.vhd":29:1:29:2|Removing instance I_upravljac.R_keys_last[2] because it is equivalent to instance I_upravljac.R_keys_last[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\ivan\faks\1. semestar\diglog\lv5\upravljac.vhd":29:1:29:2|Removing instance I_upravljac.R_keys_last[1] because it is equivalent to instance I_upravljac.R_keys_last[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock broj|clk_25m with period 4.30ns. Please declare a user-defined clock on object "p:clk_25m"

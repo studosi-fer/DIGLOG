@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY MUX161 IS PORT (
+	D: IN Std_Logic_Vector (0 to 15);
+	S: IN Std_Logic_Vector (0 to 3);
+	E: IN Std_Logic;
+	f: OUT Std_Logic);
+END MUX161;
+
+ARCHITECTURE struct OF MUX161 IS 
+	COMPONENT mux21 IS PORT (E,S,D0,D1 : IN Std_Logic; Y : OUT Std_Logic);
+	END COMPONENT;
+	SIGNAL I :Std_Logic_Vector (0 to 13);
+
+BEGIN
+
+	m1   :  mux21 PORT MAP(D0=>D(0), D1=>D(1), S=>S(0), E=>E, Y=>I(0));
+	m2   :  mux21 PORT MAP(D0=>D(2), D1=>D(3), S=>S(0), E=>E, Y=>I(1));
+	m3   :  mux21 PORT MAP(D0=>D(4), D1=>D(5), S=>S(0), E=>E, Y=>I(2));
+	m4   :  mux21 PORT MAP(D0=>D(6), D1=>D(7), S=>S(0), E=>E, Y=>I(3));
+	m5   :  mux21 PORT MAP(D0=>D(8), D1=>D(9), S=>S(0), E=>E, Y=>I(4));
+	m6   :  mux21 PORT MAP(D0=>D(10), D1=>D(11), S=>S(0), E=>E, Y=>I(5));
+	m7   :  mux21 PORT MAP(D0=>D(12), D1=>D(13), S=>S(0), E=>E, Y=>I(6));
+	m8   :  mux21 PORT MAP(D0=>D(14), D1=>D(15), S=>S(0), E=>E, Y=>I(7));
+	m9   :  mux21 PORT MAP(D0=>I(0), D1=>I(1), S=>S(1), E=>E, Y=>I(8));
+	m10   :  mux21 PORT MAP(D0=>I(2), D1=>I(3), S=>S(1), E=>E, Y=>I(9));
+	m11   :  mux21 PORT MAP(D0=>I(4), D1=>I(5), S=>S(1), E=>E, Y=>I(10));
+	m12   :  mux21 PORT MAP(D0=>I(6), D1=>I(7), S=>S(1), E=>E, Y=>I(11));
+	m13   :  mux21 PORT MAP(D0=>I(8), D1=>I(9), S=>S(2), E=>E, Y=>I(12));
+	m14   :  mux21 PORT MAP(D0=>I(10), D1=>I(11), S=>S(2), E=>E, Y=>I(13));
+	m15   :  mux21 PORT MAP(D0=>I(12), D1=>I(13), S=>S(3), E=>E, Y=>f);
+	
+END struct;

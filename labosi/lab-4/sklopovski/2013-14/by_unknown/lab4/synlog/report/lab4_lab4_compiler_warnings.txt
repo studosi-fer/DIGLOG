@@ -1,0 +1,3 @@
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":22:25:22:29|Signal addrw is undriven 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":25:20:25:20|Signal w is undriven 
+

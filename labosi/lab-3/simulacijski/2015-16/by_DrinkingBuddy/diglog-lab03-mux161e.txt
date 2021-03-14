@@ -1,0 +1,116 @@
+-- [DIGLOG] 3. Labos, Simulacijski (2015/16)
+-- 2. Zadatak, 1 Inacica
+-- 	(b) Izradi mux16/1e koristeci strukturni oblik
+--
+--  Zadatak je rjesen na prilicno ne efikasan nacin, puno efikasnije (i ljepse)
+--  bi bilo koristiti STD_LOGIC_VECTOR umjesto hrpu STD_LOGIC signala.
+--
+-- By: DrinkingBuddy
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY mux161e IS PORT(
+	d: IN STD_LOGIC_VECTOR(0 TO 15);
+	s: IN STD_LOGIC_VECTOR(0 TO 3);
+	e: IN STD_LOGIC;
+	f: OUT STD_LOGIC
+);
+END mux161e;
+
+ARCHITECTURE arch OF mux161e IS 
+
+	-- all the 2/1 multiplexors from the 16/1 tree
+	SIGNAL sig_mux21_instance_00: STD_LOGIC;
+	SIGNAL sig_mux21_instance_01: STD_LOGIC;
+	SIGNAL sig_mux21_instance_02: STD_LOGIC;
+	SIGNAL sig_mux21_instance_03: STD_LOGIC;
+	SIGNAL sig_mux21_instance_04: STD_LOGIC;
+	SIGNAL sig_mux21_instance_05: STD_LOGIC;
+	SIGNAL sig_mux21_instance_06: STD_LOGIC;
+	SIGNAL sig_mux21_instance_07: STD_LOGIC;
+	SIGNAL sig_mux21_instance_08: STD_LOGIC;
+	SIGNAL sig_mux21_instance_09: STD_LOGIC;
+	SIGNAL sig_mux21_instance_10: STD_LOGIC;
+	SIGNAL sig_mux21_instance_11: STD_LOGIC;
+	SIGNAL sig_mux21_instance_12: STD_LOGIC;
+	SIGNAL sig_mux21_instance_13: STD_LOGIC;
+	SIGNAL sig_mux21_instance_14: STD_LOGIC;
+	
+	-- all the signals between multiplexors
+	SIGNAL sig_wire_00: STD_LOGIC;
+	SIGNAL sig_wire_01: STD_LOGIC;
+	SIGNAL sig_wire_02: STD_LOGIC;
+	SIGNAL sig_wire_03: STD_LOGIC;
+	SIGNAL sig_wire_04: STD_LOGIC;
+	SIGNAL sig_wire_05: STD_LOGIC;
+	SIGNAL sig_wire_06: STD_LOGIC;
+	SIGNAL sig_wire_07: STD_LOGIC;
+	SIGNAL sig_wire_08: STD_LOGIC;
+	SIGNAL sig_wire_09: STD_LOGIC;
+	SIGNAL sig_wire_10: STD_LOGIC;
+	SIGNAL sig_wire_11: STD_LOGIC;
+	SIGNAL sig_wire_12: STD_LOGIC;
+	SIGNAL sig_wire_13: STD_LOGIC;
+
+BEGIN
+	-- first branch s(0)
+	
+	sig_wire_00 <= sig_mux21_instance_00;
+	mux21_instance_00: ENTITY work.mux21e PORT MAP (d0 => d(0), d1 => d(1), e => e, s => s(0), y => sig_mux21_instance_00);
+
+	sig_wire_01 <= sig_mux21_instance_01;
+	mux21_instance_01: ENTITY work.mux21e PORT MAP (d0 => d(2), d1 => d(3), e => e, s => s(0), y => sig_mux21_instance_01);
+	
+	sig_wire_02 <= sig_mux21_instance_02;
+	mux21_instance_02: ENTITY work.mux21e PORT MAP (d0 => d(4), d1 => d(5), e => e, s => s(0), y => sig_mux21_instance_02);
+	
+	sig_wire_03 <= sig_mux21_instance_03;
+	mux21_instance_03: ENTITY work.mux21e PORT MAP (d0 => d(6), d1 => d(7), e => e, s => s(0), y => sig_mux21_instance_03);
+	
+	sig_wire_04 <= sig_mux21_instance_04;
+	mux21_instance_04: ENTITY work.mux21e PORT MAP (d0 => d(8), d1 => d(9), e => e, s => s(0), y => sig_mux21_instance_04);
+	
+	sig_wire_05 <= sig_mux21_instance_05;
+	mux21_instance_05: ENTITY work.mux21e PORT MAP (d0 => d(10), d1 => d(11), e => e, s => s(0), y => sig_mux21_instance_05);
+	
+	sig_wire_06 <= sig_mux21_instance_06;
+	mux21_instance_06: ENTITY work.mux21e PORT MAP (d0 => d(12), d1 => d(13), e => e, s => s(0), y => sig_mux21_instance_06);
+	
+	sig_wire_07 <= sig_mux21_instance_07;
+	mux21_instance_07: ENTITY work.mux21e PORT MAP (d0 => d(14), d1 => d(15), e => e, s => s(0), y => sig_mux21_instance_07);
+	
+
+	-- second grana s(1)
+
+	sig_wire_08 <= sig_mux21_instance_08;
+	mux21_instance_08: ENTITY work.mux21e PORT MAP (d0 => sig_wire_00, d1 => sig_wire_01, e => e, s => s(1), y => sig_mux21_instance_08);
+
+	sig_wire_09 <= sig_mux21_instance_09;
+	mux21_instance_09: ENTITY work.mux21e PORT MAP (d0 => sig_wire_02, d1 => sig_wire_03, e => e, s => s(1), y => sig_mux21_instance_09);
+
+	sig_wire_10 <= sig_mux21_instance_10;
+	mux21_instance_10: ENTITY work.mux21e PORT MAP (d0 => sig_wire_04, d1 => sig_wire_05, e => e, s => s(1), y => sig_mux21_instance_10);
+
+	sig_wire_11 <= sig_mux21_instance_11;
+	mux21_instance_11: ENTITY work.mux21e PORT MAP (d0 => sig_wire_06, d1 => sig_wire_07, e => e, s => s(1), y => sig_mux21_instance_11);
+	
+
+	-- third branch s(2)
+	
+	sig_wire_12 <= sig_mux21_instance_12;
+	mux21_instance_12: ENTITY work.mux21e PORT MAP (d0 => sig_wire_08, d1 => sig_wire_09, e => e, s => s(2), y => sig_mux21_instance_12);
+	
+	sig_wire_13 <= sig_mux21_instance_13;
+	mux21_instance_13: ENTITY work.mux21e PORT MAP (d0 => sig_wire_10, d1 => sig_wire_11, e => e, s => s(2), y => sig_mux21_instance_13);
+	
+	-- fourth branch s(3)
+	
+	f <= sig_mux21_instance_14;
+	mux21_instance_14: ENTITY work.mux21e PORT MAP (d0 => sig_wire_12, d1 => sig_wire_13, e => e, s => s(3), y => sig_mux21_instance_14);
+
+
+END arch;

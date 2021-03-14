@@ -1,0 +1,24 @@
+---------------------------------------------------
+Report for cell daljinski_upravljac
+   Instance path: daljinski_upravljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     124.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	     173.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         15        100.0
+                                PFUREG	        117        100.0
+                                RIPPLE	         32        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          rf_modulator	          1        100.0
+---------------------------------------------------
+Report for cell rf_modulator
+   Instance path: daljinski_upravljac/odasiljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     124.00        100.0
+                                  LUT4	     173.00        100.0
+                                PFUREG	        117        100.0
+                                RIPPLE	         32        100.0

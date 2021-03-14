@@ -1,0 +1,134 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":153:8:153:11|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":970:7:970:8|Synthesizing module OB in library work.
+
+@N: CG364 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":3:7:3:20|Synthesizing module tenk_upravljac in library work.
+
+@N: CG794 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":54:13:54:15|Using module rf_modulator from library work
+@W: CG781 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":54:13:54:15|Input top_granata on instance I12 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+VHDL syntax check successful!
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":225:4:225:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:50:229:65|Referenced variable machinegun_sound is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:31:229:41|Referenced variable gun_fire_bb is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:62:228:70|Referenced variable gun_sound is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:46:228:53|Referenced variable gun_elev is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":230:19:230:27|Referenced variable gun_right is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:31:228:38|Referenced variable gun_left is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":231:45:231:60|Referenced variable drive_left_right is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":230:35:230:47|Referenced variable drive_fwd_rev is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:10:229:21|Referenced variable ignition_key is not in sensitivity list.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":133:20:133:21|Signal fm is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.rf_modulator.structure
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(21) is always 1.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(25) is always 1.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Register bit R_outw(0) is always 1.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 0 of R_outw(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Pruning register bits 27 to 21 of R_fm_inc(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Register bit R_brzina(3) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Register bit R_outw(1) is always 1.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 1 of R_outw(31 downto 1). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 3 of R_brzina(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Pruning register bit 19 of R_fm_inc(20 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 78MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@W: Z198 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":149:4:149:12|Unbound component EPLLD1 of instance PLLInst_0 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\synwork\LV1_tenk_impl1_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]

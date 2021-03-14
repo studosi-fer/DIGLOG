@@ -1,0 +1,60 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY mealyjev_automat IS PORT(
+t2,t4,t8,t16,t32,cp,masreset:IN STD_LOGIC;
+cr,cy,cg,wr,reset: OUT STD_LOGIC);
+END mealyjev_automat;
+
+ARCHITECTURE arch OF mealyjev_automat IS 
+CONSTANT S0: STD_LOGIC_VECTOR(2 downto 0):="000";
+CONSTANT S1: STD_LOGIC_VECTOR(2 downto 0):="001";
+CONSTANT S2: STD_LOGIC_VECTOR(2 downto 0):="010";
+CONSTANT S3: STD_LOGIC_VECTOR(2 downto 0):="011";
+CONSTANT S4: STD_LOGIC_VECTOR(2 downto 0):="100";
+CONSTANT S5: STD_LOGIC_VECTOR(2 downto 0):="101";
+CONSTANT S6: STD_LOGIC_VECTOR(2 downto 0):="110";
+SIGNAL state_present,state_next:STD_LOGIC_VECTOR(2 downto 0);
+SIGNAL izlazi_next:STD_LOGIC_VECTOR(4 downto 0);
+
+BEGIN
+PROCESS(t2,t4,t8,t16,t32,state_present)
+BEGIN
+
+CASE state_present IS
+WHEN S0=> IF(t8='1') THEN state_next<=S1;izlazi_next<="11001";
+	ELSE state_next<=S0;izlazi_next<="10000";END IF;
+WHEN S1=> IF(t2='1') THEN state_next<=S2;izlazi_next<="00101";
+	ELSE state_next<=S1;izlazi_next<="11000";END IF;
+WHEN S2=> IF(t32='1') THEN state_next<=S3;izlazi_next<="01001";
+	ELSE state_next<=S2;izlazi_next<="00100";END IF;
+WHEN S3=> IF(t4='1') THEN state_next<=S4;izlazi_next<="10001";
+	ELSE state_next<=S3;izlazi_next<="01000";END IF;
+WHEN S4=> IF(t2='1') THEN state_next<=S5;izlazi_next<="10011";
+	ELSE state_next<=S4;izlazi_next<="10000";END IF;
+WHEN S5=> IF(t16='1') THEN state_next<=S6;izlazi_next<="10001";
+	ELSE state_next<=S5;izlazi_next<="10010";END IF;
+WHEN S6=> IF(t4='1') THEN state_next<=S1;izlazi_next<="11001";
+	ELSE state_next<=S6;izlazi_next<="10000";END IF;
+WHEN OTHERS => state_next<=S1;izlazi_next<="11001"; 
+END CASE;
+END PROCESS;
+
+PROCESS(cp, masreset)
+BEGIN
+IF falling_edge(cp) THEN
+	IF (masreset='1') THEN state_present<=S0; cr<='1' after 10 ns; cg<='0' after 10 ns;
+	wr<='0' after 10 ns; reset<='1' after 10 ns;
+	ELSE state_present<=state_next;
+	cr <= izlazi_next(4) after 10 ns;
+	cy <= izlazi_next(3) after 10 ns;
+	cg <= izlazi_next(2) after 10 ns;
+	wr <= izlazi_next(1) after 10 ns;
+	reset <= izlazi_next(0) after 10 ns;
+	END IF;
+END IF;
+END PROCESS;
+END arch;

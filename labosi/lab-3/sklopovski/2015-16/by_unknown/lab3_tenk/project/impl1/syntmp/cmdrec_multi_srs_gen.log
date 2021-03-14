@@ -1,0 +1,8 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter  -link  -top  work.daljinski_upravljac  -multisrs  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs  -osyn  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_mult.srs  -log  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_multi_srs_gen.srr 
+rc:0 success:1
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs|i|1449440886|13217
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_mult.srs|o|1449440887|3371
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_multi_srs_gen.srr|o|1449440887|365
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/syn_nfilter|i|1429546455|8808112
+/usr/local/diamond/3.5_x64/synpbase/linux/syn_nfilter|i|1429546504|8213872
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter|i|1429546084|366

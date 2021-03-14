@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe  -osyn  "D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\synwork\LV2_impl1_hdl_.srs"  -top  lab2  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\source\serial_tx.vhd"  -log  "D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\syntax.log"  -fileorder  "D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\syntmp\hdlorder.tcl" 
+rc:0 success:1 runtime:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\synwork\LV2_impl1_hdl_.srs|io:o|time:0|size:0|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\source\serial_tx.vhd|io:i|time:1509898890|size:3553|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\syntax.log|io:o|time:1509907273|size:912|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_vhdl.exe|io:i|time:1480984558|size:2416640|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1480984808|size:3082752|exec:1

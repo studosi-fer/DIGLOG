@@ -1,0 +1,36 @@
+----------------------------------------------------------------------
+Report for cell sem.struct
+
+Register bits: 31 of 4752 (1%)
+PIC Latch:       0
+I/O cells:       11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       25       100.0
+                            FD1P3AX        3       100.0
+                            FD1P3IX        3       100.0
+                            FD1S3AX       24       100.0
+                            FD1S3IX        1       100.0
+                                GSR        1       100.0
+                                 IB        3       100.0
+                                INV        1       100.0
+                                 OB        8       100.0
+                           ORCALUT4       37       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+SUB MODULES 
+                        sem_automat        1       100.0
+                            
+                         TOTAL           110           
+----------------------------------------------------------------------
+Report for cell sem_automat.netlist
+     Instance path:  I_automat
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        3       100.0
+                            FD1P3IX        3       100.0
+                            FD1S3IX        1       100.0
+                           ORCALUT4       35        94.6
+                            
+                         TOTAL            42           

@@ -1,0 +1,5 @@
+potrebna je samo simulacija zbrajala ali sam radi i otale da provjerim rad pojedinih komponenti.
+
+testbench i simulacija zbrajalo_tb2 je samo da pokažem maksimalno kašnjenje od 60 ns, a to je kada je ulaz 1111-1111,
+odnosno kako je 1->11 onda je a=11111111 b=11111111 oper=1 
+=> zbog kašnjenja na svakom od 4 FA po 10 ns (40 ns ukupno) te na komplementu 10 ns dok izraèuna i 10 ns na dmuxu jer treba dati komplement na izlazu. ukupno 40 + 10 + 10 = 60 ns

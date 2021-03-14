@@ -1,0 +1,9 @@
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_1 on net led_1 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_2 on net led_2 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_3 on net led_3 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_4 on net led_4 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_4_.un1[0] on net led[4] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_5_.un1[0] on net led[5] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_6_.un1[0] on net led[6] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_7_.un1[0] on net led[7] has its enable tied to GND (module afsk_modem) 
+@W: MT420 |Found inferred clock afsk_modem|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"

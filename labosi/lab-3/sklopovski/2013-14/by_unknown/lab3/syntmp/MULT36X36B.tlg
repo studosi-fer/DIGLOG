@@ -1,0 +1,27 @@
+Selecting top level module MULT36X36B
+@N: CG364 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7922:7:7922:16|Synthesizing module MULT36X36B
+
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7994:8:7994:22|No assignment to input_b_clk_sig
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7997:8:7997:27|No assignment to reg_ctrl_0_clk_sig_a
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7998:8:7998:27|No assignment to reg_ctrl_1_clk_sig_a
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7999:8:7999:27|No assignment to reg_ctrl_0_clk_sig_b
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":8000:8:8000:27|No assignment to reg_ctrl_1_clk_sig_b
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":8636:4:8636:9|Pruning register signedb_reg2 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":8624:4:8624:9|Pruning register signeda_reg2 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":8612:4:8612:9|Pruning register signedb_reg1 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":8600:4:8600:9|Pruning register signeda_reg1 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":8588:4:8588:9|Pruning register b_sig_reg[35:0] 
+
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:10:7928:12|Input CE1 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:14:7928:16|Input CE2 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:18:7928:20|Input CE3 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:27:7928:30|Input CLK1 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:32:7928:35|Input CLK2 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:37:7928:40|Input CLK3 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:47:7928:50|Input RST1 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:52:7928:55|Input RST2 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\MULT36X36B.v":7928:57:7928:60|Input RST3 is unused

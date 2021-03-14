@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY mooreov_upravljac IS PORT(
+cp,masreset:IN STD_LOGIC;
+cr,cy,cg,wr:OUT STD_LOGIC);
+END mooreov_upravljac;
+
+ARCHITECTURE arch OF mooreov_upravljac IS
+SIGNAL reset: STD_LOGIC;
+SIGNAL t2,t4,t8,t16,t32:STD_LOGIC; 
+
+BEGIN
+timer0:ENTITY work.timer PORT MAP(cp,reset,masreset,t2,t4,t8,t16,t32);
+automat0: ENTITY work.mooreov_automat PORT MAP(cp,masreset,t2,t4,t8,t16,t32,cr,cy,cg,wr,reset);
+END arch;

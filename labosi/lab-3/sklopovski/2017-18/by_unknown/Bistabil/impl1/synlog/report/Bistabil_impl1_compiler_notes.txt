@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":15:7:15:21|Top entity is set to pogodi_bistabil.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":15:7:15:21|Synthesizing work.pogodi_bistabil.x.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":4031:10:4031:15|Synthesizing work.dp16kb.syn_black_box.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,26 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: MF179 :"z:\lab2\labv2\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@N: BN362 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code_in[5] in hierarchy view:work.tonegen(x) because there are no references to its outputs 
+@N: BN362 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code[5] in hierarchy view:work.tonegen(x) because there are no references to its outputs 
+@N: FX211 |Packed ROM I1.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX214 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Generating ROM I1.un2_r_freq_0[31:10]
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[3]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[6]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[7]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[9]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[8]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[14]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[13]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[12]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[15]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[11]" with 5 loads replicated 1 times to improve timing 
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.

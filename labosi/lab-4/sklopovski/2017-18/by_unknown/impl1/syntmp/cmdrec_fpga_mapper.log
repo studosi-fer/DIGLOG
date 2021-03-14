@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1"   -part LFXP2_5E  -package TN144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\synlog\report\LV5_impl1_fpga_mapper.xml"  -top_level_module  broj  -flow mapping  -multisrs  -oedif  "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\LV5_impl1.edi"   -autoconstraint  -freq 1.000   "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\synwork\LV5_impl1_prem.srd"  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\syntmp\LV5_impl1.plg"  -osyn  "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\LV5_impl1.srm"  -prjdir  "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\"  -prjname  proj_1  -log  "D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\synlog\LV5_impl1_fpga_mapper.srr" 
+rc:1 success:1 runtime:1
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\LV5_impl1.edi|io:o|time:1515155716|size:39262|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\synwork\LV5_impl1_prem.srd|io:i|time:1515155715|size:2458|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v|io:i|time:1480982024|size:89401|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1480982024|size:40584|exec:0
+file:"D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\syntmp\LV5_impl1.plg"|io:o|time:0|size:0|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\LV5_impl1.srm|io:o|time:1515155716|size:9394|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\synlog\LV5_impl1_fpga_mapper.srr|io:o|time:1515155716|size:38052|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\m_gen_lattice.exe|io:i|time:1480982890|size:19188224|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1480984488|size:23047168|exec:1

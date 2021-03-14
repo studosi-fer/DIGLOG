@@ -1,0 +1,73 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\2.0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\2.0\synpbase
+Date:        Wed Dec 04 03:56:36 2013
+Version:     F-2012.03L-1 
+
+Arguments:   -product synplify_pro  -batch lab3_lab3_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.srf"
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+
+log file: "C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.srf"
+
+
+Running proj_1|lab3
+
+Running Compile on proj_1|lab3
+
+Running Compile Process on proj_1|lab3
+
+Running Compile Input on proj_1|lab3
+
+Copied C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_compiler.srs to C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+
+Job Compile Process completed on proj_1|lab3
+
+Running Premap on proj_1|lab3
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+
+Job Compile completed on proj_1|lab3
+
+Running Map on proj_1|lab3
+
+Running Map & Optimize on proj_1|lab3
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:04s
+
+
+Job Map completed on proj_1|lab3
+
+Job Logic Synthesis completed on proj_1|lab3
+
+TCL script complete: "lab3_lab3_synplify.tcl"
+
+exit status=0
+
+

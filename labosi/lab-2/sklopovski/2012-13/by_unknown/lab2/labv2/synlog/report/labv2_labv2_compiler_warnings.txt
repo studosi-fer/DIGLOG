@@ -1,0 +1,31 @@
+@W: CG781 :"Z:\lab2\labv2\sviraj.v":57:3:57:5|Undriven input I on instance I23, tying to 0
+@W: CL265 :"Z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Pruning bit 32 of R_mul(32 downto 0) -- not in use ... 
+@W: CL271 :"Z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Pruning bits 15 to 0 of R_mul(32 downto 0) -- not in use ... 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":50:3:50:5|Unbound component OB of instance I29 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":51:3:51:5|Unbound component OB of instance I30 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":52:3:52:5|Unbound component OB of instance I31 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":53:3:53:5|Unbound component OB of instance I32 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":54:3:54:5|Unbound component OB of instance I33 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":55:3:55:5|Unbound component OB of instance I21 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":56:3:56:5|Unbound component OB of instance I22 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":57:3:57:5|Unbound component OB of instance I23 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":58:3:58:5|Unbound component OB of instance I24 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":59:3:59:5|Unbound component OB of instance I25 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":60:3:60:5|Unbound component OB of instance I26 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":61:3:61:5|Unbound component OB of instance I27 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":62:3:62:5|Unbound component OB of instance I28 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":34:4:34:6|Unbound component VLO of instance I32 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":35:4:35:6|Unbound component OR4 of instance I33 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":36:5:36:7|Unbound component AND2 of instance I34 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":37:5:37:7|Unbound component AND2 of instance I35 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":38:5:38:7|Unbound component AND2 of instance I36 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":39:5:39:7|Unbound component AND2 of instance I37 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":40:5:40:7|Unbound component AND2 of instance I38 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":41:5:41:7|Unbound component AND2 of instance I39 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":42:5:42:7|Unbound component AND2 of instance I40 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":43:4:43:6|Unbound component OR2 of instance I41 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":44:4:44:6|Unbound component OR2 of instance I42 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":45:4:45:6|Unbound component OR3 of instance I43 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":46:4:46:6|Unbound component OR3 of instance I44 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":47:4:47:6|Unbound component INV of instance I11 
+

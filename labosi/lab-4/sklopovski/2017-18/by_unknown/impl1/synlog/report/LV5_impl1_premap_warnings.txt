@@ -1,0 +1,1 @@
+@W: MT529 :"d:\ivan\faks\1. semestar\diglog\lv4\impl1\source\broj.vhd":20:1:20:2|Found inferred clock broj|clk_25m which controls 32 sequential elements including R[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,53 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":15:7:15:21|Top entity is set to pogodi_bistabil.
+File D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd changed - recompiling
+File C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd changed - recompiling
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":15:7:15:21|Synthesizing work.pogodi_bistabil.x.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":147:4:147:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":149:25:149:25|Referenced variable t is not in sensitivity list.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":4031:10:4031:15|Synthesizing work.dp16kb.syn_black_box.
+Post processing for work.dp16kb.syn_black_box
+Post processing for work.pogodi_bistabil.x
+@W: CL117 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":59:5:59:8|Latch generated from process for signal q(0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\source\pogodi_bistabil.vhd":71:5:71:8|Latch generated from process for signal q(1); possible missing assignment in an if or case statement.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 82MB peak: 84MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Dec 03 20:37:27 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\Ivan\Faks\1. Semestar\DigLog\LV3\Bistabil\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Dec 03 20:37:27 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Dec 03 20:37:27 2017
+
+###########################################################]

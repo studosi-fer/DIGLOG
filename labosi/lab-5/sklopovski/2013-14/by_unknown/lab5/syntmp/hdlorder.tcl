@@ -1,0 +1,2 @@
+set_option -top_module work.afsk_modem
+project -fileorder "C:/lscc/diamond/2.0/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/demodulator.vhd" "C:/Users/dr.Chernobyl/Desktop/lab5/modulator.vhd" "C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/afsk_modem.vhd" 

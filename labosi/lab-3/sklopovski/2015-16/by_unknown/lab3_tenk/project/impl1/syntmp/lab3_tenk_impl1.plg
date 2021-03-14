@@ -1,0 +1,25 @@
+@P:  Worst Slack : -1.130
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Frequency : 132.8 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Frequency : 156.2 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Period : 7.533
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Period : 6.403
+@P:  rf_modulator|clk_pll_inferred_clock - Slack : -1.130
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : NA
+@P:  Worst Slack(min analysis) : 0.571
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Frequency(min analysis) : 132.8 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Frequency(min analysis) : 156.2 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Period(min analysis) : 7.533
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Period(min analysis) : 6.403
+@P:  rf_modulator|clk_pll_inferred_clock - Slack(min analysis) : -1.130
+@P:  System - Estimated Frequency(min analysis) : NA
+@P:  System - Requested Frequency(min analysis) : 1.0 MHz
+@P:  System - Estimated Period(min analysis) : NA
+@P:  System - Requested Period(min analysis) : 1000.000
+@P:  System - Slack(min analysis) : NA
+@P:  Total Area : 172.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:03s

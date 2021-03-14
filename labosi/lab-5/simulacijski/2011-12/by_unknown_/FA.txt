@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY FA IS PORT(
+	a: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	b: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	cin: IN STD_LOGIC;
+	cout: OUT STD_LOGIC;
+	r: OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+);
+END FA;
+
+ARCHITECTURE arch OF FA IS 
+
+BEGIN
+
+r(1) <= (not a(1) and not a(0) and not b(1) and not b(0) and cin) or (not a(1) and a(0) and not b(1) and b(0) and not cin) or (a(1) and not a(0) and b(1) and not b(0) and cin)
+or (a(1) and a(0) and b(1) and b(0) and not cin) or (not a(1) and b(1) and not b(0) and not cin) or (a(1) and not a(0) and not b(1) and not cin) or (not a(1) and not a(0) and b(1) and b(0))
+or (a(1) and a(0) and not b(1) and not b(0)) or (not a(1) and a(0) and b(1) and cin) or (a(1) and not b(1) and b(0) and cin);
+
+r(0) <= (not a(0) and not b(0) and cin) or (not a(0) and b(0) and not cin) or (a(0) and not b(0) and not cin) or (a(0) and b(0) and cin);
+
+cout <= (a(1) and not a(0) and b(1) and not b(0)) or (a(0) and b(1) and not b(0) and cin) or (a(1) and not a(0) and b(0) and cin) or (not b(1) and b(0) and cin) or (not a(1) and a(0) and cin)
+or (not a(1) and a(0) and b(0)) or (not a(1) and a(0) and b(1)) or (a(1) and not b(1) and b(0));
+
+END arch;

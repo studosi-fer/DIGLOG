@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Bistabil_impl1.log"
+-o "Bistabil_impl1.csv"
+-pr "Bistabil_impl1.prf"

@@ -1,0 +1,9 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+@N: MF203 |Set autoconstraint_io 
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.

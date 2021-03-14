@@ -1,0 +1,884 @@
+#Build: Synplify Pro G-2012.09L-SP1 , Build 029R, Mar 11 2013
+#install: C:\lscc\diamond\2.2_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: A210-18
+
+#Implementation: labv2
+
+$ Start of Compile
+#Mon Oct 21 13:32:36 2013
+
+Synopsys HDL Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+Synopsys VHDL Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Top entity is set to tonegen.
+VHDL syntax check successful!
+# Mon Oct 21 13:32:36 2013
+
+###########################################################]
+Synopsys Verilog Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\xp2.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v"
+@I::"Z:\lab2\labv2\enkoder.v"
+@I::"Z:\lab2\labv2\sviraj.v"
+Verilog syntax check successful!
+# Mon Oct 21 13:32:36 2013
+
+###########################################################]
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\xp2.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v"
+@I::"Z:\lab2\labv2\enkoder.v"
+@I::"Z:\lab2\labv2\sviraj.v"
+Verilog syntax check successful!
+File Z:\lab2\labv2\enkoder.v changed - recompiling
+File Z:\lab2\labv2\sviraj.v changed - recompiling
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1274:7:1274:9|Synthesizing module VLO
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1106:7:1106:9|Synthesizing module OR4
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":147:7:147:10|Synthesizing module AND2
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1093:7:1093:9|Synthesizing module OR2
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1099:7:1099:9|Synthesizing module OR3
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":797:7:797:9|Synthesizing module INV
+
+@N: CG364 :"Z:\lab2\labv2\enkoder.v":3:7:3:13|Synthesizing module enkoder
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":970:7:970:8|Synthesizing module OB
+
+@N: CG364 :"Z:\lab2\labv2\sviraj.v":3:7:3:12|Synthesizing module sviraj
+
+@W: CG781 :"Z:\lab2\labv2\sviraj.v":57:3:57:5|Undriven input I on instance I23, tying to 0
+@N: CG794 :"Z:\lab2\labv2\sviraj.v":63:8:63:9|Using module tonegen from library work
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Top entity is set to tonegen.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+VHDL syntax check successful!
+@N: CD630 :"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Synthesizing work.tonegen.x 
+Post processing for work.tonegen.x
+@W: CL265 :"Z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Pruning bit 32 of R_mul(32 downto 0) -- not in use ... 
+@W: CL271 :"Z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Pruning bits 15 to 0 of R_mul(32 downto 0) -- not in use ... 
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+Synopsys Netlist Linker, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+File layer0.srs changed - recompiling
+File layer1.srs changed - recompiling
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":50:3:50:5|Unbound component OB of instance I29 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":51:3:51:5|Unbound component OB of instance I30 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":52:3:52:5|Unbound component OB of instance I31 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":53:3:53:5|Unbound component OB of instance I32 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":54:3:54:5|Unbound component OB of instance I33 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":55:3:55:5|Unbound component OB of instance I21 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":56:3:56:5|Unbound component OB of instance I22 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":57:3:57:5|Unbound component OB of instance I23 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":58:3:58:5|Unbound component OB of instance I24 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":59:3:59:5|Unbound component OB of instance I25 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":60:3:60:5|Unbound component OB of instance I26 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":61:3:61:5|Unbound component OB of instance I27 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":62:3:62:5|Unbound component OB of instance I28 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":34:4:34:6|Unbound component VLO of instance I32 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":35:4:35:6|Unbound component OR4 of instance I33 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":36:5:36:7|Unbound component AND2 of instance I34 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":37:5:37:7|Unbound component AND2 of instance I35 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":38:5:38:7|Unbound component AND2 of instance I36 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":39:5:39:7|Unbound component AND2 of instance I37 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":40:5:40:7|Unbound component AND2 of instance I38 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":41:5:41:7|Unbound component AND2 of instance I39 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":42:5:42:7|Unbound component AND2 of instance I40 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":43:4:43:6|Unbound component OR2 of instance I41 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":44:4:44:6|Unbound component OR2 of instance I42 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":45:4:45:6|Unbound component OR3 of instance I43 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":46:4:46:6|Unbound component OR3 of instance I44 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":47:4:47:6|Unbound component INV of instance I11 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: Z:\lab2\labv2\synwork\labv2_labv2_compiler.linkerlog
+=======================================================================================
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 618R, Built Mar 14 2013 09:58:16
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+@L: Z:\lab2\labv2\labv2_labv2_scck.rpt 
+Printing clock  summary report in "Z:\lab2\labv2\labv2_labv2_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 106MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+
+
+
+Clock Summary
+**************
+
+Start              Requested     Requested     Clock        Clock                
+Clock              Frequency     Period        Type         Group                
+---------------------------------------------------------------------------------
+sviraj|clk_25m     213.7 MHz     4.680         inferred     Autoconstr_clkgroup_0
+=================================================================================
+
+@W: MT529 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Found inferred clock sviraj|clk_25m which controls 140 sequential elements including I1.R_vol[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist sviraj
+Finished Pre Mapping Phase.Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:39 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 618R, Built Mar 14 2013 09:58:16
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 108MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N:"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Found counter in view:work.tonegen(x) inst R_clkdiv[11:0]
+@N: MF179 :"z:\lab2\labv2\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@N: BN362 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code_in[5] in hierarchy view:work.tonegen(x) because there are no references to its outputs 
+@N: BN362 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code[5] in hierarchy view:work.tonegen(x) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: FX211 |Packed ROM I1.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX214 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Generating ROM I1.un2_r_freq_0[31:10]
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[19] reduced to a combinational gate by constant propagation
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[20] reduced to a combinational gate by constant propagation
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[21] reduced to a combinational gate by constant propagation
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.76ns		  62 /       125
+------------------------------------------------------------
+
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[3]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[6]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[7]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[9]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[8]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[14]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[13]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[12]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[15]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[11]" with 5 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 10 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.50ns		  70 /       135
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.50ns		  70 /       135
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 135MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 135MB peak: 135MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 136 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance         
+------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_25m             port                   136        I1.un2_r_freq_0_dreg[18]
+================================================================================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base Z:\lab2\labv2\labv2_labv2.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+G-2012.09L-SP1 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 139MB)
+
+@W: MT246 :"z:\lab2\labv2\enkoder.v":46:4:46:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"z:\lab2\labv2\enkoder.v":35:4:35:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sviraj|clk_25m with period 7.31ns. Please declare a user-defined clock on object "p:clk_25m"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 21 13:32:45 2013
+#
+
+
+Top view:               sviraj
+Requested Frequency:    136.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.290
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+sviraj|clk_25m     136.9 MHz     116.3 MHz     7.307         8.596         -1.290     inferred     Autoconstr_clkgroup_0
+System             1.0 MHz       1.0 MHz       1000.000      995.957       4.043      system       system_clkgroup      
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+System          System          |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System          sviraj|clk_25m  |  7.307       4.043     |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m  System          |  7.307       2.150     |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m  sviraj|clk_25m  |  7.307       -1.290    |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sviraj|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                 Arrival           
+Instance             Reference          Type        Pin     Net               Time        Slack 
+                     Clock                                                                      
+------------------------------------------------------------------------------------------------
+I1.R_vol_fast[3]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[3]     1.006       -1.290
+I1.R_vol_fast[6]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[6]     1.006       -1.290
+I1.R_vol_fast[7]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[7]     1.006       -1.290
+I1.R_vol_fast[9]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[9]     1.006       -1.290
+I1.R_vol[4]          sviraj|clk_25m     FD1P3IX     Q       R_vol[4]          1.260       -0.660
+I1.R_vol[5]          sviraj|clk_25m     FD1P3IX     Q       R_vol[5]          1.260       -0.660
+I1.R_vol[10]         sviraj|clk_25m     FD1P3IX     Q       R_vol[10]         1.260       -0.660
+I1.R_vol[0]          sviraj|clk_25m     FD1P3IX     Q       R_vol[0]          1.251       -0.650
+I1.R_code_in[0]      sviraj|clk_25m     FD1P3AX     Q       R_code_in[0]      1.166       -0.646
+I1.R_code_in[1]      sviraj|clk_25m     FD1P3AX     Q       R_code_in[1]      1.166       -0.646
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                 Required           
+Instance              Reference          Type        Pin     Net               Time         Slack 
+                      Clock                                                                       
+--------------------------------------------------------------------------------------------------
+I1.R_vol[16]          sviraj|clk_25m     FD1P3AX     D       R_vol_7[16]       6.571        -1.290
+I1.R_vol[15]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[15]     7.196        -0.204
+I1.R_vol_fast[15]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[15]     7.196        -0.204
+I1.R_vol[13]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[13]     7.196        -0.116
+I1.R_vol[14]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[14]     7.196        -0.116
+I1.R_vol_fast[13]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[13]     7.196        -0.116
+I1.R_vol_fast[14]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[14]     7.196        -0.116
+I1.R_vol[11]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[11]     7.196        -0.028
+I1.R_vol[12]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[12]     7.196        -0.028
+I1.R_vol_fast[11]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[11]     7.196        -0.028
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[3] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[3]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[3]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     A        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[6] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[6]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[6]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     B        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[7] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[7]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[7]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     C        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[9] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[9]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[9]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     D        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.772
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.202
+
+    Number of logic level(s):                12
+    Starting point:                          I1.R_vol_fast[3] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[3]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[3]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     A        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_1_0                 CCU2B        C0       In      0.000     3.995       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.227       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.227       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.772       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.772       -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                           Arrival          
+Instance             Reference     Type           Pin     Net           Time        Slack
+                     Clock                                                               
+-----------------------------------------------------------------------------------------
+I34.I35              System        AND2           Z       N_13          0.000       4.043
+I34.I43              System        OR3            Z       N_12          0.000       4.043
+I34.I44              System        OR3            Z       N_11          0.000       4.043
+I34.I33              System        OR4            Z       N_16          0.000       4.926
+I34.I34              System        AND2           Z       N_14          0.000       4.926
+I34.I41              System        OR2            Z       N_10          0.000       4.926
+I1.R_mul_1[31:0]     System        MULT18X18B     P25     R_mul[25]     0.000       5.058
+I1.R_mul_1[31:0]     System        MULT18X18B     P26     R_mul[26]     0.000       5.058
+I1.R_mul_1[31:0]     System        MULT18X18B     P27     R_mul[27]     0.000       5.058
+I1.R_mul_1[31:0]     System        MULT18X18B     P28     R_mul[28]     0.000       5.058
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                              Required          
+Instance                    Reference     Type        Pin     Net                 Time         Slack
+                            Clock                                                                   
+----------------------------------------------------------------------------------------------------
+I1.un2_r_freq_0_areg[0]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[1]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[2]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[3]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[4]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[5]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.R_step[7]                System        FD1S3AX     D       R_step_5[7]         6.571        5.058
+I1.R_step[9]                System        FD1S3AX     D       R_step_5[9]         6.571        5.058
+I1.R_step[11]               System        FD1S3AX     D       R_step_5[11]        6.571        5.058
+I1.R_step[13]               System        FD1S3AX     D       R_step_5[13]        6.571        5.058
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.307
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.947
+
+    - Propagation time:                      2.904
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.043
+
+    Number of logic level(s):                3
+    Starting point:                          I34.I35 / Z
+    Ending point:                            I1.un2_r_freq_0_areg[0] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+I34.I35                     AND2         Z        Out     0.000     0.000       -         
+N_13                        Net          -        -       -         -           3         
+I1.R_code_0_sqmuxa_1        ORCALUT4     D        In      0.000     0.000       -         
+I1.R_code_0_sqmuxa_1        ORCALUT4     Z        Out     0.883     0.883       -         
+R_code_0_sqmuxa_1           Net          -        -       -         -           1         
+I1.R_code_0_sqmuxa_3        ORCALUT4     A        In      0.000     0.883       -         
+I1.R_code_0_sqmuxa_3        ORCALUT4     Z        Out     0.883     1.767       -         
+R_code_0_sqmuxa_3           Net          -        -       -         -           1         
+I1.R_code_0_sqmuxa          ORCALUT4     B        In      0.000     1.767       -         
+I1.R_code_0_sqmuxa          ORCALUT4     Z        Out     1.137     2.904       -         
+R_code_0_sqmuxa             Net          -        -       -         -           6         
+I1.un2_r_freq_0_areg[0]     FD1P3AX      SP       In      0.000     2.904       -         
+==========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 135 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       21
+Block Rams : 1 of 9 (11%)
+
+DSP primitives:       1 of 12 (8%)
+
+Details:
+AND2:           7
+CCU2B:          42
+FD1P3AX:        13
+FD1P3IX:        26
+FD1S3AX:        94
+FD1S3IX:        2
+GSR:            1
+IB:             8
+INV:            2
+MULT18X18B:     1
+OB:             13
+OR2:            2
+ORCALUT4:       69
+PFUMX:          10
+PUR:            1
+ROM64X1:        19
+SP16KB:         1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 40MB peak: 139MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Mon Oct 21 13:32:46 2013
+
+###########################################################]

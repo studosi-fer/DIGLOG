@@ -1,0 +1,10 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl  -osyn  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_hdl_.srs  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work /usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd -lib work /home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd -lib work /home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd  -log  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/syntax.log  -fileorder  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/syntmp/hdlorder.tcl 
+rc:0 success:1
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_hdl_.srs|o|0|0
+/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd|i|1377025208|146261
+/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd|i|1449439956|14480
+/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd|i|1449440884|1470
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/syntax.log|o|1449440884|951
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_vhdl|i|1429546450|6596528
+/usr/local/diamond/3.5_x64/synpbase/linux/c_vhdl|i|1429546502|4088948
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl|i|1429546083|365

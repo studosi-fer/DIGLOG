@@ -1,0 +1,1 @@
+project -fileorder "Z:/lab2/labv2/source/tonegen.vhd" 

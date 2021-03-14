@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Primitiv IS PORT(
+
+a: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+b: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+cin: IN STD_LOGIC;
+oper: IN STD_LOGIC;
+r: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+cout: OUT STD_LOGIC);
+
+END primitiv;
+
+ARCHITECTURE arch OF Primitiv IS 
+
+signal i,j:std_logic_vector(1 DOWNTO 0);
+
+BEGIN
+
+kom: ENTITY work.b1komplement port map (b(1 downto 0),i(1 downto 0));
+dmux: ENTITY work.Dmux port map (b(1 downto 0),i(1 downto 0),oper,j(1 downto 0));
+full: ENTITY work.FA port map (a(1 downto 0),j(1 downto 0),cin,r(1 downto 0),cout);
+
+END arch;

@@ -1,0 +1,24 @@
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd":7:7:7:12|Synthesizing work.sviraj.behavioral 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd":27:8:27:14|Signal cw_freq is undriven 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":123:7:123:11|Synthesizing work.fmgen.x 
+@W: CD326 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":153:23:154:7|Port lock of entity work.pll_250m is unconnected
+@W: CG296 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":161:4:161:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":165:27:165:31|Referenced variable r_pcm is not in sensitivity list
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":141:8:141:12|Signal r_cnt is undriven 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":142:8:142:15|Signal r_pwm_in is undriven 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":16:7:16:14|Synthesizing work.pll_250m.structure 
+@N: CD630 :"C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd":765:10:765:15|Synthesizing work.eplld1.syn_black_box 
+Post processing for work.eplld1.syn_black_box
+@N: CD630 :"C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd":1535:10:1535:12|Synthesizing work.vlo.syn_black_box 
+Post processing for work.vlo.syn_black_box
+Post processing for work.pll_250m.structure
+Post processing for work.fmgen.x
+@W: CL271 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Pruning bits 63 to 58 of R_dds_mul_res(63 downto 0) -- not in use ... 
+@W: CL271 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Pruning bits 29 to 0 of R_dds_mul_res(63 downto 0) -- not in use ... 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd":8:7:8:13|Synthesizing work.tonegen.x 
+Post processing for work.tonegen.x
+@W: CL265 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Pruning bit 32 of R_mul(32 downto 0) -- not in use ... 
+@W: CL271 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Pruning bits 15 to 0 of R_mul(32 downto 0) -- not in use ... 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\enkoder.vhd":7:7:7:13|Synthesizing work.enkoder.behavioral 
+Post processing for work.enkoder.behavioral
+Post processing for work.sviraj.behavioral

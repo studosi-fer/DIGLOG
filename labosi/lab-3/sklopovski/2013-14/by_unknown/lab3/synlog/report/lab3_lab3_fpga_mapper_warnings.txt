@@ -1,0 +1,18 @@
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance I_tonegen.R_clkdiv[11:0],  because it is equivalent to instance II_tonegen.R_clkdiv[11:0]
+@W: MO129 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Sequential instance I_tonegen.un2_r_freq_0_dreg[19] reduced to a combinational gate by constant propagation
+@W: MO129 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Sequential instance I_tonegen.un2_r_freq_0_dreg[20] reduced to a combinational gate by constant propagation
+@W: MO129 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Sequential instance I_tonegen.un2_r_freq_0_dreg[21] reduced to a combinational gate by constant propagation
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[27],  because it is equivalent to instance fmgen.R_dds_mul_x1[24]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[24],  because it is equivalent to instance fmgen.R_dds_mul_x1[23]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[23],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[31],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[30],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[29],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[28],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[26],  because it is equivalent to instance fmgen.R_dds_mul_x1[25]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[25],  because it is equivalent to instance fmgen.R_dds_mul_x1[22]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[22],  because it is equivalent to instance fmgen.R_dds_mul_x1[20]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing instance II_tonegen.R_code_in[6],  because it is equivalent to instance I_tonegen.R_code_in[6]
+@W: MT246 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":88:4:88:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sviraj|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"
+@W: MT420 |Found inferred clock pll_250m|CLKOP_inferred_clock with period 5.00ns. Please declare a user-defined clock on object "n:fmgen.I_PLL_250m.CLKOP"

@@ -1,0 +1,122 @@
+
+================= Gated clock report =================
+
+
+The following instances have NOT been converted
+Seq Inst                     Instance Port     Clock                   Reason for not converting                               
+-------------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_brzina[1]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_brzina[0]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[15]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[14]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[13]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[12]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[11]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[10]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[9]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[8]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[7]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[6]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[5]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[4]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[3]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[2]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[1]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[0]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[27]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[26]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[25]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[24]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[23]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[22]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[21]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[20]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[19]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[18]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[17]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[16]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[15]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[14]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[13]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[12]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[11]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[10]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[9]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[8]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[7]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[6]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[5]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[4]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[3]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[2]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[1]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[0]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[20]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[17]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[16]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[15]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[14]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[13]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[12]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[11]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[10]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[9]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[7]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[6]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[5]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[4]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[3]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[2]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[1]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[0]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_low_high         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_naprijed         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[31]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[30]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[29]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[28]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[27]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[26]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[25]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[24]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[23]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[22]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[21]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[20]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[19]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[18]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[17]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[16]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[15]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[14]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[13]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[12]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[11]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[10]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[9]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[8]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[7]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[6]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[5]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[4]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[3]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[2]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[7]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[6]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[5]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[4]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[3]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[2]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[1]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[0]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[4]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[3]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[2]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[1]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[0]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac_R_fm_incio[18]     SCLK              odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac_R_fm_incio[8]      SCLK              odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+===============================================================================================================================
+
+================= End gated clock report =================
+

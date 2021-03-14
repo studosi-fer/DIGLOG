@@ -1,0 +1,19 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Jan 05 21:19:58 2018 *
+NOTE DESIGN NAME: broj *
+NOTE DEVICE NAME: LFXP2-5E-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[0] : 29 : out *
+NOTE PINS clk_25m : 30 : in *
+NOTE PINS led[7] : 138 : out *
+NOTE PINS led[6] : 6 : out *
+NOTE PINS led[5] : 5 : out *
+NOTE PINS led[4] : 144 : out *
+NOTE PINS led[3] : 35 : out *
+NOTE PINS led[2] : 36 : out *
+NOTE PINS led[1] : 37 : out *
+NOTE PINS btn_up : 11 : in *
+NOTE PINS btn_down : 1 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

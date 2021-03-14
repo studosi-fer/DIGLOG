@@ -1,0 +1,27 @@
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+                         I_regfile.R0[3]:C              Done
+                         I_regfile.R0[2]:C              Done
+                         I_regfile.R0[1]:C              Done
+                         I_regfile.R0[0]:C              Done
+                         I_regfile.R1[3]:C              Done
+                         I_regfile.R1[2]:C              Done
+                         I_regfile.R1[1]:C              Done
+                         I_regfile.R1[0]:C              Done
+                         I_regfile.R2[3]:C              Done
+                         I_regfile.R2[2]:C              Done
+                         I_regfile.R2[1]:C              Done
+                         I_regfile.R2[0]:C              Done
+                         I_regfile.R3[3]:C              Done
+                         I_regfile.R3[2]:C              Done
+                         I_regfile.R3[1]:C              Done
+                         I_regfile.R3[0]:C              Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+

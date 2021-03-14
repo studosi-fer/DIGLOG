@@ -1,0 +1,2 @@
+@E: CD297 :"D:\Ivan\Faks\1. Semestar\DigLog\LV4\alu.vhd":23:8:23:11|Width mismatch, location has width 4, value 8
+

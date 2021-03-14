@@ -1,0 +1,48 @@
+-- [DIGLOG] 3. Labos, Simulacijski (2015/16)
+-- 1. Zadatak
+-- 	(a) Izradi demultipelxor 2/1 koristeci ponasajni oblik
+--
+-- By: DrinkingBuddy
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY demux24 IS PORT(
+	g: IN STD_LOGIC;
+	c: IN STD_LOGIC;
+	b: IN STD_LOGIC;
+	a: IN STD_LOGIC;
+	y: OUT STD_LOGIC_VECTOR(0 TO 3)
+);
+END demux24;
+
+ARCHITECTURE arch OF demux24 IS 
+
+BEGIN
+
+	PROCESS(a, b, c, g) IS
+			VARIABLE i: STD_LOGIC_VECTOR(0 TO 1);
+		BEGIN
+		
+		y <= "1111"; -- deafult value
+		i := (b, a); -- combines b & a into single variable
+		
+		IF (g = '0') THEN -- checks enabler
+			CASE i IS -- checks inputs (b, a)
+				WHEN "00" =>
+					y(0) <= NOT c;
+				WHEN "01" =>
+					y(1) <= NOT c;
+				WHEN "10" =>
+					y(2) <= NOT c;
+				WHEN "11" =>
+					y(3) <= NOT c;
+			END CASE;
+		END IF;	
+
+	END PROCESS;
+
+END arch;

@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY zzbrajalo IS PORT (
+	a : IN std_logic_vector (7 downto 0);
+	b : IN std_logic_vector (7 downto 0);
+	op : IN std_logic;
+	r : OUT std_logic_vector (7 downto 0);
+	cout : OUT std_logic );
+
+END zzbrajalo;
+
+ARCHITECTURE arch OF zzbrajalo IS 
+
+COMPONENT primitiv PORT (
+	a : IN std_logic_vector (1 downto 0);
+	b : IN std_logic_vector (1 downto 0);
+	op : In std_logic;
+	cin : In std_logic;
+	r : out std_logic_vector (1 downto 0);
+	cout : OUT std_logic );
+	END COMPONENT;
+	
+	signal c1, c2, c3: std_logic;
+	
+BEGIN
+
+primitiv1 : primitiv PORT MAP (a(1 downto 0), b(1 downto 0), op, op, r(1 downto 0), c1);
+primitiv2 : primitiv PORT MAP (a(3 downto 2), b(3 downto 2), op, c1, r(3 downto 2), c2);
+primitiv3 : primitiv PORT MAP (a(5 downto 4), b(5 downto 4), op, c2, r(5 downto 4), c3);
+primitiv4 : primitiv PORT MAP (a(7 downto 6), b(7 downto 6), op, c3, r(7 downto 6), cout);
+ 
+END arch;

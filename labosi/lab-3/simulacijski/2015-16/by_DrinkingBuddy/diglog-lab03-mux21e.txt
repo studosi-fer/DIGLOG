@@ -1,0 +1,38 @@
+-- [DIGLOG] 3. Labos, Simulacijski (2015/16)
+-- 2. Zadatak, 1 Inacica
+-- 	(a) Izradi mux2/1e koristeci ponasajni oblik
+--
+-- By: DrinkingBuddy
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY mux21e IS PORT(
+	e: IN STD_LOGIC;
+	s: IN STD_LOGIC;
+	d0: IN STD_LOGIC;
+	d1: IN STD_LOGIC;
+	y: OUT STD_LOGIC);
+END mux21e;
+
+ARCHITECTURE arch OF mux21e IS 
+
+BEGIN
+
+	PROCESS (e, s, d0, d1)
+		BEGIN
+		IF (E = '1') THEN
+			CASE s IS
+				WHEN '0' => y <= d0 AFTER 10 ns;
+				WHEN '1' => y <= d1 AFTER 10 ns;
+				WHEN OTHERS => y <= '0' AFTER 10 ns;
+			END CASE;
+		ELSE
+			y <= '0' AFTER 10 ns;
+		END IF;
+	END PROCESS;
+
+END arch;

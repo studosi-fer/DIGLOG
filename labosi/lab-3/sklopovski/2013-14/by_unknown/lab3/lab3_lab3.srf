@@ -1,0 +1,500 @@
+#Build: Synplify Pro F-2012.03L-1 , Build 063R, May 17 2012
+#install: C:\lscc\diamond\2.0\synpbase
+#OS: Windows 7 6.1
+#Hostname: MPC
+
+#Implementation: lab3
+
+$ Start of Compile
+#Wed Dec 04 03:56:37 2013
+
+Synopsys VHDL Compiler, version comp201203rcp1, Build 061R, built May 17 2012
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd":7:7:7:12|Top entity is set to sviraj.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd":7:7:7:12|Synthesizing work.sviraj.behavioral 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd":27:8:27:14|Signal cw_freq is undriven 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":123:7:123:11|Synthesizing work.fmgen.x 
+@W: CD326 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":153:23:154:7|Port lock of entity work.pll_250m is unconnected
+@W: CG296 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":161:4:161:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":165:27:165:31|Referenced variable r_pcm is not in sensitivity list
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":141:8:141:12|Signal r_cnt is undriven 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":142:8:142:15|Signal r_pwm_in is undriven 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":16:7:16:14|Synthesizing work.pll_250m.structure 
+@N: CD630 :"C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd":765:10:765:15|Synthesizing work.eplld1.syn_black_box 
+Post processing for work.eplld1.syn_black_box
+@N: CD630 :"C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd":1535:10:1535:12|Synthesizing work.vlo.syn_black_box 
+Post processing for work.vlo.syn_black_box
+Post processing for work.pll_250m.structure
+Post processing for work.fmgen.x
+@W: CL271 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Pruning bits 63 to 58 of R_dds_mul_res(63 downto 0) -- not in use ... 
+@W: CL271 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Pruning bits 29 to 0 of R_dds_mul_res(63 downto 0) -- not in use ... 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd":8:7:8:13|Synthesizing work.tonegen.x 
+Post processing for work.tonegen.x
+@W: CL265 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Pruning bit 32 of R_mul(32 downto 0) -- not in use ... 
+@W: CL271 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Pruning bits 15 to 0 of R_mul(32 downto 0) -- not in use ... 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\enkoder.vhd":7:7:7:13|Synthesizing work.enkoder.behavioral 
+Post processing for work.enkoder.behavioral
+Post processing for work.sviraj.behavioral
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 04 03:56:37 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@L: C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3_scck.rpt 
+Printing clock  summary report in "C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 108MB)
+
+
+
+Clock Summary
+**************
+
+Start                             Requested     Requested     Clock        Clock              
+Clock                             Frequency     Period        Type         Group              
+----------------------------------------------------------------------------------------------
+System                            1.0 MHz       1000.000      system       system_clkgroup    
+pll_250m|CLKOP_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0
+sviraj|clk_25m                    200.0 MHz     5.000         inferred     Inferred_clkgroup_1
+==============================================================================================
+
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Found inferred clock pll_250m|CLKOP_inferred_clock which controls 116 sequential elements including fmgen/fm_acc[27:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Found inferred clock sviraj|clk_25m which controls 348 sequential elements including I_tonegen/R_vol[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist sviraj
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 04 03:56:39 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+
+Starting Optimization and Mapping (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+@N:"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Found updn counter in view:work.sviraj(behavioral) inst fmgen.R_pcm_avg[15:0] 
+@N:"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Found counter in view:work.tonegen_I_tonegen(x) inst R_clkdiv[11:0]
+@N: MF179 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code_in[5] in hierarchy view:work.tonegen_I_tonegen(x) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code[5] in hierarchy view:work.tonegen_I_tonegen(x) because there are no references to its outputs 
+@N:"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Found counter in view:work.tonegen(x) inst R_clkdiv[11:0]
+@N: MF179 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance I_tonegen.R_clkdiv[11:0],  because it is equivalent to instance II_tonegen.R_clkdiv[11:0]
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+                  fmgen.R_dds_mul_x2[10]:C              Not Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|ROM I_tonegen.un2_r_freq_0[31:10] mapped in logic.
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|ROM I_tonegen.un2_r_freq_0[31:10] mapped in logic.
+@N: MO106 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Found ROM, 'I_tonegen.un2_r_freq_0[31:10]', 32 words by 22 bits 
+@N: FX211 |Packed ROM I_tonegen.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX211 |Packed ROM II_tonegen.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX211 |Packed ROM II_tonegen.un2_r_freq_0[31:10] (7 input, 22 output) to Block SelectRAM 
+@W: MO129 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Sequential instance I_tonegen.un2_r_freq_0_dreg[19] reduced to a combinational gate by constant propagation
+@W: MO129 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Sequential instance I_tonegen.un2_r_freq_0_dreg[20] reduced to a combinational gate by constant propagation
+@W: MO129 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Sequential instance I_tonegen.un2_r_freq_0_dreg[21] reduced to a combinational gate by constant propagation
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[10] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[9] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[8] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[6] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[5] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[4] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[3] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[1] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[25] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[24] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[23] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[22] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[21] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[20] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[19] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[18] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[17] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[16] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[15] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[14] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[13] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[12] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[11] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[30] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[29] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[28] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[27] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":200:1:200:2|Boundary register fmgen.R_dds_mul_x2[26] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing sequential instance fmgen.R_dds_mul_x1[0] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Boundary register fmgen.R_dds_mul_x1[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 135MB)
+
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[27],  because it is equivalent to instance fmgen.R_dds_mul_x1[24]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[24],  because it is equivalent to instance fmgen.R_dds_mul_x1[23]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[23],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[31],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[30],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[29],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[28],  because it is equivalent to instance fmgen.R_dds_mul_x1[21]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[26],  because it is equivalent to instance fmgen.R_dds_mul_x1[25]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[25],  because it is equivalent to instance fmgen.R_dds_mul_x1[22]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing instance fmgen.R_dds_mul_x1[22],  because it is equivalent to instance fmgen.R_dds_mul_x1[20]
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing instance II_tonegen.R_code_in[6],  because it is equivalent to instance I_tonegen.R_code_in[6]
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 135MB)
+
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing sequential instance fmgen.R_dds_mul_x1[21] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Boundary register fmgen.R_dds_mul_x1[21] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing sequential instance fmgen.R_dds_mul_x1[20] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Boundary register fmgen.R_dds_mul_x1[20] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 135MB)
+
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance II_tonegen.R_code_in[5] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 143MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -3.40ns		 204 /       316
+   2		0h:00m:01s		    -3.40ns		 204 /       316
+------------------------------------------------------------
+
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[0]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm_avg[0]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[2]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[1]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[3]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[4]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[5]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[6]" with 4 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 8 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -3.27ns		 204 /       324
+
+   2		0h:00m:01s		    -3.27ns		 204 /       324
+   3		0h:00m:01s		    -3.27ns		 204 /       324
+   4		0h:00m:01s		    -3.27ns		 204 /       324
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -3.27ns		 204 /       324
+
+   2		0h:00m:02s		    -3.27ns		 204 /       324
+   3		0h:00m:02s		    -3.27ns		 204 /       324
+   4		0h:00m:02s		    -3.27ns		 204 /       324
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:02s; Memory used current: 136MB peak: 143MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Time elapsed 0h:00m:02s; Memory used current: 137MB peak: 143MB)
+
+Writing Analyst data base C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 143MB)
+
+Writing EDIF Netlist and constraint files
+F-2012.03L-1 
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:03s; Memory used current: 143MB peak: 145MB)
+
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:03s; Memory used current: 141MB peak: 145MB)
+
+
+================= Gated clock report =================
+
+
+The following instances have NOT been converted
+Seq Inst             Instance Port     Clock                         Reason for not converting                               
+-----------------------------------------------------------------------------------------------------------------------------
+fmgen.fm_acc[27]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[26]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[25]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[24]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[23]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[22]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[21]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[20]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[19]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[18]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[17]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[16]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[15]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[14]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[13]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[12]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[11]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[10]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[9]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[8]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[7]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[6]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[5]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[4]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[3]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[2]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[1]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[0]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+=============================================================================================================================
+
+================= End gated clock report =================
+
+
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:03s; Memory used current: 141MB peak: 145MB)
+
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:03s; Memory used current: 141MB peak: 145MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:03s; Memory used current: 141MB peak: 145MB)
+
+@W: MT246 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":88:4:88:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sviraj|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"
+
+@W: MT420 |Found inferred clock pll_250m|CLKOP_inferred_clock with period 5.00ns. Please declare a user-defined clock on object "n:fmgen.I_PLL_250m.CLKOP"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 04 03:56:42 2013
+#
+
+
+Top view:               sviraj
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -4.001
+
+                                  Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                    Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+pll_250m|CLKOP_inferred_clock     200.0 MHz     204.8 MHz     5.000         4.882         0.118      inferred     Inferred_clkgroup_0
+sviraj|clk_25m                    200.0 MHz     111.1 MHz     5.000         9.001         -4.001     inferred     Inferred_clkgroup_1
+System                            200.0 MHz     144.5 MHz     5.000         6.919         -1.919     system       system_clkgroup    
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |  5.000       -1.919  |  No paths    -      |  No paths    -      |  No paths    -    
+System                         pll_250m|CLKOP_inferred_clock  |  5.000       1.209   |  No paths    -      |  No paths    -      |  No paths    -    
+System                         sviraj|clk_25m                 |  5.000       -0.395  |  No paths    -      |  No paths    -      |  No paths    -    
+pll_250m|CLKOP_inferred_clock  System                         |  5.000       1.936   |  No paths    -      |  No paths    -      |  No paths    -    
+pll_250m|CLKOP_inferred_clock  pll_250m|CLKOP_inferred_clock  |  5.000       0.118   |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m                 System                         |  5.000       -0.157  |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m                 sviraj|clk_25m                 |  5.000       -4.001  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port           Starting            User           Arrival     Required           
+Name           Reference           Constraint     Time        Time         Slack 
+               Clock                                                             
+---------------------------------------------------------------------------------
+btn_center     System (rising)     NA             0.000       -1.919       -1.919
+btn_down       System (rising)     NA             0.000       -1.914       -1.914
+btn_left       System (rising)     NA             0.000       -1.905       -1.905
+btn_right      System (rising)     NA             0.000       -1.905       -1.905
+btn_up         System (rising)     NA             0.000       -1.891       -1.891
+clk_25m        NA                  NA             NA          NA           NA    
+sw[0]          System (rising)     NA             0.000       0.590        0.590 
+sw[1]          System (rising)     NA             0.000       1.577        1.577 
+sw[2]          System (rising)     NA             0.000       -1.642       -1.642
+sw[3]          System (rising)     NA             0.000       -1.661       -1.661
+=================================================================================
+
+
+Output Ports: 
+
+Port         Starting                                   User           Arrival     Required           
+Name         Reference                                  Constraint     Time        Time         Slack 
+             Clock                                                                                    
+------------------------------------------------------------------------------------------------------
+j2[2]        pll_250m|CLKOP_inferred_clock (rising)     NA             3.064       5.000        1.936 
+j2[3]        pll_250m|CLKOP_inferred_clock (rising)     NA             3.064       5.000        1.936 
+j2[4]        pll_250m|CLKOP_inferred_clock (rising)     NA             3.064       5.000        1.936 
+j2[5]        pll_250m|CLKOP_inferred_clock (rising)     NA             3.064       5.000        1.936 
+led[0]       System (rising)                            NA             4.094       5.000        0.906 
+led[1]       System (rising)                            NA             4.099       5.000        0.901 
+led[2]       System (rising)                            NA             4.099       5.000        0.901 
+led[3]       System (rising)                            NA             4.968       5.000        0.032 
+led[4]       System (rising)                            NA             5.720       5.000        -0.720
+led[5]       NA                                         NA             NA          NA           NA    
+led[6]       System (rising)                            NA             4.099       5.000        0.901 
+led[7]       NA                                         NA             NA          NA           NA    
+p_ring       sviraj|clk_25m (rising)                    NA             3.125       5.000        1.875 
+p_tip[0]     sviraj|clk_25m (rising)                    NA             3.026       5.000        1.974 
+p_tip[1]     sviraj|clk_25m (rising)                    NA             3.026       5.000        1.974 
+p_tip[2]     sviraj|clk_25m (rising)                    NA             3.026       5.000        1.974 
+p_tip[3]     sviraj|clk_25m (rising)                    NA             3.026       5.000        1.974 
+======================================================================================================
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 324 of 4752 (7%)
+PIC Latch:       0
+I/O cells:       27
+Block Rams : 3 of 9 (33%)
+
+DSP primitives:       3 of 12 (25%)
+
+Details:
+CCU2B:          138
+FD1P3AX:        18
+FD1P3IX:        32
+FD1S3AX:        272
+FD1S3IX:        2
+GSR:            1
+IB:             10
+INV:            3
+MULT18X18B:     2
+MULT36X36B:     1
+OB:             17
+ORCALUT4:       201
+PDPW16KB:       1
+PFUMX:          20
+PUR:            1
+SP16KB:         2
+VHI:            1
+VLO:            1
+false:          6
+true:           6
+Mapper successful!
+
+At Mapper Exit (Time elapsed 0h:00m:03s; Memory used current: 44MB peak: 145MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Wed Dec 04 03:56:42 2013
+
+###########################################################]

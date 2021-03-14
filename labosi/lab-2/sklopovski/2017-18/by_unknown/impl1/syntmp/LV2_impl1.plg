@@ -1,0 +1,14 @@
+@P:  Worst Slack : -0.803
+@P:  lab2|clk_25m - Estimated Frequency : 186.9 MHz
+@P:  lab2|clk_25m - Requested Frequency : 219.9 MHz
+@P:  lab2|clk_25m - Estimated Period : 5.351
+@P:  lab2|clk_25m - Requested Period : 4.548
+@P:  lab2|clk_25m - Slack : -0.803
+@P:  System - Estimated Frequency : 1.0 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 999.023
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 0.977
+@P:  Total Area : 99.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:01s

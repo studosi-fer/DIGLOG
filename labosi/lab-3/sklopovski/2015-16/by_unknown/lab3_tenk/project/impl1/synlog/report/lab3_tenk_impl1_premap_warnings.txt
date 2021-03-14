@@ -1,0 +1,1 @@
+@W: MT529 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Found inferred clock rf_modulator|clk_pll_inferred_clock which controls 116 sequential elements including odasiljac.R_outw[31:2]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

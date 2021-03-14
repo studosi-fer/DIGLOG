@@ -1,0 +1,103 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L
+#--  Project file D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\run_options.txt
+#--  Written on Sun Jan 14 01:06:32 2018
+
+
+#project files
+add_file -vhdl -lib work "C:/lscc/diamond/3.9_x64/cae_library/synthesis/vhdl/xp2.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/tonegen.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/alu.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/bptrace.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/defs_mi32.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/defs_rv32.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/loadalign.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/mul_dsp.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/reg1w2r.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/sio.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/gpio.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/timer.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/bootloader/defs_bootblock.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/defs_f32c.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/debug.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/idecode_mi32.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/idecode_rv32.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/shift.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/cpu/pipeline.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/bootloader/boot_rom_mi32el.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/bootloader/boot_sio_mi32eb.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/bootloader/boot_sio_mi32el.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/bootloader/boot_sio_rv32el.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/bram.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/f32c_soc_glue.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/pll_xp2_25m.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/soc/clkgen.vhd"
+add_file -vhdl -lib work "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/arduino.vhd"
+
+
+
+#implementation: "impl1"
+impl -add impl1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology LATTICE-XP2
+set_option -part LFXP2_5E
+set_option -package TN144C
+set_option -speed_grade -5
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "arduino"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 1
+set_option -rw_check_on_ram 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+set_option -Write_declared_clocks_only 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./arduino_impl1.edi"
+
+#set log file 
+set_option log_file "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/impl1/arduino_impl1.srf" 
+impl -active "impl1"

@@ -1,0 +1,25 @@
+@P:  Worst Slack : -0.905
+@P:  lego_upravljac|clk_25m - Estimated Frequency : 165.7 MHz
+@P:  lego_upravljac|clk_25m - Requested Frequency : 194.9 MHz
+@P:  lego_upravljac|clk_25m - Estimated Period : 6.036
+@P:  lego_upravljac|clk_25m - Requested Period : 5.131
+@P:  lego_upravljac|clk_25m - Slack : -0.905
+@P:  System - Estimated Frequency : 1.0 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 996.150
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 3.850
+@P:  Worst Slack(min analysis) : -0.134
+@P:  lego_upravljac|clk_25m - Estimated Frequency(min analysis) : 165.7 MHz
+@P:  lego_upravljac|clk_25m - Requested Frequency(min analysis) : 194.9 MHz
+@P:  lego_upravljac|clk_25m - Estimated Period(min analysis) : 6.036
+@P:  lego_upravljac|clk_25m - Requested Period(min analysis) : 5.131
+@P:  lego_upravljac|clk_25m - Slack(min analysis) : -0.905
+@P:  System - Estimated Frequency(min analysis) : 1.0 MHz
+@P:  System - Requested Frequency(min analysis) : 1.0 MHz
+@P:  System - Estimated Period(min analysis) : 1000.134
+@P:  System - Requested Period(min analysis) : 1000.000
+@P:  System - Slack(min analysis) : -0.134
+@P:  Total Area : 48.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,95 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 24 02:21:11 2014
+#
+
+
+Top view:               tenk_toplevel
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.571
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     200.0 MHz     160.9 MHz     5.000         6.216         -1.216     inferred     Inferred_clkgroup_1
+tenk_toplevel|clk_25m                   200.0 MHz     179.4 MHz     5.000         5.574         -0.574     inferred     Inferred_clkgroup_0
+System                                  200.0 MHz     272.1 MHz     5.000         3.675         1.325      system       system_clkgroup    
+===========================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               tenk_toplevel|clk_25m                |  0.000       1.845  |  No paths    -      |  No paths    -      |  No paths    -    
+System                               rf_modulator|clk_pll_inferred_clock  |  0.000       1.325  |  No paths    -      |  No paths    -      |  No paths    -    
+tenk_toplevel|clk_25m                System                               |  0.000       2.118  |  No paths    -      |  No paths    -      |  No paths    -    
+tenk_toplevel|clk_25m                tenk_toplevel|clk_25m                |  0.000       0.748  |  No paths    -      |  No paths    -      |  No paths    -    
+tenk_toplevel|clk_25m                rf_modulator|clk_pll_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  System                               |  0.000       2.151  |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  0.000       0.571  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port           Starting            User           Arrival     Required          
+Name           Reference           Constraint     Time        Time         Slack
+               Clock                                                            
+--------------------------------------------------------------------------------
+btn_center     NA                  NA             NA          NA           NA   
+btn_down       System (rising)     NA             0.000       -1.845       1.845
+btn_up         System (rising)     NA             0.000       -1.911       1.911
+clk_25m        NA                  NA             NA          NA           NA   
+sw[0]          System (rising)     NA             0.000       -1.325       1.325
+sw[1]          System (rising)     NA             0.000       -1.325       1.325
+================================================================================
+
+
+Output Ports: 
+
+Port         Starting                                         User           Arrival     Required          
+Name         Reference                                        Constraint     Time        Time         Slack
+             Clock                                                                                         
+-----------------------------------------------------------------------------------------------------------
+led[0]       tenk_toplevel|clk_25m (rising)                   NA             2.191       0.000        2.191
+led[1]       tenk_toplevel|clk_25m (rising)                   NA             2.204       0.000        2.204
+led[2]       tenk_toplevel|clk_25m (rising)                   NA             2.211       0.000        2.211
+led[3]       tenk_toplevel|clk_25m (rising)                   NA             2.164       0.000        2.164
+led[4]       tenk_toplevel|clk_25m (rising)                   NA             2.164       0.000        2.164
+led[5]       tenk_toplevel|clk_25m (rising)                   NA             2.164       0.000        2.164
+led[6]       tenk_toplevel|clk_25m (rising)                   NA             2.164       0.000        2.164
+led[7]       tenk_toplevel|clk_25m (rising)                   NA             2.118       0.000        2.118
+p_ring       rf_modulator|clk_pll_inferred_clock (rising)     NA             2.151       0.000        2.151
+p_tip[0]     rf_modulator|clk_pll_inferred_clock (rising)     NA             2.151       0.000        2.151
+p_tip[1]     rf_modulator|clk_pll_inferred_clock (rising)     NA             2.151       0.000        2.151
+p_tip[2]     rf_modulator|clk_pll_inferred_clock (rising)     NA             2.151       0.000        2.151
+p_tip[3]     rf_modulator|clk_pll_inferred_clock (rising)     NA             2.151       0.000        2.151
+===========================================================================================================
+
+
+##### END OF TIMING REPORT #####]
+

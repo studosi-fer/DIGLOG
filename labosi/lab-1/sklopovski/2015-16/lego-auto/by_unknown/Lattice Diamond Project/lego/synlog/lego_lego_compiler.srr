@@ -1,0 +1,115 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 200: [: !=: argument expected
+Running on host :Dafta-Laptop
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":6:7:6:13|Top entity is set to lego_ir.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+# Mon Oct 26 00:23:04 2015
+
+###########################################################]
+/usr/local/diamond/3.5_x64/synpbase/bin/c_ver: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_ver: 200: [: !=: argument expected
+Synopsys Verilog Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Running on host :Dafta-Laptop
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/hypermods.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/umr_capim.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/scemi_objects.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/scemi_pipes.svh"
+@I::"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v"
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+# Mon Oct 26 00:23:04 2015
+
+###########################################################]
+/usr/local/diamond/3.5_x64/synpbase/bin/c_ver: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_ver: 200: [: !=: argument expected
+Running on host :Dafta-Laptop
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/hypermods.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/umr_capim.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/scemi_objects.v"
+@I::"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/scemi_pipes.svh"
+@I::"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v"
+Verilog syntax check successful!
+@N: CG364 :"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":1093:7:1093:9|Synthesizing module OR2
+
+@N: CG364 :"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":970:7:970:8|Synthesizing module OB
+
+@N: CG364 :"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":3:7:3:20|Synthesizing module lego_upravljac
+
+@N: CG794 :"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":22:8:22:9|Using module lego_ir from library work
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+# Mon Oct 26 00:23:05 2015
+
+###########################################################]
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 200: [: !=: argument expected
+Running on host :Dafta-Laptop
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":6:7:6:13|Top entity is set to lego_ir.
+VHDL syntax check successful!
+@N: CD630 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":6:7:6:13|Synthesizing work.lego_ir.arch 
+Post processing for work.lego_ir.arch
+@W: CL189 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register bit R_delay_lim(3) is always 1, optimizing ...
+@W: CL189 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register bit R_delay_lim(8) is always 0, optimizing ...
+@W: CL189 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register bit R_delay_lim(12) is always 0, optimizing ...
+@W: CL189 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register bit R_delay_lim(13) is always 0, optimizing ...
+@W: CL189 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register bit R_delay_lim(14) is always 0, optimizing ...
+@W: CL189 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register bit R_delay_lim(15) is always 0, optimizing ...
+@W: CL279 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Pruning register bits 15 to 12 of R_delay_lim(15 downto 0)  
+@W: CL260 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Pruning register bit 8 of R_delay_lim(15 downto 0)  
+@W: CL260 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Pruning register bit 3 of R_delay_lim(15 downto 0)  
+@W: CL260 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Pruning register bit 7 of R_delay_lim(7 downto 4)  
+@W: CL279 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Pruning register bits 11 to 10 of R_delay_lim(11 downto 9)  
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 73MB)
+
+# Mon Oct 26 00:23:05 2015
+
+###########################################################]
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 200: [: !=: argument expected
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 26 00:23:05 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 26 00:23:05 2015
+
+###########################################################]

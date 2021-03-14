@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd":20:4:20:12|Found inferred clock sem|clk_25m which controls 24 sequential elements including R_clk_div[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

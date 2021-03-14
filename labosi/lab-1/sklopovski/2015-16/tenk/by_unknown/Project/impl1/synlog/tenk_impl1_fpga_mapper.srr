@@ -1,0 +1,770 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1176R, Built Apr 20 2015 17:38:44
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX404 :"c:\users\tomi\desktop\tenk\rf_modulator.vhd":219:4:219:5|Found addmux in view:work.rf_modulator(structure) inst fwd_rev[4:0] from un1_R_brzina_3[4:0] 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 156MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.40ns		 160 /       116
+   2		0h:00m:02s		    -2.40ns		 155 /       116
+   3		0h:00m:02s		    -2.24ns		 155 /       116
+   4		0h:00m:02s		    -2.23ns		 155 /       116
+   5		0h:00m:02s		    -2.23ns		 155 /       116
+   6		0h:00m:02s		    -2.23ns		 155 /       116
+   7		0h:00m:02s		    -2.23ns		 155 /       116
+   8		0h:00m:02s		    -2.23ns		 155 /       116
+@N: FX271 :"c:\users\tomi\desktop\tenk\rf_modulator.vhd":234:4:234:23|Instance "I12.r_clk_acc" with 33 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+
+
+   9		0h:00m:03s		    -1.88ns		 189 /       116
+  10		0h:00m:03s		    -1.88ns		 189 /       116
+  11		0h:00m:03s		    -1.88ns		 189 /       116
+  12		0h:00m:03s		    -1.88ns		 189 /       116
+  13		0h:00m:03s		    -1.88ns		 189 /       116
+
+
+  14		0h:00m:03s		    -1.88ns		 189 /       116
+  15		0h:00m:03s		    -1.88ns		 189 /       116
+  16		0h:00m:03s		    -1.88ns		 189 /       116
+  17		0h:00m:03s		    -1.88ns		 189 /       116
+  18		0h:00m:03s		    -1.88ns		 189 /       116
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 147MB peak: 156MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 147MB peak: 156MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 116 clock pin(s) of sequential element(s)
+0 instances converted, 116 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance       Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       I12.PLLInst_0       EPLLD1                 116        I12.R_clk_acc[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 114MB peak: 156MB)
+
+Writing Analyst data base C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 156MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 149MB peak: 156MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 148MB peak: 156MB)
+
+@W: MT246 :"c:\users\tomi\desktop\tenk\impl1\tenk_upravljac.v":40:5:40:7|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\tomi\desktop\tenk\rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 6.23ns. Please declare a user-defined clock on object "n:I12.clk_pll"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 26 00:30:03 2015
+#
+
+
+Top view:               tenk_upravljac
+Requested Frequency:    160.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.099
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     160.5 MHz     136.4 MHz     6.230         7.330         -1.099     inferred     Autoconstr_clkgroup_0
+System                                  1.0 MHz       1.0 MHz       1000.000      1000.399      -0.399     system       system_clkgroup      
+=============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               rf_modulator|clk_pll_inferred_clock  |  6.230       -0.399  |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  6.230       -1.099  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rf_modulator|clk_pll_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                                      Arrival           
+Instance              Reference                               Type        Pin     Net               Time        Slack 
+                      Clock                                                                                           
+----------------------------------------------------------------------------------------------------------------------
+I12.R_clk_acc[0]      rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_clk_acc[0]      1.251       -1.099
+I12.R_clk_acc[1]      rf_modulator|clk_pll_inferred_clock     FD1S3AX     Q       R_clk_acc[1]      1.091       -1.099
+I12.R_clk_acc[2]      rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_clk_acc[2]      1.091       -1.099
+I12.R_clk_acc[3]      rf_modulator|clk_pll_inferred_clock     FD1S3AX     Q       R_clk_acc[3]      1.091       -1.099
+I12.R_clk_acc[4]      rf_modulator|clk_pll_inferred_clock     FD1S3AX     Q       R_clk_acc[4]      1.091       -1.099
+I12.R_clk_acc[5]      rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_clk_acc[5]      1.091       -1.099
+I12.R_clk_acc[6]      rf_modulator|clk_pll_inferred_clock     FD1S3AX     Q       R_clk_acc[6]      1.091       -1.099
+I12.R_clk_acc[7]      rf_modulator|clk_pll_inferred_clock     FD1S3AX     Q       R_clk_acc[7]      1.091       -1.099
+I12.R_clk_acc[10]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_clk_acc[10]     1.091       -1.099
+I12.R_clk_acc[12]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_clk_acc[12]     1.091       -1.099
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                       Required           
+Instance            Reference                               Type        Pin     Net                Time         Slack 
+                    Clock                                                                                             
+----------------------------------------------------------------------------------------------------------------------
+I12.R_brzina[1]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[1]     5.494        -1.099
+I12.R_skretanje     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_skretanje_6      5.494        -0.583
+I12.R_outw[3]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[3]        5.494        -0.433
+I12.R_outw[4]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[4]        5.494        -0.433
+I12.R_outw[21]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[21]       5.494        -0.433
+I12.R_outw[22]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[22]       5.494        -0.433
+I12.R_desno         rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_desno_6          5.494        -0.390
+I12.R_lijevo        rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_lijevo_6         5.494        -0.390
+I12.R_naprijed      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_naprijed_7       5.494        -0.390
+I12.R_natrag        rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_natrag_8         5.494        -0.390
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      6.593
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.099
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_clk_acc[0] / Q
+    Ending point:                            I12.R_brzina[1] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+I12.R_clk_acc[0]          FD1S3IX      Q        Out     1.251     1.251       -         
+R_clk_acc[0]              Net          -        -       -         -           5         
+I12.r_clk_acc_sx_0        ORCALUT4     A        In      0.000     1.251       -         
+I12.r_clk_acc_sx_0        ORCALUT4     Z        Out     0.883     2.134       -         
+r_clk_acc_sx_0            Net          -        -       -         -           1         
+I12.r_clk_acc             ORCALUT4     D        In      0.000     2.134       -         
+I12.r_clk_acc             ORCALUT4     Z        Out     1.264     3.398       -         
+r_clk_acc                 Net          -        -       -         -           24        
+I12.R_brzina_RNO_3[1]     ORCALUT4     C        In      0.000     3.398       -         
+I12.R_brzina_RNO_3[1]     ORCALUT4     Z        Out     0.883     4.282       -         
+g0_3_7                    Net          -        -       -         -           1         
+I12.R_brzina_RNO_2[1]     ORCALUT4     A        In      0.000     4.282       -         
+I12.R_brzina_RNO_2[1]     ORCALUT4     Z        Out     0.883     5.165       -         
+g0_i_N_7L12_1             Net          -        -       -         -           1         
+I12.R_brzina_RNO_1[1]     ORCALUT4     B        In      0.000     5.165       -         
+I12.R_brzina_RNO_1[1]     ORCALUT4     Z        Out     0.883     6.048       -         
+R_brzina_RNO_1[1]         Net          -        -       -         -           1         
+I12.R_brzina_RNO[1]       ORCALUT4     C        In      0.000     6.048       -         
+I12.R_brzina_RNO[1]       ORCALUT4     Z        Out     0.545     6.593       -         
+R_brzina_12[1]            Net          -        -       -         -           1         
+I12.R_brzina[1]           FD1S3IX      D        In      0.000     6.593       -         
+========================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      6.593
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.099
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_clk_acc[1] / Q
+    Ending point:                            I12.R_brzina[1] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+I12.R_clk_acc[1]          FD1S3AX      Q        Out     1.091     1.091       -         
+R_clk_acc[1]              Net          -        -       -         -           2         
+I12.r_clk_acc_9           ORCALUT4     A        In      0.000     1.091       -         
+I12.r_clk_acc_9           ORCALUT4     Z        Out     1.043     2.134       -         
+r_clk_acc_9               Net          -        -       -         -           3         
+I12.r_clk_acc             ORCALUT4     B        In      0.000     2.134       -         
+I12.r_clk_acc             ORCALUT4     Z        Out     1.264     3.398       -         
+r_clk_acc                 Net          -        -       -         -           24        
+I12.R_brzina_RNO_3[1]     ORCALUT4     C        In      0.000     3.398       -         
+I12.R_brzina_RNO_3[1]     ORCALUT4     Z        Out     0.883     4.282       -         
+g0_3_7                    Net          -        -       -         -           1         
+I12.R_brzina_RNO_2[1]     ORCALUT4     A        In      0.000     4.282       -         
+I12.R_brzina_RNO_2[1]     ORCALUT4     Z        Out     0.883     5.165       -         
+g0_i_N_7L12_1             Net          -        -       -         -           1         
+I12.R_brzina_RNO_1[1]     ORCALUT4     B        In      0.000     5.165       -         
+I12.R_brzina_RNO_1[1]     ORCALUT4     Z        Out     0.883     6.048       -         
+R_brzina_RNO_1[1]         Net          -        -       -         -           1         
+I12.R_brzina_RNO[1]       ORCALUT4     C        In      0.000     6.048       -         
+I12.R_brzina_RNO[1]       ORCALUT4     Z        Out     0.545     6.593       -         
+R_brzina_12[1]            Net          -        -       -         -           1         
+I12.R_brzina[1]           FD1S3IX      D        In      0.000     6.593       -         
+========================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      6.593
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.099
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_clk_acc[2] / Q
+    Ending point:                            I12.R_brzina[1] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+I12.R_clk_acc[2]          FD1S3IX      Q        Out     1.091     1.091       -         
+R_clk_acc[2]              Net          -        -       -         -           2         
+I12.r_clk_acc_8           ORCALUT4     A        In      0.000     1.091       -         
+I12.r_clk_acc_8           ORCALUT4     Z        Out     1.043     2.134       -         
+r_clk_acc_8               Net          -        -       -         -           3         
+I12.r_clk_acc             ORCALUT4     A        In      0.000     2.134       -         
+I12.r_clk_acc             ORCALUT4     Z        Out     1.264     3.398       -         
+r_clk_acc                 Net          -        -       -         -           24        
+I12.R_brzina_RNO_3[1]     ORCALUT4     C        In      0.000     3.398       -         
+I12.R_brzina_RNO_3[1]     ORCALUT4     Z        Out     0.883     4.282       -         
+g0_3_7                    Net          -        -       -         -           1         
+I12.R_brzina_RNO_2[1]     ORCALUT4     A        In      0.000     4.282       -         
+I12.R_brzina_RNO_2[1]     ORCALUT4     Z        Out     0.883     5.165       -         
+g0_i_N_7L12_1             Net          -        -       -         -           1         
+I12.R_brzina_RNO_1[1]     ORCALUT4     B        In      0.000     5.165       -         
+I12.R_brzina_RNO_1[1]     ORCALUT4     Z        Out     0.883     6.048       -         
+R_brzina_RNO_1[1]         Net          -        -       -         -           1         
+I12.R_brzina_RNO[1]       ORCALUT4     C        In      0.000     6.048       -         
+I12.R_brzina_RNO[1]       ORCALUT4     Z        Out     0.545     6.593       -         
+R_brzina_12[1]            Net          -        -       -         -           1         
+I12.R_brzina[1]           FD1S3IX      D        In      0.000     6.593       -         
+========================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      6.593
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.099
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_clk_acc[3] / Q
+    Ending point:                            I12.R_brzina[1] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+I12.R_clk_acc[3]          FD1S3AX      Q        Out     1.091     1.091       -         
+R_clk_acc[3]              Net          -        -       -         -           2         
+I12.r_clk_acc_10          ORCALUT4     A        In      0.000     1.091       -         
+I12.r_clk_acc_10          ORCALUT4     Z        Out     1.043     2.134       -         
+r_clk_acc_10              Net          -        -       -         -           3         
+I12.r_clk_acc             ORCALUT4     C        In      0.000     2.134       -         
+I12.r_clk_acc             ORCALUT4     Z        Out     1.264     3.398       -         
+r_clk_acc                 Net          -        -       -         -           24        
+I12.R_brzina_RNO_3[1]     ORCALUT4     C        In      0.000     3.398       -         
+I12.R_brzina_RNO_3[1]     ORCALUT4     Z        Out     0.883     4.282       -         
+g0_3_7                    Net          -        -       -         -           1         
+I12.R_brzina_RNO_2[1]     ORCALUT4     A        In      0.000     4.282       -         
+I12.R_brzina_RNO_2[1]     ORCALUT4     Z        Out     0.883     5.165       -         
+g0_i_N_7L12_1             Net          -        -       -         -           1         
+I12.R_brzina_RNO_1[1]     ORCALUT4     B        In      0.000     5.165       -         
+I12.R_brzina_RNO_1[1]     ORCALUT4     Z        Out     0.883     6.048       -         
+R_brzina_RNO_1[1]         Net          -        -       -         -           1         
+I12.R_brzina_RNO[1]       ORCALUT4     C        In      0.000     6.048       -         
+I12.R_brzina_RNO[1]       ORCALUT4     Z        Out     0.545     6.593       -         
+R_brzina_12[1]            Net          -        -       -         -           1         
+I12.R_brzina[1]           FD1S3IX      D        In      0.000     6.593       -         
+========================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      6.593
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.099
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_clk_acc[4] / Q
+    Ending point:                            I12.R_brzina[1] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+I12.R_clk_acc[4]          FD1S3AX      Q        Out     1.091     1.091       -         
+R_clk_acc[4]              Net          -        -       -         -           2         
+I12.r_clk_acc_10          ORCALUT4     B        In      0.000     1.091       -         
+I12.r_clk_acc_10          ORCALUT4     Z        Out     1.043     2.134       -         
+r_clk_acc_10              Net          -        -       -         -           3         
+I12.r_clk_acc             ORCALUT4     C        In      0.000     2.134       -         
+I12.r_clk_acc             ORCALUT4     Z        Out     1.264     3.398       -         
+r_clk_acc                 Net          -        -       -         -           24        
+I12.R_brzina_RNO_3[1]     ORCALUT4     C        In      0.000     3.398       -         
+I12.R_brzina_RNO_3[1]     ORCALUT4     Z        Out     0.883     4.282       -         
+g0_3_7                    Net          -        -       -         -           1         
+I12.R_brzina_RNO_2[1]     ORCALUT4     A        In      0.000     4.282       -         
+I12.R_brzina_RNO_2[1]     ORCALUT4     Z        Out     0.883     5.165       -         
+g0_i_N_7L12_1             Net          -        -       -         -           1         
+I12.R_brzina_RNO_1[1]     ORCALUT4     B        In      0.000     5.165       -         
+I12.R_brzina_RNO_1[1]     ORCALUT4     Z        Out     0.883     6.048       -         
+R_brzina_RNO_1[1]         Net          -        -       -         -           1         
+I12.R_brzina_RNO[1]       ORCALUT4     C        In      0.000     6.048       -         
+I12.R_brzina_RNO[1]       ORCALUT4     Z        Out     0.545     6.593       -         
+R_brzina_12[1]            Net          -        -       -         -           1         
+I12.R_brzina[1]           FD1S3IX      D        In      0.000     6.593       -         
+========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                Arrival           
+Instance     Reference     Type     Pin     Net      Time        Slack 
+             Clock                                                     
+-----------------------------------------------------------------------
+I8           System        AND2     Z       N_18     0.000       -0.399
+I10          System        AND2     Z       N_17     0.000       -0.399
+I31          System        AND2     Z       N_26     0.000       -0.399
+I32          System        AND2     Z       N_24     0.000       -0.399
+I11          System        AND3     Z       N_16     0.000       0.955 
+I27          System        AND2     Z       N_20     0.000       3.182 
+I28          System        AND2     Z       N_21     0.000       3.182 
+I29          System        AND2     Z       N_22     0.000       3.182 
+I30          System        AND2     Z       N_23     0.000       3.182 
+I26          System        AND2     Z       N_19     0.000       4.066 
+=======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                      Required           
+Instance               Reference     Type        Pin     Net                         Time         Slack 
+                       Clock                                                                            
+--------------------------------------------------------------------------------------------------------
+I12.R_skretanje        System        FD1P3AX     D       R_skretanje_6               5.494        -0.399
+I12.R_brzina[2]        System        FD1S3IX     D       R_brzina_12[2]              5.494        -0.192
+I12.R_brzina[0]        System        FD1S3IX     CD      un39_r_clk_acc_RNIMH2T3     5.870        0.485 
+I12.R_brzina[1]        System        FD1S3IX     CD      un39_r_clk_acc_RNIMH2T3     5.870        0.485 
+I12.R_brzina[2]        System        FD1S3IX     CD      un39_r_clk_acc_RNIMH2T3     5.870        0.485 
+I12.R_speed_acc[2]     System        FD1S3IX     D       un1_R_speed_acc_1[3]        5.494        0.485 
+I12.R_speed_acc[4]     System        FD1S3IX     D       un1_R_speed_acc_1[5]        5.494        0.485 
+I12.R_brzina[1]        System        FD1S3IX     D       R_brzina_12[1]              5.494        0.692 
+I12.R_desno            System        FD1P3AX     D       R_desno_6                   5.494        0.692 
+I12.R_naprijed         System        FD1P3AX     D       R_naprijed_7                5.494        0.692 
+========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      5.893
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.398
+
+    Number of logic level(s):                6
+    Starting point:                          I8 / Z
+    Ending point:                            I12.R_skretanje / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+I8                               AND2         Z        Out     0.000     0.000       -         
+N_18                             Net          -        -       -         -           5         
+I12.g0_12                        ORCALUT4     B        In      0.000     0.000       -         
+I12.g0_12                        ORCALUT4     Z        Out     1.194     1.194       -         
+un16_r_clk_acc                   Net          -        -       -         -           11        
+I12.un15_r_clk_acc_0             ORCALUT4     C        In      0.000     1.194       -         
+I12.un15_r_clk_acc_0             ORCALUT4     Z        Out     1.043     2.237       -         
+un15_r_clk_acc_0                 Net          -        -       -         -           3         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     C        In      0.000     2.237       -         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     Z        Out     1.137     3.374       -         
+un33_m1_e_0                      Net          -        -       -         -           6         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     C        In      0.000     3.374       -         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     Z        Out     1.090     4.464       -         
+un33_N_3_mux                     Net          -        -       -         -           4         
+I12.R_skretanje_6                ORCALUT4     C        In      0.000     4.464       -         
+I12.R_skretanje_6                ORCALUT4     Z        Out     0.883     5.348       -         
+N_421                            Net          -        -       -         -           1         
+I12.R_skretanje_6_u              ORCALUT4     A        In      0.000     5.348       -         
+I12.R_skretanje_6_u              ORCALUT4     Z        Out     0.545     5.893       -         
+R_skretanje_6                    Net          -        -       -         -           1         
+I12.R_skretanje                  FD1P3AX      D        In      0.000     5.893       -         
+===============================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      5.893
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.398
+
+    Number of logic level(s):                6
+    Starting point:                          I10 / Z
+    Ending point:                            I12.R_skretanje / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+I10                              AND2         Z        Out     0.000     0.000       -         
+N_17                             Net          -        -       -         -           4         
+I12.g0_12                        ORCALUT4     A        In      0.000     0.000       -         
+I12.g0_12                        ORCALUT4     Z        Out     1.194     1.194       -         
+un16_r_clk_acc                   Net          -        -       -         -           11        
+I12.un15_r_clk_acc_0             ORCALUT4     C        In      0.000     1.194       -         
+I12.un15_r_clk_acc_0             ORCALUT4     Z        Out     1.043     2.237       -         
+un15_r_clk_acc_0                 Net          -        -       -         -           3         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     C        In      0.000     2.237       -         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     Z        Out     1.137     3.374       -         
+un33_m1_e_0                      Net          -        -       -         -           6         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     C        In      0.000     3.374       -         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     Z        Out     1.090     4.464       -         
+un33_N_3_mux                     Net          -        -       -         -           4         
+I12.R_skretanje_6                ORCALUT4     C        In      0.000     4.464       -         
+I12.R_skretanje_6                ORCALUT4     Z        Out     0.883     5.348       -         
+N_421                            Net          -        -       -         -           1         
+I12.R_skretanje_6_u              ORCALUT4     A        In      0.000     5.348       -         
+I12.R_skretanje_6_u              ORCALUT4     Z        Out     0.545     5.893       -         
+R_skretanje_6                    Net          -        -       -         -           1         
+I12.R_skretanje                  FD1P3AX      D        In      0.000     5.893       -         
+===============================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      5.893
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.398
+
+    Number of logic level(s):                6
+    Starting point:                          I31 / Z
+    Ending point:                            I12.R_skretanje / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+I31                              AND2         Z        Out     0.000     0.000       -         
+N_26                             Net          -        -       -         -           4         
+I12.g0_12                        ORCALUT4     D        In      0.000     0.000       -         
+I12.g0_12                        ORCALUT4     Z        Out     1.194     1.194       -         
+un16_r_clk_acc                   Net          -        -       -         -           11        
+I12.un15_r_clk_acc_0             ORCALUT4     C        In      0.000     1.194       -         
+I12.un15_r_clk_acc_0             ORCALUT4     Z        Out     1.043     2.237       -         
+un15_r_clk_acc_0                 Net          -        -       -         -           3         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     C        In      0.000     2.237       -         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     Z        Out     1.137     3.374       -         
+un33_m1_e_0                      Net          -        -       -         -           6         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     C        In      0.000     3.374       -         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     Z        Out     1.090     4.464       -         
+un33_N_3_mux                     Net          -        -       -         -           4         
+I12.R_skretanje_6                ORCALUT4     C        In      0.000     4.464       -         
+I12.R_skretanje_6                ORCALUT4     Z        Out     0.883     5.348       -         
+N_421                            Net          -        -       -         -           1         
+I12.R_skretanje_6_u              ORCALUT4     A        In      0.000     5.348       -         
+I12.R_skretanje_6_u              ORCALUT4     Z        Out     0.545     5.893       -         
+R_skretanje_6                    Net          -        -       -         -           1         
+I12.R_skretanje                  FD1P3AX      D        In      0.000     5.893       -         
+===============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      5.893
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.398
+
+    Number of logic level(s):                6
+    Starting point:                          I32 / Z
+    Ending point:                            I12.R_skretanje / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+I32                              AND2         Z        Out     0.000     0.000       -         
+N_24                             Net          -        -       -         -           5         
+I12.g0_12                        ORCALUT4     C        In      0.000     0.000       -         
+I12.g0_12                        ORCALUT4     Z        Out     1.194     1.194       -         
+un16_r_clk_acc                   Net          -        -       -         -           11        
+I12.un15_r_clk_acc_0             ORCALUT4     C        In      0.000     1.194       -         
+I12.un15_r_clk_acc_0             ORCALUT4     Z        Out     1.043     2.237       -         
+un15_r_clk_acc_0                 Net          -        -       -         -           3         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     C        In      0.000     2.237       -         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     Z        Out     1.137     3.374       -         
+un33_m1_e_0                      Net          -        -       -         -           6         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     C        In      0.000     3.374       -         
+I12.un25_r_clk_acc_RNIIRSO1      ORCALUT4     Z        Out     1.090     4.464       -         
+un33_N_3_mux                     Net          -        -       -         -           4         
+I12.R_skretanje_6                ORCALUT4     C        In      0.000     4.464       -         
+I12.R_skretanje_6                ORCALUT4     Z        Out     0.883     5.348       -         
+N_421                            Net          -        -       -         -           1         
+I12.R_skretanje_6_u              ORCALUT4     A        In      0.000     5.348       -         
+I12.R_skretanje_6_u              ORCALUT4     Z        Out     0.545     5.893       -         
+R_skretanje_6                    Net          -        -       -         -           1         
+I12.R_skretanje                  FD1P3AX      D        In      0.000     5.893       -         
+===============================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      6.230
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.494
+
+    - Propagation time:                      5.686
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.192
+
+    Number of logic level(s):                6
+    Starting point:                          I8 / Z
+    Ending point:                            I12.R_brzina[2] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+I8                               AND2         Z        Out     0.000     0.000       -         
+N_18                             Net          -        -       -         -           5         
+I12.g0_12                        ORCALUT4     B        In      0.000     0.000       -         
+I12.g0_12                        ORCALUT4     Z        Out     1.194     1.194       -         
+un16_r_clk_acc                   Net          -        -       -         -           11        
+I12.un15_r_clk_acc_0             ORCALUT4     C        In      0.000     1.194       -         
+I12.un15_r_clk_acc_0             ORCALUT4     Z        Out     1.043     2.237       -         
+un15_r_clk_acc_0                 Net          -        -       -         -           3         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     C        In      0.000     2.237       -         
+I12.un15_r_clk_acc_0_RNI6IQP     ORCALUT4     Z        Out     1.137     3.374       -         
+un33_m1_e_0                      Net          -        -       -         -           6         
+I12.R_brzina_RNO_2[2]            ORCALUT4     C        In      0.000     3.374       -         
+I12.R_brzina_RNO_2[2]            ORCALUT4     Z        Out     0.883     4.257       -         
+R_brzina_1_sqmuxa_0_N_2L1_sx     Net          -        -       -         -           1         
+I12.R_brzina_RNO_0[2]            ORCALUT4     A        In      0.000     4.257       -         
+I12.R_brzina_RNO_0[2]            ORCALUT4     Z        Out     0.883     5.141       -         
+R_brzina_RNO_0[2]                Net          -        -       -         -           1         
+I12.R_brzina_RNO[2]              ORCALUT4     B        In      0.000     5.141       -         
+I12.R_brzina_RNO[2]              ORCALUT4     Z        Out     0.545     5.686       -         
+R_brzina_12[2]                   Net          -        -       -         -           1         
+I12.R_brzina[2]                  FD1S3IX      D        In      0.000     5.686       -         
+===============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 149MB peak: 156MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 149MB peak: 156MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_8e-5
+
+Register bits: 116 of 8352 (1%)
+PIC Latch:       0
+I/O cells:       23
+
+
+Details:
+AND2:           9
+AND3:           1
+CCU2B:          32
+FD1P3AX:        42
+FD1S3AX:        57
+FD1S3IX:        15
+FD1S3JX:        1
+GSR:            1
+IB:             10
+IFS1P3DX:       1
+INV:            4
+OB:             13
+ORCALUT4:       185
+PFUMX:          4
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 54MB peak: 156MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Mon Oct 26 00:30:03 2015
+
+###########################################################]

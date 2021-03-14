@@ -1,0 +1,24 @@
+---------------------------------------------------
+Report for cell tenk_upravljac
+   Instance path: tenk_upravljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     144.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	     205.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         23        100.0
+                                PFUREG	        120        100.0
+                                RIPPLE	         32        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          rf_modulator	          1        92.8
+---------------------------------------------------
+Report for cell rf_modulator
+   Instance path: tenk_upravljac/I12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     133.63        92.8
+                                  LUT4	     187.50        91.5
+                                PFUREG	        120        100.0
+                                RIPPLE	         32        100.0

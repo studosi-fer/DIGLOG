@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Report for cell lego_upravljac.verilog
+
+Register bits: 69 of 8352 (1%)
+PIC Latch:       0
+I/O cells:       20
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       27       100.0
+                            FD1P3AX       26       100.0
+                            FD1P3IX       11       100.0
+                            FD1S3AX       30       100.0
+                            FD1S3IX        2       100.0
+                                GSR        1       100.0
+                                 IB        7       100.0
+                                INV        2       100.0
+                                 OB       13       100.0
+                                OR2        2       100.0
+                           ORCALUT4       46       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                            lego_ir        1       100.0
+                            
+                         TOTAL           173           
+----------------------------------------------------------------------
+Report for cell lego_ir.netlist
+     Instance path:  I9
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       27       100.0
+                            FD1P3AX       26       100.0
+                            FD1P3IX       11       100.0
+                            FD1S3AX       30       100.0
+                            FD1S3IX        2       100.0
+                                INV        2       100.0
+                           ORCALUT4       46       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL           146           

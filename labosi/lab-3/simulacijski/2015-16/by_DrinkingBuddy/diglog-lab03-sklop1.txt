@@ -1,0 +1,39 @@
+-- [DIGLOG] 3. Labos, Simulacijski (2015/16)
+-- 2. Zadatak, 1 Inacica
+-- 	(c) Izradi funkciju koristeci mux161e
+--
+--	f = suma_minterma(2, 8, 9, 11, 12, 13, 15) (funkcija 7)
+--
+-- By: DrinkingBuddy
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+
+ENTITY sklop1 IS PORT(
+	a: IN STD_LOGIC;
+	b: IN STD_LOGIC;
+	c: IN STD_LOGIC;
+	d: IN STD_LOGIC;
+	y: OUT STD_LOGIC
+);
+END sklop1;
+
+ARCHITECTURE arch OF sklop1 IS 
+	
+	SIGNAL sig_func: STD_LOGIC_VECTOR(0 TO 15);
+	SIGNAL sig_input: STD_LOGIC_VECTOR(0 TO 3);
+	SIGNAL sig_mux161e_instance_00: STD_LOGIC;
+	
+BEGIN
+
+	sig_func <= "0010000011011101";
+	sig_input <= (d, c, b, a); -- inputs reversed
+	
+	y <= sig_mux161e_instance_00;
+	mux161e_intstance_00: ENTITY work.mux161e PORT MAP (d => sig_func, s => sig_input, e => '1', f => sig_mux161e_instance_00);
+
+END arch;

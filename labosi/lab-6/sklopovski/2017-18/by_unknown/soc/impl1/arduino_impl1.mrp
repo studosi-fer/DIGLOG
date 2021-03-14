@@ -1,0 +1,3042 @@
+
+           Lattice Mapping Report File for Design Module 'arduino'
+
+
+Design Information
+------------------
+
+Command line:   map -a LatticeXP2 -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial
+     arduino_impl1.ngd -o arduino_impl1_map.ncd -pr arduino_impl1.prf -mp
+     arduino_impl1.mrp -lpf D:/Ivan/Faks/1.
+     Semestar/DigLog/LV6/soc/impl1/arduino_impl1_synplify.lpf -lpf
+     D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf -gui 
+Target Vendor:  LATTICE
+Target Device:  LFXP2-5ETQFP144
+Target Performance:   5
+Mapper:  mg5a00,  version:  Diamond (64-bit) 3.9.0.99.2
+Mapped on:  01/14/18  01:07:26
+
+Design Summary
+--------------
+
+   Number of registers:   1748 out of  3864 (45%)
+      PFU registers:         1708 out of  3564 (48%)
+      PIO registers:           40 out of   300 (13%)
+   Number of SLICEs:      2026 out of  2376 (85%)
+      SLICEs as Logic/ROM:   1921 out of  2376 (81%)
+      SLICEs as RAM:          105 out of   405 (26%)
+      SLICEs as Carry:        275 out of  2376 (12%)
+   Number of LUT4s:        3245 out of  4752 (68%)
+      Number used as logic LUTs:        2485
+      Number used as distributed RAM:   210
+      Number used as ripple logic:      550
+      Number used as shift registers:     0
+   Number of PIO sites used: 54 out of 100 (54%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of block RAMs:  9 out of 9 (100%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          3
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  24 out of 24 (100 %)
+
+                                    Page 1
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Design Summary (cont)
+---------------------
+   Number of clocks:  2
+     Net clk_25m_c: 1 loads, 1 rising, 0 falling (Driver: PIO clk_25m )
+     Net clk: 1065 loads, 1015 rising, 50 falling (Driver:
+     clkgen/G_pll_325.PLL/PLL_325.PLLInst_0 )
+   Number of Clock Enables:  101
+     Net f32c_soc_glue.G_sio.0.sio_instance.tx_ser_1_sqmuxa_i: 5 loads, 4
+     LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_104: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_102: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_46: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_48: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_42: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_44: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/R_1_2_sqmuxa: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/R_5_2_sqmuxa: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_38: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_40: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/R_3_2_sqmuxa: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_52: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_50: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_101: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_gpio.0.gpio_inst/N_103: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un103_ce: 5 loads, 5 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un95_ce: 5 loads, 5 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un87_ce: 5 loads, 5 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_22: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_6: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_23: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_7: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_24: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_8: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_25: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_9: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_26: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_10: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_27: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_11: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_28: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_12: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_29: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_13: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_30: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_17: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_1: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_18: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_2: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_19: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_20: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_14: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_3: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_4: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_21: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_5: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_31: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/_arrstore_sel_15: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un72_r_icp_hit: 6 loads, 6 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Design Summary (cont)
+---------------------
+     Net f32c_soc_glue/G_timer.timer/un31_r_icp_hit: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_3_0_sqmuxa: 11 loads, 11 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_2_0_sqmuxa: 11 loads, 11 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/Rx_0_2_sqmuxa_i: 5 loads, 5 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_9_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_8_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_7_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_6_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_5_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_4_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un1_R_1_1_sqmuxa_i[0]: 7 loads, 7 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_11_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_10_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un4_ce: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/R_14_0_sqmuxa: 9 loads, 9 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un15_commit_i: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/R_baudrate_1_sqmuxa_1_i: 8 loads, 8
+     LSLICEs
+     Net f32c_soc_glue.G_sio.0.sio_instance.R_rxd: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/R_baudgen[16]: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/tx_tickcnt11: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/tx_ser_0_sqmuxa: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/rx_phase_2_sqmuxa: 4 loads, 4
+     LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/rx_full_0_sqmuxa_i: 1 loads, 1
+     LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/rx_des_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/pipeline/EX_mul_start: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/pipeline/un1_mem_running_i_0: 80 loads, 80 LSLICEs
+     Net f32c_soc_glue/pipeline/R_cop0_intr_mask_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/pipeline/EX_running: 80 loads, 80 LSLICEs
+     Net f32c_soc_glue/pipeline/ID_running: 20 loads, 19 LSLICEs
+     Net f32c_soc_glue/pipeline/ID_EX_EIP_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/ID_EX_branch_cycle_1_sqmuxa: 36 loads, 36
+     LSLICEs
+     Net f32c_soc_glue/pipeline/un26_if_pc_next: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/un1_R_cop0_BD_0_sqmuxa_4: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/R_cop0_intr_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/pipeline/un1_R_cop0_BD_0_sqmuxa_3: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/R_cop0_EBASE_0_sqmuxa: 15 loads, 15 LSLICEs
+     Net f32c_soc_glue/pipeline/R_cop0_timer_intr_0_sqmuxa: 22 loads, 22 LSLICEs
+     
+     Net f32c_soc_glue/pipeline/EX_MEM_branch_target_0_sqmuxa: 8 loads, 8
+     LSLICEs
+     Net f32c_soc_glue/pipeline/un10_id_running_0_RNIIA6PC: 21 loads, 21 LSLICEs
+     
+     Net f32c_soc_glue/pipeline/ID_EX_EPC_0_sqmuxa: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/EX_MEM_branch_cycle: 3 loads, 3 LSLICEs
+     Net f32c_soc_glue/pipeline/R_hi_loce[0]: 16 loads, 16 LSLICEs
+     Net f32c_soc_glue/pipeline/R_hi_loce[32]: 16 loads, 16 LSLICEs
+     Net f32c_soc_glue/R_simple_outce[0]: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/R_simple_outce[8]: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/R_simple_outce[16]: 5 loads, 5 LSLICEs
+     Net f32c_soc_glue/R_simple_outce[24]: 5 loads, 5 LSLICEs
+     Net tonegen_right/R_code_0_sqmuxa_i: 17 loads, 17 LSLICEs
+     Net tonegen_right/un1_r_code_0: 17 loads, 17 LSLICEs
+
+                                    Page 3
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Design Summary (cont)
+---------------------
+     Net tonegen_left/un1_r_code: 17 loads, 17 LSLICEs
+     Net tonegen_left/R_code_0_sqmuxa_i: 16 loads, 16 LSLICEs
+   Number of LSRs:  36
+     Net f32c_soc_glue/G_timer.timer/un1_commit_1: 2 loads, 2 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/fb: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/fb_0: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/fb_1: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/fb_2: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/G_timer.timer/un1_commit: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/tx_phase_0_sqmuxa_1: 3 loads, 3
+     LSLICEs
+     Net f32c_soc_glue/G_sio.0.sio_instance/un15_r_baudgen_RNIGH6M: 3 loads, 3
+     LSLICEs
+     Net f32c_soc_glue/pipeline/regfile/r2_and_0: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/regfile/r2_and_2: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/regfile/r1_and_0: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/regfile/r1_and_2: 8 loads, 8 LSLICEs
+     Net f32c_soc_glue/pipeline/ID_EX_branch_cycle_1_sqmuxa_i: 1 loads, 1
+     LSLICEs
+     Net f32c_soc_glue/pipeline/ID_EX_cancel_next_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/N_2350_i: 14 loads, 14 LSLICEs
+     Net f32c_soc_glue/pipeline/c_exceptions_RNIC8D94: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/EX_MEM_EIP_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/un3_mem_running_4[0]: 6 loads, 6 LSLICEs
+     Net f32c_soc_glue/pipeline/un1_mem_running_i_0_i: 4 loads, 4 LSLICEs
+     Net f32c_soc_glue/pipeline/ID_EX_branch_delay_follows_0_sqmuxa: 2 loads, 2
+     LSLICEs
+     Net f32c_soc_glue/pipeline/un5_id_running_RNIJMSEN: 18 loads, 18 LSLICEs
+     Net f32c_soc_glue/pipeline/fb: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/fb_1: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/fb_2: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/fb_3: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/fb_4: 1 loads, 1 LSLICEs
+     Net f32c_soc_glue/pipeline/R_reset: 20 loads, 20 LSLICEs
+     Net f32c_soc_glue/pipeline/un1_R_reset: 1 loads, 1 LSLICEs
+     Net tonegen_right/fb: 1 loads, 1 LSLICEs
+     Net tonegen_right/R_code_0_sqmuxa: 21 loads, 21 LSLICEs
+     Net tonegen_right/un1_r_code_RNIV4QS2_0: 16 loads, 16 LSLICEs
+     Net tonegen_right/un1_volume_c4_0: 1 loads, 1 LSLICEs
+     Net tonegen_left/R_code_0_sqmuxa: 20 loads, 20 LSLICEs
+     Net tonegen_left/un1_volume_c4: 1 loads, 1 LSLICEs
+     Net tonegen_left/fb: 1 loads, 1 LSLICEs
+     Net tonegen_left/R_code_0_sqmuxa_0_a2_3_RNIRJND_1: 15 loads, 15 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net f32c_soc_glue/G_timer.timer/VCC: 234 loads
+     Net f32c_soc_glue/pipeline/un1_mem_running_i_0: 103 loads
+     Net f32c_soc_glue/pipeline/EX_running: 99 loads
+     Net f32c_soc_glue/pipeline/ID_reg2_addr[3]: 79 loads
+     Net f32c_soc_glue/pipeline/ID_reg2_addr[2]: 76 loads
+     Net f32c_soc_glue/pipeline/ID_reg2_addr[1]: 75 loads
+     Net f32c_soc_glue/pipeline/ID_reg1_addr[0]: 70 loads
+     Net f32c_soc_glue/pipeline/ID_reg1_addr[1]: 70 loads
+     Net f32c_soc_glue/pipeline/ID_reg1_addr[2]: 70 loads
+     Net f32c_soc_glue/pipeline/ID_reg1_addr[3]: 70 loads
+
+
+                                    Page 4
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+
+
+
+   Number of warnings:  69
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(52): Semantic
+     error in "LOCATE COMP "flash_cen" SITE "13" ;": COMP "flash_cen" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(53): Semantic
+     error in "LOCATE COMP "flash_sck" SITE "16" ;": COMP "flash_sck" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(54): Semantic
+     error in "LOCATE COMP "flash_si" SITE "19" ;": COMP "flash_si" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(55): Semantic
+     error in "LOCATE COMP "flash_so" SITE "18" ;": COMP "flash_so" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(58): Semantic
+     error in "LOCATE COMP "sdcard_cen" SITE "15" ;": COMP "sdcard_cen" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(59): Semantic
+     error in "LOCATE COMP "sdcard_sck" SITE "20" ;": COMP "sdcard_sck" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(60): Semantic
+     error in "LOCATE COMP "sdcard_si" SITE "17" ;": COMP "sdcard_si" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(61): Semantic
+     error in "LOCATE COMP "sdcard_so" SITE "21" ;": COMP "sdcard_so" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(64): Semantic
+     error in "LOCATE COMP "sram_wel" SITE "93" ;": COMP "sram_wel" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(65): Semantic
+     error in "LOCATE COMP "sram_lbl" SITE "120" ;": COMP "sram_lbl" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(66): Semantic
+     error in "LOCATE COMP "sram_ubl" SITE "121" ;": COMP "sram_ubl" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(67): Semantic
+     error in "LOCATE COMP "sram_a_0" SITE "101" ;": COMP "sram_a_0" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(68): Semantic
+     error in "LOCATE COMP "sram_a_1" SITE "103" ;": COMP "sram_a_1" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(69): Semantic
+     error in "LOCATE COMP "sram_a_2" SITE "104" ;": COMP "sram_a_2" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(70): Semantic
+     error in "LOCATE COMP "sram_a_3" SITE "107" ;": COMP "sram_a_3" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(71): Semantic
+     error in "LOCATE COMP "sram_a_4" SITE "108" ;": COMP "sram_a_4" cannot be
+     found in design. This preference has been disabled.
+
+                                    Page 5
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(72): Semantic
+     error in "LOCATE COMP "sram_a_5" SITE "125" ;": COMP "sram_a_5" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(73): Semantic
+     error in "LOCATE COMP "sram_a_6" SITE "127" ;": COMP "sram_a_6" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(74): Semantic
+     error in "LOCATE COMP "sram_a_7" SITE "122" ;": COMP "sram_a_7" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(75): Semantic
+     error in "LOCATE COMP "sram_a_8" SITE "58" ;": COMP "sram_a_8" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(76): Semantic
+     error in "LOCATE COMP "sram_a_9" SITE "53" ;": COMP "sram_a_9" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(77): Semantic
+     error in "LOCATE COMP "sram_a_10" SITE "54" ;": COMP "sram_a_10" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(78): Semantic
+     error in "LOCATE COMP "sram_a_11" SITE "55" ;": COMP "sram_a_11" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(79): Semantic
+     error in "LOCATE COMP "sram_a_12" SITE "56" ;": COMP "sram_a_12" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(80): Semantic
+     error in "LOCATE COMP "sram_a_13" SITE "57" ;": COMP "sram_a_13" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(81): Semantic
+     error in "LOCATE COMP "sram_a_14" SITE "73" ;": COMP "sram_a_14" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(82): Semantic
+     error in "LOCATE COMP "sram_a_15" SITE "74" ;": COMP "sram_a_15" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(83): Semantic
+     error in "LOCATE COMP "sram_a_16" SITE "77" ;": COMP "sram_a_16" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(84): Semantic
+     error in "LOCATE COMP "sram_a_17" SITE "78" ;": COMP "sram_a_17" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(85): Semantic
+     error in "LOCATE COMP "sram_a_18" SITE "94" ;": COMP "sram_a_18" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(86): Semantic
+     error in "LOCATE COMP "sram_d_0" SITE "98" ;": COMP "sram_d_0" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(87): Semantic
+     error in "LOCATE COMP "sram_d_1" SITE "96" ;": COMP "sram_d_1" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(88): Semantic
+     error in "LOCATE COMP "sram_d_2" SITE "92" ;": COMP "sram_d_2" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(89): Semantic
+     error in "LOCATE COMP "sram_d_3" SITE "91" ;": COMP "sram_d_3" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(90): Semantic
+     error in "LOCATE COMP "sram_d_4" SITE "89" ;": COMP "sram_d_4" cannot be
+
+                                    Page 6
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Design Errors/Warnings (cont)
+-----------------------------
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(91): Semantic
+     error in "LOCATE COMP "sram_d_5" SITE "88" ;": COMP "sram_d_5" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(92): Semantic
+     error in "LOCATE COMP "sram_d_6" SITE "87" ;": COMP "sram_d_6" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(93): Semantic
+     error in "LOCATE COMP "sram_d_7" SITE "90" ;": COMP "sram_d_7" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(94): Semantic
+     error in "LOCATE COMP "sram_d_8" SITE "61" ;": COMP "sram_d_8" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(95): Semantic
+     error in "LOCATE COMP "sram_d_9" SITE "62" ;": COMP "sram_d_9" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(96): Semantic
+     error in "LOCATE COMP "sram_d_10" SITE "99" ;": COMP "sram_d_10" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(97): Semantic
+     error in "LOCATE COMP "sram_d_11" SITE "100" ;": COMP "sram_d_11" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(98): Semantic
+     error in "LOCATE COMP "sram_d_12" SITE "102" ;": COMP "sram_d_12" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(99): Semantic
+     error in "LOCATE COMP "sram_d_13" SITE "113" ;": COMP "sram_d_13" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(100): Semantic
+     error in "LOCATE COMP "sram_d_14" SITE "116" ;": COMP "sram_d_14" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(101): Semantic
+     error in "LOCATE COMP "sram_d_15" SITE "119" ;": COMP "sram_d_15" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(108): Semantic
+     error in "LOCATE COMP "j1_5" SITE "138" ;": COMP "j1_5" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(109): Semantic
+     error in "LOCATE COMP "j1_6" SITE "6" ;": COMP "j1_6" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(110): Semantic
+     error in "LOCATE COMP "j1_7" SITE "5" ;": COMP "j1_7" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(113): Semantic
+     error in "LOCATE COMP "j1_10" SITE "1" ;": COMP "j1_10" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(114): Semantic
+     error in "LOCATE COMP "j1_11" SITE "2" ;": COMP "j1_11" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(115): Semantic
+     error in "LOCATE COMP "j1_12" SITE "144" ;": COMP "j1_12" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(143): Semantic
+     error in "LOCATE COMP "j2_14" SITE "38" ;": COMP "j2_14" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(144): Semantic
+
+                                    Page 7
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Design Errors/Warnings (cont)
+-----------------------------
+     error in "LOCATE COMP "j2_15" SITE "22" ;": COMP "j2_15" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(146): Semantic
+     error in "LOCATE COMP "j2_17" SITE "29" ;": COMP "j2_17" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(147): Semantic
+     error in "LOCATE COMP "j2_18" SITE "37" ;": COMP "j2_18" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(148): Semantic
+     error in "LOCATE COMP "j2_19" SITE "36" ;": COMP "j2_19" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(149): Semantic
+     error in "LOCATE COMP "j2_20" SITE "35" ;": COMP "j2_20" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(150): Semantic
+     error in "LOCATE COMP "j2_21" SITE "32" ;": COMP "j2_21" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(151): Semantic
+     error in "LOCATE COMP "j2_22" SITE "27" ;": COMP "j2_22" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(152): Semantic
+     error in "LOCATE COMP "j2_23" SITE "28" ;": COMP "j2_23" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(158): Semantic
+     error in "LOCATE COMP "lcd_data_0" SITE "8" ;": COMP "lcd_data_0" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(159): Semantic
+     error in "LOCATE COMP "lcd_data_1" SITE "9" ;": COMP "lcd_data_1" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(160): Semantic
+     error in "LOCATE COMP "lcd_data_2" SITE "134" ;": COMP "lcd_data_2" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(161): Semantic
+     error in "LOCATE COMP "lcd_data_3" SITE "131" ;": COMP "lcd_data_3" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(162): Semantic
+     error in "LOCATE COMP "lcd_rs" SITE "143" ;": COMP "lcd_rs" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(163): Semantic
+     error in "LOCATE COMP "lcd_e" SITE "7" ;": COMP "lcd_e" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/ulx2s.lpf(184): Semantic
+     error in "IOBUF PORT "sdcard_so" PULLMODE=UP ;": Port "sdcard_so" does not
+     exist in the design. This preference has been disabled.
+WARNING - map: The design contains an EBR with Read-before-Write feature that is
+     not supported in this device family. Please modify and re-compile the
+     design. 
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_2                | BIDIR     | LVCMOS33  | IN         |            |
+
+                                    Page 8
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+------------+
+| rs232_tx            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| clk_25m             | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_ring              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[3]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[2]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[1]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[0]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[3]               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[2]               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[1]               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[0]               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_center          | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_down            | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_up              | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_right           | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_left            | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| led[7]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[5]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[3]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[2]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[1]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[0]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_16               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_13               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_12               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_11               | INPUT     | LVCMOS33  | IN         |            |
+
+                                    Page 9
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+------------+
+| j2_10               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_9                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_8                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_7                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_6                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_5                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_4                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_3                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j2_2                | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_23               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_22               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_21               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_20               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_19               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_18               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_17               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_16               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_15               | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_14               | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_13               | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_9                | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_8                | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_4                | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| j1_3                | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| rs232_rx            | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+
+Removed logic
+-------------
+
+Block GND undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Block VCC undriven or does not drive anything - clipped.
+Block clkgen/GND undriven or does not drive anything - clipped.
+Block f32c_soc_glue/GND undriven or does not drive anything - clipped.
+Block f32c_soc_glue/pipeline/regfile/VCC undriven or does not drive anything -
+     clipped.
+Block f32c_soc_glue/pipeline/regfile/GND undriven or does not drive anything -
+     clipped.
+Block f32c_soc_glue/pipeline/shift/GND undriven or does not drive anything -
+     clipped.
+Block f32c_soc_glue/pipeline/G_pipelined_load_aligner.loadalign/GND undriven or
+     does not drive anything - clipped.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/GND undriven or does not drive anything -
+     clipped.
+Signal clk_i was merged into signal clk
+Signal f32c_soc_glue/pipeline/G_idecode_mi32.idecode/EX_eff_reg1_0_x0[15] was
+     merged into signal f32c_soc_glue/pipeline/ID_EX_reg1_data[15]
+Signal writereg_intrflags.0.R_1_i[7] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[7]
+Signal writereg_intrflags.0.R_1_i[6] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[6]
+Signal writereg_intrflags.0.R_1_i[5] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[5]
+Signal writereg_intrflags.0.R_1_i[4] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[4]
+Signal writereg_intrflags.0.R_1_i[3] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[3]
+Signal writereg_intrflags.0.R_1_i[2] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[2]
+Signal writereg_intrflags.0.R_1_i[1] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[1]
+Signal writereg_intrflags.0.R_1_i[0] was merged into signal
+     f32c_soc_glue/G_gpio.0.gpio_inst/R_1[0]
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/VCC undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/GND undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_idecode_mi32.idecode/GND undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/VCC undriven or does not drive anything
+     - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/GND undriven or does not drive anything
+     - clipped.
+Signal f32c_soc_glue/bram/VCC undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/bram/GND undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal clkgen/G_pll_325.PLL/un1_PLLInst_0 undriven or does not drive anything -
+     clipped.
+Signal clkgen/G_pll_325.PLL/pll_clk_325m undriven or does not drive anything -
+     clipped.
+Signal tonegen_left/R_code_5_cry_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal tonegen_left/r_tone_acc_cry_0_0_S1_0 undriven or does not drive anything
+     - clipped.
+Signal tonegen_left/r_tone_acc_cry_0_0_S0_0 undriven or does not drive anything
+     - clipped.
+
+                                   Page 11
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal tonegen_left/N_2 undriven or does not drive anything - clipped.
+Signal tonegen_left/r_tone_acc_s_31_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal tonegen_left/r_tone_acc_s_31_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal tonegen_left/mul64[3] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[4] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[5] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[6] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[7] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[8] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[9] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[10] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[11] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[12] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[13] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[14] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[15] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[16] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[17] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[18] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[19] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[20] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[21] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[22] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[23] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[24] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[25] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[26] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[27] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[28] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[29] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[30] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64[31] undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P61 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P62 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P63 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P64 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P65 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P66 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P67 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P68 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P69 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P70 undriven or does not drive anything - clipped.
+Signal tonegen_left/mul64_P71 undriven or does not drive anything - clipped.
+Signal tonegen_left/R_code_5_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal tonegen_left/R_code_5_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal tonegen_left/N_1 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[3] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[4] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[5] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[6] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[7] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[8] undriven or does not drive anything - clipped.
+
+                                   Page 12
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal tonegen_right/mul64[9] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[10] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[11] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[12] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[13] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[14] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[15] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[16] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[17] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[18] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[19] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[20] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[21] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[22] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[23] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[24] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[25] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[26] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[27] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[28] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[29] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[30] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64[31] undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P61_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P62_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P63_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P64_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P65_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P66_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P67_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P68_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P69_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P70_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/mul64_P71_0 undriven or does not drive anything - clipped.
+Signal tonegen_right/R_code_5_cry_0_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal tonegen_right/R_code_5_cry_0_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal tonegen_right/N_1 undriven or does not drive anything - clipped.
+Signal tonegen_right/R_code_5_cry_5_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal tonegen_right/r_tone_acc_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal tonegen_right/r_tone_acc_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal tonegen_right/N_2 undriven or does not drive anything - clipped.
+Signal tonegen_right/r_tone_acc_s_31_0_S1 undriven or does not drive anything -
+     clipped.
+Signal tonegen_right/r_tone_acc_s_31_0_COUT undriven or does not drive anything
+     - clipped.
+Signal f32c_soc_glue/pipeline/R_cop0_count_cry_0_S0[0] undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/N_1 undriven or does not drive anything - clipped.
+     
+Signal f32c_soc_glue/pipeline/R_cop0_count_s_0_S1[31] undriven or does not drive
+     anything - clipped.
+
+                                   Page 13
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/pipeline/R_cop0_count_s_0_COUT[31] undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un1_id_branch_target_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un1_id_branch_target_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/N_2 undriven or does not drive anything - clipped.
+     
+Signal f32c_soc_glue/pipeline/un1_id_branch_target_cry_13_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un33_if_pc_next_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un33_if_pc_next_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/N_3 undriven or does not drive anything - clipped.
+     
+Signal f32c_soc_glue/pipeline/un33_if_pc_next_cry_13_0_COUT undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_1_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_1_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/N_4 undriven or does not drive anything - clipped.
+     
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_87_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_87_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_27_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_27_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_63_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_63_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_21_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_21_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_39_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_39_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_45_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_45_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_15_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_15_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_69_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/un8_c_exceptions_0_I_69_0_COUT undriven or does
+     not drive anything - clipped.
+
+                                   Page 14
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/N_5 undriven or does not drive anything - clipped.
+     
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_87_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_87_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_27_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_27_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_63_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_63_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_21_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_39_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_39_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_45_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_45_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_15_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_69_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/EX_equal_0_I_69_0_COUT undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB17
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB16
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB15
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB14
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB13
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB12
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB11
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB10
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB9
+     undriven or does not drive anything - clipped.
+
+                                   Page 15
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB8
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB7
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB6
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB5
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB4
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB3
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB2
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB1
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB0
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA17
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA16
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA15
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA14
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA13
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA12
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA11
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA10
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA9
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA8
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA7
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA6
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA5
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA4
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA3
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA2
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/pipeline/alu/addsubx_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/pipeline/alu/N_1 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/pipeline/alu/addsubx_cry_31_0_COUT undriven or does not
+     drive anything - clipped.
+
+                                   Page 16
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P64 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P65 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P66 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P67 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P68 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P69 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P70 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P71 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_0_s1_0_S1
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_0_s1_0_S0
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/N_1 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_23_s1_0_COUT
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_1_s0_0_S1
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_1_s0_0_S0
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/N_2 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_s_24_s0_0_S1
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_s_24_s0_0_COUT
+     undriven or does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un4_r_baudgen_cry_0_0_S1 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un4_r_baudgen_cry_0_0_S0 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/N_3 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/G_sio.0.sio_instance/un4_r_baudgen_cry_15_0_COUT undriven
+     or does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/R_counter_3_0_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/R_counter_3_0_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_1 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/R_counter_3_0_s_21_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/R_counter_3_0_s_21_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un1_r_increment_faster_cry_0_0_S1 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un1_r_increment_faster_cry_0_0_S0 undriven or
+     does not drive anything - clipped.
+
+                                   Page 17
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/N_2 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un1_r_increment_faster_s_21_0_S1 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un1_r_increment_faster_s_21_0_COUT undriven
+     or does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un2_r_increment_slower_cry_0_0_S1 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un2_r_increment_slower_cry_0_0_S0 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_3 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un2_r_increment_slower_s_21_0_S1 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un2_r_increment_slower_s_21_0_COUT undriven
+     or does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_4 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_11_0_S0 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_11_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_5 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+
+                                   Page 18
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_11_0_S0 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_11_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_6 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_1_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_1_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_3_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_3_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_5_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_5_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_7_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_7_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_9_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_9_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_11_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_11_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_13_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_13_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_15_0_S1 undriven or does not
+     drive anything - clipped.
+
+                                   Page 19
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_15_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_17_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_17_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_19_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_19_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_21_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_slower_cry_21_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_7 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_1_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_1_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_3_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_3_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_5_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_5_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_7_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_7_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_9_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_9_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_11_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_11_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_13_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_13_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_15_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_15_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_17_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_17_0_S0 undriven or does not
+     drive anything - clipped.
+
+                                   Page 20
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_19_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_19_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_21_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un6_r_faster_cry_21_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_8 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_11_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_9 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+
+                                   Page 21
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_11_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_10 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_11_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_11 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_1_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_1_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_3_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_3_0_S0 undriven or does not
+     drive anything - clipped.
+
+                                   Page 22
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_5_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_5_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_7_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_7_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_9_0_S1 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_9_0_S0 undriven or does not
+     drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_11_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_12 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_11_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_13 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+
+                                   Page 23
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_11_0_COUT undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_14 undriven or does not drive anything -
+     clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_11_0_S0 undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_11_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_0_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_0_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/N_15 undriven or does not drive anything -
+     clipped.
+
+                                   Page 24
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_1_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_1_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_3_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_3_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_5_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_5_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_7_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_7_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_9_0_S1 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_9_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_11_0_S0 undriven or does
+     not drive anything - clipped.
+Signal f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_11_0_COUT undriven or
+     does not drive anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 25
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 26
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 27
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 28
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 29
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 30
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 31
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB16 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB4 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA17 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA16 undriven or does not drive
+     anything - clipped.
+
+                                   Page 32
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Removed logic (cont)
+--------------------
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA15 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA14 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA13 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA12 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA11 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA10 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA9 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA8 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA7 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA6 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA5 undriven or does not drive
+     anything - clipped.
+Signal f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA4 undriven or does not drive
+     anything - clipped.
+Block clkgen/G_pll_325.PLL/CLKOK_inferred_clock_RNIQJ01 was optimized away.
+Block f32c_soc_glue/pipeline/G_idecode_mi32.idecode/EX_eff_reg1_0_x0[15] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIMMO[7] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNILLO[6] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIKKO[5] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIJJO[4] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIIIO[3] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIHHO[2] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIGGO[1] was
+     optimized away.
+Block f32c_soc_glue/G_gpio.0.gpio_inst/writereg_intrflags.0.R_1_RNIFFO[0] was
+     optimized away.
+Block f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/VCC was optimized away.
+Block f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/GND was optimized away.
+Block f32c_soc_glue/pipeline/G_idecode_mi32.idecode/GND was optimized away.
+Block f32c_soc_glue/pipeline/multiplier/VCC was optimized away.
+Block f32c_soc_glue/pipeline/multiplier/GND was optimized away.
+Block f32c_soc_glue/bram/VCC was optimized away.
+Block f32c_soc_glue/bram/GND was optimized away.
+
+Memory Usage
+------------
+
+    
+         
+
+                                   Page 33
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+Memory Usage (cont)
+-------------------
+    INFO: Design contains pre-loadable EBR during configuration that has a
+         requirement:
+    Since the GSR is disabled for the EBR, make sure write enable and chip
+    enable are inactive during wake-up, so that the pre-loaded initialization
+    values will not be corrupted during wake-up state.
+
+
+
+
+/f32c_soc_glue/G_timer.timer/rtmp_1_ram:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/G_timer.timer/rtmp_ram:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/G_timer.timer/rtmp_ram_0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/bram:
+    EBRs: 8
+    RAM SLICEs: 0
+    Logic SLICEs: 3
+    PFU Registers: 0
+    -Contains EBR bram_0_1_bram_0_1_0_1:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_3_1_bram_3_1_0_0:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_3_1_bram_3_1_0_1:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_2_1_bram_2_1_0_0:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_2_1_bram_2_1_0_1:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_1_1_bram_1_1_0_0:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_1_1_bram_1_1_0_1:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+
+                                   Page 34
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+ (cont)
+-------
+         READBEFOREWRITE,  GSR= DISABLED
+    -Contains EBR bram_0_1_bram_0_1_0_0:  TYPE= DP16KB,  Width_A= 4,  Width_B=
+         4,  Depth_A= 4096,  Depth_B= 4096,  REGMODE_A= NOREG,  REGMODE_B=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B=
+         READBEFOREWRITE,  GSR= DISABLED
+/f32c_soc_glue/pipeline/G_bp_scoretable.bptrace:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR bptrace_bptrace_0_0:  TYPE= DP16KB,  Width_A= 2,  Depth_A=
+         8192,  Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= WRITETHROUGH,  WRITEMODE_B= WRITETHROUGH,  GSR=
+         DISABLED
+/f32c_soc_glue/pipeline/regfile/r1_ram:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_1:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_10:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_11:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_13:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_14:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_2:
+    EBRs: 0
+
+                                   Page 35
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+ (cont)
+-------
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_3:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_4:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_5:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_6:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_7:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_8:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r1_ram_9:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_1:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_10:
+    EBRs: 0
+    RAM SLICEs: 3
+
+                                   Page 36
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+ (cont)
+-------
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_11:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_13:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_14:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_2:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_3:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_4:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_5:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_6:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_7:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_8:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+
+                                   Page 37
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+ (cont)
+-------
+    PFU Registers: 0
+/f32c_soc_glue/pipeline/regfile/r2_ram_9:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+
+DSP Component Details
+---------------------
+
+
+     . MULT36X36B  f32c_soc_glue/pipeline/multiplier/R_mul_res_1[66:0]:
+
+     Multiplier
+        Operation               Signed
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+                Pipeline                            
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+                Pipeline                            
+Data
+        Input Registers         CLK     CE      RST
+        --------------------------------------------
+                A               CLK0    CE0     RST0
+                B               CLK0    CE0     RST0
+
+             Pipeline Registers      CLK     CE      RST
+        --------------------------------------------
+                Pipe            CLK0    CE0     RST0
+
+             Output Register         CLK     CE      RST
+        --------------------------------------------
+                Output          CLK1    CE0     RST0
+Other
+        GSR     DISABLED
+
+     . MULT36X36B  tonegen_right/mul64[63:3]:
+
+     Multiplier
+        Operation               Unsigned
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+                Pipeline                            
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+                Pipeline                            
+Data
+        Input Registers         CLK     CE      RST
+        --------------------------------------------
+                A                                   
+                B                                   
+
+                                   Page 38
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+DSP Component Details (cont)
+----------------------------
+
+             Pipeline Registers      CLK     CE      RST
+        --------------------------------------------
+                Pipe                                
+
+             Output Register         CLK     CE      RST
+        --------------------------------------------
+                Output                              
+Other
+        GSR     DISABLED
+
+     . MULT36X36B  tonegen_left/mul64[63:3]:
+
+     Multiplier
+        Operation               Unsigned
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+                Pipeline                            
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+                Pipeline                            
+Data
+        Input Registers         CLK     CE      RST
+        --------------------------------------------
+                A                                   
+                B                                   
+
+             Pipeline Registers      CLK     CE      RST
+        --------------------------------------------
+                Pipe                                
+
+             Output Register         CLK     CE      RST
+        --------------------------------------------
+                Output                              
+Other
+        GSR     DISABLED
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:
+       clkgen/G_pll_325.PLL/PLL_325.PLLInst_0
+  PLL Type:                                         EPLLD
+  Input Clock:                             PIN      clk_25m_c
+  Output Clock(P):                                  NONE
+  Output Clock(S):                                  NONE
+  Output Clock(K):                         NODE     clk
+  PLL Feedback Signal:                     NODE     clkgen/G_pll_325.PLL/CLKFB_t
+       
+  PLL Reset Signal:                        NODE     rs232_break
+  PLL K Divider Reset Signal:              NODE     rs232_break
+  PLL LOCK Signal:                         NODE     clkgen/pll_lock
+  Dynamic Phase Adjust Input 0:                     NONE
+
+                                   Page 39
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+PLL/DLL Summary (cont)
+----------------------
+  Dynamic Phase Adjust Input 1:                     NONE
+  Dynamic Phase Adjust Input 2:                     NONE
+  Dynamic Phase Adjust Input 3:                     NONE
+  Dynamic Duty Adjust Input 0:                      NONE
+  Dynamic Duty Adjust Input 1:                      NONE
+  Dynamic Duty Adjust Input 2:                      NONE
+  Dynamic Duty Adjust Input 3:                      NONE
+  Input Clock Frequency (MHz):                      25.0000
+  Output Clock(P) Frequency (MHz):                  NA
+  Output Clock(K) Frequency (MHz):                  81.2500
+  Output Clock(P) Actual Frequency:                 325.0000
+  CLKOP BYPASS:                                     DISABLED
+  CLKOS BYPASS:                                     DISABLED
+  CLKOK BYPASS:                                     DISABLED
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    13
+  CLKOP Divider:                                    2
+  CLKOK Divider:                                    4
+  CLKOS Phase Shift (degree):                       0.0
+  CLKOS Duty Cycle (*1/16):                         8
+  Phase_Duty Control:                               STATIC
+  FB_MODE:                                          NONE
+
+ASIC Components
+---------------
+
+Instance Name: f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1
+         Type: DP16KB
+Instance Name: f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0
+         Type: DP16KB
+Instance Name: f32c_soc_glue/pipeline/multiplier/R_mul_res_1[66:0]
+         Type: MULT36X36B
+Instance Name:
+     f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0
+         Type: DP16KB
+Instance Name: tonegen_right/mul64[63:3]
+         Type: MULT36X36B
+Instance Name: tonegen_left/mul64[63:3]
+         Type: MULT36X36B
+Instance Name: clkgen/G_pll_325.PLL/PLL_325.PLLInst_0
+         Type: EPLLD
+
+
+
+
+                                   Page 40
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'clkgen.resl'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'clkgen.resl' via the GSR component.
+
+     Type and number of components of the type: 
+   DP16KB = 9, MULT36X36B = 3 
+
+     Type and instance name of component: 
+   DP16KB : f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1
+   DP16KB : f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0
+   DP16KB : f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1
+   DP16KB : f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0
+   DP16KB : f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1
+   DP16KB : f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0
+   DP16KB : f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1
+   DP16KB : f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0
+   MULT36X36B : f32c_soc_glue/pipeline/multiplier/R_mul_res_1[66:0]
+   DP16KB : f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0
+   MULT36X36B : tonegen_right/mul64[63:3]
+   MULT36X36B : tonegen_left/mul64[63:3]
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'clkgen.resl' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 246 
+
+     Type and instance name of component: 
+   Register : f32c_soc_glue/G_timer.timer/Rintr[0]
+   Register : f32c_soc_glue/G_timer.timer/Rintr[1]
+   Register : f32c_soc_glue/G_timer.timer/Rintr[2]
+   Register : f32c_soc_glue/G_timer.timer/Rintr[3]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/tx_phase[0]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/tx_phase[1]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/tx_phase[2]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/tx_phase[3]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/rx_tickcnt[0]
+
+                                   Page 41
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+GSR Usage (cont)
+----------------
+   Register : f32c_soc_glue/G_sio.0.sio_instance/rx_tickcnt[1]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/rx_tickcnt[2]
+   Register : f32c_soc_glue/G_sio.0.sio_instance/rx_tickcnt[3]
+   Register : f32c_soc_glue/pipeline/R_cop0_timer_intr
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[0]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[1]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[2]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[3]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[4]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[5]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[6]
+   Register : f32c_soc_glue/pipeline/R_cop0_intr_mask[7]
+   Register : f32c_soc_glue/pipeline/R_cop0_EI
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[2]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[3]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[4]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[5]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[6]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[7]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[8]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[9]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[10]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[11]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[12]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[13]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[14]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[15]
+   Register : f32c_soc_glue/pipeline/R_cop0_EBASE[16]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[0]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[1]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[2]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[4]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[5]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[6]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[7]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[8]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[9]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[10]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[11]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[12]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[13]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[14]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[15]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[16]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[17]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[18]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[19]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[20]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[21]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[23]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[26]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[27]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[28]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[29]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[30]
+   Register : f32c_soc_glue/pipeline/IF_ID_instruction[31]
+
+                                   Page 42
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+GSR Usage (cont)
+----------------
+   Register : f32c_soc_glue/pipeline/IF_ID_bubble
+   Register : f32c_soc_glue/pipeline/ID_EX_writeback_addr[0]
+   Register : f32c_soc_glue/pipeline/ID_EX_writeback_addr[1]
+   Register : f32c_soc_glue/pipeline/ID_EX_writeback_addr[2]
+   Register : f32c_soc_glue/pipeline/ID_EX_writeback_addr[3]
+   Register : f32c_soc_glue/pipeline/ID_EX_writeback_addr[4]
+   Register : f32c_soc_glue/pipeline/ID_EX_wait
+   Register : f32c_soc_glue/pipeline/ID_EX_predict_taken
+   Register : f32c_soc_glue/pipeline/ID_EX_op_major[0]
+   Register : f32c_soc_glue/pipeline/ID_EX_op_major[1]
+   Register : f32c_soc_glue/pipeline/ID_EX_mult_signed
+   Register : f32c_soc_glue/pipeline/ID_EX_mult
+   Register : f32c_soc_glue/pipeline/ID_EX_mul_compound
+   Register : f32c_soc_glue/pipeline/ID_EX_mem_write
+   Register : f32c_soc_glue/pipeline/ID_EX_mem_cycle
+   Register : f32c_soc_glue/pipeline/ID_EX_exception
+   Register : f32c_soc_glue/pipeline/ID_EX_ei
+   Register : f32c_soc_glue/pipeline/ID_EX_di
+   Register : f32c_soc_glue/pipeline/ID_EX_cop0_write
+   Register : f32c_soc_glue/pipeline/ID_EX_cancel_next
+   Register : f32c_soc_glue/pipeline/ID_EX_bubble
+   Register : f32c_soc_glue/pipeline/ID_EX_branch_likely
+   Register : f32c_soc_glue/pipeline/ID_EX_branch_delay_slot
+   Register : f32c_soc_glue/pipeline/ID_EX_branch_delay_follows
+   Register : f32c_soc_glue/pipeline/ID_EX_branch_cycle
+   Register : f32c_soc_glue/pipeline/EX_MEM_writeback_addr[0]
+   Register : f32c_soc_glue/pipeline/EX_MEM_writeback_addr[1]
+   Register : f32c_soc_glue/pipeline/EX_MEM_writeback_addr[2]
+   Register : f32c_soc_glue/pipeline/EX_MEM_writeback_addr[3]
+   Register : f32c_soc_glue/pipeline/EX_MEM_writeback_addr[4]
+   Register : f32c_soc_glue/pipeline/EX_MEM_take_branch_rep2
+   Register : f32c_soc_glue/pipeline/EX_MEM_take_branch_rep1
+   Register : f32c_soc_glue/pipeline/EX_MEM_take_branch_fast
+   Register : f32c_soc_glue/pipeline/EX_MEM_take_branch
+   Register : f32c_soc_glue/pipeline/EX_MEM_mem_write
+   Register : f32c_soc_glue/pipeline/EX_MEM_mem_cycle
+   Register : f32c_soc_glue/pipeline/EX_MEM_latency
+   Register : f32c_soc_glue/pipeline/EX_MEM_branch_taken
+   Register : f32c_soc_glue/pipeline/EX_MEM_branch_likely
+   Register : f32c_soc_glue/pipeline/EX_MEM_branch_cycle
+   Register : f32c_soc_glue/pipeline/EX_MEM_EIP
+   Register : tonegen_right/R_tone_incr[0]
+   Register : tonegen_right/R_tone_incr_new[0]
+   Register : tonegen_right/R_tone_incr_new[1]
+   Register : tonegen_right/R_tone_incr[1]
+   Register : tonegen_right/R_tone_incr[2]
+   Register : tonegen_right/R_tone_incr_new[2]
+   Register : tonegen_right/R_tone_incr_new[3]
+   Register : tonegen_right/R_tone_incr[3]
+   Register : tonegen_right/R_tone_incr[4]
+   Register : tonegen_right/R_tone_incr_new[4]
+   Register : tonegen_right/R_tone_incr[5]
+   Register : tonegen_right/R_tone_incr_new[5]
+   Register : tonegen_right/R_tone_incr[6]
+   Register : tonegen_right/R_tone_incr_new[6]
+   Register : tonegen_right/R_tone_incr[7]
+
+                                   Page 43
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+GSR Usage (cont)
+----------------
+   Register : tonegen_right/R_tone_incr_new[7]
+   Register : tonegen_right/R_tone_incr[8]
+   Register : tonegen_right/R_tone_incr_new[8]
+   Register : tonegen_right/R_tone_incr[9]
+   Register : tonegen_right/R_tone_incr_new[9]
+   Register : tonegen_right/R_tone_incr[10]
+   Register : tonegen_right/R_tone_incr_new[10]
+   Register : tonegen_right/R_tone_incr[11]
+   Register : tonegen_right/R_tone_incr_new[11]
+   Register : tonegen_right/R_tone_incr[12]
+   Register : tonegen_right/R_tone_incr_new[12]
+   Register : tonegen_right/R_tone_incr[13]
+   Register : tonegen_right/R_tone_incr_new[13]
+   Register : tonegen_right/R_tone_incr[14]
+   Register : tonegen_right/R_tone_incr_new[14]
+   Register : tonegen_right/R_tone_incr[15]
+   Register : tonegen_right/R_tone_incr_new[15]
+   Register : tonegen_right/R_tone_incr[16]
+   Register : tonegen_right/R_tone_incr_new[16]
+   Register : tonegen_right/R_tone_incr[17]
+   Register : tonegen_right/R_tone_incr_new[17]
+   Register : tonegen_right/R_tone_incr[18]
+   Register : tonegen_right/R_tone_incr_new[18]
+   Register : tonegen_right/R_tone_incr_new[19]
+   Register : tonegen_right/R_tone_incr[19]
+   Register : tonegen_right/R_tone_incr[20]
+   Register : tonegen_right/R_tone_incr_new[20]
+   Register : tonegen_right/R_tone_incr_new[21]
+   Register : tonegen_right/R_tone_incr[21]
+   Register : tonegen_right/R_tone_incr_new[22]
+   Register : tonegen_right/R_tone_incr[22]
+   Register : tonegen_right/R_tone_incr_new[23]
+   Register : tonegen_right/R_tone_incr[23]
+   Register : tonegen_right/R_tone_incr[24]
+   Register : tonegen_right/R_tone_incr_new[24]
+   Register : tonegen_right/R_tone_incr[25]
+   Register : tonegen_right/R_tone_incr_new[25]
+   Register : tonegen_right/R_tone_incr[26]
+   Register : tonegen_right/R_tone_incr_new[26]
+   Register : tonegen_right/R_tone_incr_new[27]
+   Register : tonegen_right/R_tone_incr[27]
+   Register : tonegen_right/R_tone_incr[28]
+   Register : tonegen_right/R_tone_incr_new[28]
+   Register : tonegen_right/R_tone_incr[29]
+   Register : tonegen_right/R_tone_incr_new[29]
+   Register : tonegen_right/R_tone_incr[30]
+   Register : tonegen_right/R_tone_incr_new[30]
+   Register : tonegen_right/R_tone_incr[31]
+   Register : tonegen_right/R_out
+   Register : tonegen_right/R_code[0]
+   Register : tonegen_right/R_code[1]
+   Register : tonegen_right/R_code[2]
+   Register : tonegen_right/R_code[3]
+   Register : tonegen_right/R_code[4]
+   Register : tonegen_right/R_code[5]
+   Register : tonegen_right/R_code[6]
+
+                                   Page 44
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+GSR Usage (cont)
+----------------
+   Register : tonegen_left/R_code[6]
+   Register : tonegen_left/R_out
+   Register : tonegen_left/R_tone_incr[30]
+   Register : tonegen_left/R_tone_incr_new[0]
+   Register : tonegen_left/R_tone_incr[0]
+   Register : tonegen_left/R_tone_incr_new[1]
+   Register : tonegen_left/R_tone_incr[1]
+   Register : tonegen_left/R_tone_incr_new[2]
+   Register : tonegen_left/R_tone_incr[2]
+   Register : tonegen_left/R_tone_incr[3]
+   Register : tonegen_left/R_tone_incr_new[3]
+   Register : tonegen_left/R_tone_incr[4]
+   Register : tonegen_left/R_tone_incr_new[4]
+   Register : tonegen_left/R_tone_incr_new[5]
+   Register : tonegen_left/R_tone_incr[5]
+   Register : tonegen_left/R_tone_incr_new[6]
+   Register : tonegen_left/R_tone_incr[6]
+   Register : tonegen_left/R_tone_incr[7]
+   Register : tonegen_left/R_tone_incr_new[7]
+   Register : tonegen_left/R_tone_incr[8]
+   Register : tonegen_left/R_tone_incr_new[8]
+   Register : tonegen_left/R_tone_incr[9]
+   Register : tonegen_left/R_tone_incr_new[9]
+   Register : tonegen_left/R_tone_incr_new[10]
+   Register : tonegen_left/R_tone_incr[10]
+   Register : tonegen_left/R_tone_incr_new[11]
+   Register : tonegen_left/R_tone_incr[11]
+   Register : tonegen_left/R_tone_incr[12]
+   Register : tonegen_left/R_tone_incr_new[12]
+   Register : tonegen_left/R_tone_incr_new[13]
+   Register : tonegen_left/R_tone_incr[13]
+   Register : tonegen_left/R_tone_incr[14]
+   Register : tonegen_left/R_tone_incr_new[14]
+   Register : tonegen_left/R_tone_incr[15]
+   Register : tonegen_left/R_tone_incr_new[15]
+   Register : tonegen_left/R_tone_incr[16]
+   Register : tonegen_left/R_tone_incr_new[16]
+   Register : tonegen_left/R_tone_incr[17]
+   Register : tonegen_left/R_tone_incr_new[17]
+   Register : tonegen_left/R_tone_incr_new[18]
+   Register : tonegen_left/R_tone_incr[18]
+   Register : tonegen_left/R_tone_incr_new[19]
+   Register : tonegen_left/R_tone_incr[19]
+   Register : tonegen_left/R_tone_incr[20]
+   Register : tonegen_left/R_tone_incr_new[20]
+   Register : tonegen_left/R_tone_incr_new[21]
+   Register : tonegen_left/R_tone_incr[21]
+   Register : tonegen_left/R_tone_incr_new[22]
+   Register : tonegen_left/R_tone_incr[22]
+   Register : tonegen_left/R_tone_incr_new[23]
+   Register : tonegen_left/R_tone_incr[23]
+   Register : tonegen_left/R_tone_incr_new[24]
+   Register : tonegen_left/R_tone_incr[24]
+   Register : tonegen_left/R_tone_incr_new[25]
+   Register : tonegen_left/R_tone_incr[25]
+   Register : tonegen_left/R_tone_incr_new[26]
+
+                                   Page 45
+
+
+
+
+Design:  arduino                                       Date:  01/14/18  01:07:26
+
+GSR Usage (cont)
+----------------
+   Register : tonegen_left/R_tone_incr[26]
+   Register : tonegen_left/R_tone_incr[27]
+   Register : tonegen_left/R_tone_incr_new[27]
+   Register : tonegen_left/R_tone_incr[28]
+   Register : tonegen_left/R_tone_incr_new[28]
+   Register : tonegen_left/R_tone_incr[29]
+   Register : tonegen_left/R_tone_incr_new[29]
+   Register : tonegen_left/R_code[0]
+   Register : tonegen_left/R_code[1]
+   Register : tonegen_left/R_code[2]
+   Register : tonegen_left/R_code[3]
+   Register : tonegen_left/R_code[4]
+   Register : tonegen_left/R_code[5]
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 8 secs  
+   Total REAL Time: 9 secs  
+   Peak Memory Usage: 87 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 46
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

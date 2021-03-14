@@ -1,0 +1,9 @@
+#Start recording tcl command: 12/4/2015 10:00:02
+#Project Location: /home/ilakovac/faks/diglog/lab3/project; Project name: lab3
+prj_project new -name "lab3" -impl "impl1" -dev LFXP2-8E-5TN144C -synthesis "synplify" -lpf "/home/ilakovac/faks/diglog/lab3/source/ulx2s.lpf"
+prj_src add "/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd" "/home/ilakovac/faks/diglog/lab3/source/slova.vhd"
+prj_project save
+prj_run Export -impl impl1
+prj_run Export -impl impl1 -task Bitgen
+prj_src add "/home/ilakovac/faks/diglog/lab3/project/brojke.vhd"
+#Stop recording: 12/4/2015 11:07:54

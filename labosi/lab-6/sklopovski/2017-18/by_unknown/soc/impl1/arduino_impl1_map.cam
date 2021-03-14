@@ -1,0 +1,734 @@
+[ START MERGED ]
+writereg_intrflags.0.R_1_i[0] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[0]
+writereg_intrflags.0.R_1_i[1] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[1]
+writereg_intrflags.0.R_1_i[2] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[2]
+writereg_intrflags.0.R_1_i[3] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[3]
+writereg_intrflags.0.R_1_i[4] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[4]
+writereg_intrflags.0.R_1_i[5] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[5]
+writereg_intrflags.0.R_1_i[6] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[6]
+writereg_intrflags.0.R_1_i[7] f32c_soc_glue/G_gpio.0.gpio_inst/R_1[7]
+clk_i clk
+f32c_soc_glue/pipeline/G_idecode_mi32.idecode/EX_eff_reg1_0_x0[15] f32c_soc_glue/pipeline/ID_EX_reg1_data[15]
+[ END MERGED ]
+[ START CLIPPED ]
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/VCC
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/GND
+f32c_soc_glue/pipeline/G_idecode_mi32.idecode/GND
+f32c_soc_glue/pipeline/multiplier/VCC
+f32c_soc_glue/pipeline/multiplier/GND
+f32c_soc_glue/bram/VCC
+f32c_soc_glue/bram/GND
+GND
+VCC
+clkgen/G_pll_325.PLL/un1_PLLInst_0
+clkgen/G_pll_325.PLL/pll_clk_325m
+tonegen_left/R_code_5_cry_5_0_COUT
+tonegen_left/r_tone_acc_cry_0_0_S1_0
+tonegen_left/r_tone_acc_cry_0_0_S0_0
+tonegen_left/N_2
+tonegen_left/r_tone_acc_s_31_0_S1_0
+tonegen_left/r_tone_acc_s_31_0_COUT_0
+tonegen_left/mul64[3]
+tonegen_left/mul64[4]
+tonegen_left/mul64[5]
+tonegen_left/mul64[6]
+tonegen_left/mul64[7]
+tonegen_left/mul64[8]
+tonegen_left/mul64[9]
+tonegen_left/mul64[10]
+tonegen_left/mul64[11]
+tonegen_left/mul64[12]
+tonegen_left/mul64[13]
+tonegen_left/mul64[14]
+tonegen_left/mul64[15]
+tonegen_left/mul64[16]
+tonegen_left/mul64[17]
+tonegen_left/mul64[18]
+tonegen_left/mul64[19]
+tonegen_left/mul64[20]
+tonegen_left/mul64[21]
+tonegen_left/mul64[22]
+tonegen_left/mul64[23]
+tonegen_left/mul64[24]
+tonegen_left/mul64[25]
+tonegen_left/mul64[26]
+tonegen_left/mul64[27]
+tonegen_left/mul64[28]
+tonegen_left/mul64[29]
+tonegen_left/mul64[30]
+tonegen_left/mul64[31]
+tonegen_left/mul64_P61
+tonegen_left/mul64_P62
+tonegen_left/mul64_P63
+tonegen_left/mul64_P64
+tonegen_left/mul64_P65
+tonegen_left/mul64_P66
+tonegen_left/mul64_P67
+tonegen_left/mul64_P68
+tonegen_left/mul64_P69
+tonegen_left/mul64_P70
+tonegen_left/mul64_P71
+tonegen_left/R_code_5_cry_0_0_S1
+tonegen_left/R_code_5_cry_0_0_S0
+tonegen_left/N_1
+tonegen_right/mul64[3]
+tonegen_right/mul64[4]
+tonegen_right/mul64[5]
+tonegen_right/mul64[6]
+tonegen_right/mul64[7]
+tonegen_right/mul64[8]
+tonegen_right/mul64[9]
+tonegen_right/mul64[10]
+tonegen_right/mul64[11]
+tonegen_right/mul64[12]
+tonegen_right/mul64[13]
+tonegen_right/mul64[14]
+tonegen_right/mul64[15]
+tonegen_right/mul64[16]
+tonegen_right/mul64[17]
+tonegen_right/mul64[18]
+tonegen_right/mul64[19]
+tonegen_right/mul64[20]
+tonegen_right/mul64[21]
+tonegen_right/mul64[22]
+tonegen_right/mul64[23]
+tonegen_right/mul64[24]
+tonegen_right/mul64[25]
+tonegen_right/mul64[26]
+tonegen_right/mul64[27]
+tonegen_right/mul64[28]
+tonegen_right/mul64[29]
+tonegen_right/mul64[30]
+tonegen_right/mul64[31]
+tonegen_right/mul64_P61_0
+tonegen_right/mul64_P62_0
+tonegen_right/mul64_P63_0
+tonegen_right/mul64_P64_0
+tonegen_right/mul64_P65_0
+tonegen_right/mul64_P66_0
+tonegen_right/mul64_P67_0
+tonegen_right/mul64_P68_0
+tonegen_right/mul64_P69_0
+tonegen_right/mul64_P70_0
+tonegen_right/mul64_P71_0
+tonegen_right/R_code_5_cry_0_0_S1_0
+tonegen_right/R_code_5_cry_0_0_S0_0
+tonegen_right/N_1
+tonegen_right/R_code_5_cry_5_0_COUT_0
+tonegen_right/r_tone_acc_cry_0_0_S1
+tonegen_right/r_tone_acc_cry_0_0_S0
+tonegen_right/N_2
+tonegen_right/r_tone_acc_s_31_0_S1
+tonegen_right/r_tone_acc_s_31_0_COUT
+f32c_soc_glue/pipeline/R_cop0_count_cry_0_S0[0]
+f32c_soc_glue/pipeline/N_1
+f32c_soc_glue/pipeline/R_cop0_count_s_0_S1[31]
+f32c_soc_glue/pipeline/R_cop0_count_s_0_COUT[31]
+f32c_soc_glue/pipeline/un1_id_branch_target_cry_0_0_S1
+f32c_soc_glue/pipeline/un1_id_branch_target_cry_0_0_S0
+f32c_soc_glue/pipeline/N_2
+f32c_soc_glue/pipeline/un1_id_branch_target_cry_13_0_COUT
+f32c_soc_glue/pipeline/un33_if_pc_next_cry_0_0_S1
+f32c_soc_glue/pipeline/un33_if_pc_next_cry_0_0_S0
+f32c_soc_glue/pipeline/N_3
+f32c_soc_glue/pipeline/un33_if_pc_next_cry_13_0_COUT
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_1_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_1_0_S0
+f32c_soc_glue/pipeline/N_4
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_87_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_87_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_27_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_27_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_63_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_63_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_21_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_21_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_39_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_39_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_45_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_45_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_15_0_S1
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_15_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_69_0_S0
+f32c_soc_glue/pipeline/un8_c_exceptions_0_I_69_0_COUT
+f32c_soc_glue/pipeline/EX_equal_0_I_1_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_1_0_S0
+f32c_soc_glue/pipeline/N_5
+f32c_soc_glue/pipeline/EX_equal_0_I_87_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_87_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_27_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_27_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_63_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_63_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_21_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_21_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_39_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_39_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_45_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_45_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_15_0_S1
+f32c_soc_glue/pipeline/EX_equal_0_I_15_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_69_0_S0
+f32c_soc_glue/pipeline/EX_equal_0_I_69_0_COUT
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB17
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB16
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB15
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB14
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB13
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB12
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB11
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB10
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB9
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB8
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB7
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB6
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB5
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB4
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB3
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB2
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB1
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOB0
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA17
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA16
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA15
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA14
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA13
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA12
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA11
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA10
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA9
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA8
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA7
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA6
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA5
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA4
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA3
+f32c_soc_glue/pipeline/G_bp_scoretable.bptrace/bptrace_bptrace_0_0_DOA2
+f32c_soc_glue/pipeline/alu/addsubx_cry_0_0_S0
+f32c_soc_glue/pipeline/alu/N_1
+f32c_soc_glue/pipeline/alu/addsubx_cry_31_0_COUT
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P64
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P65
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P66
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P67
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P68
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P69
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P70
+f32c_soc_glue/pipeline/multiplier/R_mul_res_1_P71
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_0_s1_0_S1
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_0_s1_0_S0
+f32c_soc_glue/G_sio.0.sio_instance/N_1
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_23_s1_0_COUT
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_1_s0_0_S1
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_cry_1_s0_0_S0
+f32c_soc_glue/G_sio.0.sio_instance/N_2
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_s_24_s0_0_S1
+f32c_soc_glue/G_sio.0.sio_instance/un1_rx_break_tickcnt_s_24_s0_0_COUT
+f32c_soc_glue/G_sio.0.sio_instance/un4_r_baudgen_cry_0_0_S1
+f32c_soc_glue/G_sio.0.sio_instance/un4_r_baudgen_cry_0_0_S0
+f32c_soc_glue/G_sio.0.sio_instance/N_3
+f32c_soc_glue/G_sio.0.sio_instance/un4_r_baudgen_cry_15_0_COUT
+f32c_soc_glue/G_timer.timer/R_counter_3_0_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/R_counter_3_0_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_1
+f32c_soc_glue/G_timer.timer/R_counter_3_0_s_21_0_S1
+f32c_soc_glue/G_timer.timer/R_counter_3_0_s_21_0_COUT
+f32c_soc_glue/G_timer.timer/un1_r_increment_faster_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un1_r_increment_faster_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_2
+f32c_soc_glue/G_timer.timer/un1_r_increment_faster_s_21_0_S1
+f32c_soc_glue/G_timer.timer/un1_r_increment_faster_s_21_0_COUT
+f32c_soc_glue/G_timer.timer/un2_r_increment_slower_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un2_r_increment_slower_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_3
+f32c_soc_glue/G_timer.timer/un2_r_increment_slower_s_21_0_S1
+f32c_soc_glue/G_timer.timer/un2_r_increment_slower_s_21_0_COUT
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_4
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un45_internal_ocp_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_5
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un10_internal_ocp_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_6
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_11_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_13_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_13_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_15_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_15_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_17_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_17_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_19_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_19_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_21_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_slower_cry_21_0_COUT
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_7
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_11_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_13_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_13_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_15_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_15_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_17_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_17_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_19_0_S1
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_19_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_21_0_S0
+f32c_soc_glue/G_timer.timer/un6_r_faster_cry_21_0_COUT
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_8
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un12_r_icp_lt_sp_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_9
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un3_r_icp_lt_sp_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_10
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un45_r_icp_hit_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_11
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un4_r_icp_hit_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_12
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un51_r_icp_hit_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_13
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un10_r_icp_hit_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_14
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un39_internal_ocp_cry_11_0_COUT
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_0_0_S1
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_0_0_S0
+f32c_soc_glue/G_timer.timer/N_15
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_1_0_S1
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_1_0_S0
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_3_0_S1
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_3_0_S0
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_5_0_S1
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_5_0_S0
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_7_0_S1
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_7_0_S0
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_9_0_S1
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_9_0_S0
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_11_0_S0
+f32c_soc_glue/G_timer.timer/un4_internal_ocp_cry_11_0_COUT
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB17
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB16
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB15
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB14
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB13
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB12
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB11
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB10
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB9
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB8
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB7
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB6
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB5
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOB4
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA17
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA16
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA15
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA14
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA13
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA12
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA11
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA10
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA9
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA8
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA7
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA6
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA5
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_0_DOA4
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB17
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB16
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB15
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB14
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB13
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB12
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB11
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB10
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB9
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB8
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB7
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB6
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB5
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOB4
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA17
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA16
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA15
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA14
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA13
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA12
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA11
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA10
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA9
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA8
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA7
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA6
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA5
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_1_DOA4
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB17
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB16
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB15
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB14
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB13
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB12
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB11
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB10
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB9
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB8
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB7
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB6
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB5
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOB4
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA17
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA16
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA15
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA14
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA13
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA12
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA11
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA10
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA9
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA8
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA7
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA6
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA5
+f32c_soc_glue/bram/bram_1_1_bram_1_1_0_0_DOA4
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB17
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB16
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB15
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB14
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB13
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB12
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB11
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB10
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB9
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB8
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB7
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB6
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB5
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOB4
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA17
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA16
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA15
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA14
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA13
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA12
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA11
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA10
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA9
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA8
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA7
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA6
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA5
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_1_DOA4
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB17
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB16
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB15
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB14
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB13
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB12
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB11
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB10
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB9
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB8
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB7
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB6
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB5
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOB4
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA17
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA16
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA15
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA14
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA13
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA12
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA11
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA10
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA9
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA8
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA7
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA6
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA5
+f32c_soc_glue/bram/bram_2_1_bram_2_1_0_0_DOA4
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB17
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB16
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB15
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB14
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB13
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB12
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB11
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB10
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB9
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB8
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB7
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB6
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB5
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOB4
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA17
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA16
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA15
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA14
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA13
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA12
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA11
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA10
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA9
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA8
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA7
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA6
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA5
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_1_DOA4
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB17
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB16
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB15
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB14
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB13
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB12
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB11
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB10
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB9
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB8
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB7
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB6
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB5
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOB4
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA17
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA16
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA15
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA14
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA13
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA12
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA11
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA10
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA9
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA8
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA7
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA6
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA5
+f32c_soc_glue/bram/bram_3_1_bram_3_1_0_0_DOA4
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB17
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB16
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB15
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB14
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB13
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB12
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB11
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB10
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB9
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB8
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB7
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB6
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB5
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOB4
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA17
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA16
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA15
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA14
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA13
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA12
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA11
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA10
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA9
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA8
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA7
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA6
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA5
+f32c_soc_glue/bram/bram_0_1_bram_0_1_0_1_DOA4
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.9.0.99.2 -- WARNING: Map write only section -- Sun Jan 14 01:07:35 2018
+
+SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
+LOCATE COMP "j1_2" SITE "131" ;
+LOCATE COMP "rs232_tx" SITE "137" ;
+LOCATE COMP "clk_25m" SITE "30" ;
+LOCATE COMP "p_ring" SITE "44" ;
+LOCATE COMP "p_tip[3]" SITE "43" ;
+LOCATE COMP "p_tip[2]" SITE "28" ;
+LOCATE COMP "p_tip[1]" SITE "27" ;
+LOCATE COMP "p_tip[0]" SITE "32" ;
+LOCATE COMP "sw[3]" SITE "130" ;
+LOCATE COMP "sw[2]" SITE "129" ;
+LOCATE COMP "sw[1]" SITE "46" ;
+LOCATE COMP "sw[0]" SITE "45" ;
+LOCATE COMP "btn_center" SITE "22" ;
+LOCATE COMP "btn_down" SITE "1" ;
+LOCATE COMP "btn_up" SITE "11" ;
+LOCATE COMP "btn_right" SITE "38" ;
+LOCATE COMP "btn_left" SITE "2" ;
+LOCATE COMP "led[7]" SITE "138" ;
+LOCATE COMP "led[6]" SITE "6" ;
+LOCATE COMP "led[5]" SITE "5" ;
+LOCATE COMP "led[4]" SITE "144" ;
+LOCATE COMP "led[3]" SITE "35" ;
+LOCATE COMP "led[2]" SITE "36" ;
+LOCATE COMP "led[1]" SITE "37" ;
+LOCATE COMP "led[0]" SITE "29" ;
+LOCATE COMP "j2_16" SITE "31" ;
+LOCATE COMP "j2_13" SITE "39" ;
+LOCATE COMP "j2_12" SITE "40" ;
+LOCATE COMP "j2_11" SITE "47" ;
+LOCATE COMP "j2_10" SITE "48" ;
+LOCATE COMP "j2_9" SITE "50" ;
+LOCATE COMP "j2_8" SITE "52" ;
+LOCATE COMP "j2_7" SITE "65" ;
+LOCATE COMP "j2_6" SITE "66" ;
+LOCATE COMP "j2_5" SITE "69" ;
+LOCATE COMP "j2_4" SITE "70" ;
+LOCATE COMP "j2_3" SITE "71" ;
+LOCATE COMP "j2_2" SITE "72" ;
+LOCATE COMP "j1_23" SITE "109" ;
+LOCATE COMP "j1_22" SITE "110" ;
+LOCATE COMP "j1_21" SITE "114" ;
+LOCATE COMP "j1_20" SITE "115" ;
+LOCATE COMP "j1_19" SITE "123" ;
+LOCATE COMP "j1_18" SITE "124" ;
+LOCATE COMP "j1_17" SITE "132" ;
+LOCATE COMP "j1_16" SITE "133" ;
+LOCATE COMP "j1_15" SITE "141" ;
+LOCATE COMP "j1_14" SITE "142" ;
+LOCATE COMP "j1_13" SITE "143" ;
+LOCATE COMP "j1_9" SITE "7" ;
+LOCATE COMP "j1_8" SITE "8" ;
+LOCATE COMP "j1_4" SITE "9" ;
+LOCATE COMP "j1_3" SITE "134" ;
+LOCATE COMP "rs232_rx" SITE "10" ;
+FREQUENCY NET "clk_25m_c" 25.000000 MHz ;
+FREQUENCY NET "clk" 81.250000 MHz ;
+FREQUENCY PORT "clk_25m" 25.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

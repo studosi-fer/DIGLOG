@@ -1,0 +1,135 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Dec  6 23:28:18 2015
+#
+
+
+Top view:               daljinski_upravljac
+Requested Frequency:    156.2 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.571
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     156.2 MHz     132.8 MHz     6.403         7.533         -1.130     inferred     Autoconstr_clkgroup_0
+System                                  1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup      
+=============================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  0.000       0.571  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rf_modulator|clk_pll_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                   Arrival          
+Instance                 Reference                               Type        Pin     Net            Time        Slack
+                         Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------------
+odasiljac.R_outw[3]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[3]      0.705       0.571
+odasiljac.R_outw[5]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[5]      0.705       0.571
+odasiljac.R_outw[6]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[6]      0.705       0.571
+odasiljac.R_outw[7]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[7]      0.705       0.571
+odasiljac.R_outw[8]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[8]      0.705       0.571
+odasiljac.R_outw[9]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[9]      0.705       0.571
+odasiljac.R_outw[10]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[10]     0.705       0.571
+odasiljac.R_outw[11]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[11]     0.705       0.571
+odasiljac.R_outw[12]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[12]     0.705       0.571
+odasiljac.R_outw[13]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[13]     0.705       0.571
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                     Required          
+Instance                 Reference                               Type        Pin     Net              Time         Slack
+                         Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_outw[4]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[4]      0.515        0.571
+odasiljac.R_outw[6]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[6]      0.515        0.571
+odasiljac.R_outw[7]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[7]      0.515        0.571
+odasiljac.R_outw[8]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[8]      0.515        0.571
+odasiljac.R_outw[9]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[9]      0.515        0.571
+odasiljac.R_outw[10]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[10]     0.515        0.571
+odasiljac.R_outw[11]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[11]     0.515        0.571
+odasiljac.R_outw[12]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[12]     0.515        0.571
+odasiljac.R_outw[13]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[13]     0.515        0.571
+odasiljac.R_outw[14]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[14]     0.515        0.571
+========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.086
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.571
+
+    Number of logic level(s):                1
+    Starting point:                          odasiljac.R_outw[3] / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+odasiljac.R_outw[3]         FD1P3AX      Q        Out     0.705     0.705       -         
+R_outw[3]                   Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]     ORCALUT4     A        In      0.000     0.705       -         
+odasiljac.R_outw_RNO[4]     ORCALUT4     Z        Out     0.382     1.086       -         
+R_outw_5[4]                 Net          -        -       -         -           1         
+odasiljac.R_outw[4]         FD1P3AX      D        In      0.000     1.086       -         
+==========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

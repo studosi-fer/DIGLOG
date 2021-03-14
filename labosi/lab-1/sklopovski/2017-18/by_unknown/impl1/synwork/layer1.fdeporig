@@ -1,0 +1,28 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.rf_modulator|-mpparams|D:\\Ivan\\Faks\\1. Semestar\\DigLog\\1.LV\\impl1\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\Ivan\\Faks\\1. Semestar\\DigLog\\1.LV\\impl1\\synwork\\LV1_tenk_impl1_comp.srs|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1480984808
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1480995154
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1480984354
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\1.LV\\impl1\\source\\rf_modulator.vhd":1508677588
+0 "D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+config work structure_con 0
+arch work rf_modulator structure 0
+module work rf_modulator 0
+
+# Unbound Instances to File Association
+inst work rf_modulator eplld1 0

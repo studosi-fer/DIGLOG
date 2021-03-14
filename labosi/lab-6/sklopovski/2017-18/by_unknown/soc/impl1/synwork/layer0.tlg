@@ -1,0 +1,551 @@
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":9:7:9:13|Synthesizing work.arduino.x.
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <29> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <30> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <31> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <32> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <33> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <34> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <35> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <36> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <37> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <38> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <39> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <40> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <41> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <42> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <43> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <44> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <45> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <46> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <47> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <48> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <49> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <50> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <51> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <52> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <53> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <54> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <55> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <56> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <57> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <58> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <59> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <60> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <61> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <62> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <63> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <64> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <65> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <66> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <67> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <68> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <69> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <70> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <71> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <72> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <73> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <74> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <75> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <76> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <77> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <78> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <79> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <80> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <81> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <82> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <83> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <84> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <85> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <86> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <87> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <88> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <89> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <90> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <91> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <92> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <93> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <94> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <95> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <96> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <97> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <98> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <99> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <100> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <101> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <102> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <103> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <104> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <105> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <106> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <107> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <108> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <109> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <110> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <111> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <112> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <113> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <114> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <115> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <116> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <117> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <118> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <119> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <120> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <121> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <122> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <123> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <124> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <125> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <126> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <127> connection not specified 
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\tonegen.vhd":7:7:7:13|Synthesizing work.tonegen.x.
+Post processing for work.tonegen.x
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":36:7:36:19|Synthesizing work.f32c_soc_glue.x.
+@W: CD326 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Port debug_clk_ena of entity work.pipeline is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":219:4:219:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":221:25:221:38|Referenced variable io_addr_strobe is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":221:50:221:59|Referenced variable dmem_write is not in sensitivity list.
+@W: CD326 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":325:18:325:27|Port sign of entity work.timer is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":121:22:121:26|Signal gpios is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Signal sio_to_debug_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":139:11:139:25|Signal deb_sio_rx_done is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":139:28:139:42|Signal deb_sio_tx_busy is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":140:11:140:16|Signal deb_tx is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":142:11:142:26|Signal debug_out_strobe is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":47:7:47:10|Synthesizing work.bram.x.
+Post processing for work.bram.x
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":126:11:126:16|Found RAM bram_3, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":126:11:126:16|Found RAM bram_3, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":125:11:125:16|Found RAM bram_2, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":125:11:125:16|Found RAM bram_2, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":124:11:124:16|Found RAM bram_1, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":124:11:124:16|Found RAM bram_1, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":123:11:123:16|Found RAM bram_0, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":123:11:123:16|Found RAM bram_0, depth=4096, width=8
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":36:7:36:11|Synthesizing work.timer.arch.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":84:11:84:22|Signal r_fractional is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":84:25:84:41|Signal l_fractional_next is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":177:11:177:15|Signal r_ocp is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.timer.arch
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":215:20:215:23|Found RAM rtmp, depth=16, width=4
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":215:20:215:23|Found RAM rtmp, depth=16, width=8
+@W: CL271 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":77:11:77:11|Pruning unused bits 3 to 0 of rtmp_14(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":77:11:77:11|Pruning unused register rtmp_15(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":77:11:77:11|Pruning unused register rtmp_15(11 downto 8). Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":522:6:522:7|Pruning unused bits 3 to 0 of commit_Rtmp_to_R.0.R_14_4(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":36:7:36:10|Synthesizing work.gpio.arch.
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 8 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 9 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 10 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 11 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 12 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 13 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 14 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 15 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 16 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 17 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 18 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 19 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 20 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 21 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 22 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 23 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 24 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 25 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 26 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 27 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 28 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 29 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 30 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 31 of signal R_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 8 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 9 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 10 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 11 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 12 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 13 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 14 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 15 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 16 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 17 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 18 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 19 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 20 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 21 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 22 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 23 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 24 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 25 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 26 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 27 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 28 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 29 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 30 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 31 of signal R_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 8 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 9 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 10 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 11 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 12 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 13 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 14 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 15 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 16 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 17 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 18 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 19 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 20 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 21 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 22 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 23 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 24 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 25 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 26 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 27 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 28 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 29 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 30 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":61:11:61:11|Bit 31 of signal R_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+Post processing for work.gpio.arch
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":110:12:110:45|Pruning unused register writereg_intrflags.0.R_5_26(31 downto 24). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":108:12:108:44|Pruning unused register writereg_intrflags.0.R_3_25(31 downto 24). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":98:12:98:15|Pruning unused register writereg_intrflags.0.R_1_25(31 downto 24). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":110:12:110:45|Pruning unused register writereg_intrflags.0.R_5_20(23 downto 16). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":108:12:108:44|Pruning unused register writereg_intrflags.0.R_3_19(23 downto 16). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":98:12:98:15|Pruning unused register writereg_intrflags.0.R_1_19(23 downto 16). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":110:12:110:45|Pruning unused register writereg_intrflags.0.R_5_13(15 downto 8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":108:12:108:44|Pruning unused register writereg_intrflags.0.R_3_13(15 downto 8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":98:12:98:15|Pruning unused register writereg_intrflags.0.R_1_13(15 downto 8). Make sure that there are no unused intermediate registers.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd":35:7:35:9|Synthesizing work.sio.behavioral.
+Post processing for work.sio.behavioral
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":39:7:39:14|Synthesizing work.pipeline.behavioral.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":405:4:405:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":408:23:408:37|Referenced variable dmem_cache_wait is not in sensitivity list.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":647:4:647:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":650:23:650:37|Referenced variable dmem_cache_wait is not in sensitivity list.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1004:4:1004:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1007:23:1007:37|Referenced variable dmem_cache_wait is not in sensitivity list.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1240:4:1240:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1243:23:1243:37|Referenced variable dmem_cache_wait is not in sensitivity list.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1305:4:1305:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1312:23:1312:37|Referenced variable dmem_cache_wait is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1308:8:1308:18|Referenced variable mem_running is not in sensitivity list.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":130:39:130:48|Signal id_reg1_pc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":199:11:199:18|Signal id_ex_ll is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":199:21:199:28|Signal id_ex_sc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":200:11:200:28|Signal id_ex_flush_i_line is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":200:31:200:48|Signal id_ex_flush_d_line is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":206:11:206:27|Signal id_ex_instruction is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":248:11:248:29|Signal ex_mem_flush_i_line is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":248:32:248:50|Signal ex_mem_flush_d_line is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":249:11:249:23|Signal ex_mem_ll_bit is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":250:11:250:24|Signal ex_mem_ll_addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":251:11:251:19|Signal ex_mem_sc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":253:11:253:28|Signal ex_mem_instruction is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":254:11:254:19|Signal ex_mem_pc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":273:11:273:28|Signal mem_wb_instruction is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":274:11:274:19|Signal mem_wb_pc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Signal trace_addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":303:27:303:41|Signal misc_trace_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":304:11:304:26|Signal final_trace_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":305:11:305:26|Signal r_d_imem_data_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":306:11:306:17|Signal d_instr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":306:20:306:28|Signal d_b_instr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":306:31:306:44|Signal d_b_mispredict is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd":32:7:32:9|Synthesizing work.mul.arch_x.
+Post processing for work.mul.arch_x
+@W: CL271 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd":56:1:56:2|Pruning unused bits 66 to 64 of R_mul_res_3(66 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\loadalign.vhd":34:7:34:15|Synthesizing work.loadalign.behavioral.
+Post processing for work.loadalign.behavioral
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":35:7:35:11|Synthesizing work.shift.behavioral.
+@W: CD434 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":106:42:106:72|Signal mem_read_sign_extend_multicycle in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":107:6:107:24|Signal mem_size_multicycle in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.shift.behavioral
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\alu.vhd":30:7:30:9|Synthesizing work.alu.behavioral.
+Post processing for work.alu.behavioral
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":36:7:36:13|Synthesizing work.reg1w2r.behavioral.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":52:19:52:20|Signal rd is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.reg1w2r.behavioral
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":52:15:52:16|Found RAM r2, depth=32, width=32
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":52:11:52:12|Found RAM r1, depth=32, width=32
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_mi32.vhd":35:7:35:18|Synthesizing work.idecode_mi32.behavioral.
+Post processing for work.idecode_mi32.behavioral
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd":36:7:36:13|Synthesizing work.bptrace.structure.
+Post processing for work.bptrace.structure
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd":47:11:47:17|Found RAM bptrace, depth=8192, width=2
+Post processing for work.pipeline.behavioral
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 0 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 1 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 2 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 3 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 4 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 5 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 6 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 7 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 8 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 9 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 10 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 11 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 12 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 13 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 14 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 15 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 16 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 17 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 18 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 19 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 20 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 21 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 22 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 23 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 24 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 25 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 26 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 27 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 28 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 29 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 30 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":302:11:302:20|Bit 31 of signal trace_addr is floating -- simulation mismatch possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":248:32:248:50|Signal EX_MEM_flush_d_line is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":248:11:248:29|Signal EX_MEM_flush_i_line is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":102:1:102:12|Signal debug_active is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":101:1:101:11|Signal debug_debug is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":98:1:98:16|Signal debug_out_strobe is floating; a simulation mismatch is possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 0 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 1 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 2 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 3 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 4 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 5 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 6 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":97:1:97:14|Bit 7 of signal debug_out_data is floating -- simulation mismatch possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":96:1:96:13|Signal debug_in_busy is floating; a simulation mismatch is possible.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1400:1:1400:2|Pruning unused register R_clr_lo_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1400:1:1400:2|Pruning unused register R_clr_hi_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Pruning unused register EX_MEM_shift_blocked_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Pruning unused register ID_EX_cmov_condition_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Pruning unused register ID_EX_cmov_cycle_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Pruning unused register ID_EX_jump_register_3. Make sure that there are no unused intermediate registers.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":548:20:548:31|Bit 0 of input rdd_addr of instance regfile is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":548:20:548:31|Bit 1 of input rdd_addr of instance regfile is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":548:20:548:31|Bit 2 of input rdd_addr of instance regfile is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":548:20:548:31|Bit 3 of input rdd_addr of instance regfile is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":548:20:548:31|Bit 4 of input rdd_addr of instance regfile is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Pruning unused bits 31 to 17 of IF_ID_EPC_3(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Pruning unused bits 31 to 17 of IF_ID_PC_next_2(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Pruning unused bits 31 to 17 of ID_EX_EPC_5(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_madd is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_multicycle_lh_lb is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_multicycle_lh_lb is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1311:1:1311:2|Register bit MEM_WB_multicycle_lh_lb is always 0.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Pruning register bits 31 to 17 of IF_ID_PC(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Pruning register bits 31 to 17 of R_cop0_EBASE(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Pruning register bits 31 to 17 of IF_ID_PC_4(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Pruning register bits 31 to 17 of ID_EX_branch_target(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Pruning register bits 31 to 17 of R_cop0_EPC(31 downto 2). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Post processing for work.f32c_soc_glue.x
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":139:28:139:42|Signal deb_sio_tx_busy is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":139:11:139:25|Signal deb_sio_rx_done is floating; a simulation mismatch is possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 0 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 1 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 2 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 3 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 4 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 5 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 6 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":137:11:137:27|Bit 7 of signal sio_to_debug_data is floating -- simulation mismatch possible.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 0 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 1 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 2 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 3 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 4 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 5 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 6 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 7 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 8 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 9 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 10 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 11 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 12 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 13 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 14 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 15 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 16 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 17 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 18 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 19 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 20 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 21 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 22 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 23 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 24 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 25 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 26 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 27 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 28 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 29 of input snoop_addr of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 0 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 1 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 2 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 3 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 4 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 5 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 6 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Bit 7 of input debug_in_data of instance pipeline is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Input debug_in_strobe of instance pipeline is floating
+@W: CL167 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":148:21:148:33|Input debug_out_busy of instance pipeline is floating
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\clkgen.vhd":37:7:37:12|Synthesizing work.clkgen.behavioral.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":1782:10:1782:12|Synthesizing work.dcs.syn_black_box.
+Post processing for work.dcs.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":713:10:713:12|Synthesizing work.gsr.syn_black_box.
+Post processing for work.gsr.syn_black_box
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\pll_xp2_25m.vhd":8:7:8:9|Synthesizing work.pll.structure.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":767:10:767:15|Synthesizing work.eplld1.syn_black_box.
+Post processing for work.eplld1.syn_black_box
+Post processing for work.pll.structure
+Post processing for work.clkgen.behavioral
+Post processing for work.arduino.x
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 0 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 1 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 2 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 3 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 4 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 5 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 6 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 7 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 8 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 9 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 10 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 11 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 12 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 13 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 14 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 15 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 16 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 17 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 18 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 19 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 20 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 21 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 22 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 23 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 24 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 25 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 26 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 27 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 28 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 29 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 30 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Bit 31 of input io_data_in of instance f32c_soc_glue is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":42:21:42:28|Input rdd_addr is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":46:1:46:6|Input rd_clk is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":45:1:45:20|Input mem_multicycle_lh_lb is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":46:1:46:31|Input mem_read_sign_extend_multicycle is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":47:1:47:19|Input mem_size_multicycle is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd":35:1:35:5|Input start is unused.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(15) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(16) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(29) is always 0.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Pruning register bits 29 to 15 of EX_MEM_branch_target(29 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":88:1:88:15|Input dmem_cache_wait is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":89:1:89:11|Input snoop_cycle is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":90:1:90:10|Input snoop_addr is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":94:1:94:13|Input debug_in_data is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":95:1:95:15|Input debug_in_strobe is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":99:1:99:14|Input debug_out_busy is unused.
+@W: CL247 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd":50:1:50:8|Input port bit 3 of byte_sel(3 downto 0) is unused 
+@W: CL247 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd":50:1:50:8|Input port bit 1 of byte_sel(3 downto 0) is unused 
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd":51:1:51:6|Input port bits 15 to 8 of bus_in(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL158 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":51:1:51:11|Inout gpio_pullup is unused
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":54:1:54:8|Input port bits 3 to 2 of byte_sel(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":55:1:55:6|Input port bits 31 to 24 of bus_in(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":59:1:59:9|Input port bits 31 to 14 of imem_addr(31 downto 2) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":65:1:65:9|Input port bits 31 to 14 of dmem_addr(31 downto 2) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":57:1:57:16|Input imem_addr_strobe is unused.

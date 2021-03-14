@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  broj  -multisrs  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synwork\LV5_impl1_comp.srs"  -osyn  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synwork\LV5_impl1_mult.srs"  -log  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synlog\LV5_impl1_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synwork\LV5_impl1_comp.srs|io:i|time:1515183578|size:4131|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synwork\LV5_impl1_mult.srs|io:o|time:1515183579|size:2580|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synlog\LV5_impl1_multi_srs_gen.srr|io:o|time:1515183579|size:506|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1480984596|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1480984864|size:3947520|exec:1

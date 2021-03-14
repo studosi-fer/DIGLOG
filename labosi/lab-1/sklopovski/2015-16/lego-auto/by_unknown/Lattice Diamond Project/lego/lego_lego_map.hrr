@@ -1,0 +1,22 @@
+---------------------------------------------------
+Report for cell lego_upravljac
+   Instance path: lego_upravljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      57.00        100.0
+                                  LUT4	      51.00        100.0
+                                 IOBUF	         20        100.0
+                                PFUREG	         69        100.0
+                                RIPPLE	         27        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               lego_ir	          1        97.4
+---------------------------------------------------
+Report for cell lego_ir
+   Instance path: lego_upravljac/I9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      55.50        97.4
+                                  LUT4	      48.50        95.1
+                                PFUREG	         69        100.0
+                                RIPPLE	         27        100.0

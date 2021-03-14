@@ -1,0 +1,70 @@
+Running in Lattice mode
+
+sourcing /usr/local/diamond/3.5_x64/synpbase/lib/message_override.tcl
+
+
+Starting:    /usr/local/diamond/3.5_x64/synpbase/linux_a_64/mbin/synbatch
+Install:     /usr/local/diamond/3.5_x64/synpbase
+Hostname:    ilakovac-hp-elitebook
+Date:        Sun Dec  6 23:27:20 2015
+Version:     J-2015.03L
+
+Arguments:   -product synplify_pro -batch lab3_tenk_impl1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/syntax.log"
+Return Code: 2
+Run Time:00h:00m:01s
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srf
+
+log file: "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr"
+
+Running: impl1 in foreground
+
+
+
+Running proj_1|impl1
+
+
+Running: compile (Compile) on proj_1|impl1
+
+
+Running: compile_flow (Compile Process) on proj_1|impl1
+
+
+Running: compiler (Compile Input) on proj_1|impl1
+
+compiler exited with errors
+
+
+Job: "compiler" terminated with error status: 2
+See log file: "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_compiler.srr"
+Return Code: 2
+Run Time:00h:00m:00s
+
+TCL script complete: "lab3_tenk_impl1_synplify.tcl"
+
+exit status=2
+
+exit status=2
+
+Save changes for project:
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/proj_1.prj
+
+batch mode default:no
+

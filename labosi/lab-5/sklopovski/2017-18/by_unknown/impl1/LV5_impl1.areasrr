@@ -1,0 +1,40 @@
+----------------------------------------------------------------------
+Report for cell broj.x
+
+Register bits: 41 of 4752 (1%)
+PIC Latch:       0
+I/O cells:       11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       17       100.0
+                            FD1P3AX        3       100.0
+                            FD1P3IX        4       100.0
+                            FD1S3IX       26       100.0
+                            FD1S3JX        7       100.0
+                                GSR        1       100.0
+                                 IB        3       100.0
+                           IFS1P3DX        1       100.0
+                                INV        1       100.0
+                                 OB        8       100.0
+                           ORCALUT4       20       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                          upravljac        1       100.0
+                            
+                         TOTAL            97           
+----------------------------------------------------------------------
+Report for cell upravljac.netlist
+     Instance path:  I_upravljac
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       17       100.0
+                            FD1S3IX       25        96.2
+                            FD1S3JX        7       100.0
+                                INV        1       100.0
+                           ORCALUT4        3        15.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL            55           

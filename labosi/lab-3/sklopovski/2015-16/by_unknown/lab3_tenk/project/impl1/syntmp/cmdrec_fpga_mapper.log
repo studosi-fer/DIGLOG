@@ -1,0 +1,12 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice  -prodtype  synplify_pro  -encrypt  -pro  -rundir  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1   -part LFXP2_8E  -package TN144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/report/lab3_tenk_impl1_fpga_mapper.xml  -top_level_module  work.daljinski_upravljac  -flow mapping  -multisrs  -oedif  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.edi   -autoconstraint  -freq 1.000   /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_prem.srd  -devicelib  /usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v  -devicelib  /usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v  -ologparam  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/syntmp/lab3_tenk_impl1.plg  -osyn  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srm  -prjdir  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/  -prjname  proj_1  -log  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_fpga_mapper.srr 
+rc:1 success:1
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.edi|o|1449440897|179563
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_prem.srd|i|1449440892|17490
+/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v|i|1429027884|87079
+/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v|i|1429027884|39414
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/syntmp/lab3_tenk_impl1.plg|o|1449440898|1338
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srm|o|1449440898|5979
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_fpga_mapper.srr|o|1449440898|30843
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/m_gen_lattice|i|1429548929|27875408
+/usr/local/diamond/3.5_x64/synpbase/linux/m_gen_lattice|i|1429548956|26324328
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice|i|1429546756|345

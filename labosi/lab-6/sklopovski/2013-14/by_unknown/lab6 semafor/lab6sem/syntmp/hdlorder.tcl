@@ -1,0 +1,2 @@
+set_option -top_module work.sem
+project -fileorder "C:/lscc/diamond/2.0/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/dr.Chernobyl/Desktop/lab6\ semafor/sem_automat.vhd" "C:/Users/dr.Chernobyl/Desktop/lab6\ semafor/lab6sem/source/sem_toplevel.vhd" 

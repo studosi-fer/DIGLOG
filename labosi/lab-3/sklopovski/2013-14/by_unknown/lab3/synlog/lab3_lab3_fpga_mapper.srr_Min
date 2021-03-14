@@ -1,0 +1,103 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 04 03:56:42 2013
+#
+
+
+Top view:               sviraj
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.134
+
+                                  Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                    Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+pll_250m|CLKOP_inferred_clock     200.0 MHz     204.8 MHz     5.000         4.882         0.118      inferred     Inferred_clkgroup_0
+sviraj|clk_25m                    200.0 MHz     111.1 MHz     5.000         9.001         -4.001     inferred     Inferred_clkgroup_1
+System                            200.0 MHz     144.5 MHz     5.000         6.919         -1.919     system       system_clkgroup    
+=====================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |  0.000       2.808   |  No paths    -      |  No paths    -      |  No paths    -    
+System                         pll_250m|CLKOP_inferred_clock  |  0.000       -0.134  |  No paths    -      |  No paths    -      |  No paths    -    
+System                         sviraj|clk_25m                 |  0.000       -0.134  |  No paths    -      |  No paths    -      |  No paths    -    
+pll_250m|CLKOP_inferred_clock  System                         |  0.000       2.145   |  No paths    -      |  No paths    -      |  No paths    -    
+pll_250m|CLKOP_inferred_clock  pll_250m|CLKOP_inferred_clock  |  0.000       0.630   |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m                 System                         |  0.000       0.705   |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m                 sviraj|clk_25m                 |  0.000       0.208   |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port           Starting            User           Arrival     Required          
+Name           Reference           Constraint     Time        Time         Slack
+               Clock                                                            
+--------------------------------------------------------------------------------
+btn_center     System (rising)     NA             0.000       -1.523       1.523
+btn_down       System (rising)     NA             0.000       -1.519       1.519
+btn_left       System (rising)     NA             0.000       -1.513       1.513
+btn_right      System (rising)     NA             0.000       -1.513       1.513
+btn_up         System (rising)     NA             0.000       -1.503       1.503
+clk_25m        NA                  NA             NA          NA           NA   
+sw[0]          System (rising)     NA             0.000       -1.379       1.379
+sw[1]          System (rising)     NA             0.000       -1.247       1.247
+sw[2]          System (rising)     NA             0.000       -2.098       2.098
+sw[3]          System (rising)     NA             0.000       -1.493       1.493
+================================================================================
+
+
+Output Ports: 
+
+Port         Starting                                   User           Arrival     Required          
+Name         Reference                                  Constraint     Time        Time         Slack
+             Clock                                                                                   
+-----------------------------------------------------------------------------------------------------
+j2[2]        pll_250m|CLKOP_inferred_clock (rising)     NA             2.145       0.000        2.145
+j2[3]        pll_250m|CLKOP_inferred_clock (rising)     NA             2.145       0.000        2.145
+j2[4]        pll_250m|CLKOP_inferred_clock (rising)     NA             2.145       0.000        2.145
+j2[5]        pll_250m|CLKOP_inferred_clock (rising)     NA             2.145       0.000        2.145
+led[0]       System (rising)                            NA             2.850       0.000        2.850
+led[1]       System (rising)                            NA             2.860       0.000        2.860
+led[2]       System (rising)                            NA             2.850       0.000        2.850
+led[3]       System (rising)                            NA             2.850       0.000        2.850
+led[4]       System (rising)                            NA             3.386       0.000        3.386
+led[5]       NA                                         NA             NA          NA           NA   
+led[6]       System (rising)                            NA             2.850       0.000        2.850
+led[7]       NA                                         NA             NA          NA           NA   
+p_ring       sviraj|clk_25m (rising)                    NA             2.187       0.000        2.187
+p_tip[0]     sviraj|clk_25m (rising)                    NA             2.118       0.000        2.118
+p_tip[1]     sviraj|clk_25m (rising)                    NA             2.118       0.000        2.118
+p_tip[2]     sviraj|clk_25m (rising)                    NA             2.118       0.000        2.118
+p_tip[3]     sviraj|clk_25m (rising)                    NA             2.118       0.000        2.118
+=====================================================================================================
+
+
+##### END OF TIMING REPORT #####]
+

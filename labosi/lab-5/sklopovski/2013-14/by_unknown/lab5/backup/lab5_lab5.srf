@@ -1,0 +1,18 @@
+#Build: Synplify Pro F-2012.03L-1 , Build 063R, May 17 2012
+#install: C:\lscc\diamond\2.0\synpbase
+#OS: Windows 7 6.1
+#Hostname: MPC
+
+$ Start of Compile
+#Fri Jan 17 05:10:34 2014
+
+Synopsys VHDL Compiler, version comp201203rcp1, Build 061R, built May 17 2012
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Top entity is set to afsk_modem.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:10:34 2014
+
+###########################################################]

@@ -1,0 +1,142 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sun Jan 14 01:06:41 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "arduino"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                     Ending                       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                       System                       |     0.337            |     No paths         |     No paths         |     No paths                         
+pll|CLKOK_inferred_clock     System                       |     242.492          |     No paths         |     No paths         |     No paths                         
+pll|CLKOK_inferred_clock     pll|CLKOK_inferred_clock     |     242.492          |     242.492          |     121.246          |     121.246                          
+=====================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:btn_center
+p:btn_down
+p:btn_left
+p:btn_right
+p:btn_up
+p:clk_25m
+p:j1_2 (bidir end point)
+p:j1_2 (bidir start point)
+p:j1_3 (bidir end point)
+p:j1_3 (bidir start point)
+p:j1_4 (bidir end point)
+p:j1_4 (bidir start point)
+p:j1_8 (bidir end point)
+p:j1_8 (bidir start point)
+p:j1_9 (bidir end point)
+p:j1_9 (bidir start point)
+p:j1_13 (bidir end point)
+p:j1_13 (bidir start point)
+p:j1_14 (bidir end point)
+p:j1_14 (bidir start point)
+p:j1_15 (bidir end point)
+p:j1_15 (bidir start point)
+p:j1_16 (bidir end point)
+p:j1_16 (bidir start point)
+p:j1_17 (bidir end point)
+p:j1_17 (bidir start point)
+p:j1_18 (bidir end point)
+p:j1_18 (bidir start point)
+p:j1_19 (bidir end point)
+p:j1_19 (bidir start point)
+p:j1_20 (bidir end point)
+p:j1_20 (bidir start point)
+p:j1_21 (bidir end point)
+p:j1_21 (bidir start point)
+p:j1_22 (bidir end point)
+p:j1_22 (bidir start point)
+p:j1_23 (bidir end point)
+p:j1_23 (bidir start point)
+p:j2_2 (bidir end point)
+p:j2_2 (bidir start point)
+p:j2_3 (bidir end point)
+p:j2_3 (bidir start point)
+p:j2_4 (bidir end point)
+p:j2_4 (bidir start point)
+p:j2_5 (bidir end point)
+p:j2_5 (bidir start point)
+p:j2_6 (bidir end point)
+p:j2_6 (bidir start point)
+p:j2_7 (bidir end point)
+p:j2_7 (bidir start point)
+p:j2_8 (bidir end point)
+p:j2_8 (bidir start point)
+p:j2_9 (bidir end point)
+p:j2_9 (bidir start point)
+p:j2_10 (bidir end point)
+p:j2_10 (bidir start point)
+p:j2_11 (bidir end point)
+p:j2_11 (bidir start point)
+p:j2_12 (bidir end point)
+p:j2_12 (bidir start point)
+p:j2_13 (bidir end point)
+p:j2_13 (bidir start point)
+p:j2_16 (bidir end point)
+p:j2_16 (bidir start point)
+p:led[0]
+p:led[1]
+p:led[2]
+p:led[3]
+p:led[4]
+p:led[5]
+p:led[6]
+p:led[7]
+p:rs232_rx
+p:rs232_tx
+p:sw[0]
+p:sw[1]
+p:sw[2]
+p:sw[3]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

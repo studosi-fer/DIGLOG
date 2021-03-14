@@ -1,0 +1,43 @@
+---------------------------------------------------
+Report for cell datapath
+   Instance path: datapath
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     102.00        100.0
+                                 IOLGC	       4.00        100.0
+                                  LUT4	     135.00        100.0
+                                 IOREG	          4        100.0
+                                 IOBUF	         18        100.0
+                                PFUREG	         59        100.0
+                                RIPPLE	         17        100.0
+                              MULT9X9B	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             upravljac	          1        42.6
+                              reg_file	          1        20.1
+                                   ALU	          1        26.0
+---------------------------------------------------
+Report for cell ALU
+   Instance path: datapath/I_ALU
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.50        26.0
+                                  LUT4	      46.00        34.1
+                              MULT9X9B	          1        100.0
+---------------------------------------------------
+Report for cell upravljac
+   Instance path: datapath/I_upravljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.50        42.6
+                                  LUT4	      50.00        37.0
+                                PFUREG	         43        72.9
+                                RIPPLE	         17        100.0
+---------------------------------------------------
+Report for cell reg_file
+   Instance path: datapath/I_regfile
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.50        20.1
+                                  LUT4	      24.00        17.8
+                                PFUREG	         16        27.1

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Report>
+<ReportView version="2.0">
+    <Implement name="lab5">
+        <ToolReport id="toolhle_genhierarchy" path="G:/OTHER/diglog labosi/lab5/lab5/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolhle_runbkm" path="" status="0"/>
+        <ToolReport id="toolpio" path="" status="0"/>
+        <ToolReport id="toolsso" path="" status="0"/>
+    </Implement>
+</ReportView>

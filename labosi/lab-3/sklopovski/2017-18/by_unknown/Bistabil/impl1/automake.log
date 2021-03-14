@@ -1,0 +1,523 @@
+
+map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial   "Bistabil_impl1.ngd" -o "Bistabil_impl1_map.ncd" -pr "Bistabil_impl1.prf" -mp "Bistabil_impl1.mrp" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil/impl1/Bistabil_impl1_synplify.lpf" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf"             
+map:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: Bistabil_impl1.ngd
+   Picdevice="LFXP2-5E"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-5ETQFP144, Performance used: 5.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(18): Semantic error in &quot;LOCATE COMP &quot;rs232_rx&quot; SITE &quot;10&quot; ;&quot;: " arg1="rs232_rx" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="18"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(19): Semantic error in &quot;LOCATE COMP &quot;rs232_tx&quot; SITE &quot;137&quot; ;&quot;: " arg1="rs232_tx" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="19"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(45): Semantic error in &quot;LOCATE COMP &quot;p_ring&quot; SITE &quot;44&quot; ;&quot;: " arg1="p_ring" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="45"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(46): Semantic error in &quot;LOCATE COMP &quot;p_tip_0&quot; SITE &quot;32&quot; ;&quot;: " arg1="p_tip_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="46"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(47): Semantic error in &quot;LOCATE COMP &quot;p_tip_1&quot; SITE &quot;27&quot; ;&quot;: " arg1="p_tip_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="47"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(48): Semantic error in &quot;LOCATE COMP &quot;p_tip_2&quot; SITE &quot;28&quot; ;&quot;: " arg1="p_tip_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="48"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(49): Semantic error in &quot;LOCATE COMP &quot;p_tip_3&quot; SITE &quot;43&quot; ;&quot;: " arg1="p_tip_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="49"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(52): Semantic error in &quot;LOCATE COMP &quot;flash_cen&quot; SITE &quot;13&quot; ;&quot;: " arg1="flash_cen" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="52"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(53): Semantic error in &quot;LOCATE COMP &quot;flash_sck&quot; SITE &quot;16&quot; ;&quot;: " arg1="flash_sck" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="53"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(54): Semantic error in &quot;LOCATE COMP &quot;flash_si&quot; SITE &quot;19&quot; ;&quot;: " arg1="flash_si" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="54"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(55): Semantic error in &quot;LOCATE COMP &quot;flash_so&quot; SITE &quot;18&quot; ;&quot;: " arg1="flash_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="55"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(58): Semantic error in &quot;LOCATE COMP &quot;sdcard_cen&quot; SITE &quot;15&quot; ;&quot;: " arg1="sdcard_cen" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="58"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(59): Semantic error in &quot;LOCATE COMP &quot;sdcard_sck&quot; SITE &quot;20&quot; ;&quot;: " arg1="sdcard_sck" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="59"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(60): Semantic error in &quot;LOCATE COMP &quot;sdcard_si&quot; SITE &quot;17&quot; ;&quot;: " arg1="sdcard_si" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="60"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(61): Semantic error in &quot;LOCATE COMP &quot;sdcard_so&quot; SITE &quot;21&quot; ;&quot;: " arg1="sdcard_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="61"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(64): Semantic error in &quot;LOCATE COMP &quot;sram_wel&quot; SITE &quot;93&quot; ;&quot;: " arg1="sram_wel" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="64"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(65): Semantic error in &quot;LOCATE COMP &quot;sram_lbl&quot; SITE &quot;120&quot; ;&quot;: " arg1="sram_lbl" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="65"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(66): Semantic error in &quot;LOCATE COMP &quot;sram_ubl&quot; SITE &quot;121&quot; ;&quot;: " arg1="sram_ubl" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="66"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(67): Semantic error in &quot;LOCATE COMP &quot;sram_a_0&quot; SITE &quot;101&quot; ;&quot;: " arg1="sram_a_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="67"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(68): Semantic error in &quot;LOCATE COMP &quot;sram_a_1&quot; SITE &quot;103&quot; ;&quot;: " arg1="sram_a_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="68"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(69): Semantic error in &quot;LOCATE COMP &quot;sram_a_2&quot; SITE &quot;104&quot; ;&quot;: " arg1="sram_a_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="69"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(70): Semantic error in &quot;LOCATE COMP &quot;sram_a_3&quot; SITE &quot;107&quot; ;&quot;: " arg1="sram_a_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="70"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(71): Semantic error in &quot;LOCATE COMP &quot;sram_a_4&quot; SITE &quot;108&quot; ;&quot;: " arg1="sram_a_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="71"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(72): Semantic error in &quot;LOCATE COMP &quot;sram_a_5&quot; SITE &quot;125&quot; ;&quot;: " arg1="sram_a_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="72"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(73): Semantic error in &quot;LOCATE COMP &quot;sram_a_6&quot; SITE &quot;127&quot; ;&quot;: " arg1="sram_a_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="73"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(74): Semantic error in &quot;LOCATE COMP &quot;sram_a_7&quot; SITE &quot;122&quot; ;&quot;: " arg1="sram_a_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="74"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(75): Semantic error in &quot;LOCATE COMP &quot;sram_a_8&quot; SITE &quot;58&quot; ;&quot;: " arg1="sram_a_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="75"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(76): Semantic error in &quot;LOCATE COMP &quot;sram_a_9&quot; SITE &quot;53&quot; ;&quot;: " arg1="sram_a_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="76"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(77): Semantic error in &quot;LOCATE COMP &quot;sram_a_10&quot; SITE &quot;54&quot; ;&quot;: " arg1="sram_a_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="77"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(78): Semantic error in &quot;LOCATE COMP &quot;sram_a_11&quot; SITE &quot;55&quot; ;&quot;: " arg1="sram_a_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="78"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(79): Semantic error in &quot;LOCATE COMP &quot;sram_a_12&quot; SITE &quot;56&quot; ;&quot;: " arg1="sram_a_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="79"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(80): Semantic error in &quot;LOCATE COMP &quot;sram_a_13&quot; SITE &quot;57&quot; ;&quot;: " arg1="sram_a_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="80"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(81): Semantic error in &quot;LOCATE COMP &quot;sram_a_14&quot; SITE &quot;73&quot; ;&quot;: " arg1="sram_a_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="81"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(82): Semantic error in &quot;LOCATE COMP &quot;sram_a_15&quot; SITE &quot;74&quot; ;&quot;: " arg1="sram_a_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="82"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(83): Semantic error in &quot;LOCATE COMP &quot;sram_a_16&quot; SITE &quot;77&quot; ;&quot;: " arg1="sram_a_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="83"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(84): Semantic error in &quot;LOCATE COMP &quot;sram_a_17&quot; SITE &quot;78&quot; ;&quot;: " arg1="sram_a_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="84"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(85): Semantic error in &quot;LOCATE COMP &quot;sram_a_18&quot; SITE &quot;94&quot; ;&quot;: " arg1="sram_a_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="85"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(86): Semantic error in &quot;LOCATE COMP &quot;sram_d_0&quot; SITE &quot;98&quot; ;&quot;: " arg1="sram_d_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="86"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(87): Semantic error in &quot;LOCATE COMP &quot;sram_d_1&quot; SITE &quot;96&quot; ;&quot;: " arg1="sram_d_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="87"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(88): Semantic error in &quot;LOCATE COMP &quot;sram_d_2&quot; SITE &quot;92&quot; ;&quot;: " arg1="sram_d_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="88"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(89): Semantic error in &quot;LOCATE COMP &quot;sram_d_3&quot; SITE &quot;91&quot; ;&quot;: " arg1="sram_d_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="89"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(90): Semantic error in &quot;LOCATE COMP &quot;sram_d_4&quot; SITE &quot;89&quot; ;&quot;: " arg1="sram_d_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="90"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(91): Semantic error in &quot;LOCATE COMP &quot;sram_d_5&quot; SITE &quot;88&quot; ;&quot;: " arg1="sram_d_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="91"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(92): Semantic error in &quot;LOCATE COMP &quot;sram_d_6&quot; SITE &quot;87&quot; ;&quot;: " arg1="sram_d_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="92"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(93): Semantic error in &quot;LOCATE COMP &quot;sram_d_7&quot; SITE &quot;90&quot; ;&quot;: " arg1="sram_d_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="93"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(94): Semantic error in &quot;LOCATE COMP &quot;sram_d_8&quot; SITE &quot;61&quot; ;&quot;: " arg1="sram_d_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="94"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(95): Semantic error in &quot;LOCATE COMP &quot;sram_d_9&quot; SITE &quot;62&quot; ;&quot;: " arg1="sram_d_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="95"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(96): Semantic error in &quot;LOCATE COMP &quot;sram_d_10&quot; SITE &quot;99&quot; ;&quot;: " arg1="sram_d_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="96"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(97): Semantic error in &quot;LOCATE COMP &quot;sram_d_11&quot; SITE &quot;100&quot; ;&quot;: " arg1="sram_d_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="97"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(98): Semantic error in &quot;LOCATE COMP &quot;sram_d_12&quot; SITE &quot;102&quot; ;&quot;: " arg1="sram_d_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="98"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(99): Semantic error in &quot;LOCATE COMP &quot;sram_d_13&quot; SITE &quot;113&quot; ;&quot;: " arg1="sram_d_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="99"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(100): Semantic error in &quot;LOCATE COMP &quot;sram_d_14&quot; SITE &quot;116&quot; ;&quot;: " arg1="sram_d_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="100"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(101): Semantic error in &quot;LOCATE COMP &quot;sram_d_15&quot; SITE &quot;119&quot; ;&quot;: " arg1="sram_d_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="101"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(105): Semantic error in &quot;LOCATE COMP &quot;j1_2&quot; SITE &quot;131&quot; ;&quot;: " arg1="j1_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="105"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(106): Semantic error in &quot;LOCATE COMP &quot;j1_3&quot; SITE &quot;134&quot; ;&quot;: " arg1="j1_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="106"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(107): Semantic error in &quot;LOCATE COMP &quot;j1_4&quot; SITE &quot;9&quot; ;&quot;: " arg1="j1_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="107"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(108): Semantic error in &quot;LOCATE COMP &quot;j1_5&quot; SITE &quot;138&quot; ;&quot;: " arg1="j1_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="108"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(109): Semantic error in &quot;LOCATE COMP &quot;j1_6&quot; SITE &quot;6&quot; ;&quot;: " arg1="j1_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="109"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(110): Semantic error in &quot;LOCATE COMP &quot;j1_7&quot; SITE &quot;5&quot; ;&quot;: " arg1="j1_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="110"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(111): Semantic error in &quot;LOCATE COMP &quot;j1_8&quot; SITE &quot;8&quot; ;&quot;: " arg1="j1_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="111"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(112): Semantic error in &quot;LOCATE COMP &quot;j1_9&quot; SITE &quot;7&quot; ;&quot;: " arg1="j1_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="112"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(113): Semantic error in &quot;LOCATE COMP &quot;j1_10&quot; SITE &quot;1&quot; ;&quot;: " arg1="j1_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="113"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(114): Semantic error in &quot;LOCATE COMP &quot;j1_11&quot; SITE &quot;2&quot; ;&quot;: " arg1="j1_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="114"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(115): Semantic error in &quot;LOCATE COMP &quot;j1_12&quot; SITE &quot;144&quot; ;&quot;: " arg1="j1_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="115"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(116): Semantic error in &quot;LOCATE COMP &quot;j1_13&quot; SITE &quot;143&quot; ;&quot;: " arg1="j1_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="116"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(117): Semantic error in &quot;LOCATE COMP &quot;j1_14&quot; SITE &quot;142&quot; ;&quot;: " arg1="j1_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="117"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(118): Semantic error in &quot;LOCATE COMP &quot;j1_15&quot; SITE &quot;141&quot; ;&quot;: " arg1="j1_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="118"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(119): Semantic error in &quot;LOCATE COMP &quot;j1_16&quot; SITE &quot;133&quot; ;&quot;: " arg1="j1_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="119"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(120): Semantic error in &quot;LOCATE COMP &quot;j1_17&quot; SITE &quot;132&quot; ;&quot;: " arg1="j1_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="120"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(121): Semantic error in &quot;LOCATE COMP &quot;j1_19&quot; SITE &quot;123&quot; ;&quot;: " arg1="j1_19" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="121"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(122): Semantic error in &quot;LOCATE COMP &quot;j1_18&quot; SITE &quot;124&quot; ;&quot;: " arg1="j1_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="122"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(123): Semantic error in &quot;LOCATE COMP &quot;j1_20&quot; SITE &quot;115&quot; ;&quot;: " arg1="j1_20" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="123"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(124): Semantic error in &quot;LOCATE COMP &quot;j1_21&quot; SITE &quot;114&quot; ;&quot;: " arg1="j1_21" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="124"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(125): Semantic error in &quot;LOCATE COMP &quot;j1_22&quot; SITE &quot;110&quot; ;&quot;: " arg1="j1_22" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="125"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(126): Semantic error in &quot;LOCATE COMP &quot;j1_23&quot; SITE &quot;109&quot; ;&quot;: " arg1="j1_23" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="126"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(131): Semantic error in &quot;LOCATE COMP &quot;j2_2&quot; SITE &quot;72&quot; ;&quot;: " arg1="j2_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="131"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(132): Semantic error in &quot;LOCATE COMP &quot;j2_3&quot; SITE &quot;71&quot; ;&quot;: " arg1="j2_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="132"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(133): Semantic error in &quot;LOCATE COMP &quot;j2_4&quot; SITE &quot;70&quot; ;&quot;: " arg1="j2_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="133"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(134): Semantic error in &quot;LOCATE COMP &quot;j2_5&quot; SITE &quot;69&quot; ;&quot;: " arg1="j2_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="134"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(135): Semantic error in &quot;LOCATE COMP &quot;j2_6&quot; SITE &quot;66&quot; ;&quot;: " arg1="j2_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="135"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(136): Semantic error in &quot;LOCATE COMP &quot;j2_7&quot; SITE &quot;65&quot; ;&quot;: " arg1="j2_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="136"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(137): Semantic error in &quot;LOCATE COMP &quot;j2_8&quot; SITE &quot;52&quot; ;&quot;: " arg1="j2_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="137"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(138): Semantic error in &quot;LOCATE COMP &quot;j2_9&quot; SITE &quot;50&quot; ;&quot;: " arg1="j2_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="138"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(139): Semantic error in &quot;LOCATE COMP &quot;j2_10&quot; SITE &quot;48&quot; ;&quot;: " arg1="j2_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="139"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(140): Semantic error in &quot;LOCATE COMP &quot;j2_11&quot; SITE &quot;47&quot; ;&quot;: " arg1="j2_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="140"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(141): Semantic error in &quot;LOCATE COMP &quot;j2_12&quot; SITE &quot;40&quot; ;&quot;: " arg1="j2_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="141"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(142): Semantic error in &quot;LOCATE COMP &quot;j2_13&quot; SITE &quot;39&quot; ;&quot;: " arg1="j2_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="142"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(143): Semantic error in &quot;LOCATE COMP &quot;j2_14&quot; SITE &quot;38&quot; ;&quot;: " arg1="j2_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="143"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(144): Semantic error in &quot;LOCATE COMP &quot;j2_15&quot; SITE &quot;22&quot; ;&quot;: " arg1="j2_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="144"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(145): Semantic error in &quot;LOCATE COMP &quot;j2_16&quot; SITE &quot;31&quot; ;&quot;: " arg1="j2_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="145"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(146): Semantic error in &quot;LOCATE COMP &quot;j2_17&quot; SITE &quot;29&quot; ;&quot;: " arg1="j2_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="146"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(147): Semantic error in &quot;LOCATE COMP &quot;j2_18&quot; SITE &quot;37&quot; ;&quot;: " arg1="j2_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="147"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(148): Semantic error in &quot;LOCATE COMP &quot;j2_19&quot; SITE &quot;36&quot; ;&quot;: " arg1="j2_19" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="148"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(149): Semantic error in &quot;LOCATE COMP &quot;j2_20&quot; SITE &quot;35&quot; ;&quot;: " arg1="j2_20" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="149"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(150): Semantic error in &quot;LOCATE COMP &quot;j2_21&quot; SITE &quot;32&quot; ;&quot;: " arg1="j2_21" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="150"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(151): Semantic error in &quot;LOCATE COMP &quot;j2_22&quot; SITE &quot;27&quot; ;&quot;: " arg1="j2_22" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="151"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(152): Semantic error in &quot;LOCATE COMP &quot;j2_23&quot; SITE &quot;28&quot; ;&quot;: " arg1="j2_23" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="152"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(158): Semantic error in &quot;LOCATE COMP &quot;lcd_data_0&quot; SITE &quot;8&quot; ;&quot;: " arg1="lcd_data_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="158"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(159): Semantic error in &quot;LOCATE COMP &quot;lcd_data_1&quot; SITE &quot;9&quot; ;&quot;: " arg1="lcd_data_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="159"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(160): Semantic error in &quot;LOCATE COMP &quot;lcd_data_2&quot; SITE &quot;134&quot; ;&quot;: " arg1="lcd_data_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="160"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(161): Semantic error in &quot;LOCATE COMP &quot;lcd_data_3&quot; SITE &quot;131&quot; ;&quot;: " arg1="lcd_data_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="161"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(162): Semantic error in &quot;LOCATE COMP &quot;lcd_rs&quot; SITE &quot;143&quot; ;&quot;: " arg1="lcd_rs" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="162"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(163): Semantic error in &quot;LOCATE COMP &quot;lcd_e&quot; SITE &quot;7&quot; ;&quot;: " arg1="lcd_e" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="163"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(184): Semantic error in &quot;IOBUF PORT &quot;sdcard_so&quot; PULLMODE=UP ;&quot;: " arg1="sdcard_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="184"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(187): Semantic error in &quot;IOBUF PORT &quot;p_ring&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_ring" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="187"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(188): Semantic error in &quot;IOBUF PORT &quot;p_tip_0&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="188"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(189): Semantic error in &quot;IOBUF PORT &quot;p_tip_1&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="189"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(190): Semantic error in &quot;IOBUF PORT &quot;p_tip_2&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="190"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf(191): Semantic error in &quot;IOBUF PORT &quot;p_tip_3&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" arg3="191"  />
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+72 CCU2 constant inputs absorbed.
+
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="un2_r_0_a2"  />
+
+
+
+Design Summary:
+   Number of registers:     40 out of  3864 (1%)
+      PFU registers:           38 out of  3564 (1%)
+      PIO registers:            2 out of   300 (1%)
+   Number of SLICEs:        78 out of  2376 (3%)
+      SLICEs as Logic/ROM:     78 out of  2376 (3%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:         17 out of  2376 (1%)
+   Number of LUT4s:        143 out of  4752 (3%)
+      Number used as logic LUTs:        109
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       34
+      Number used as shift registers:     0
+   Number of PIO sites used: 18 out of 100 (18%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  4 out of 9 (44%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  1
+     Net clk_25m_c: 32 loads, 32 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  4
+     Net q_RNO[5]: 1 loads, 1 LSLICEs
+     Net clk_0_sqmuxa: 1 loads, 0 LSLICEs
+     Net q_RNO[7]: 1 loads, 1 LSLICEs
+     Net q_cnv_1[5]: 2 loads, 1 LSLICEs
+   Number of local set/reset loads for net un2_r_0_a2 merged into GSR:  1
+   Number of LSRs:  3
+     Net clk_0_sqmuxa_iso: 16 loads, 16 LSLICEs
+     Net btn_up_c: 1 loads, 1 LSLICEs
+     Net clk_0_sqmuxa_22_RNIR2OL2: 2 loads, 2 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC: 52 loads
+     Net btn_right_c: 35 loads
+     Net clk_i: 34 loads
+     Net clk_0_sqmuxa_iso: 16 loads
+     Net G_83: 9 loads
+     Net G_84: 9 loads
+     Net q[3]: 9 loads
+     Net q[6]: 9 loads
+     Net q[7]: 9 loads
+     Net q[5]: 8 loads
+ 
+
+   Number of warnings:  110
+   Number of errors:    0
+
+
+
+INFO: Design contains pre-loadable EBR during configuration that has a requirement:
+Since the GSR is disabled for the EBR, make sure write enable and chip
+enable are inactive during wake-up, so that the pre-loaded initialization
+values will not be corrupted during wake-up state.
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 59 MB
+
+Dumping design to file Bistabil_impl1_map.ncd.
+
+mpartrce -p "Bistabil_impl1.p2t" -f "Bistabil_impl1.p3t" -tf "Bistabil_impl1.pt" "Bistabil_impl1_map.ncd" "Bistabil_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "Bistabil_impl1_map.ncd"
+Mon Dec 04 09:52:11 2017
+
+PAR: Place And Route Diamond (64-bit) 3.9.0.99.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil/promote.xml" -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF Bistabil_impl1_map.ncd Bistabil_impl1.dir/5_1.ncd Bistabil_impl1.prf
+Preference file: Bistabil_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Bistabil_impl1_map.ncd.
+Design name: pogodi_bistabil
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   GSR                1/1           100% used
+   IOLOGIC            2/196           1% used
+   PIO (prelim)      18/174          10% used
+                     18/100          18% bonded
+   EBR                4/9            44% used
+   SLICE             78/2376          3% used
+
+
+
+chipcheck: INFO: Design contains pre-loadable EBR during configuration that has a requirement:Since the GSR is disabled for the EBR, make sure write enable and chip enable are inactive during wake-up, so that the pre-loaded initialization values will not be corrupted during wake-up state.
+3 potential circuit loops found in timing analysis.
+Number of Signals: 233
+Number of Connections: 638
+
+Pin Constraint Summary:
+   18 out of 18 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    clk_25m_c (driver: clk_25m, clk load #: 40)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+Signal un2_r_0_a2 is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 47397.
+Finished Placer Phase 1.  REAL time: 6 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  47340
+Finished Placer Phase 2.  REAL time: 7 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 196 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "clk_25m_c" from comp "clk_25m" on PIO site "30 (PL14B)", clk load = 40
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   18 out of 174 (10.3%) PIO sites used.
+   18 out of 100 (18.0%) bonded PIO sites used.
+   Number of PIO comps: 18; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 4 / 20 ( 20%) | 3.3V       | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 4 / 18 ( 22%) | 3.3V       | -          | -          |
+| 6        | 4 / 8 ( 50%)  | 3.3V       | -          | -          |
+| 7        | 6 / 18 ( 33%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B                
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+Total placer CPU time: 5 secs 
+
+Dumping design to file Bistabil_impl1.dir/5_1.ncd.
+
+3 potential circuit loops found in timing analysis.
+0 connections routed; 638 unrouted.
+Starting router resource preassignment
+    <postMsg mid="62071013" type="Warning" dynamic="1" navigation="0" arg0="clk_25m_c"  />
+
+Completed router resource preassignment. Real time: 8 secs 
+
+Start NBR router at 09:52:19 12/04/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+3 potential circuit loops found in timing analysis.
+Start NBR special constraint process at 09:52:19 12/04/17
+
+Start NBR section for initial routing at 09:52:19 12/04/17
+Level 4, iteration 1
+16(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 31.925ns/0.000ns; real time: 8 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 09:52:19 12/04/17
+Level 4, iteration 1
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 31.925ns/0.000ns; real time: 8 secs 
+Level 4, iteration 2
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 31.925ns/0.000ns; real time: 8 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 09:52:19 12/04/17
+3 potential circuit loops found in timing analysis.
+3 potential circuit loops found in timing analysis.
+
+Start NBR section for re-routing at 09:52:19 12/04/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 31.925ns/0.000ns; real time: 8 secs 
+
+Start NBR section for post-routing at 09:52:19 12/04/17
+3 potential circuit loops found in timing analysis.
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 31.925ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+3 potential circuit loops found in timing analysis.
+3 potential circuit loops found in timing analysis.
+3 potential circuit loops found in timing analysis.
+Total CPU time 7 secs 
+Total REAL time: 9 secs 
+Completely routed.
+End of route.  638 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file Bistabil_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 31.925
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.235
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 8 secs 
+Total REAL time to completion: 9 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "Bistabil_impl1.t2b" -w "Bistabil_impl1.ncd" -jedec -e -s "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil/Bistabil.sec" -k "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil/Bistabil.bek" "Bistabil_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.9.0.99.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Bistabil_impl1.ncd.
+Design name: pogodi_bistabil
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+
+Running DRC.
+chipcheck: INFO: Design contains pre-loadable EBR during configuration that has a requirement:Since the GSR is disabled for the EBR, make sure write enable and chip enable are inactive during wake-up, so that the pre-loaded initialization values will not be corrupted during wake-up state.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Bistabil_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     TAG_MEMORY  |                       NORMAL**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "Bistabil_impl1.jed".

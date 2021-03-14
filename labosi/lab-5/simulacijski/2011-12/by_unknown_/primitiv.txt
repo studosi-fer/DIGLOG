@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY primitiv IS PORT(
+	a: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	b: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	oper: IN STD_LOGIC;
+	cin: IN STD_LOGIC;
+	r: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+	cout: OUT STD_LOGIC
+);
+END primitiv;
+
+ARCHITECTURE arch OF primitiv IS 
+
+SIGNAL i,j: STD_LOGIC_VECTOR(1 DOWNTO 0);
+
+BEGIN
+
+komplement: entity work.b1kompl PORT MAP(b(1 DOWNTO 0),i(1 DOWNTO 0));
+mux: entity work.dmux PORT MAP(b(1 DOWNTO 0),i(1 DOWNTO 0),oper,j(1 DOWNTO 0));
+adder: entity work.FA PORT MAP(a(1 DOWNTO 0),j(1 DOWNTO 0),cin,cout,r(1 DOWNTO 0));
+
+END arch;

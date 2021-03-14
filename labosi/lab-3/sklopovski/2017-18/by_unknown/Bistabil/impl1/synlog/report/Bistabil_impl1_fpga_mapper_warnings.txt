@@ -1,0 +1,10 @@
+@W: BN137 :|Found combinational loop during mapping at net q[0]
+@W: BN137 :|Found combinational loop during mapping at net q[1]
+@W: BN137 :"d:\ivan\faks\1. semestar\diglog\lv3\bistabil\impl1\source\pogodi_bistabil.vhd":100:5:100:8|Found combinational loop during mapping at net q_3_.ctrl
+@W: MT453 |clock period is too long for clock pogodi_bistabil|clk_25m, changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock pogodi_bistabil|clk_derived_clock, changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: BN137 :|Found combinational loop during mapping at net G_83
+@W: BN137 :|Found combinational loop during mapping at net G_84
+@W: BN137 :"d:\ivan\faks\1. semestar\diglog\lv3\bistabil\impl1\source\pogodi_bistabil.vhd":20:1:20:8|Found combinational loop during mapping at net G_85
+@W: MT420 |Found inferred clock pogodi_bistabil|btn_center with period 1000.00ns. Please declare a user-defined clock on object "p:btn_center"
+@W: MT420 |Found inferred clock pogodi_bistabil|clk_25m with period 5.44ns. Please declare a user-defined clock on object "p:clk_25m"

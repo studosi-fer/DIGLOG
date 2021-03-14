@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: MF179 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":45:8:45:33|Found 16 bit by 16 bit '==' comparator, 'un8_r_irfreq_acc'
+@N: FA113 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":37:23:37:50|Pipelining module un1_irfreq_acc_next[23:0]
+@N: MF169 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register R_irfreq_acc[23:0] pushed in.
+@N: MF169 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Register ir pushed in.
+@N: FX271 :|Instance "I9.R_delay_acc_1" with 33 loads replicated 1 times to improve timing 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

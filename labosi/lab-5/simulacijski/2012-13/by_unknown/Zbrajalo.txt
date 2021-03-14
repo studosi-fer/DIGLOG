@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Zbrajalo IS PORT(
+
+a: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+b: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+oper: IN STD_LOGIC;
+r: OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+cout: OUT STD_LOGIC);
+
+END Zbrajalo;
+
+ARCHITECTURE arch OF Zbrajalo IS 
+
+SIGNAL c1,c2,c3:std_logic;
+
+BEGIN
+
+prim1:ENTITY work.PRIMITIV PORT MAP (a(1 DOWNTO 0),b(1 DOWNTO 0),oper,oper,r(1 DOWNTO 0),c1);
+prim2:ENTITY work.PRIMITIV PORT MAP (a(3 DOWNTO 2),b(3 DOWNTO 2),oper,oper,r(3 DOWNTO 2),c2);
+prim3:ENTITY work.PRIMITIV PORT MAP (a(5 DOWNTO 4),b(5 DOWNTO 4),oper,oper,r(5 DOWNTO 4),c3);
+prim4:ENTITY work.PRIMITIV PORT MAP (a(7 DOWNTO 6),b(7 DOWNTO 6),oper,oper,r(7 DOWNTO 6),cout);
+
+
+END arch;

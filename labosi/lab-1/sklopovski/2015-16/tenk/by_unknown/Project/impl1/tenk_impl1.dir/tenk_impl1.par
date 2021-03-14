@@ -1,0 +1,25 @@
+PAR: Place And Route Diamond (64-bit) 3.5.0.102.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Oct 26 00:30:06 2015
+
+C:/lscc/diamond/3.5_x64/ispfpga\bin\nt64\par -f tenk_impl1.p2t
+tenk_impl1_map.ncd tenk_impl1.dir tenk_impl1.prf -gui
+
+
+Preference file: tenk_impl1.prf.
+
+Level/      Number      Worst       Timing      Worst       Timing      Run         NCD
+Cost [ncd]  Unrouted    Slack       Score       Slack(hold) Score(hold) Time        Status
+----------  --------    -----       ------      ----------- ----------- -----       ------
+5_1   *     0           -1.495      282077      0.235       0           20          Complete        
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 20 secs 
+
+par done!

@@ -1,0 +1,11 @@
+#Start recording tcl command: 12/6/2015 21:06:11
+#Project Location: /home/ilakovac/faks/diglog/lab3/project; Project name: lab3
+/home/ilakovac/faks/diglog/lego/project
+lego
+#Start recording tcl command: 12/6/2015 21:28:59
+#Project Location: /home/ilakovac/faks/diglog/lego/project; Project name: lego
+prj_project open "/home/ilakovac/faks/diglog/lab3/project/lab3.ldf"
+prj_project save
+prj_project close
+prj_project open "/home/ilakovac/faks/diglog/lego/project/lego.ldf"
+#Stop recording: 12/6/2015 21:29:00

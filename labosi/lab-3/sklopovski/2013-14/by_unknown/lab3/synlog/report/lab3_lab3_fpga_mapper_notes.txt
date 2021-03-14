@@ -1,0 +1,30 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+@N: MF203 |Set autoconstraint_io 
+@N: MF179 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code_in[5] in hierarchy view:work.tonegen_I_tonegen(x) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code[5] in hierarchy view:work.tonegen_I_tonegen(x) because there are no references to its outputs 
+@N: MF179 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|ROM I_tonegen.un2_r_freq_0[31:10] mapped in logic.
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|ROM I_tonegen.un2_r_freq_0[31:10] mapped in logic.
+@N: MO106 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":226:24:226:31|Found ROM, 'I_tonegen.un2_r_freq_0[31:10]', 32 words by 22 bits 
+@N: FX211 |Packed ROM I_tonegen.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX211 |Packed ROM II_tonegen.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX211 |Packed ROM II_tonegen.un2_r_freq_0[31:10] (7 input, 22 output) to Block SelectRAM 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing sequential instance fmgen.R_dds_mul_x1[0] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing sequential instance fmgen.R_dds_mul_x1[21] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":190:1:190:2|Removing sequential instance fmgen.R_dds_mul_x1[20] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\tonegen.vhd":200:1:200:2|Removing sequential instance II_tonegen.R_code_in[5] in hierarchy view:work.sviraj(behavioral) because there are no references to its outputs 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[0]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm_avg[0]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[2]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[1]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[3]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[4]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[5]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab3\lab3\source\fmgen.vhd":167:8:167:9|Instance "fmgen.R_pcm[6]" with 4 loads replicated 1 times to improve timing 
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.

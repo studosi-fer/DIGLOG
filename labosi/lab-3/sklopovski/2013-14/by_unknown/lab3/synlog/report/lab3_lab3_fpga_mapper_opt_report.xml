@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the optimization information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="3" name="Optimizations Summary">
+<parameter tooltip="Total instances that are optimized / not-optimized" name="Generated Clock Optimization">
+<data>0 / 1</data>
+<report_link name="more">
+<data>C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synlog\report\lab3_lab3_fpga_mapper_generated_clk.rpt</data>
+</report_link>
+</parameter>
+<parameter tooltip="Total instances that are converted / not-converted" name="Gated Clock Conversion">
+<data>0 / 28</data>
+<report_link name="more">
+<data>C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synlog\report\lab3_lab3_fpga_mapper_gated_clk.rpt</data>
+</report_link>
+</parameter>
+</report_table>

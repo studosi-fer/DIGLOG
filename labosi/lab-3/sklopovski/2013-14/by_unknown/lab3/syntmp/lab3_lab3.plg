@@ -1,0 +1,39 @@
+@P:  Worst Slack : -4.001
+@P:  pll_250m|CLKOP_inferred_clock - Estimated Frequency : 204.8 MHz
+@P:  pll_250m|CLKOP_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  pll_250m|CLKOP_inferred_clock - Estimated Period : 4.882
+@P:  pll_250m|CLKOP_inferred_clock - Requested Period : 5.000
+@P:  pll_250m|CLKOP_inferred_clock - Slack : 0.118
+@P:  sviraj|clk_25m - Estimated Frequency : 111.1 MHz
+@P:  sviraj|clk_25m - Requested Frequency : 200.0 MHz
+@P:  sviraj|clk_25m - Estimated Period : 9.001
+@P:  sviraj|clk_25m - Requested Period : 5.000
+@P:  sviraj|clk_25m - Slack : -4.001
+@P:  System - Estimated Frequency : 144.5 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 6.919
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : -1.919
+@P:  Worst Slack(min analysis) : -0.134
+@P:  pll_250m|CLKOP_inferred_clock - Estimated Frequency(min analysis) : 204.8 MHz
+@P:  pll_250m|CLKOP_inferred_clock - Requested Frequency(min analysis) : 200.0 MHz
+@P:  pll_250m|CLKOP_inferred_clock - Estimated Period(min analysis) : 4.882
+@P:  pll_250m|CLKOP_inferred_clock - Requested Period(min analysis) : 5.000
+@P:  pll_250m|CLKOP_inferred_clock - Slack(min analysis) : 0.118
+@P:  sviraj|clk_25m - Estimated Frequency(min analysis) : 111.1 MHz
+@P:  sviraj|clk_25m - Requested Frequency(min analysis) : 200.0 MHz
+@P:  sviraj|clk_25m - Estimated Period(min analysis) : 9.001
+@P:  sviraj|clk_25m - Requested Period(min analysis) : 5.000
+@P:  sviraj|clk_25m - Slack(min analysis) : -4.001
+@P:  System - Estimated Frequency(min analysis) : 144.5 MHz
+@P:  System - Requested Frequency(min analysis) : 200.0 MHz
+@P:  System - Estimated Period(min analysis) : 6.919
+@P:  System - Requested Period(min analysis) : 5.000
+@P:  System - Slack(min analysis) : -1.919
+@P:  Total Area : 204.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:03s

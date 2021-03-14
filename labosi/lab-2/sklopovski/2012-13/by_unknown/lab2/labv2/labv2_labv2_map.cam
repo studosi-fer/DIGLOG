@@ -1,0 +1,111 @@
+[ START MERGED ]
+sw_1_c_i sw_1_c
+I34/N_6 btn_down_c
+[ END MERGED ]
+[ START CLIPPED ]
+VCC
+I1/R_clkdiv_s_0_S1[11]
+I1/R_clkdiv_s_0_COUT[11]
+I1/un1_R_vol_cry_0_0_S1
+I1/un1_R_vol_cry_0_0_S0
+I1/N_30
+I1/un1_R_vol_cry_15_0_COUT
+I1/un3_r_freq_cry_0_0_S1
+I1/un3_r_freq_cry_0_0_S0
+I1/N_33
+I1/un3_r_freq_s_31_0_S1
+I1/un3_r_freq_s_31_0_COUT
+I1/un4_r_pwm_cry_0_0_S1
+I1/un4_r_pwm_cry_0_0_S0
+I1/N_34
+I1/un4_r_pwm_cry_15_0_COUT
+I1/R_mul_1_SROB0
+I1/R_mul_1_SROB1
+I1/R_mul_1_SROB2
+I1/R_mul_1_SROB3
+I1/R_mul_1_SROB4
+I1/R_mul_1_SROB5
+I1/R_mul_1_SROB6
+I1/R_mul_1_SROB7
+I1/R_mul_1_SROB8
+I1/R_mul_1_SROB9
+I1/R_mul_1_SROB10
+I1/R_mul_1_SROB11
+I1/R_mul_1_SROB12
+I1/R_mul_1_SROB13
+I1/R_mul_1_SROB14
+I1/R_mul_1_SROB15
+I1/R_mul_1_SROB16
+I1/R_mul_1_SROB17
+I1/R_mul_1_SROA0
+I1/R_mul_1_SROA1
+I1/R_mul_1_SROA2
+I1/R_mul_1_SROA3
+I1/R_mul_1_SROA4
+I1/R_mul_1_SROA5
+I1/R_mul_1_SROA6
+I1/R_mul_1_SROA7
+I1/R_mul_1_SROA8
+I1/R_mul_1_SROA9
+I1/R_mul_1_SROA10
+I1/R_mul_1_SROA11
+I1/R_mul_1_SROA12
+I1/R_mul_1_SROA13
+I1/R_mul_1_SROA14
+I1/R_mul_1_SROA15
+I1/R_mul_1_SROA16
+I1/R_mul_1_SROA17
+I1/R_mul_1_P0
+I1/R_mul_1_P1
+I1/R_mul_1_P2
+I1/R_mul_1_P3
+I1/R_mul_1_P4
+I1/R_mul_1_P5
+I1/R_mul_1_P6
+I1/R_mul_1_P7
+I1/R_mul_1_P8
+I1/R_mul_1_P9
+I1/R_mul_1_P10
+I1/R_mul_1_P11
+I1/R_mul_1_P12
+I1/R_mul_1_P13
+I1/R_mul_1_P14
+I1/R_mul_1_P15
+I1/R_mul_1_P32
+I1/R_mul_1_P33
+I1/R_mul_1_P34
+I1/R_mul_1_P35
+I1/R_clkdiv_cry_0_S0[0]
+I1/N_9
+I1/R_sin_1_0_0_DO17
+I1/R_sin_1_0_0_DO16
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 2.2.0.101 -- WARNING: Map write only section -- Mon Oct 21 13:32:52 2013
+
+SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
+LOCATE COMP "led_0" SITE "29" ;
+LOCATE COMP "btn_center" SITE "22" ;
+LOCATE COMP "sw_1" SITE "46" ;
+LOCATE COMP "sw_0" SITE "45" ;
+LOCATE COMP "clk_25m" SITE "30" ;
+LOCATE COMP "btn_up" SITE "11" ;
+LOCATE COMP "btn_right" SITE "38" ;
+LOCATE COMP "btn_left" SITE "2" ;
+LOCATE COMP "btn_down" SITE "1" ;
+LOCATE COMP "p_ring" SITE "44" ;
+LOCATE COMP "p_tip_3" SITE "43" ;
+LOCATE COMP "p_tip_2" SITE "28" ;
+LOCATE COMP "p_tip_1" SITE "27" ;
+LOCATE COMP "p_tip_0" SITE "32" ;
+LOCATE COMP "led_4" SITE "144" ;
+LOCATE COMP "led_5" SITE "5" ;
+LOCATE COMP "led_7" SITE "138" ;
+LOCATE COMP "led_6" SITE "6" ;
+LOCATE COMP "led_3" SITE "35" ;
+LOCATE COMP "led_2" SITE "36" ;
+LOCATE COMP "led_1" SITE "37" ;
+FREQUENCY PORT "clk_25m" 25.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

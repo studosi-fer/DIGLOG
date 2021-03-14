@@ -1,0 +1,26 @@
+@P:  Worst Slack : -2.062
+@P:  afsk_modem|clk_25m - Estimated Frequency : 141.6 MHz
+@P:  afsk_modem|clk_25m - Requested Frequency : 200.0 MHz
+@P:  afsk_modem|clk_25m - Estimated Period : 7.062
+@P:  afsk_modem|clk_25m - Requested Period : 5.000
+@P:  afsk_modem|clk_25m - Slack : -2.062
+@P:  System - Estimated Frequency : 157.6 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 6.344
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : -1.344
+@P:  Worst Slack(min analysis) : 0.630
+@P:  afsk_modem|clk_25m - Estimated Frequency(min analysis) : 141.6 MHz
+@P:  afsk_modem|clk_25m - Requested Frequency(min analysis) : 200.0 MHz
+@P:  afsk_modem|clk_25m - Estimated Period(min analysis) : 7.062
+@P:  afsk_modem|clk_25m - Requested Period(min analysis) : 5.000
+@P:  afsk_modem|clk_25m - Slack(min analysis) : -2.062
+@P:  System - Estimated Frequency(min analysis) : 263.0 MHz
+@P:  System - Requested Frequency(min analysis) : 200.0 MHz
+@P:  System - Estimated Period(min analysis) : 3.803
+@P:  System - Requested Period(min analysis) : 5.000
+@P:  System - Slack(min analysis) : 1.197
+@P:  Total Area : 96.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:01s

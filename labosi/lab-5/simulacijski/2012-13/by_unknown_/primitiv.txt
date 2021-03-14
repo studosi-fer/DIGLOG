@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY primitiv IS PORT (
+
+	a : IN std_logic_vector (1 downto 0);
+	b : IN std_logic_vector (1 downto 0);
+	op : IN std_logic;
+	cin : IN std_logic;
+	r : OUT std_logic_vector (1 downto 0);
+	cout : OUT std_logic );
+
+END primitiv;
+
+ARCHITECTURE arch OF primitiv IS 
+	signal i,j: std_logic_vector (1 downto 0);
+BEGIN
+
+b1 : ENTITY work.b1kompl PORT MAP (b(1 downto 0), i(1 downto 0));
+mux : ENTITY work.dmux PORT MAP (b(1 downto 0), i(1 downto 0), op, j(1 downto 0));
+fadd: ENTITY work. fa PORT MAP (a(1 DOWNTO 0), j(1 downto 0), cin, r(1 downto 0), cout);
+
+
+END arch;

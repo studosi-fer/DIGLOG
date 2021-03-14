@@ -1,0 +1,323 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 21 13:32:45 2013
+#
+
+
+Top view:               sviraj
+Requested Frequency:    136.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.134
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+sviraj|clk_25m     136.9 MHz     116.3 MHz     7.307         8.596         -1.290     inferred     Autoconstr_clkgroup_0
+System             1.0 MHz       1.0 MHz       1000.000      1000.134      -0.134     system       system_clkgroup      
+========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------
+System          System          |  0.000       0.000   |  No paths    -      |  No paths    -      |  No paths    -    
+System          sviraj|clk_25m  |  0.000       -0.134  |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m  System          |  0.000       0.849   |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m  sviraj|clk_25m  |  0.000       0.208   |  No paths    -      |  No paths    -      |  No paths    -    
+=======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sviraj|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                   Arrival          
+Instance             Reference          Type        Pin     Net                 Time        Slack
+                     Clock                                                                       
+-------------------------------------------------------------------------------------------------
+I1.R_freq_ret_23     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[23]     0.705       0.207
+I1.R_freq_ret_24     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[24]     0.705       0.207
+I1.R_freq_ret_25     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[25]     0.705       0.207
+I1.R_freq_ret_26     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[26]     0.705       0.207
+I1.R_freq_ret_27     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[27]     0.705       0.207
+I1.R_freq_ret_28     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[28]     0.705       0.207
+I1.R_freq_ret_29     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[29]     0.705       0.207
+I1.R_freq_ret_30     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[30]     0.705       0.207
+I1.R_freq_ret_31     sviraj|clk_25m     FD1S3AX     Q       R_freq_reto[31]     0.705       0.207
+I1.R_freq_ret        sviraj|clk_25m     FD1S3AX     Q       un3_r_freq          0.764       0.630
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                 Required          
+Instance           Reference          Type        Pin      Net              Time         Slack
+                   Clock                                                                      
+----------------------------------------------------------------------------------------------
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD4      R_freq[24]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD5      R_freq[25]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD6      R_freq[26]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD7      R_freq[27]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD8      R_freq[28]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD9      R_freq[29]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD10     R_freq[30]       1.263        0.207
+I1.R_sin_1_0_0     sviraj|clk_25m     SP16KB      AD11     R_freq[31]       1.263        0.207
+I1.R_freq_ret      sviraj|clk_25m     FD1S3AX     D        R_freq[0]        0.515        0.630
+I1.R_pwm[0]        sviraj|clk_25m     FD1S3AX     D        un4_r_pwm[0]     0.515        0.630
+==============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             1.263
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.208
+
+    Number of logic level(s):                1
+    Starting point:                          I1.R_freq_ret_23 / Q
+    Ending point:                            I1.R_sin_1_0_0 / AD4
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of     
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s) 
+-----------------------------------------------------------------------------------------
+I1.R_freq_ret_23           FD1S3AX     Q        Out     0.705     0.705       -          
+R_freq_reto[23]            Net         -        -       -         -           1          
+I1.un3_r_freq_cry_23_0     CCU2B       A0       In      0.000     0.705       -          
+I1.un3_r_freq_cry_23_0     CCU2B       S1       Out     0.766     1.470       -          
+R_freq[24]                 Net         -        -       -         -           2(16777218)
+I1.R_sin_1_0_0             SP16KB      AD4      In      0.000     1.470       -          
+=========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                           Arrival           
+Instance             Reference     Type           Pin     Net           Time        Slack 
+                     Clock                                                                
+------------------------------------------------------------------------------------------
+I1.R_mul_1[31:0]     System        MULT18X18B     P30     R_mul[30]     0.000       -0.134
+I1.R_mul_1[31:0]     System        MULT18X18B     P31     R_mul[31]     0.000       -0.134
+I34.I33              System        OR4            Z       N_16          0.000       -0.078
+I34.I34              System        AND2           Z       N_14          0.000       -0.078
+I34.I35              System        AND2           Z       N_13          0.000       -0.078
+I34.I41              System        OR2            Z       N_10          0.000       -0.078
+I34.I43              System        OR3            Z       N_12          0.000       -0.078
+I34.I44              System        OR3            Z       N_11          0.000       -0.078
+I34.I36              System        AND2           Z       N_7           0.000       0.000 
+I34.I37              System        AND2           Z       N_2           0.000       0.000 
+==========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                           Required           
+Instance              Reference     Type        Pin     Net              Time         Slack 
+                      Clock                                                                 
+--------------------------------------------------------------------------------------------
+I1.R_step[13]         System        FD1S3AX     D       R_step_5[13]     0.515        -0.134
+I1.R_step[14]         System        FD1S3IX     D       N_43             0.515        -0.134
+I1.R_step[15]         System        FD1S3IX     D       R_stepc          0.515        -0.134
+I1.R_code_in[0]       System        FD1P3AX     D       N_10             0.078        -0.078
+I1.R_code_in[1]       System        FD1P3AX     D       N_11             0.078        -0.078
+I1.R_code_in[2]       System        FD1P3AX     D       N_12             0.078        -0.078
+I1.R_code_in[3]       System        FD1P3AX     D       N_13             0.078        -0.078
+I1.R_code_in[4]       System        FD1P3AX     D       N_14             0.078        -0.078
+I1.R_code_in_0[5]     System        FD1P3AX     D       N_16             0.078        -0.078
+I34.I34               System        AND2        B       N_16             0.000        0.000 
+============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I1.R_mul_1[31:0] / P30
+    Ending point:                            I1.R_step[14] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                  Type           Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+I1.R_mul_1[31:0]      MULT18X18B     P30      Out     0.000     0.000       -         
+R_mul[30]             Net            -        -       -         -           3         
+I1.R_step_5_1[12]     ORCALUT4       A        In      0.000     0.000       -         
+I1.R_step_5_1[12]     ORCALUT4       Z        Out     0.382     0.382       -         
+N_43                  Net            -        -       -         -           1         
+I1.R_step[14]         FD1S3IX        D        In      0.000     0.382       -         
+======================================================================================
+
+
+Path information for path number 2: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I1.R_mul_1[31:0] / P31
+    Ending point:                            I1.R_step[14] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                  Type           Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+I1.R_mul_1[31:0]      MULT18X18B     P31      Out     0.000     0.000       -         
+R_mul[31]             Net            -        -       -         -           4         
+I1.R_step_5_1[12]     ORCALUT4       B        In      0.000     0.000       -         
+I1.R_step_5_1[12]     ORCALUT4       Z        Out     0.382     0.382       -         
+N_43                  Net            -        -       -         -           1         
+I1.R_step[14]         FD1S3IX        D        In      0.000     0.382       -         
+======================================================================================
+
+
+Path information for path number 3: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I1.R_mul_1[31:0] / P31
+    Ending point:                            I1.R_step[13] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                  Type           Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+I1.R_mul_1[31:0]      MULT18X18B     P31      Out     0.000     0.000       -         
+R_mul[31]             Net            -        -       -         -           4         
+I1.R_step_5_3[13]     ORCALUT4       D        In      0.000     0.000       -         
+I1.R_step_5_3[13]     ORCALUT4       Z        Out     0.382     0.382       -         
+R_step_5[13]          Net            -        -       -         -           1         
+I1.R_step[13]         FD1S3AX        D        In      0.000     0.382       -         
+======================================================================================
+
+
+Path information for path number 4: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I1.R_mul_1[31:0] / P31
+    Ending point:                            I1.R_step[15] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                 Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+I1.R_mul_1[31:0]     MULT18X18B     P31      Out     0.000     0.000       -         
+R_mul[31]            Net            -        -       -         -           4         
+I1.R_stepc           ORCALUT4       A        In      0.000     0.000       -         
+I1.R_stepc           ORCALUT4       Z        Out     0.382     0.382       -         
+R_stepc              Net            -        -       -         -           1         
+I1.R_step[15]        FD1S3IX        D        In      0.000     0.382       -         
+=====================================================================================
+
+
+Path information for path number 5: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.078
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 -0.078
+
+    Number of logic level(s):                0
+    Starting point:                          I34.I33 / Z
+    Ending point:                            I1.R_code_in_0[5] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+I34.I33               OR4         Z        Out     0.000     0.000       -         
+N_16                  Net         -        -       -         -           5         
+I1.R_code_in_0[5]     FD1P3AX     D        In      0.000     0.000       -         
+===================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,22 @@
+#OPTIONS:"|-mixedhdl|-modhint|/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/_verilog_hintfile|-top|lego_upravljac|-layerid|0|-orig_srs|/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_comp.srs|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|/home/dafta/Desktop/FER_DL_LABOS|-I|/home/dafta/Desktop/FER_DL_LABOS/lego/|-I|/usr/local/diamond/3.5_x64/synpbase/lib|-v2001|-devicelib|/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v|-devicelib|/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work"
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_ver":1429546446
+#CUR:"/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/_verilog_hintfile":1445815384
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":1429027884
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v":1429027884
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/hypermods.v":1429545828
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/umr_capim.v":1429545828
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/scemi_objects.v":1429545828
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vlog/scemi_pipes.svh":1429545828
+#CUR:"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":1445814726
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work lego_upravljac 0
+#Unbound instances to file Association.
+inst work lego_upravljac lego_ir 0
+inst work lego_upravljac lego_ir 0

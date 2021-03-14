@@ -1,0 +1,16 @@
+@P:  Worst Slack : -0.821
+@P:  slova|clk_25m - Estimated Frequency : 182.7 MHz
+@P:  slova|clk_25m - Requested Frequency : 214.9 MHz
+@P:  slova|clk_25m - Estimated Period : 5.473
+@P:  slova|clk_25m - Requested Period : 4.652
+@P:  slova|clk_25m - Slack : -0.821
+@P:  Worst Slack(min analysis) : 0.571
+@P:  slova|clk_25m - Estimated Frequency(min analysis) : 182.7 MHz
+@P:  slova|clk_25m - Requested Frequency(min analysis) : 214.9 MHz
+@P:  slova|clk_25m - Estimated Period(min analysis) : 5.473
+@P:  slova|clk_25m - Requested Period(min analysis) : 4.652
+@P:  slova|clk_25m - Slack(min analysis) : -0.821
+@P:  Total Area : 104.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

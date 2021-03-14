@@ -1,0 +1,29 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Oct 21 13:33:17 2013 *
+NOTE DESIGN NAME: sviraj *
+NOTE DEVICE NAME: LFXP2-5E-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led_0 : 29 : out *
+NOTE PINS btn_center : 22 : in *
+NOTE PINS sw_1 : 46 : in *
+NOTE PINS sw_0 : 45 : in *
+NOTE PINS clk_25m : 30 : in *
+NOTE PINS btn_up : 11 : in *
+NOTE PINS btn_right : 38 : in *
+NOTE PINS btn_left : 2 : in *
+NOTE PINS btn_down : 1 : in *
+NOTE PINS p_ring : 44 : out *
+NOTE PINS p_tip_3 : 43 : out *
+NOTE PINS p_tip_2 : 28 : out *
+NOTE PINS p_tip_1 : 27 : out *
+NOTE PINS p_tip_0 : 32 : out *
+NOTE PINS led_4 : 144 : out *
+NOTE PINS led_5 : 5 : out *
+NOTE PINS led_7 : 138 : out *
+NOTE PINS led_6 : 6 : out *
+NOTE PINS led_3 : 35 : out *
+NOTE PINS led_2 : 36 : out *
+NOTE PINS led_1 : 37 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

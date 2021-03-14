@@ -1,0 +1,2 @@
+@E: CD395 :"C:\Users\dr.Chernobyl\Desktop\lab6\sem_automati.vhd":67:15:67:18|Constant width 4 does not match context width 13
+

@@ -1,0 +1,19 @@
+Selecting top level module MULT36X36B
+@N: CG364 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7922:7:7922:16|Synthesizing module MULT36X36B in library work.
+
+@W: CG133 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7997:8:7997:27|Object reg_ctrl_0_clk_sig_a is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7998:8:7998:27|Object reg_ctrl_1_clk_sig_a is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7999:8:7999:27|Object reg_ctrl_0_clk_sig_b is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":8000:8:8000:27|Object reg_ctrl_1_clk_sig_b is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":8636:4:8636:9|Pruning unused register signedb_reg2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":8624:4:8624:9|Pruning unused register signeda_reg2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":8612:4:8612:9|Pruning unused register signedb_reg1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":8600:4:8600:9|Pruning unused register signeda_reg1. Make sure that there are no unused intermediate registers.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:10:7928:12|Input CE1 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:14:7928:16|Input CE2 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:18:7928:20|Input CE3 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:32:7928:35|Input CLK2 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:37:7928:40|Input CLK3 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:47:7928:50|Input RST1 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:52:7928:55|Input RST2 is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\syntmp\MULT36X36B.v":7928:57:7928:60|Input RST3 is unused.

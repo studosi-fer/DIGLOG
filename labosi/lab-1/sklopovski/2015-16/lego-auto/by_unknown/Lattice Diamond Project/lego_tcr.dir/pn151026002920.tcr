@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/25/2015 23:53:23
+#Project Location: /home/dafta/Desktop/FER_DL_LABOS; Project name: lego
+prj_project new -name "lego" -impl "lego" -dev LFXP2-8E-5TN144C -synthesis "synplify" -lpf "/home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf"
+prj_src add "/home/dafta/Desktop/FER_DL_LABOS/lego_ir.sym" "/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd" "/home/dafta/Desktop/FER_DL_LABOS/lego_upravljac.sch"
+prj_project save
+prj_run Export -impl lego
+#Stop recording: 10/26/2015 00:29:20

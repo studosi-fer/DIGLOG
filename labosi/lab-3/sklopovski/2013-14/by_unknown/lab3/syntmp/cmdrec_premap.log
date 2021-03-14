@@ -1,0 +1,13 @@
+C:\lscc\diamond\2.0\synpbase\bin64\m_gen_lattice.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  C:\Users\dr.Chernobyl\Desktop\lab3\lab3  -part LFXP2_5E  -package TN144C  -grade -5   -maxfan 100     -forcenogsr -fixgatedclocks 3 -fixgeneratedclocks 3  -use_rename_in_edif 1 -auto_constrain_io   -resolveMultipleDriver -summaryfile C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synlog\report\lab3_lab3_premap.xml -top_level_module  sviraj  -ta_num_paths 3  -ta_num_points 0  -oedif  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.edi  -conchk_prepass  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3_cck_prepass.rpt  -freq 200.000  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_compiler.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_premap.srd  -devicelib  C:\lscc\diamond\2.0\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\2.0\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\lab3_lab3.plg  -noforwanno -osyn  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_premap.srd  -prjdir  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\  -prjname  proj_1  -log  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synlog\lab3_lab3_premap.srr 
+rc:1 success:1
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.edi|o|1386125590|524329
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3_cck_prepass.rpt|o|0|0
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_compiler.srs|i|1386125797|13847
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_premap.srd|o|1386125799|21272
+C:\lscc\diamond\2.0\synpbase\lib\lucent\xp2.v|i|1311936516|86834
+C:\lscc\diamond\2.0\synpbase\lib\lucent\pmi_def.v|i|1337328648|40586
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\lab3_lab3.plg|o|1386125799|0
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_premap.srd|o|1386125799|21272
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synlog\lab3_lab3_premap.srr|o|1386125799|3030
+C:\lscc\diamond\2.0\synpbase\bin64\m_gen_lattice.exe|i|1342426126|24331264
+C:\lscc\diamond\2.0\synpbase\bin\m_gen_lattice.exe|i|1342426098|20950528

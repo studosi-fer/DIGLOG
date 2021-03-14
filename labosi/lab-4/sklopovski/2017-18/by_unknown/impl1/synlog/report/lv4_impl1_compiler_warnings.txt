@@ -1,0 +1,3 @@
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\source\datapath.vhd":20:25:20:29|Signal addrw is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV4\impl1\source\datapath.vhd":23:20:23:20|Signal w is undriven. Either assign the signal a value or remove the signal declaration.
+

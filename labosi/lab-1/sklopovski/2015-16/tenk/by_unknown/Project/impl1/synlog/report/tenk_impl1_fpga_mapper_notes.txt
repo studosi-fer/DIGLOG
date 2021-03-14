@@ -1,0 +1,11 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX404 :"c:\users\tomi\desktop\tenk\rf_modulator.vhd":219:4:219:5|Found addmux in view:work.rf_modulator(structure) inst fwd_rev[4:0] from un1_R_brzina_3[4:0] 
+@N: FX271 :"c:\users\tomi\desktop\tenk\rf_modulator.vhd":234:4:234:23|Instance "I12.r_clk_acc" with 33 loads replicated 1 times to improve timing 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

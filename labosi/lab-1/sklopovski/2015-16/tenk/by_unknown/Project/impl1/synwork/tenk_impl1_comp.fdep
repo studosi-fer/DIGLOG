@@ -1,0 +1,17 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\Tomi\\Desktop\\tenk\\impl1\\synwork\\_verilog_hintfile|-top|tenk_upravljac|-layerid|0|-orig_srs|C:\\Users\\Tomi\\Desktop\\tenk\\impl1\\synwork\\tenk_impl1_comp.srs|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\Tomi\\Desktop\\tenk|-I|C:\\Users\\Tomi\\Desktop\\tenk\\impl1\\|-I|C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\lucent\\xp2.v|-devicelib|C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\bin64\\c_ver.exe":1429540298
+#CUR:"C:\\Users\\Tomi\\Desktop\\tenk\\impl1\\synwork\\_verilog_hintfile":1445815795
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\lucent\\xp2.v":1428995174
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\lucent\\pmi_def.v":1428995174
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vlog\\hypermods.v":1429539914
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vlog\\umr_capim.v":1429539914
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1429539914
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1429539914
+#CUR:"C:\\Users\\Tomi\\Desktop\\tenk\\impl1\\tenk_upravljac.v":1445815744
+0			"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work tenk_upravljac 0

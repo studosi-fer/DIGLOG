@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "111111111" on instance serializer.R_tx_ser[8:0] 
+@N: MF179 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":81:8:81:28|Found 8 bit by 8 bit '==' comparator, 'un1_byte_in'
+@N: BN362 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":78:1:78:2|Removing sequential instance serializer.R_byte_old[7] in hierarchy view:work.slova(behavioral) because there are no references to its outputs 
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":78:1:78:2|Instance "serializer.R_tx_tickcnt[1]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":78:1:78:2|Instance "serializer.R_tx_tickcnt[0]" with 6 loads replicated 1 times to improve timing 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

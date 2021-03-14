@@ -1,0 +1,435 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro F-2012.03L-1 , Build 063R, May 17 2012
+#install: C:\lscc\diamond\2.0\synpbase
+#OS: Windows 7 6.1
+#Hostname: MPC
+
+#Implementation: lab4
+
+$ Start of Compile
+#Wed Dec 18 09:24:59 2013
+
+Synopsys VHDL Compiler, version comp201203rcp1, Build 061R, built May 17 2012
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":8:7:8:14|Top entity is set to datapath.
+VHDL syntax check successful!
+File C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd changed - recompiling
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":8:7:8:14|Synthesizing work.datapath.x 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":22:25:22:29|Signal addrw is undriven 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":25:20:25:20|Signal w is undriven 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\ALU.vhd":7:7:7:9|Synthesizing work.alu.x 
+Post processing for work.alu.x
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\upravljac.vhd":7:7:7:15|Synthesizing work.upravljac.x 
+Post processing for work.upravljac.x
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\rf_4x4_1w_2r.vhd":7:7:7:14|Synthesizing work.reg_file.x 
+Post processing for work.reg_file.x
+Post processing for work.datapath.x
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 18 09:24:59 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@L: C:\Users\dr.Chernobyl\Desktop\lab4\lab4\lab4_lab4_scck.rpt 
+Printing clock  summary report in "C:\Users\dr.Chernobyl\Desktop\lab4\lab4\lab4_lab4_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 93MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+
+Clock Summary
+**************
+
+Start                                      Requested     Requested     Clock                               Clock              
+Clock                                      Frequency     Period        Type                                Group              
+------------------------------------------------------------------------------------------------------------------------------
+System                                     1.0 MHz       1000.000      system                              system_clkgroup    
+datapath|clk_25m                           200.0 MHz     5.000         inferred                            Inferred_clkgroup_0
+upravljac|R_keys_last_derived_clock[3]     200.0 MHz     5.000         derived (from datapath|clk_25m)     Inferred_clkgroup_0
+==============================================================================================================================
+
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab4\lab4\source\upravljac.vhd":29:1:29:2|Found inferred clock datapath|clk_25m which controls 43 sequential elements including I_upravljac/R_debounce_cnt[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist datapath
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 18 09:25:00 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+
+Starting Optimization and Mapping (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+@N:"c:\users\dr.chernobyl\desktop\lab4\lab4\source\upravljac.vhd":29:1:29:2|Found counter in view:work.upravljac(x) inst R_debounce_cnt[31:0]
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+                         I_regfile.R0[3]:C              Done
+                         I_regfile.R0[2]:C              Done
+                         I_regfile.R0[1]:C              Done
+                         I_regfile.R0[0]:C              Done
+                         I_regfile.R1[3]:C              Done
+                         I_regfile.R1[2]:C              Done
+                         I_regfile.R1[1]:C              Done
+                         I_regfile.R1[0]:C              Done
+                         I_regfile.R2[3]:C              Done
+                         I_regfile.R2[2]:C              Done
+                         I_regfile.R2[1]:C              Done
+                         I_regfile.R2[0]:C              Done
+                         I_regfile.R3[3]:C              Done
+                         I_regfile.R3[2]:C              Done
+                         I_regfile.R3[1]:C              Done
+                         I_regfile.R3[0]:C              Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.86ns		 123 /        59
+   2		0h:00m:00s		    -1.86ns		 123 /        59
+------------------------------------------------------------
+
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab4\lab4\source\upravljac.vhd":29:1:29:2|Instance "I_upravljac.R_AddrB[0]" with 14 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab4\lab4\source\upravljac.vhd":29:1:29:2|Instance "I_upravljac.R_AddrA[1]" with 14 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab4\lab4\source\upravljac.vhd":29:1:29:2|Instance "I_upravljac.R_AddrB[1]" with 19 loads replicated 2 times to improve timing 
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 4 LUTs via timing driven replication
+
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.87ns		 136 /        63
+
+   2		0h:00m:01s		    -0.87ns		 136 /        63
+   3		0h:00m:01s		    -0.87ns		 136 /        63
+   4		0h:00m:01s		    -0.87ns		 136 /        63
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.87ns		 134 /        63
+
+   2		0h:00m:01s		    -0.87ns		 134 /        63
+   3		0h:00m:01s		    -0.87ns		 134 /        63
+   4		0h:00m:01s		    -0.87ns		 134 /        63
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 139MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 139MB)
+
+Writing Analyst data base C:\Users\dr.Chernobyl\Desktop\lab4\lab4\lab4_lab4.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 139MB)
+
+Writing EDIF Netlist and constraint files
+F-2012.03L-1 
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+@W: MT420 |Found inferred clock datapath|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 18 09:25:03 2013
+#
+
+
+Top view:               datapath
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.523
+
+                     Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack      Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+datapath|clk_25m     200.0 MHz     153.3 MHz     5.000         6.523         -1.523     inferred     Inferred_clkgroup_0
+System               200.0 MHz     463.1 MHz     5.000         2.159         0.276      system       system_clkgroup    
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------
+System            System            |  5.000       0.276   |  No paths    -      |  No paths    -      |  No paths    -    
+System            datapath|clk_25m  |  5.000       -1.238  |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m  System            |  5.000       -0.353  |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m  datapath|clk_25m  |  5.000       -1.523  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port           Starting            User           Arrival     Required           
+Name           Reference           Constraint     Time        Time         Slack 
+               Clock                                                             
+---------------------------------------------------------------------------------
+btn_center     System (rising)     NA             0.000       0.053        0.053 
+btn_down       System (rising)     NA             0.000       0.276        0.276 
+btn_left       System (rising)     NA             0.000       0.091        0.091 
+btn_right      System (rising)     NA             0.000       0.091        0.091 
+btn_up         System (rising)     NA             0.000       0.044        0.044 
+clk_25m        NA                  NA             NA          NA           NA    
+sw[0]          System (rising)     NA             0.000       -1.238       -1.238
+sw[1]          System (rising)     NA             0.000       -1.116       -1.116
+sw[2]          System (rising)     NA             0.000       -0.062       -0.062
+sw[3]          System (rising)     NA             0.000       -0.062       -0.062
+=================================================================================
+
+
+Output Ports: 
+
+Port       Starting                      User           Arrival     Required           
+Name       Reference                     Constraint     Time        Time         Slack 
+           Clock                                                                       
+---------------------------------------------------------------------------------------
+led[0]     datapath|clk_25m (rising)     NA             5.142       5.000        -0.142
+led[1]     datapath|clk_25m (rising)     NA             5.142       5.000        -0.142
+led[2]     datapath|clk_25m (rising)     NA             5.067       5.000        -0.067
+led[3]     datapath|clk_25m (rising)     NA             5.067       5.000        -0.067
+led[4]     datapath|clk_25m (rising)     NA             5.320       5.000        -0.320
+led[5]     datapath|clk_25m (rising)     NA             5.353       5.000        -0.353
+led[6]     datapath|clk_25m (rising)     NA             4.831       5.000        0.169 
+led[7]     datapath|clk_25m (rising)     NA             5.353       5.000        -0.353
+=======================================================================================
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 63 of 4752 (1%)
+PIC Latch:       0
+I/O cells:       18
+
+DSP primitives:       1 of 12 (8%)
+
+Details:
+CCU2B:          17
+FD1P3AX:        16
+FD1S3AX:        43
+GSR:            1
+IB:             10
+IFS1P3DX:       4
+MULT9X9B:       1
+OB:             8
+ORCALUT4:       134
+PFUMX:          13
+PUR:            1
+VHI:            1
+VLO:            1
+false:          4
+true:           4
+Mapper successful!
+
+At Mapper Exit (Time elapsed 0h:00m:02s; Memory used current: 41MB peak: 140MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Dec 18 09:25:03 2013
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

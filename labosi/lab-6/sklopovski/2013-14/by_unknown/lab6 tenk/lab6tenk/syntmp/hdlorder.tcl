@@ -1,0 +1,2 @@
+set_option -top_module work.tenk_toplevel
+project -fileorder "C:/lscc/diamond/2.0/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/dr.Chernobyl/Desktop/lab6\ tenk/lab6tenk/source/tenk_automat.vhd" "C:/Users/dr.Chernobyl/Desktop/lab6\ tenk/lab6tenk/source/rf_modulator.vhd" "C:/Users/dr.Chernobyl/Desktop/lab6\ tenk/lab6tenk/source/tenk_toplevel.vhd" 

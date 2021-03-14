@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY mux21 IS PORT (
+	E: IN Std_Logic;
+	S: IN Std_Logic;
+	D0: IN Std_Logic;
+	D1: IN Std_Logic;
+	Y: OUT Std_Logic);
+end mux21;
+
+ARCHITECTURE arch OF mux21 IS
+
+	BEGIN
+		PROCESS (E, S, D0, D1)
+			BEGIN
+				IF E='1' THEN
+				CASE S IS
+				WHEN '0' => Y <= D0 AFTER 10 ns;
+				WHEN '1' => Y <= D1 AFTER 10 ns;
+				WHEN OTHERS => Y <= '0' AFTER 10 ns;
+				END CASE;
+			ELSE
+				Y <= '0' AFTER 10 ns;
+				END IF;
+		END PROCESS;
+END arch;

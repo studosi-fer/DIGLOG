@@ -1,0 +1,49 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@L: C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5_scck.rpt 
+Printing clock  summary report in "C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+
+Clock Summary
+**************
+
+Start                  Requested     Requested     Clock        Clock              
+Clock                  Frequency     Period        Type         Group              
+-----------------------------------------------------------------------------------
+System                 1.0 MHz       1000.000      system       system_clkgroup    
+afsk_modem|clk_25m     200.0 MHz     5.000         inferred     Inferred_clkgroup_0
+===================================================================================
+
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":41:1:41:2|Found inferred clock afsk_modem|clk_25m which controls 130 sequential elements including modulator/br[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist afsk_modem
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:13 2014
+
+###########################################################]

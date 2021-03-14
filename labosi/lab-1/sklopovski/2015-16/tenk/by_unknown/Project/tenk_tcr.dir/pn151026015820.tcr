@@ -1,0 +1,12 @@
+#Start recording tcl command: 10/25/2015 21:18:38
+#Project Location: C:/Users/Tomi/Desktop/tenk; Project name: tenk
+prj_project new -name "tenk" -impl "impl1" -dev LAXP2-8E-5TN144E -synthesis "lse" -lpf "C:/Users/Tomi/Desktop/tenk/ulx2s.lpf"
+prj_src add "C:/Users/Tomi/Desktop/tenk/rf_modulator.vhd" "C:/Users/Tomi/Desktop/tenk/tenk_upravljac.sch" "C:/Users/Tomi/Desktop/tenk/rf_modulator.sym"
+prj_project save
+prj_dev set -part LFXP2-8E-5TN144C
+prj_run Export -impl impl1
+prj_src add "C:/Users/Tomi/Desktop/tenk/Test1.sch"
+prj_src add "C:/Users/Tomi/Desktop/tenk/test2.sch"
+prj_src remove "C:/Users/Tomi/Desktop/tenk/test2.sch"
+prj_src remove "C:/Users/Tomi/Desktop/tenk/Test1.sch"
+#Stop recording: 10/26/2015 01:58:20

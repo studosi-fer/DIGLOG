@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Tristate driver each_bit\.29\.gpio_phys_59[29] (in view: work.gpio(arch)) on net gpio_phys[29] (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Tristate driver each_bit\.30\.gpio_phys_61[30] (in view: work.gpio(arch)) on net gpio_phys[30] (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Tristate driver each_bit\.31\.gpio_phys_63[31] (in view: work.gpio(arch)) on net gpio_phys[31] (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri8 (in view: work.gpio(arch)) on net un1_R_3_tri8 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri9 (in view: work.gpio(arch)) on net un1_R_3_tri9 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri10 (in view: work.gpio(arch)) on net un1_R_3_tri10 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri11 (in view: work.gpio(arch)) on net un1_R_3_tri11 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri12 (in view: work.gpio(arch)) on net un1_R_3_tri12 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri13 (in view: work.gpio(arch)) on net un1_R_3_tri13 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: MO111 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":61:11:61:11|Tristate driver un1_R_3_tri14 (in view: work.gpio(arch)) on net un1_R_3_tri14 (in view: work.gpio(arch)) has its enable tied to GND.
+@N: BN362 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\timer.vhd":586:6:586:7|Removing sequential instance R_ctrl_ext[11] (in view: work.timer(arch)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\timer.vhd":586:6:586:7|Removing sequential instance R_ctrl_ext[10] (in view: work.timer(arch)) of type view:PrimLib.dffe(prim) because it does not drive other instances.

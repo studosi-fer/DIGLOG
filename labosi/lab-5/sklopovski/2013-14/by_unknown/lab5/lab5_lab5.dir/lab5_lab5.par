@@ -1,0 +1,22 @@
+PAR: Place And Route Diamond (64-bit) 2.0.1.184.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Jan 17 05:19:18 2014
+
+C:/lscc/diamond/2.0/ispfpga\bin\nt64\par -f lab5_lab5.p2t lab5_lab5_map.ncd
+lab5_lab5.dir lab5_lab5.prf
+
+Preference file: lab5_lab5.prf.
+
+Level/      Number      Timing      Run         NCD
+Cost [ncd]  Unrouted    Score       Time        Status
+----------  --------    --------    -----       ------------
+5_1   *     0           0           13          Complete        
+
+
+* : Design saved.
+
+par done!

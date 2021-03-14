@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Bistabil" device="LFXP2-5E-5TN144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="pogodi_bistabil"/>
+        <Source name="impl1/source/pogodi_bistabil.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="pogodi_bistabil"/>
+        </Source>
+        <Source name="Bistabil.lpf" type="Logic Preference" type_short="LPF" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="../ulx2s.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Bistabil1.sty"/>
+</BaliProject>

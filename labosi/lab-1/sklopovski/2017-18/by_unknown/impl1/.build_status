@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Convert_HDL" build_result="2" build_time="1508687528">
+            <Task name="HDL_Conv" build_result="2" update_result="0" update_time="1508687528"/>
+        </Milestone>
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1508687658"/>
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Generate_HDL" build_result="2" build_time="1508687528">
+            <Task name="HDL_Gen" build_result="2" update_result="0" update_time="1508687528"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1508687646">
+            <Task name="Map" build_result="2" update_result="0" update_time="1508687646"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1508687656">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1508687656"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1508687645">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1508687645"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="2" build_time="1508687645">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1508687645"/>
+        </Milestone>
+        <Report name="LV1_impl1.bgn" last_build_time="1508682688" last_build_size="3375"/>
+        <Report name="LV1_impl1.edi" last_build_time="1508682679" last_build_size="6039"/>
+        <Report name="LV1_impl1.jed" last_build_time="1508682688" last_build_size="1268118"/>
+        <Report name="LV1_impl1.ncd" last_build_time="1508682685" last_build_size="5095"/>
+        <Report name="LV1_impl1.ngd" last_build_time="1508682681" last_build_size="4486"/>
+        <Report name="LV1_impl1_map.ncd" last_build_time="1508682681" last_build_size="3643"/>
+        <Report name="LV1_tenk_impl1.bgn" last_build_time="1508687459" last_build_size="3482"/>
+        <Report name="LV1_tenk_impl1.edi" last_build_time="1508687443" last_build_size="205264"/>
+        <Report name="LV1_tenk_impl1.jed" last_build_time="1508687459" last_build_size="1268637"/>
+        <Report name="LV1_tenk_impl1.ncd" last_build_time="1508687456" last_build_size="211779"/>
+        <Report name="LV1_tenk_impl1.ngd" last_build_time="1508687446" last_build_size="205861"/>
+        <Report name="LV1_tenk_impl1_map.ncd" last_build_time="1508687446" last_build_size="134362"/>
+        <Report name="Priprema.v" last_build_time="1508682676" last_build_size="536"/>
+        <Report name="tenk_upravljac.v" last_build_time="1508687284" last_build_size="1885"/>
+    </Strategy>
+</BuildStatus>

@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY timer IS PORT(
+cp,reset,masreset: IN STD_LOGIC;
+t2,t4,t8,t16,t32:OUT STD_LOGIC);
+END timer;
+
+ARCHITECTURE arch OF timer IS 
+signal i:STD_LOGIC;
+signal q:STD_LOGIC_VECTOR(4 downto 0);
+BEGIN
+i<=reset or masreset;
+c1:ENTITY work.sekvencijski_sklop PORT MAP(cp,i,'1',q);
+t2<=(q(0)  and not q(1) and not q(2) and not q(3) and not q(4)) after 10 ns;
+t4<=(q(0)  and     q(1) and not q(2) and not q(3) and not q(4)) after 10 ns;
+t8<=(q(0)  and     q(1) and     q(2) and not q(3) and not q(4)) after 10 ns;
+t16<=(q(0) and     q(1) and     q(2) and     q(3) and not q(4)) after 10 ns;
+t32<=(q(0) and     q(1) and     q(2) and     q(3) and     q(4)) after 10 ns;
+END arch;

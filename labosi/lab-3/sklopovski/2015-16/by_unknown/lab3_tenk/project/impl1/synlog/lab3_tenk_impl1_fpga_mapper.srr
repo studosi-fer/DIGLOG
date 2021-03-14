@@ -1,0 +1,477 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1176R, Built Apr 20 2015 09:34:50
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX404 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":219:4:219:5|Found addmux in view:work.rf_modulator(structure) inst fwd_rev[4:0] from un1_R_brzina_3[4:0] 
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 154MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.40ns		 171 /       116
+   2		0h:00m:01s		    -2.40ns		 168 /       116
+   3		0h:00m:01s		    -2.40ns		 168 /       116
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":234:4:234:23|Instance "odasiljac.r_clk_acc" with 34 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Instance "odasiljac.R_lijevo" with 19 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Instance "odasiljac.R_naprijed" with 17 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+
+
+   4		0h:00m:02s		    -2.40ns		 173 /       118
+
+
+   5		0h:00m:02s		    -2.40ns		 173 /       118
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 155MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 155MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 118 clock pin(s) of sequential element(s)
+0 instances converted, 118 sequential instances remain driven by gated/generated clocks
+
+======================================================================================================= Gated/Generated Clocks =======================================================================================================
+Clock Tree ID     Driving Element         Drive Element Type     Fanout     Sample Instance             Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       odasiljac.PLLInst_0     EPLLD1                 118        odasiljac.R_clk_acc[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+======================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 122MB peak: 155MB)
+
+Writing Analyst data base /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 155MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 159MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 159MB)
+
+@W: MT246 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 6.40ns. Please declare a user-defined clock on object "n:odasiljac.clk_pll"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Dec  6 23:28:18 2015
+#
+
+
+Top view:               daljinski_upravljac
+Requested Frequency:    156.2 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.130
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     156.2 MHz     132.8 MHz     6.403         7.533         -1.130     inferred     Autoconstr_clkgroup_0
+System                                  1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup      
+=============================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  6.403       -1.130  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rf_modulator|clk_pll_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                       Arrival           
+Instance                     Reference                               Type        Pin     Net                Time        Slack 
+                             Clock                                                                                            
+------------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_desno            rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_desno            1.354       -1.130
+odasiljac.R_phase_acc[2]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[2]     1.166       -1.025
+odasiljac.R_phase_acc[3]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[3]     1.166       -1.025
+odasiljac.R_phase_acc[6]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[6]     1.166       -1.025
+odasiljac.R_speed_acc[0]     rf_modulator|clk_pll_inferred_clock     FD1S3JX     Q       R_speed_acc[0]     1.251       -1.025
+odasiljac.R_speed_acc[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_speed_acc[2]     1.251       -1.025
+odasiljac.R_natrag           rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       un10[1]            1.373       -0.980
+odasiljac.R_phase_acc[4]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[4]     1.091       -0.950
+odasiljac.R_phase_acc[5]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[5]     1.091       -0.950
+odasiljac.R_phase_acc[7]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[7]     1.091       -0.950
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                                              Required           
+Instance                  Reference                               Type        Pin     Net                       Time         Slack 
+                          Clock                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_outw[4]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[4]               5.667        -1.130
+odasiljac.R_brzina[0]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     CD      un1_R_brzina_0_sqmuxa     6.043        -1.025
+odasiljac.R_brzina[1]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     CD      un1_R_brzina_0_sqmuxa     6.043        -1.025
+odasiljac.R_brzina[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     CD      un1_R_brzina_0_sqmuxa     6.043        -1.025
+odasiljac.R_desno         rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_desno_6                 5.667        -1.025
+odasiljac.R_natrag        rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_natrag_8                5.667        -1.025
+odasiljac.R_brzina[1]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[1]            5.667        -0.593
+odasiljac.R_brzina[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[2]            5.667        -0.593
+odasiljac.R_skretanje     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_skretanje_6             5.667        -0.593
+odasiljac.R_outw[3]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[3]               5.667        -0.246
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.403
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.667
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.130
+
+    Number of logic level(s):                6
+    Starting point:                          odasiljac.R_desno / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+odasiljac.R_desno               FD1P3AX      Q        Out     1.354     1.354       -         
+R_desno                         Net          -        -       -         -           17        
+odasiljac.un10_0_4_.m1          ORCALUT4     A        In      0.000     1.354       -         
+odasiljac.un10_0_4_.m1          ORCALUT4     Z        Out     1.137     2.491       -         
+un5_r_naprijed                  Net          -        -       -         -           6         
+odasiljac.fwd_rev_0_cry_0_0     CCU2B        B1       In      0.000     2.491       -         
+odasiljac.fwd_rev_0_cry_0_0     CCU2B        COUT     Out     1.243     3.734       -         
+fwd_rev_0_cry_0                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        CIN      In      0.000     3.734       -         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        COUT     Out     0.088     3.822       -         
+fwd_rev_0_cry_2                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        CIN      In      0.000     3.822       -         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        S1       Out     1.546     5.368       -         
+fwd_rev_0_cry_3_0_S1            Net          -        -       -         -           2         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     A        In      0.000     5.368       -         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     Z        Out     0.883     6.252       -         
+g1_0_1_1_1                      Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]         ORCALUT4     C        In      0.000     6.252       -         
+odasiljac.R_outw_RNO[4]         ORCALUT4     Z        Out     0.545     6.797       -         
+R_outw_5[4]                     Net          -        -       -         -           1         
+odasiljac.R_outw[4]             FD1P3AX      D        In      0.000     6.797       -         
+==============================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      6.403
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.667
+
+    - Propagation time:                      6.709
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.042
+
+    Number of logic level(s):                5
+    Starting point:                          odasiljac.R_desno / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+odasiljac.R_desno               FD1P3AX      Q        Out     1.354     1.354       -         
+R_desno                         Net          -        -       -         -           17        
+odasiljac.un10_0_4_.m1          ORCALUT4     A        In      0.000     1.354       -         
+odasiljac.un10_0_4_.m1          ORCALUT4     Z        Out     1.137     2.491       -         
+un5_r_naprijed                  Net          -        -       -         -           6         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        C1       In      0.000     2.491       -         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        COUT     Out     1.243     3.734       -         
+fwd_rev_0_cry_2                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        CIN      In      0.000     3.734       -         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        S1       Out     1.546     5.280       -         
+fwd_rev_0_cry_3_0_S1            Net          -        -       -         -           2         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     A        In      0.000     5.280       -         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     Z        Out     0.883     6.164       -         
+g1_0_1_1_1                      Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]         ORCALUT4     C        In      0.000     6.164       -         
+odasiljac.R_outw_RNO[4]         ORCALUT4     Z        Out     0.545     6.709       -         
+R_outw_5[4]                     Net          -        -       -         -           1         
+odasiljac.R_outw[4]             FD1P3AX      D        In      0.000     6.709       -         
+==============================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      6.403
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.667
+
+    - Propagation time:                      6.709
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.042
+
+    Number of logic level(s):                5
+    Starting point:                          odasiljac.R_desno / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+odasiljac.R_desno               FD1P3AX      Q        Out     1.354     1.354       -         
+R_desno                         Net          -        -       -         -           17        
+odasiljac.un10_0_4_.m1          ORCALUT4     A        In      0.000     1.354       -         
+odasiljac.un10_0_4_.m1          ORCALUT4     Z        Out     1.137     2.491       -         
+un5_r_naprijed                  Net          -        -       -         -           6         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        C0       In      0.000     2.491       -         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        COUT     Out     1.243     3.734       -         
+fwd_rev_0_cry_2                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        CIN      In      0.000     3.734       -         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        S1       Out     1.546     5.280       -         
+fwd_rev_0_cry_3_0_S1            Net          -        -       -         -           2         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     A        In      0.000     5.280       -         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     Z        Out     0.883     6.164       -         
+g1_0_1_1_1                      Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]         ORCALUT4     C        In      0.000     6.164       -         
+odasiljac.R_outw_RNO[4]         ORCALUT4     Z        Out     0.545     6.709       -         
+R_outw_5[4]                     Net          -        -       -         -           1         
+odasiljac.R_outw[4]             FD1P3AX      D        In      0.000     6.709       -         
+==============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      6.403
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.043
+
+    - Propagation time:                      7.068
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.025
+
+    Number of logic level(s):                6
+    Starting point:                          odasiljac.R_phase_acc[2] / Q
+    Ending point:                            odasiljac.R_brzina[0] / CD
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+odasiljac.R_phase_acc[2]                  FD1P3AX      Q        Out     1.166     1.166       -         
+R_phase_acc[2]                            Net          -        -       -         -           3         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     A        In      0.000     1.166       -         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     Z        Out     0.968     2.134       -         
+un37_r_clk_acc_2                          Net          -        -       -         -           2         
+odasiljac.un37_r_clk_acc                  ORCALUT4     D        In      0.000     2.134       -         
+odasiljac.un37_r_clk_acc                  ORCALUT4     Z        Out     1.241     3.375       -         
+un37_r_clk_acc                            Net          -        -       -         -           19        
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     D        In      0.000     3.375       -         
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     Z        Out     0.883     4.258       -         
+R_brzina_3_sqmuxa_1_1                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     B        In      0.000     4.258       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     Z        Out     0.883     5.142       -         
+R_brzina_3_sqmuxa_1_2                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     B        In      0.000     5.142       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     Z        Out     0.883     6.025       -         
+un1_R_brzina_0_sqmuxa_1                   Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     B        In      0.000     6.025       -         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     Z        Out     1.043     7.068       -         
+un1_R_brzina_0_sqmuxa                     Net          -        -       -         -           3         
+odasiljac.R_brzina[0]                     FD1S3IX      CD       In      0.000     7.068       -         
+========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      6.403
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.043
+
+    - Propagation time:                      7.068
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.025
+
+    Number of logic level(s):                6
+    Starting point:                          odasiljac.R_phase_acc[3] / Q
+    Ending point:                            odasiljac.R_brzina[0] / CD
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+odasiljac.R_phase_acc[3]                  FD1P3AX      Q        Out     1.166     1.166       -         
+R_phase_acc[3]                            Net          -        -       -         -           3         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     B        In      0.000     1.166       -         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     Z        Out     0.968     2.134       -         
+un37_r_clk_acc_2                          Net          -        -       -         -           2         
+odasiljac.un37_r_clk_acc                  ORCALUT4     D        In      0.000     2.134       -         
+odasiljac.un37_r_clk_acc                  ORCALUT4     Z        Out     1.241     3.375       -         
+un37_r_clk_acc                            Net          -        -       -         -           19        
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     D        In      0.000     3.375       -         
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     Z        Out     0.883     4.258       -         
+R_brzina_3_sqmuxa_1_1                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     B        In      0.000     4.258       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     Z        Out     0.883     5.142       -         
+R_brzina_3_sqmuxa_1_2                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     B        In      0.000     5.142       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     Z        Out     0.883     6.025       -         
+un1_R_brzina_0_sqmuxa_1                   Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     B        In      0.000     6.025       -         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     Z        Out     1.043     7.068       -         
+un1_R_brzina_0_sqmuxa                     Net          -        -       -         -           3         
+odasiljac.R_brzina[0]                     FD1S3IX      CD       In      0.000     7.068       -         
+========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 159MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 159MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_8e-5
+
+Register bits: 118 of 8352 (1%)
+PIC Latch:       0
+I/O cells:       15
+
+
+Details:
+CCU2B:          32
+FD1P3AX:        44
+FD1S3AX:        57
+FD1S3IX:        15
+FD1S3JX:        1
+GSR:            1
+IB:             10
+IFS1P3DX:       1
+INV:            2
+OB:             5
+ORCALUT4:       170
+PFUMX:          4
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 54MB peak: 159MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Sun Dec  6 23:28:18 2015
+
+###########################################################]

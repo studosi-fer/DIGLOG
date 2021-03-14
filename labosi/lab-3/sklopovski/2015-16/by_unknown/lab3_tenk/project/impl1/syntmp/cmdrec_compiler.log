@@ -1,0 +1,10 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/c_hdl  -osyn  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs  -top  work.daljinski_upravljac  -hdllog  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work /usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd -lib work /home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd -lib work /home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd 
+rc:0 success:1
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs|o|1449440886|13217
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synlog/lab3_tenk_impl1_compiler.srr|o|1449440886|6722
+/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd|i|1377025208|146261
+/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd|i|1449439956|14480
+/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd|i|1449440884|1470
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_hdl|i|1429546445|5115584
+/usr/local/diamond/3.5_x64/synpbase/linux/c_hdl|i|1429546500|4534108
+/usr/local/diamond/3.5_x64/synpbase/bin/c_hdl|i|1429546083|365

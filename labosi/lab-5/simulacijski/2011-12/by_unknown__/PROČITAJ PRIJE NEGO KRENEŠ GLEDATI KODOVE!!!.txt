@@ -1,0 +1,2 @@
+mux je sluèajno nazvan dvosturki  mux i taj naziv sam morao koristiti svagdje gdje se pojavljuje taj sklop tako da 
+nemojte kopirati taj kod nego napravite svoj, ali ostalo slobodno možete kopirati (ako vhdl dozvoli)

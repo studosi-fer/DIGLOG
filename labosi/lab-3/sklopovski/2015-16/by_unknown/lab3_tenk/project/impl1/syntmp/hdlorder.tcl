@@ -1,0 +1,2 @@
+set_option -top_module work.daljinski_upravljac
+project -fileorder "/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd" "/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd" "/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd" 

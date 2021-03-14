@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/2.0/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/dr.Chernobyl/Desktop/lab3/lab3/source/enkoder.vhd" "C:/Users/dr.Chernobyl/Desktop/lab3/lab3/source/tonegen.vhd" "C:/Users/dr.Chernobyl/Desktop/lab3/lab3/source/fmgen.vhd" "C:/Users/dr.Chernobyl/Desktop/lab3/lab3/source/sviraj.vhd" 

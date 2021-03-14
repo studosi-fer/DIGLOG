@@ -1,0 +1,3 @@
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\source\serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\source\serial_tx.vhd":54:11:54:20|Signal r_baudrate is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.serial_tx.behavioral

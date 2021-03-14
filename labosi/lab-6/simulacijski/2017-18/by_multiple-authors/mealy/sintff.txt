@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY sintff IS PORT(
+	clk,t,clr,st: IN std_logic;
+	q,qn: OUT std_logic
+);
+END sintff;
+
+ARCHITECTURE arch OF sintff IS 
+
+BEGIN
+	PROCESS(clk)
+		VARIABLE mem: std_logic:='0';
+		BEGIN
+		IF falling_edge(clk) THEN 
+			IF (clr='1' and st='1') 
+				THEN mem:='0';
+			ELSIF st='1' THEN 
+				mem:='1';
+			ELSIF clr='1' THEN 
+				mem:='0';
+			ELSE
+				mem:=mem XOR t;
+			END IF;
+		END IF;
+		q<= mem after 10 ns;
+		qn<= not mem after 10 ns;
+	END PROCESS;	
+END arch;

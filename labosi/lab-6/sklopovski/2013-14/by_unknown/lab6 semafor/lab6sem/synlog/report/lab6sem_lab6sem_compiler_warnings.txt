@@ -1,0 +1,2 @@
+@W: CL246 :"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd":9:1:9:2|Input port bits 3 to 1 of sw(3 downto 0) are unused 
+

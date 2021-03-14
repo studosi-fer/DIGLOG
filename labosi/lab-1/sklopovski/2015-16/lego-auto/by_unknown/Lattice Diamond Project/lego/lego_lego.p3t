@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "lego_lego.log"
+-o "lego_lego.csv"
+-pr "lego_lego.prf"

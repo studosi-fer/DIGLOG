@@ -1,0 +1,9 @@
+JMBAG: 0036510688
+LED(3): SR
+LED(7): D latch
+LED(1): D flip-flop
+LED(5): D flip-flop, asinkroni SR
+LED(4): D flip-flop, sinkroni SR
+LED(2): D flip-flop s enable ulazom, sinkroni SR
+LED(6): JK
+LED(0): T

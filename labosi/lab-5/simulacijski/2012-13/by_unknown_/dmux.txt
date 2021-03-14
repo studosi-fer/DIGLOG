@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY dmux IS PORT (
+
+	x : IN std_logic_vector (1 downto 0);
+	y : IN std_logic_vector (1 downto 0);
+	op : IN std_logic;
+	z : OUT std_logic_vector (1 downto 0) );
+	
+END dmux;
+
+ARCHITECTURE arch OF dmux IS 
+
+BEGIN
+
+z(0) <= (not op and x(0)) or (op and y(0)) after 10 ns;
+z(1) <= (not op and x(1)) or (op and y(1)) after 10 ns;
+
+END arch;

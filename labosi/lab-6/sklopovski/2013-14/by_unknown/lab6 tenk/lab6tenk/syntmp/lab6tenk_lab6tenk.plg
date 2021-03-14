@@ -1,0 +1,36 @@
+@P:  Worst Slack : -1.216
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Frequency : 160.9 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Period : 6.216
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Period : 5.000
+@P:  rf_modulator|clk_pll_inferred_clock - Slack : -1.216
+@P:  tenk_toplevel|clk_25m - Estimated Frequency : 179.4 MHz
+@P:  tenk_toplevel|clk_25m - Requested Frequency : 200.0 MHz
+@P:  tenk_toplevel|clk_25m - Estimated Period : 5.574
+@P:  tenk_toplevel|clk_25m - Requested Period : 5.000
+@P:  tenk_toplevel|clk_25m - Slack : -0.574
+@P:  System - Estimated Frequency : 190.7 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 5.245
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : -0.245
+@P:  Worst Slack(min analysis) : 0.571
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Frequency(min analysis) : 160.9 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Frequency(min analysis) : 200.0 MHz
+@P:  rf_modulator|clk_pll_inferred_clock - Estimated Period(min analysis) : 6.216
+@P:  rf_modulator|clk_pll_inferred_clock - Requested Period(min analysis) : 5.000
+@P:  rf_modulator|clk_pll_inferred_clock - Slack(min analysis) : -1.216
+@P:  tenk_toplevel|clk_25m - Estimated Frequency(min analysis) : 179.4 MHz
+@P:  tenk_toplevel|clk_25m - Requested Frequency(min analysis) : 200.0 MHz
+@P:  tenk_toplevel|clk_25m - Estimated Period(min analysis) : 5.574
+@P:  tenk_toplevel|clk_25m - Requested Period(min analysis) : 5.000
+@P:  tenk_toplevel|clk_25m - Slack(min analysis) : -0.574
+@P:  System - Estimated Frequency(min analysis) : 272.1 MHz
+@P:  System - Requested Frequency(min analysis) : 200.0 MHz
+@P:  System - Estimated Period(min analysis) : 3.675
+@P:  System - Requested Period(min analysis) : 5.000
+@P:  System - Slack(min analysis) : 1.325
+@P:  Total Area : 153.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock sem|clk_25m with period 4.06ns. Please declare a user-defined clock on object "p:clk_25m"

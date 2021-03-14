@@ -1,0 +1,144 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+ram_8_2_DOB17
+ram_8_2_DOB16
+ram_8_2_DOB15
+ram_8_2_DOB14
+ram_8_2_DOB13
+ram_8_2_DOB12
+ram_8_2_DOB11
+ram_8_2_DOB10
+ram_8_2_DOB9
+ram_8_2_DOB8
+data_a[23]
+data_a[22]
+data_a[21]
+data_a[20]
+data_a[19]
+data_a[18]
+data_a[17]
+data_a[16]
+ram_8_2_DOA17
+ram_8_2_DOA16
+ram_8_2_DOA15
+ram_8_2_DOA14
+ram_8_2_DOA13
+ram_8_2_DOA12
+ram_8_2_DOA11
+ram_8_2_DOA10
+ram_8_2_DOA9
+ram_8_2_DOA8
+data_b[23]
+data_b[19]
+ram_8_1_DOB17
+ram_8_1_DOB16
+ram_8_1_DOB15
+ram_8_1_DOB14
+ram_8_1_DOB13
+ram_8_1_DOB12
+ram_8_1_DOB11
+ram_8_1_DOB10
+ram_8_1_DOB9
+ram_8_1_DOB8
+data_a[15]
+data_a[14]
+data_a[13]
+data_a[12]
+data_a[11]
+ram_8_1_DOA17
+ram_8_1_DOA16
+ram_8_1_DOA15
+ram_8_1_DOA14
+ram_8_1_DOA13
+ram_8_1_DOA12
+ram_8_1_DOA11
+ram_8_1_DOA10
+ram_8_1_DOA9
+ram_8_1_DOA8
+data_b[15]
+data_b[11]
+ram_8_0_DOB17
+ram_8_0_DOB16
+ram_8_0_DOB15
+ram_8_0_DOB14
+ram_8_0_DOB13
+ram_8_0_DOB12
+ram_8_0_DOB11
+ram_8_0_DOB10
+ram_8_0_DOB9
+ram_8_0_DOB8
+ram_8_0_DOA17
+ram_8_0_DOA16
+ram_8_0_DOA15
+ram_8_0_DOA14
+ram_8_0_DOA13
+ram_8_0_DOA12
+ram_8_0_DOA11
+ram_8_0_DOA10
+ram_8_0_DOA9
+ram_8_0_DOA8
+data_b[7]
+data_b[3]
+un2_clk_cnt_s_31_0_S1
+un2_clk_cnt_s_31_0_COUT
+un2_clk_cnt_cry_0_0_S1
+un2_clk_cnt_cry_0_0_S0
+N_1
+ram_8_3_DOB17
+ram_8_3_DOB16
+ram_8_3_DOB15
+ram_8_3_DOB14
+ram_8_3_DOB13
+ram_8_3_DOB12
+ram_8_3_DOB11
+ram_8_3_DOB10
+ram_8_3_DOB9
+ram_8_3_DOB8
+data_a[31]
+data_a[30]
+data_a[29]
+data_a[28]
+data_a[27]
+data_a[26]
+data_a[25]
+data_a[24]
+ram_8_3_DOA17
+ram_8_3_DOA16
+ram_8_3_DOA15
+ram_8_3_DOA14
+ram_8_3_DOA13
+ram_8_3_DOA12
+ram_8_3_DOA11
+ram_8_3_DOA10
+ram_8_3_DOA9
+ram_8_3_DOA8
+data_b[31]
+data_b[27]
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.9.0.99.2 -- WARNING: Map write only section -- Mon Dec 04 09:52:10 2017
+
+SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
+LOCATE COMP "led[0]" SITE "29" ;
+LOCATE COMP "btn_left" SITE "2" ;
+LOCATE COMP "clk_25m" SITE "30" ;
+LOCATE COMP "led[7]" SITE "138" ;
+LOCATE COMP "led[6]" SITE "6" ;
+LOCATE COMP "led[5]" SITE "5" ;
+LOCATE COMP "led[4]" SITE "144" ;
+LOCATE COMP "led[3]" SITE "35" ;
+LOCATE COMP "led[2]" SITE "36" ;
+LOCATE COMP "led[1]" SITE "37" ;
+LOCATE COMP "sw[3]" SITE "130" ;
+LOCATE COMP "sw[2]" SITE "129" ;
+LOCATE COMP "sw[1]" SITE "46" ;
+LOCATE COMP "sw[0]" SITE "45" ;
+LOCATE COMP "btn_down" SITE "1" ;
+LOCATE COMP "btn_up" SITE "11" ;
+LOCATE COMP "btn_right" SITE "38" ;
+LOCATE COMP "btn_center" SITE "22" ;
+FREQUENCY PORT "clk_25m" 25.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

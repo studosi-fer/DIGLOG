@@ -1,0 +1,50 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1176R, Built Apr 20 2015 09:34:50
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@L: /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1_scck.rpt 
+Printing clock  summary report in "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=12  set on top level netlist daljinski_upravljac
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                   Requested     Requested     Clock        Clock                
+Clock                                   Frequency     Period        Type         Group                
+------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     158.0 MHz     6.330         inferred     Autoconstr_clkgroup_0
+======================================================================================================
+
+@W: MT529 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Found inferred clock rf_modulator|clk_pll_inferred_clock which controls 116 sequential elements including odasiljac.R_outw[31:2]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:28:12 2015
+
+###########################################################]

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  tenk_upravljac  -multisrs  C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_comp.srs  -osyn  C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_mult.srs  -log  C:\Users\Tomi\Desktop\tenk\impl1\synlog\tenk_impl1_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_comp.srs|i|1445815796|14102
+C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_mult.srs|o|1445815797|4737
+C:\Users\Tomi\Desktop\tenk\impl1\synlog\tenk_impl1_multi_srs_gen.srr|o|1445815797|374
+C:\lscc\diamond\3.5_x64\synpbase\bin\syn_nfilter.exe|i|1429540166|3000832
+C:\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe|i|1429540358|3967488

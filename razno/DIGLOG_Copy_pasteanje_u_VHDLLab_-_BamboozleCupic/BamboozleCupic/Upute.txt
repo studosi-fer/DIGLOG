@@ -1,0 +1,3 @@
+GitHub repozitorij nalazi se na: https://github.com/Yalfoosh/ProjektSjebi-upka
+
+Sve upute su tamo u lijepom formatu, a i najnovija verzija ako nešto ne radi. Ova priložena bi trebala raditi bez problema.

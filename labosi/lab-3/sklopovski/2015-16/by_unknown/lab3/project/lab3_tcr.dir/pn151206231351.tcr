@@ -1,0 +1,6 @@
+#Start recording tcl command: 12/6/2015 23:05:47
+#Project Location: /home/ilakovac/faks/diglog/lab3/project; Project name: lab3
+prj_project open "/home/ilakovac/faks/diglog/lab3/project/lab3.ldf"
+prj_run Export -impl impl1 -task Bitgen
+prj_project close
+#Stop recording: 12/6/2015 23:13:51

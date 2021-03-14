@@ -1,0 +1,58 @@
+----------------------------------------------------------------------
+Report for cell slova.behavioral
+
+Register bits: 75 of 8352 (1%)
+PIC Latch:       0
+I/O cells:       16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       29       100.0
+                            FD1P3AX        4       100.0
+                            FD1P3AY        8       100.0
+                            FD1P3IX       23       100.0
+                            FD1P3JX        8       100.0
+                            FD1S3AX       26       100.0
+                            FD1S3IX        5       100.0
+                                GSR        1       100.0
+                                 IB        7       100.0
+                                INV        1       100.0
+                                 OB        9       100.0
+                           OFS1P3BX        1       100.0
+                           ORCALUT4      103       100.0
+                              PFUMX        5       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                             brojke        1       100.0
+                          serial_tx        1       100.0
+                            
+                         TOTAL           238           
+----------------------------------------------------------------------
+Report for cell brojke.netlist
+     Instance path:  inst_brojke
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        5         4.9
+                                VLO        1        33.3
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell serial_tx.netlist
+     Instance path:  serializer
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       29       100.0
+                            FD1P3AX        4       100.0
+                            FD1P3AY        8       100.0
+                            FD1P3IX       23       100.0
+                            FD1P3JX        8       100.0
+                            FD1S3AX       26       100.0
+                            FD1S3IX        5       100.0
+                                INV        1       100.0
+                           ORCALUT4       98        95.1
+                              PFUMX        5       100.0
+                                VHI        1        50.0
+                                VLO        1        33.3
+                            
+                         TOTAL           209           

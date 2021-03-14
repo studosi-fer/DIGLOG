@@ -1,0 +1,19 @@
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":1274:7:1274:9|Synthesizing module VLO in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":1114:7:1114:9|Synthesizing module OR5 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":1099:7:1099:9|Synthesizing module OR3 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":1093:7:1093:9|Synthesizing module OR2 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":1106:7:1106:9|Synthesizing module OR4 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":970:7:970:8|Synthesizing module OB in library work.
+
+@N: CG364 :"D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\lab2.v":3:7:3:10|Synthesizing module lab2 in library work.
+
+@N: CG794 :"D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\lab2.v":61:10:61:11|Using module serial_tx from library work

@@ -1,0 +1,169 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|arduino|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1480984808
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1480995154
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1480984354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\cae_library\\synthesis\\vhdl\\xp2.vhd":1480948030
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\arduino.vhd":1514460291
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\tonegen.vhd":1482696364
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\alu.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\bptrace.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\debug.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\defs_f32c.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\defs_mi32.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\defs_rv32.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\idecode_mi32.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\idecode_rv32.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\loadalign.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\mul_dsp.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\pipeline.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\reg1w2r.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\cpu\\shift.vhd":1482330534
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\f32c_soc_glue.vhd":1482492165
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\bram.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\sio.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\gpio.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\timer.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\clkgen.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\pll_xp2_25m.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\bootloader\\boot_rom_mi32el.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\bootloader\\boot_sio_mi32eb.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\bootloader\\boot_sio_mi32el.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\bootloader\\boot_sio_rv32el.vhd":1482330533
+#CUR:"D:\\Ivan\\Faks\\1. Semestar\\DigLog\\LV6\\soc\\soc\\bootloader\\defs_bootblock.vhd":1482330533
+0 "C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd" vhdl
+1 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd" vhdl
+2 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\tonegen.vhd" vhdl
+3 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\alu.vhd" vhdl
+4 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd" vhdl
+5 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\debug.vhd" vhdl
+6 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_f32c.vhd" vhdl
+7 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_mi32.vhd" vhdl
+8 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_rv32.vhd" vhdl
+9 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_mi32.vhd" vhdl
+10 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_rv32.vhd" vhdl
+11 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\loadalign.vhd" vhdl
+12 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd" vhdl
+13 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd" vhdl
+14 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd" vhdl
+15 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd" vhdl
+16 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd" vhdl
+17 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd" vhdl
+18 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd" vhdl
+19 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd" vhdl
+20 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd" vhdl
+21 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\clkgen.vhd" vhdl
+22 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\pll_xp2_25m.vhd" vhdl
+23 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_rom_mi32el.vhd" vhdl
+24 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_mi32eb.vhd" vhdl
+25 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_mi32el.vhd" vhdl
+26 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_rv32el.vhd" vhdl
+27 "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\defs_bootblock.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 21 16 2 6 
+2 -1
+3 -1
+4 -1
+5 6 
+6 7 8 
+7 -1
+8 -1
+9 6 7 
+10 6 8 
+11 -1
+12 -1
+13 4 9 10 14 3 15 11 12 5 6 7 8 
+14 -1
+15 6 
+16 13 19 20 17 18 6 
+17 6 27 25 24 26 23 
+18 -1
+19 -1
+20 -1
+21 22 0 
+22 0 
+23 27 
+24 27 
+25 27 
+26 27 
+27 -1
+
+# Dependency Lists (Users Of)
+0 22 21 
+1 -1
+2 1 
+3 13 
+4 13 
+5 13 
+6 17 16 15 13 10 9 5 1 
+7 13 9 6 
+8 13 10 6 
+9 13 
+10 13 
+11 13 
+12 13 
+13 16 
+14 13 
+15 13 
+16 1 
+17 16 
+18 16 
+19 16 
+20 16 
+21 1 
+22 21 
+23 17 
+24 17 
+25 17 
+26 17 
+27 26 25 24 23 17 
+
+# Design Unit to File Association
+arch work arduino x 1
+module work arduino 1
+arch work tonegen x 2
+module work tonegen 2
+arch work alu behavioral 3
+module work alu 3
+arch work bptrace structure 4
+module work bptrace 4
+arch work debug x 5
+module work debug 5
+arch work idecode_mi32 behavioral 9
+module work idecode_mi32 9
+arch work idecode_rv32 behavioral 10
+module work idecode_rv32 10
+arch work loadalign behavioral 11
+module work loadalign 11
+arch work mul arch_x 12
+module work mul 12
+arch work pipeline behavioral 13
+module work pipeline 13
+arch work reg1w2r behavioral 14
+module work reg1w2r 14
+arch work shift behavioral 15
+module work shift 15
+arch work f32c_soc_glue x 16
+module work f32c_soc_glue 16
+arch work bram x 17
+module work bram 17
+arch work sio behavioral 18
+module work sio 18
+arch work gpio arch 19
+module work gpio 19
+arch work timer arch 20
+module work timer 20
+arch work clkgen behavioral 21
+module work clkgen 21
+config work structure_con 22
+arch work pll structure 22
+module work pll 22

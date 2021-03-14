@@ -1,0 +1,1365 @@
+
+synpwrap -msg -prj "lab3_tenk_impl1_synplify.tcl" -log "lab3_tenk_impl1.srf"
+Copyright (C) 1992-2015 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.5.0.102
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+/usr/local/diamond/3.5_x64/synpbase/bin/synplify_pro: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/synplify_pro: 200: [: !=: argument expected
+sourcing /usr/local/diamond/3.5_x64/synpbase/lib/message_override.tcl
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 200: [: !=: argument expected
+/usr/local/diamond/3.5_x64/synpbase/bin/c_hdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_hdl: 200: [: !=: argument expected
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 200: [: !=: argument expected
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice: 200: [: !=: argument expected
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice: 200: [: !=: argument expected
+Running in Lattice mode
+
+
+Starting:    /usr/local/diamond/3.5_x64/synpbase/linux_a_64/mbin/synbatch
+Install:     /usr/local/diamond/3.5_x64/synpbase
+Hostname:    ilakovac-hp-elitebook
+Date:        Sun Dec  6 23:28:04 2015
+Version:     J-2015.03L
+
+Arguments:   -product synplify_pro -batch lab3_tenk_impl1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srf
+
+log file: "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr"
+
+Running: impl1 in foreground
+
+
+
+Running proj_1|impl1
+
+
+Running: compile (Compile) on proj_1|impl1
+
+
+Running: compile_flow (Compile Process) on proj_1|impl1
+
+
+Running: compiler (Compile Input) on proj_1|impl1
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:00h:00m:03s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_mult.srs to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srs
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srf
+
+Complete: Compile Process on proj_1|impl1
+
+
+Running: premap (Pre-mapping) on proj_1|impl1
+
+
+premap Completed with warnings
+Return Code: 1
+Run Time:00h:00m:05s
+
+Complete: Compile on proj_1|impl1
+
+
+Running: map (Map) on proj_1|impl1
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|impl1
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_m.srm to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:00h:00m:06s
+
+Complete: Map on proj_1|impl1
+
+Copied /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srr to /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.srf
+
+Complete: Logic Synthesis on proj_1|impl1
+
+TCL script complete: "lab3_tenk_impl1_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/proj_1.prj
+
+batch mode default:no
+
+Child process exit with 0.
+
+==contents of lab3_tenk_impl1.srf
+#Build: Synplify Pro J-2015.03L, Build 030R, Apr 20 2015
+#install: /usr/local/diamond/3.5_x64/synpbase
+#OS: Linux 
+#Hostname: ilakovac-hp-elitebook
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 200: [: !=: argument expected
+Running on host :ilakovac-hp-elitebook
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":6:7:6:25|Top entity is set to daljinski_upravljac.
+VHDL syntax check successful!
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":6:7:6:25|Synthesizing work.daljinski_upravljac.behavioral 
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure 
+@N: CD630 :"/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd":767:10:767:15|Synthesizing work.eplld1.syn_black_box 
+Post processing for work.eplld1.syn_black_box
+@W: CG296 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":225:4:225:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":229:10:229:21|Referenced variable ignition_key is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":229:50:229:65|Referenced variable machinegun_sound is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":229:31:229:41|Referenced variable gun_fire_bb is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":228:62:228:70|Referenced variable gun_sound is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":228:46:228:53|Referenced variable gun_elev is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":230:19:230:27|Referenced variable gun_right is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":228:31:228:38|Referenced variable gun_left is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":231:45:231:60|Referenced variable drive_left_right is not in sensitivity list
+@W: CG290 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":230:35:230:47|Referenced variable drive_fwd_rev is not in sensitivity list
+@W: CD638 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":133:20:133:21|Signal fm is undriven 
+Post processing for work.rf_modulator.structure
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(21) is always 1, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(22) is always 0, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(23) is always 0, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(24) is always 0, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(25) is always 1, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(26) is always 0, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(27) is always 0, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Register bit R_outw(0) is always 1, optimizing ...
+@W: CL260 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Pruning register bit 0 of R_outw(31 downto 0)  
+@W: CL279 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Pruning register bits 27 to 21 of R_fm_inc(27 downto 0)  
+Post processing for work.daljinski_upravljac.behavioral
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Register bit R_brzina(3) is always 0, optimizing ...
+@W: CL189 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Register bit R_outw(1) is always 1, optimizing ...
+@W: CL260 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Pruning register bit 1 of R_outw(31 downto 1)  
+@W: CL260 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Pruning register bit 3 of R_brzina(3 downto 0)  
+@W: CL260 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":349:1:349:2|Pruning register bit 19 of R_fm_inc(20 downto 0)  
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:28:05 2015
+
+###########################################################]
+Inconsistency encountered while reading the file dependency file: /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/layer0.fdep; problem reading the design unit mappings
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 200: [: !=: argument expected
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:28:06 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:28:06 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:28:07 2015
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1176R, Built Apr 20 2015 09:34:50
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@L: /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1_scck.rpt 
+Printing clock  summary report in "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=12  set on top level netlist daljinski_upravljac
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                   Requested     Requested     Clock        Clock                
+Clock                                   Frequency     Period        Type         Group                
+------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     158.0 MHz     6.330         inferred     Autoconstr_clkgroup_0
+======================================================================================================
+
+@W: MT529 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Found inferred clock rf_modulator|clk_pll_inferred_clock which controls 116 sequential elements including odasiljac.R_outw[31:2]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:28:12 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1176R, Built Apr 20 2015 09:34:50
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX404 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":219:4:219:5|Found addmux in view:work.rf_modulator(structure) inst fwd_rev[4:0] from un1_R_brzina_3[4:0] 
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 154MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.40ns		 171 /       116
+   2		0h:00m:01s		    -2.40ns		 168 /       116
+   3		0h:00m:01s		    -2.40ns		 168 /       116
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":234:4:234:23|Instance "odasiljac.r_clk_acc" with 34 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Instance "odasiljac.R_lijevo" with 19 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":233:4:233:5|Instance "odasiljac.R_naprijed" with 17 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+
+
+   4		0h:00m:02s		    -2.40ns		 173 /       118
+
+
+   5		0h:00m:02s		    -2.40ns		 173 /       118
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 155MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 155MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 118 clock pin(s) of sequential element(s)
+0 instances converted, 118 sequential instances remain driven by gated/generated clocks
+
+======================================================================================================= Gated/Generated Clocks =======================================================================================================
+Clock Tree ID     Driving Element         Drive Element Type     Fanout     Sample Instance             Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       odasiljac.PLLInst_0     EPLLD1                 118        odasiljac.R_clk_acc[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+======================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 122MB peak: 155MB)
+
+Writing Analyst data base /home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 155MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 159MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 159MB)
+
+@W: MT246 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 6.40ns. Please declare a user-defined clock on object "n:odasiljac.clk_pll"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Dec  6 23:28:18 2015
+#
+
+
+Top view:               daljinski_upravljac
+Requested Frequency:    156.2 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.130
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     156.2 MHz     132.8 MHz     6.403         7.533         -1.130     inferred     Autoconstr_clkgroup_0
+System                                  1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup      
+=============================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  6.403       -1.130  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rf_modulator|clk_pll_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                       Arrival           
+Instance                     Reference                               Type        Pin     Net                Time        Slack 
+                             Clock                                                                                            
+------------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_desno            rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_desno            1.354       -1.130
+odasiljac.R_phase_acc[2]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[2]     1.166       -1.025
+odasiljac.R_phase_acc[3]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[3]     1.166       -1.025
+odasiljac.R_phase_acc[6]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[6]     1.166       -1.025
+odasiljac.R_speed_acc[0]     rf_modulator|clk_pll_inferred_clock     FD1S3JX     Q       R_speed_acc[0]     1.251       -1.025
+odasiljac.R_speed_acc[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_speed_acc[2]     1.251       -1.025
+odasiljac.R_natrag           rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       un10[1]            1.373       -0.980
+odasiljac.R_phase_acc[4]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[4]     1.091       -0.950
+odasiljac.R_phase_acc[5]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[5]     1.091       -0.950
+odasiljac.R_phase_acc[7]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[7]     1.091       -0.950
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                                              Required           
+Instance                  Reference                               Type        Pin     Net                       Time         Slack 
+                          Clock                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_outw[4]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[4]               5.667        -1.130
+odasiljac.R_brzina[0]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     CD      un1_R_brzina_0_sqmuxa     6.043        -1.025
+odasiljac.R_brzina[1]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     CD      un1_R_brzina_0_sqmuxa     6.043        -1.025
+odasiljac.R_brzina[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     CD      un1_R_brzina_0_sqmuxa     6.043        -1.025
+odasiljac.R_desno         rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_desno_6                 5.667        -1.025
+odasiljac.R_natrag        rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_natrag_8                5.667        -1.025
+odasiljac.R_brzina[1]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[1]            5.667        -0.593
+odasiljac.R_brzina[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[2]            5.667        -0.593
+odasiljac.R_skretanje     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_skretanje_6             5.667        -0.593
+odasiljac.R_outw[3]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[3]               5.667        -0.246
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.403
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.667
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.130
+
+    Number of logic level(s):                6
+    Starting point:                          odasiljac.R_desno / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+odasiljac.R_desno               FD1P3AX      Q        Out     1.354     1.354       -         
+R_desno                         Net          -        -       -         -           17        
+odasiljac.un10_0_4_.m1          ORCALUT4     A        In      0.000     1.354       -         
+odasiljac.un10_0_4_.m1          ORCALUT4     Z        Out     1.137     2.491       -         
+un5_r_naprijed                  Net          -        -       -         -           6         
+odasiljac.fwd_rev_0_cry_0_0     CCU2B        B1       In      0.000     2.491       -         
+odasiljac.fwd_rev_0_cry_0_0     CCU2B        COUT     Out     1.243     3.734       -         
+fwd_rev_0_cry_0                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        CIN      In      0.000     3.734       -         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        COUT     Out     0.088     3.822       -         
+fwd_rev_0_cry_2                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        CIN      In      0.000     3.822       -         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        S1       Out     1.546     5.368       -         
+fwd_rev_0_cry_3_0_S1            Net          -        -       -         -           2         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     A        In      0.000     5.368       -         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     Z        Out     0.883     6.252       -         
+g1_0_1_1_1                      Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]         ORCALUT4     C        In      0.000     6.252       -         
+odasiljac.R_outw_RNO[4]         ORCALUT4     Z        Out     0.545     6.797       -         
+R_outw_5[4]                     Net          -        -       -         -           1         
+odasiljac.R_outw[4]             FD1P3AX      D        In      0.000     6.797       -         
+==============================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      6.403
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.667
+
+    - Propagation time:                      6.709
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.042
+
+    Number of logic level(s):                5
+    Starting point:                          odasiljac.R_desno / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+odasiljac.R_desno               FD1P3AX      Q        Out     1.354     1.354       -         
+R_desno                         Net          -        -       -         -           17        
+odasiljac.un10_0_4_.m1          ORCALUT4     A        In      0.000     1.354       -         
+odasiljac.un10_0_4_.m1          ORCALUT4     Z        Out     1.137     2.491       -         
+un5_r_naprijed                  Net          -        -       -         -           6         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        C1       In      0.000     2.491       -         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        COUT     Out     1.243     3.734       -         
+fwd_rev_0_cry_2                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        CIN      In      0.000     3.734       -         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        S1       Out     1.546     5.280       -         
+fwd_rev_0_cry_3_0_S1            Net          -        -       -         -           2         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     A        In      0.000     5.280       -         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     Z        Out     0.883     6.164       -         
+g1_0_1_1_1                      Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]         ORCALUT4     C        In      0.000     6.164       -         
+odasiljac.R_outw_RNO[4]         ORCALUT4     Z        Out     0.545     6.709       -         
+R_outw_5[4]                     Net          -        -       -         -           1         
+odasiljac.R_outw[4]             FD1P3AX      D        In      0.000     6.709       -         
+==============================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      6.403
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.667
+
+    - Propagation time:                      6.709
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.042
+
+    Number of logic level(s):                5
+    Starting point:                          odasiljac.R_desno / Q
+    Ending point:                            odasiljac.R_outw[4] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+odasiljac.R_desno               FD1P3AX      Q        Out     1.354     1.354       -         
+R_desno                         Net          -        -       -         -           17        
+odasiljac.un10_0_4_.m1          ORCALUT4     A        In      0.000     1.354       -         
+odasiljac.un10_0_4_.m1          ORCALUT4     Z        Out     1.137     2.491       -         
+un5_r_naprijed                  Net          -        -       -         -           6         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        C0       In      0.000     2.491       -         
+odasiljac.fwd_rev_0_cry_1_0     CCU2B        COUT     Out     1.243     3.734       -         
+fwd_rev_0_cry_2                 Net          -        -       -         -           1         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        CIN      In      0.000     3.734       -         
+odasiljac.fwd_rev_0_cry_3_0     CCU2B        S1       Out     1.546     5.280       -         
+fwd_rev_0_cry_3_0_S1            Net          -        -       -         -           2         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     A        In      0.000     5.280       -         
+odasiljac.R_outw_RNO_1[4]       ORCALUT4     Z        Out     0.883     6.164       -         
+g1_0_1_1_1                      Net          -        -       -         -           1         
+odasiljac.R_outw_RNO[4]         ORCALUT4     C        In      0.000     6.164       -         
+odasiljac.R_outw_RNO[4]         ORCALUT4     Z        Out     0.545     6.709       -         
+R_outw_5[4]                     Net          -        -       -         -           1         
+odasiljac.R_outw[4]             FD1P3AX      D        In      0.000     6.709       -         
+==============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      6.403
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.043
+
+    - Propagation time:                      7.068
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.025
+
+    Number of logic level(s):                6
+    Starting point:                          odasiljac.R_phase_acc[2] / Q
+    Ending point:                            odasiljac.R_brzina[0] / CD
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+odasiljac.R_phase_acc[2]                  FD1P3AX      Q        Out     1.166     1.166       -         
+R_phase_acc[2]                            Net          -        -       -         -           3         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     A        In      0.000     1.166       -         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     Z        Out     0.968     2.134       -         
+un37_r_clk_acc_2                          Net          -        -       -         -           2         
+odasiljac.un37_r_clk_acc                  ORCALUT4     D        In      0.000     2.134       -         
+odasiljac.un37_r_clk_acc                  ORCALUT4     Z        Out     1.241     3.375       -         
+un37_r_clk_acc                            Net          -        -       -         -           19        
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     D        In      0.000     3.375       -         
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     Z        Out     0.883     4.258       -         
+R_brzina_3_sqmuxa_1_1                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     B        In      0.000     4.258       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     Z        Out     0.883     5.142       -         
+R_brzina_3_sqmuxa_1_2                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     B        In      0.000     5.142       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     Z        Out     0.883     6.025       -         
+un1_R_brzina_0_sqmuxa_1                   Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     B        In      0.000     6.025       -         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     Z        Out     1.043     7.068       -         
+un1_R_brzina_0_sqmuxa                     Net          -        -       -         -           3         
+odasiljac.R_brzina[0]                     FD1S3IX      CD       In      0.000     7.068       -         
+========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      6.403
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.043
+
+    - Propagation time:                      7.068
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.025
+
+    Number of logic level(s):                6
+    Starting point:                          odasiljac.R_phase_acc[3] / Q
+    Ending point:                            odasiljac.R_brzina[0] / CD
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+odasiljac.R_phase_acc[3]                  FD1P3AX      Q        Out     1.166     1.166       -         
+R_phase_acc[3]                            Net          -        -       -         -           3         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     B        In      0.000     1.166       -         
+odasiljac.un3_r_clk_acc_2                 ORCALUT4     Z        Out     0.968     2.134       -         
+un37_r_clk_acc_2                          Net          -        -       -         -           2         
+odasiljac.un37_r_clk_acc                  ORCALUT4     D        In      0.000     2.134       -         
+odasiljac.un37_r_clk_acc                  ORCALUT4     Z        Out     1.241     3.375       -         
+un37_r_clk_acc                            Net          -        -       -         -           19        
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     D        In      0.000     3.375       -         
+odasiljac.R_brzina_3_sqmuxa_1_1           ORCALUT4     Z        Out     0.883     4.258       -         
+R_brzina_3_sqmuxa_1_1                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     B        In      0.000     4.258       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1_RNO     ORCALUT4     Z        Out     0.883     5.142       -         
+R_brzina_3_sqmuxa_1_2                     Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     B        In      0.000     5.142       -         
+odasiljac.un1_R_brzina_0_sqmuxa_1         ORCALUT4     Z        Out     0.883     6.025       -         
+un1_R_brzina_0_sqmuxa_1                   Net          -        -       -         -           1         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     B        In      0.000     6.025       -         
+odasiljac.un1_R_brzina_0_sqmuxa           ORCALUT4     Z        Out     1.043     7.068       -         
+un1_R_brzina_0_sqmuxa                     Net          -        -       -         -           3         
+odasiljac.R_brzina[0]                     FD1S3IX      CD       In      0.000     7.068       -         
+========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 159MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 159MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_8e-5
+
+Register bits: 118 of 8352 (1%)
+PIC Latch:       0
+I/O cells:       15
+
+
+Details:
+CCU2B:          32
+FD1P3AX:        44
+FD1S3AX:        57
+FD1S3IX:        15
+FD1S3JX:        1
+GSR:            1
+IB:             10
+IFS1P3DX:       1
+INV:            2
+OB:             5
+ORCALUT4:       170
+PFUMX:          4
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 54MB peak: 159MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Sun Dec  6 23:28:18 2015
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "LatticeXP2" -d LFXP2-8E -path "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1" -path "/home/ilakovac/faks/diglog/lab3_tenk/project"   "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1.edi" "lab3_tenk_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.5.0.102
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to lab3_tenk_impl1.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "LatticeXP2" -d LFXP2-8E  -p "/usr/local/diamond/3.5_x64/ispfpga/mg5a00/data"  -p "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1" -p "/home/ilakovac/faks/diglog/lab3_tenk/project"  "lab3_tenk_impl1.ngo" "lab3_tenk_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.5.0.102
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'lab3_tenk_impl1.ngo' ...
+Loading NGL library '/usr/local/diamond/3.5_x64/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.5_x64/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.5_x64/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.5_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un93_r_clk_acc_1_s_15_0_COUT" arg2="odasiljac/un93_r_clk_acc_1_s_15_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un93_r_clk_acc_1_s_15_0_S1" arg2="odasiljac/un93_r_clk_acc_1_s_15_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un93_r_clk_acc_1_cry_0_0_S0" arg2="odasiljac/un93_r_clk_acc_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un93_r_clk_acc_1_cry_0_0_S1" arg2="odasiljac/un93_r_clk_acc_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un2_r_phase_acc_1_s_7_0_COUT" arg2="odasiljac/un2_r_phase_acc_1_s_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un2_r_phase_acc_1_s_7_0_S1" arg2="odasiljac/un2_r_phase_acc_1_s_7_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un2_r_phase_acc_1_cry_0_0_S0" arg2="odasiljac/un2_r_phase_acc_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/un2_r_phase_acc_1_cry_0_0_S1" arg2="odasiljac/un2_r_phase_acc_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/r_fm_acc_s_27_0_COUT" arg2="odasiljac/r_fm_acc_s_27_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/r_fm_acc_s_27_0_S1" arg2="odasiljac/r_fm_acc_s_27_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/r_fm_acc_cry_0_0_S0" arg2="odasiljac/r_fm_acc_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/r_fm_acc_cry_0_0_S1" arg2="odasiljac/r_fm_acc_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/fwd_rev_0_cry_3_0_COUT" arg2="odasiljac/fwd_rev_0_cry_3_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/fwd_rev_0_cry_0_0_S0" arg2="odasiljac/fwd_rev_0_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/fwd_rev_0_cry_0_0_S1" arg2="odasiljac/fwd_rev_0_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/CLKOS" arg2="odasiljac/CLKOS"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/CLKOK" arg2="odasiljac/CLKOK"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/LOCK" arg2="odasiljac/LOCK"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="odasiljac/CLKINTFB" arg2="odasiljac/CLKINTFB"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="19"  />
+
+Design Results:
+    347 blocks expanded
+Complete the first expansion.
+Writing 'lab3_tenk_impl1.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "LatticeXP2" -p LFXP2-8E -t TQFP144 -s 5 -oc Commercial   "lab3_tenk_impl1.ngd" -o "lab3_tenk_impl1_map.ncd" -pr "lab3_tenk_impl1.prf" -mp "lab3_tenk_impl1.mrp" -lpf "/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/lab3_tenk_impl1_synplify.lpf" -lpf "/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf"             
+map:  version Diamond (64-bit) 3.5.0.102
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: lab3_tenk_impl1.ngd
+   Picdevice="LFXP2-8E"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-8ETQFP144, Performance used: 5.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(18): Semantic error in &quot;LOCATE COMP &quot;rs232_rx&quot; SITE &quot;10&quot; ;&quot;: " arg1="rs232_rx" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="18"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(19): Semantic error in &quot;LOCATE COMP &quot;rs232_tx&quot; SITE &quot;137&quot; ;&quot;: " arg1="rs232_tx" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="19"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(22): Semantic error in &quot;LOCATE COMP &quot;led_0&quot; SITE &quot;29&quot; ;&quot;: " arg1="led_0" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="22"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(23): Semantic error in &quot;LOCATE COMP &quot;led_1&quot; SITE &quot;37&quot; ;&quot;: " arg1="led_1" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="23"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(24): Semantic error in &quot;LOCATE COMP &quot;led_2&quot; SITE &quot;36&quot; ;&quot;: " arg1="led_2" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="24"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(25): Semantic error in &quot;LOCATE COMP &quot;led_3&quot; SITE &quot;35&quot; ;&quot;: " arg1="led_3" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="25"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(26): Semantic error in &quot;LOCATE COMP &quot;led_4&quot; SITE &quot;144&quot; ;&quot;: " arg1="led_4" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="26"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(27): Semantic error in &quot;LOCATE COMP &quot;led_5&quot; SITE &quot;5&quot; ;&quot;: " arg1="led_5" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="27"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(28): Semantic error in &quot;LOCATE COMP &quot;led_6&quot; SITE &quot;6&quot; ;&quot;: " arg1="led_6" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="28"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(29): Semantic error in &quot;LOCATE COMP &quot;led_7&quot; SITE &quot;138&quot; ;&quot;: " arg1="led_7" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="29"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(52): Semantic error in &quot;LOCATE COMP &quot;flash_cen&quot; SITE &quot;13&quot; ;&quot;: " arg1="flash_cen" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="52"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(53): Semantic error in &quot;LOCATE COMP &quot;flash_sck&quot; SITE &quot;16&quot; ;&quot;: " arg1="flash_sck" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="53"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(54): Semantic error in &quot;LOCATE COMP &quot;flash_si&quot; SITE &quot;19&quot; ;&quot;: " arg1="flash_si" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="54"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(55): Semantic error in &quot;LOCATE COMP &quot;flash_so&quot; SITE &quot;18&quot; ;&quot;: " arg1="flash_so" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="55"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(58): Semantic error in &quot;LOCATE COMP &quot;sdcard_cen&quot; SITE &quot;15&quot; ;&quot;: " arg1="sdcard_cen" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="58"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(59): Semantic error in &quot;LOCATE COMP &quot;sdcard_sck&quot; SITE &quot;20&quot; ;&quot;: " arg1="sdcard_sck" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="59"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(60): Semantic error in &quot;LOCATE COMP &quot;sdcard_si&quot; SITE &quot;17&quot; ;&quot;: " arg1="sdcard_si" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="60"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(61): Semantic error in &quot;LOCATE COMP &quot;sdcard_so&quot; SITE &quot;21&quot; ;&quot;: " arg1="sdcard_so" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="61"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(64): Semantic error in &quot;LOCATE COMP &quot;sram_wel&quot; SITE &quot;93&quot; ;&quot;: " arg1="sram_wel" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="64"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(65): Semantic error in &quot;LOCATE COMP &quot;sram_lbl&quot; SITE &quot;120&quot; ;&quot;: " arg1="sram_lbl" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="65"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(66): Semantic error in &quot;LOCATE COMP &quot;sram_ubl&quot; SITE &quot;121&quot; ;&quot;: " arg1="sram_ubl" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="66"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(67): Semantic error in &quot;LOCATE COMP &quot;sram_a_0&quot; SITE &quot;101&quot; ;&quot;: " arg1="sram_a_0" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="67"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(68): Semantic error in &quot;LOCATE COMP &quot;sram_a_1&quot; SITE &quot;103&quot; ;&quot;: " arg1="sram_a_1" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="68"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(69): Semantic error in &quot;LOCATE COMP &quot;sram_a_2&quot; SITE &quot;104&quot; ;&quot;: " arg1="sram_a_2" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="69"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(70): Semantic error in &quot;LOCATE COMP &quot;sram_a_3&quot; SITE &quot;107&quot; ;&quot;: " arg1="sram_a_3" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="70"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(71): Semantic error in &quot;LOCATE COMP &quot;sram_a_4&quot; SITE &quot;108&quot; ;&quot;: " arg1="sram_a_4" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="71"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(72): Semantic error in &quot;LOCATE COMP &quot;sram_a_5&quot; SITE &quot;125&quot; ;&quot;: " arg1="sram_a_5" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="72"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(73): Semantic error in &quot;LOCATE COMP &quot;sram_a_6&quot; SITE &quot;127&quot; ;&quot;: " arg1="sram_a_6" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="73"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(74): Semantic error in &quot;LOCATE COMP &quot;sram_a_7&quot; SITE &quot;122&quot; ;&quot;: " arg1="sram_a_7" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="74"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(75): Semantic error in &quot;LOCATE COMP &quot;sram_a_8&quot; SITE &quot;58&quot; ;&quot;: " arg1="sram_a_8" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="75"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(76): Semantic error in &quot;LOCATE COMP &quot;sram_a_9&quot; SITE &quot;53&quot; ;&quot;: " arg1="sram_a_9" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="76"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(77): Semantic error in &quot;LOCATE COMP &quot;sram_a_10&quot; SITE &quot;54&quot; ;&quot;: " arg1="sram_a_10" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="77"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(78): Semantic error in &quot;LOCATE COMP &quot;sram_a_11&quot; SITE &quot;55&quot; ;&quot;: " arg1="sram_a_11" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="78"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(79): Semantic error in &quot;LOCATE COMP &quot;sram_a_12&quot; SITE &quot;56&quot; ;&quot;: " arg1="sram_a_12" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="79"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(80): Semantic error in &quot;LOCATE COMP &quot;sram_a_13&quot; SITE &quot;57&quot; ;&quot;: " arg1="sram_a_13" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="80"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(81): Semantic error in &quot;LOCATE COMP &quot;sram_a_14&quot; SITE &quot;73&quot; ;&quot;: " arg1="sram_a_14" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="81"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(82): Semantic error in &quot;LOCATE COMP &quot;sram_a_15&quot; SITE &quot;74&quot; ;&quot;: " arg1="sram_a_15" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="82"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(83): Semantic error in &quot;LOCATE COMP &quot;sram_a_16&quot; SITE &quot;77&quot; ;&quot;: " arg1="sram_a_16" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="83"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(84): Semantic error in &quot;LOCATE COMP &quot;sram_a_17&quot; SITE &quot;78&quot; ;&quot;: " arg1="sram_a_17" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="84"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(85): Semantic error in &quot;LOCATE COMP &quot;sram_a_18&quot; SITE &quot;94&quot; ;&quot;: " arg1="sram_a_18" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="85"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(86): Semantic error in &quot;LOCATE COMP &quot;sram_d_0&quot; SITE &quot;98&quot; ;&quot;: " arg1="sram_d_0" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="86"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(87): Semantic error in &quot;LOCATE COMP &quot;sram_d_1&quot; SITE &quot;96&quot; ;&quot;: " arg1="sram_d_1" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="87"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(88): Semantic error in &quot;LOCATE COMP &quot;sram_d_2&quot; SITE &quot;92&quot; ;&quot;: " arg1="sram_d_2" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="88"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(89): Semantic error in &quot;LOCATE COMP &quot;sram_d_3&quot; SITE &quot;91&quot; ;&quot;: " arg1="sram_d_3" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="89"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(90): Semantic error in &quot;LOCATE COMP &quot;sram_d_4&quot; SITE &quot;89&quot; ;&quot;: " arg1="sram_d_4" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="90"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(91): Semantic error in &quot;LOCATE COMP &quot;sram_d_5&quot; SITE &quot;88&quot; ;&quot;: " arg1="sram_d_5" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="91"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(92): Semantic error in &quot;LOCATE COMP &quot;sram_d_6&quot; SITE &quot;87&quot; ;&quot;: " arg1="sram_d_6" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="92"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(93): Semantic error in &quot;LOCATE COMP &quot;sram_d_7&quot; SITE &quot;90&quot; ;&quot;: " arg1="sram_d_7" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="93"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(94): Semantic error in &quot;LOCATE COMP &quot;sram_d_8&quot; SITE &quot;61&quot; ;&quot;: " arg1="sram_d_8" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="94"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(95): Semantic error in &quot;LOCATE COMP &quot;sram_d_9&quot; SITE &quot;62&quot; ;&quot;: " arg1="sram_d_9" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="95"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(96): Semantic error in &quot;LOCATE COMP &quot;sram_d_10&quot; SITE &quot;99&quot; ;&quot;: " arg1="sram_d_10" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="96"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(97): Semantic error in &quot;LOCATE COMP &quot;sram_d_11&quot; SITE &quot;100&quot; ;&quot;: " arg1="sram_d_11" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="97"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(98): Semantic error in &quot;LOCATE COMP &quot;sram_d_12&quot; SITE &quot;102&quot; ;&quot;: " arg1="sram_d_12" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="98"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(99): Semantic error in &quot;LOCATE COMP &quot;sram_d_13&quot; SITE &quot;113&quot; ;&quot;: " arg1="sram_d_13" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="99"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(100): Semantic error in &quot;LOCATE COMP &quot;sram_d_14&quot; SITE &quot;116&quot; ;&quot;: " arg1="sram_d_14" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="100"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(101): Semantic error in &quot;LOCATE COMP &quot;sram_d_15&quot; SITE &quot;119&quot; ;&quot;: " arg1="sram_d_15" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="101"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(105): Semantic error in &quot;LOCATE COMP &quot;j1_2&quot; SITE &quot;131&quot; ;&quot;: " arg1="j1_2" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="105"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(106): Semantic error in &quot;LOCATE COMP &quot;j1_3&quot; SITE &quot;134&quot; ;&quot;: " arg1="j1_3" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="106"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(107): Semantic error in &quot;LOCATE COMP &quot;j1_4&quot; SITE &quot;9&quot; ;&quot;: " arg1="j1_4" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="107"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(108): Semantic error in &quot;LOCATE COMP &quot;j1_5&quot; SITE &quot;138&quot; ;&quot;: " arg1="j1_5" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="108"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(109): Semantic error in &quot;LOCATE COMP &quot;j1_6&quot; SITE &quot;6&quot; ;&quot;: " arg1="j1_6" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="109"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(110): Semantic error in &quot;LOCATE COMP &quot;j1_7&quot; SITE &quot;5&quot; ;&quot;: " arg1="j1_7" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="110"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(111): Semantic error in &quot;LOCATE COMP &quot;j1_8&quot; SITE &quot;8&quot; ;&quot;: " arg1="j1_8" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="111"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(112): Semantic error in &quot;LOCATE COMP &quot;j1_9&quot; SITE &quot;7&quot; ;&quot;: " arg1="j1_9" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="112"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(113): Semantic error in &quot;LOCATE COMP &quot;j1_10&quot; SITE &quot;1&quot; ;&quot;: " arg1="j1_10" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="113"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(114): Semantic error in &quot;LOCATE COMP &quot;j1_11&quot; SITE &quot;2&quot; ;&quot;: " arg1="j1_11" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="114"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(115): Semantic error in &quot;LOCATE COMP &quot;j1_12&quot; SITE &quot;144&quot; ;&quot;: " arg1="j1_12" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="115"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(116): Semantic error in &quot;LOCATE COMP &quot;j1_13&quot; SITE &quot;143&quot; ;&quot;: " arg1="j1_13" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="116"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(117): Semantic error in &quot;LOCATE COMP &quot;j1_14&quot; SITE &quot;142&quot; ;&quot;: " arg1="j1_14" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="117"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(118): Semantic error in &quot;LOCATE COMP &quot;j1_15&quot; SITE &quot;141&quot; ;&quot;: " arg1="j1_15" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="118"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(119): Semantic error in &quot;LOCATE COMP &quot;j1_16&quot; SITE &quot;133&quot; ;&quot;: " arg1="j1_16" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="119"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(120): Semantic error in &quot;LOCATE COMP &quot;j1_17&quot; SITE &quot;132&quot; ;&quot;: " arg1="j1_17" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="120"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(121): Semantic error in &quot;LOCATE COMP &quot;j1_19&quot; SITE &quot;123&quot; ;&quot;: " arg1="j1_19" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="121"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(122): Semantic error in &quot;LOCATE COMP &quot;j1_18&quot; SITE &quot;124&quot; ;&quot;: " arg1="j1_18" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="122"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(123): Semantic error in &quot;LOCATE COMP &quot;j1_20&quot; SITE &quot;115&quot; ;&quot;: " arg1="j1_20" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="123"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(124): Semantic error in &quot;LOCATE COMP &quot;j1_21&quot; SITE &quot;114&quot; ;&quot;: " arg1="j1_21" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="124"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(125): Semantic error in &quot;LOCATE COMP &quot;j1_22&quot; SITE &quot;110&quot; ;&quot;: " arg1="j1_22" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="125"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(126): Semantic error in &quot;LOCATE COMP &quot;j1_23&quot; SITE &quot;109&quot; ;&quot;: " arg1="j1_23" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="126"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(131): Semantic error in &quot;LOCATE COMP &quot;j2_2&quot; SITE &quot;72&quot; ;&quot;: " arg1="j2_2" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="131"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(132): Semantic error in &quot;LOCATE COMP &quot;j2_3&quot; SITE &quot;71&quot; ;&quot;: " arg1="j2_3" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="132"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(133): Semantic error in &quot;LOCATE COMP &quot;j2_4&quot; SITE &quot;70&quot; ;&quot;: " arg1="j2_4" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="133"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(134): Semantic error in &quot;LOCATE COMP &quot;j2_5&quot; SITE &quot;69&quot; ;&quot;: " arg1="j2_5" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="134"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(135): Semantic error in &quot;LOCATE COMP &quot;j2_6&quot; SITE &quot;66&quot; ;&quot;: " arg1="j2_6" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="135"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(136): Semantic error in &quot;LOCATE COMP &quot;j2_7&quot; SITE &quot;65&quot; ;&quot;: " arg1="j2_7" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="136"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(137): Semantic error in &quot;LOCATE COMP &quot;j2_8&quot; SITE &quot;52&quot; ;&quot;: " arg1="j2_8" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="137"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(138): Semantic error in &quot;LOCATE COMP &quot;j2_9&quot; SITE &quot;50&quot; ;&quot;: " arg1="j2_9" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="138"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(139): Semantic error in &quot;LOCATE COMP &quot;j2_10&quot; SITE &quot;48&quot; ;&quot;: " arg1="j2_10" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="139"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(140): Semantic error in &quot;LOCATE COMP &quot;j2_11&quot; SITE &quot;47&quot; ;&quot;: " arg1="j2_11" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="140"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(141): Semantic error in &quot;LOCATE COMP &quot;j2_12&quot; SITE &quot;40&quot; ;&quot;: " arg1="j2_12" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="141"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(142): Semantic error in &quot;LOCATE COMP &quot;j2_13&quot; SITE &quot;39&quot; ;&quot;: " arg1="j2_13" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="142"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(143): Semantic error in &quot;LOCATE COMP &quot;j2_14&quot; SITE &quot;38&quot; ;&quot;: " arg1="j2_14" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="143"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(144): Semantic error in &quot;LOCATE COMP &quot;j2_15&quot; SITE &quot;22&quot; ;&quot;: " arg1="j2_15" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="144"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(145): Semantic error in &quot;LOCATE COMP &quot;j2_16&quot; SITE &quot;31&quot; ;&quot;: " arg1="j2_16" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="145"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(146): Semantic error in &quot;LOCATE COMP &quot;j2_17&quot; SITE &quot;29&quot; ;&quot;: " arg1="j2_17" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="146"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(147): Semantic error in &quot;LOCATE COMP &quot;j2_18&quot; SITE &quot;37&quot; ;&quot;: " arg1="j2_18" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="147"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(148): Semantic error in &quot;LOCATE COMP &quot;j2_19&quot; SITE &quot;36&quot; ;&quot;: " arg1="j2_19" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="148"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(149): Semantic error in &quot;LOCATE COMP &quot;j2_20&quot; SITE &quot;35&quot; ;&quot;: " arg1="j2_20" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="149"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(150): Semantic error in &quot;LOCATE COMP &quot;j2_21&quot; SITE &quot;32&quot; ;&quot;: " arg1="j2_21" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="150"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(151): Semantic error in &quot;LOCATE COMP &quot;j2_22&quot; SITE &quot;27&quot; ;&quot;: " arg1="j2_22" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="151"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(152): Semantic error in &quot;LOCATE COMP &quot;j2_23&quot; SITE &quot;28&quot; ;&quot;: " arg1="j2_23" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="152"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(158): Semantic error in &quot;LOCATE COMP &quot;lcd_data_0&quot; SITE &quot;8&quot; ;&quot;: " arg1="lcd_data_0" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="158"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(159): Semantic error in &quot;LOCATE COMP &quot;lcd_data_1&quot; SITE &quot;9&quot; ;&quot;: " arg1="lcd_data_1" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="159"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(160): Semantic error in &quot;LOCATE COMP &quot;lcd_data_2&quot; SITE &quot;134&quot; ;&quot;: " arg1="lcd_data_2" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="160"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(161): Semantic error in &quot;LOCATE COMP &quot;lcd_data_3&quot; SITE &quot;131&quot; ;&quot;: " arg1="lcd_data_3" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="161"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(162): Semantic error in &quot;LOCATE COMP &quot;lcd_rs&quot; SITE &quot;143&quot; ;&quot;: " arg1="lcd_rs" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="162"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(163): Semantic error in &quot;LOCATE COMP &quot;lcd_e&quot; SITE &quot;7&quot; ;&quot;: " arg1="lcd_e" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="163"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf(184): Semantic error in &quot;IOBUF PORT &quot;sdcard_so&quot; PULLMODE=UP ;&quot;: " arg1="sdcard_so" arg2="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf" arg3="184"  />
+    <postMsg mid="1104062" type="Warning" dynamic="2" navigation="0" arg0="" arg1="107 semantic errors"  />
+Loading device for application map from file 'mg5a33x38.nph' in environment: /usr/local/diamond/3.5_x64/ispfpga.
+Package Status:                     Final          Version 1.47.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+111 CCU2 constant inputs absorbed.
+
+
+
+
+Design Summary:
+   Number of registers:    118 out of  6564 (2%)
+      PFU registers:          117 out of  6264 (2%)
+      PIO registers:            1 out of   300 (0%)
+   Number of SLICEs:       124 out of  4176 (3%)
+      SLICEs as Logic/ROM:    124 out of  4176 (3%)
+      SLICEs as RAM:            0 out of   756 (0%)
+      SLICEs as Carry:         32 out of  4176 (1%)
+   Number of LUT4s:        237 out of  8352 (3%)
+      Number of logic LUTs:      173
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:     32 (64 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 15 out of 100 (15%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of block RAMs:  0 out of 12 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 32 (0 %)
+   Number of clocks:  2
+     Net clk_25m_c: 1 loads, 1 rising, 0 falling (Driver: PIO clk_25m )
+     Net odasiljac.clk_pll: 72 loads, 72 rising, 0 falling (Driver: odasiljac/PLLInst_0 )
+   Number of Clock Enables:  2
+     Net odasiljac/r_clk_acc: 12 loads, 12 LSLICEs
+     Net odasiljac/un1_r_clk_acc99_i: 15 loads, 15 LSLICEs
+   Number of LSRs:  4
+     Net odasiljac/R_speed_acc_0_sqmuxa: 2 loads, 2 LSLICEs
+     Net odasiljac/un1_R_speed_acc_1_axbxc0: 1 loads, 1 LSLICEs
+     Net odasiljac/un1_R_brzina_0_sqmuxa: 2 loads, 2 LSLICEs
+     Net odasiljac/r_clk_acc_iso: 5 loads, 5 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net odasiljac/VCC: 54 loads
+     Net odasiljac/un3_r_clk_acc_2_RNI7AO41: 34 loads
+     Net odasiljac/r_clk_acc: 26 loads
+     Net odasiljac/un10[1]: 21 loads
+     Net odasiljac/un37_r_clk_acc: 19 loads
+     Net odasiljac/fwd_rev_0_0: 18 loads
+     Net sw_c[0]: 18 loads
+     Net sw_c[1]: 18 loads
+     Net odasiljac/R_desno: 17 loads
+     Net btn_center_c: 16 loads
+    <postMsg mid="51001230" type="Warning" dynamic="1" navigation="0" arg0="/home/ilakovac/faks/diglog/lab3_tenk/source/ulx2s.lpf"  />
+ 
+
+   Number of warnings:  109
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 4 secs  
+Peak Memory Usage: 199 MB
+
+Dumping design to file lab3_tenk_impl1_map.ncd.
+
+mpartrce -p "lab3_tenk_impl1.p2t" -f "lab3_tenk_impl1.p3t" -tf "lab3_tenk_impl1.pt" "lab3_tenk_impl1_map.ncd" "lab3_tenk_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "lab3_tenk_impl1_map.ncd"
+Sun Dec  6 23:28:25 2015
+
+PAR: Place And Route Diamond (64-bit) 3.5.0.102.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF lab3_tenk_impl1_map.ncd lab3_tenk_impl1.dir/5_1.ncd lab3_tenk_impl1.prf
+Preference file: lab3_tenk_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file lab3_tenk_impl1_map.ncd.
+Design name: daljinski_upravljac
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-8E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a33x38.nph' in environment: /usr/local/diamond/3.5_x64/ispfpga.
+Package Status:                     Final          Version 1.47.
+Performance Hardware Data Status:   Final          Version 10.6.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   IOLOGIC            1/260          <1% used
+   PIO (prelim)      15/238           6% used
+                     15/100          15% bonded
+   SLICE            124/4176          2% used
+
+
+
+Number of Signals: 379
+Number of Connections: 975
+
+Pin Constraint Summary:
+   15 out of 15 pins locked (100% locked).
+
+    <postMsg mid="61031122" type="Warning" dynamic="3" navigation="0" arg0="clk_25m_c" arg1="odasiljac/PLLInst_0" arg2="CLKI"  />
+The following 1 signal is selected to use the primary clock routing resources:
+    odasiljac.clk_pll (driver: odasiljac/PLLInst_0, clk load #: 72)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 6 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 60168.
+Finished Placer Phase 1.  REAL time: 15 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  60168
+Finished Placer Phase 2.  REAL time: 15 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 1 out of 2 (50%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "odasiljac.clk_pll" from CLKOP on comp "odasiljac/PLLInst_0" on PLL site "ULPLL", clk load = 72
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   15 out of 238 (6.3%) PIO sites used.
+   15 out of 100 (15.0%) bonded PIO sites used.
+   Number of PIO comps: 15; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 2 / 20 ( 10%) | -          | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 5 / 18 ( 27%) | 3.3V       | -          | -          |
+| 6        | 4 / 8 ( 50%)  | 3.3V       | -          | -          |
+| 7        | 4 / 18 ( 22%) | -          | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3 4
+# of MULT36X36B                  
+# of MULT18X18B                  
+# of MULT18X18MACB               
+# of MULT18X18ADDSUBB            
+# of MULT18X18ADDSUBSUMB         
+# of MULT9X9B                    
+# of MULT9X9ADDSUBB              
+# of MULT9X9ADDSUBSUMB           
+
+Total placer CPU time: 10 secs 
+
+Dumping design to file lab3_tenk_impl1.dir/5_1.ncd.
+
+0 connections routed; 975 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 17 secs 
+
+Start NBR router at Sun Dec 06 23:28:42 CET 2015
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at Sun Dec 06 23:28:42 CET 2015
+
+Start NBR section for initial routing at Sun Dec 06 23:28:43 CET 2015
+Level 1, iteration 1
+12(0.00%) conflicts; 724(74.26%) untouched conns; 174950 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.471ns/-174.950ns; real time: 18 secs 
+Level 2, iteration 1
+74(0.02%) conflicts; 576(59.08%) untouched conns; 85651 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.423ns/-85.651ns; real time: 18 secs 
+Level 3, iteration 1
+44(0.01%) conflicts; 182(18.67%) untouched conns; 142397 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-142.398ns; real time: 18 secs 
+Level 4, iteration 1
+32(0.01%) conflicts; 0(0.00%) untouched conn; 148233 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-148.234ns; real time: 18 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at Sun Dec 06 23:28:43 CET 2015
+Level 1, iteration 1
+26(0.01%) conflicts; 18(1.85%) untouched conns; 143053 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.402ns/-143.054ns; real time: 19 secs 
+Level 2, iteration 1
+22(0.01%) conflicts; 21(2.15%) untouched conns; 142958 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.440ns/-142.959ns; real time: 19 secs 
+Level 3, iteration 1
+15(0.00%) conflicts; 20(2.05%) untouched conns; 150471 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-150.472ns; real time: 19 secs 
+Level 4, iteration 1
+15(0.00%) conflicts; 0(0.00%) untouched conn; 152103 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-152.104ns; real time: 19 secs 
+Level 4, iteration 2
+16(0.00%) conflicts; 0(0.00%) untouched conn; 153196 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-153.197ns; real time: 19 secs 
+Level 4, iteration 3
+11(0.00%) conflicts; 0(0.00%) untouched conn; 157916 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-157.916ns; real time: 19 secs 
+Level 4, iteration 4
+7(0.00%) conflicts; 0(0.00%) untouched conn; 157916 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-157.916ns; real time: 19 secs 
+Level 4, iteration 5
+4(0.00%) conflicts; 0(0.00%) untouched conn; 161656 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-161.656ns; real time: 19 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 161656 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.519ns/-161.656ns; real time: 19 secs 
+Level 4, iteration 7
+1(0.00%) conflict; 0(0.00%) untouched conn; 169361 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.647ns/-169.362ns; real time: 19 secs 
+Level 4, iteration 8
+0(0.00%) conflict; 0(0.00%) untouched conn; 169361 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.647ns/-169.362ns; real time: 19 secs 
+Level 4, iteration 9
+0(0.00%) conflict; 0(0.00%) untouched conn; 169361 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.647ns/-169.362ns; real time: 19 secs 
+
+Start NBR section for performance tuning (iteration 1) at Sun Dec 06 23:28:44 CET 2015
+Level 4, iteration 1
+2(0.00%) conflicts; 0(0.00%) untouched conn; 169004 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.638ns/-169.005ns; real time: 19 secs 
+Level 4, iteration 2
+0(0.00%) conflict; 0(0.00%) untouched conn; 176765 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.760ns/-176.766ns; real time: 19 secs 
+
+Start NBR section for re-routing at Sun Dec 06 23:28:45 CET 2015
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 170252 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.647ns/-170.253ns; real time: 20 secs 
+
+Start NBR section for post-routing at Sun Dec 06 23:28:45 CET 2015
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 253 (25.95%)
+  Estimated worst slack<setup> : -1.647ns
+  Timing score<setup> : 242793
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 15 secs 
+Total REAL time: 22 secs 
+Completely routed.
+End of route.  975 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 242793 
+
+Dumping design to file lab3_tenk_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -1.647
+PAR_SUMMARY::Timing score<setup/<ns>> = 242.793
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.235
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 15 secs 
+Total REAL time to completion: 22 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "lab3_tenk_impl1.t2b" -w "lab3_tenk_impl1.ncd" -jedec -e -s "/home/ilakovac/faks/diglog/lab3_tenk/project/lab3_tenk.sec" -k "/home/ilakovac/faks/diglog/lab3_tenk/project/lab3_tenk.bek" "lab3_tenk_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.5.0.102
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file lab3_tenk_impl1.ncd.
+Design name: daljinski_upravljac
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-8E
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'mg5a33x38.nph' in environment: /usr/local/diamond/3.5_x64/ispfpga.
+Package Status:                     Final          Version 1.47.
+Performance Hardware Data Status:   Final          Version 10.6.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from lab3_tenk_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     TAG_MEMORY  |                       NORMAL**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "lab3_tenk_impl1.jed".

@@ -1,0 +1,2 @@
+tu jednostavno napravite 16 kombinacija funkcije ABCD ovisno o vašoj zadanoj funkciji
+f je jedan tamo gdje imate sumu minterma (u mom primjeru 2,3,4,5,7,8...)

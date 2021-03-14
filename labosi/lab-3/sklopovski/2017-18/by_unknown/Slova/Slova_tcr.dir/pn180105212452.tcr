@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/5/2018 21:24:37
+#Project Location: D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova; Project name: Slova
+prj_project open "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/Slova.ldf"
+prj_project close
+#Stop recording: 1/5/2018 21:24:52

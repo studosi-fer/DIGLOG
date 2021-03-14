@@ -1,0 +1,10 @@
+- .txt fajlovi su VHDL source kodovi za dekodere.
+
+- skenirana je shema dekoderskog stabla, vremenski dijagrami* i tablica funkcije**. 
+*vremenski dijagrami su za dekoder 1/2 i za funkciju, za dekoder 4/16 mi se nije dalo crtati, iako u uputama piše da je obavezno nacrtati dijagrame za sva 3 sklopa. Asistent u našoj grupi gotovo i nije gledao pripreme na papiru, osim dekoderskog stabla. To ovisi o tome kojeg asistenta dobijete. Bitna stvar kod crtanja vremenskih dijagrama je da ih crtate bez kašnjenja. To možete precrtati iz VHDLLab-a, ako u kodu za dekoder 1/2 maknete "after 10 ns" i tada pokrenete simulaciju. Nemojte zaboraviti vratiti "after 10 ns" nakon što precrtate vremenske dijagrame.
+**nemojte zaboraviti promijeniti vrijdenost funkcije f prema vašim mintermima.
+
+- moje eliminacijsko pitanje je bilo: koliko ulaza i izlaza ima dekoder? - Ako dekoder ima n ulaza, broj izlaza je 2^n
+
+na kraju,
+NE GARANTIRAM DA JE SVE 100% TOÈNO. MENI JE NA LABOSU SVE RADILO ISPRAVNO NA NEKOLIKO PRIMJERA, ALI JE MOGUÆE DA SAM NEGDJE POGRIJEŠIO. 

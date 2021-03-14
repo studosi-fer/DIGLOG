@@ -1,0 +1,11 @@
+C:\lscc\diamond\2.2_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  Z:\lab2\labv2  -part LFXP2_5E  -package TN144C  -grade -5   -maxfan 1000    -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1  -use_rename_in_edif 1     -summaryfile Z:\lab2\labv2\synlog\report\labv2_labv2_fpga_mapper.xml -top_level_module  sviraj  -flow mapping  -oedif  Z:\lab2\labv2\labv2_labv2.edi  -autoconstraint  -freq 1.000  Z:\lab2\labv2\synwork\labv2_labv2_premap.srd  -devicelib  C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  Z:\lab2\labv2\syntmp\labv2_labv2.plg  -osyn  Z:\lab2\labv2\labv2_labv2.srm  -prjdir  Z:\lab2\labv2\  -prjname  proj_1  -log  Z:\lab2\labv2\synlog\labv2_labv2_fpga_mapper.srr 
+rc:1 success:1
+Z:\lab2\labv2\labv2_labv2.edi|o|1382355165|209400
+Z:\lab2\labv2\synwork\labv2_labv2_premap.srd|i|1382355159|12675
+C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\xp2.v|i|1362997166|86834
+C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\pmi_def.v|i|1362997164|40586
+Z:\lab2\labv2\syntmp\labv2_labv2.plg|o|1382355166|1204
+Z:\lab2\labv2\labv2_labv2.srm|o|1382355164|45579
+Z:\lab2\labv2\synlog\labv2_labv2_fpga_mapper.srr|o|1382355165|47870
+C:\lscc\diamond\2.2_x64\synpbase\bin64\m_gen_lattice.exe|i|1363255986|23773696
+C:\lscc\diamond\2.2_x64\synpbase\bin\m_gen_lattice.exe|i|1363255960|20374016

@@ -1,0 +1,7 @@
+C:\lscc\diamond\2.2_x64\synpbase\bin64\c_vhdl.exe  -osyn  Z:\lab2\labv2\synwork\labv2_labv2_hdl_info_gen.srs  -top  sviraj  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  Z:\lab2\labv2\dm  -lite -ll 2000   -ui -fid2 -ram -sharing on  -autosm -ignore_undefined_lib  -lib work Z:\lab2\labv2\source\tonegen.vhd -loga  Z:\lab2\labv2\syntax.log  -fileorder  Z:\lab2\labv2\syntmp\hdlorder.tcl 
+rc:0 success:1
+Z:\lab2\labv2\synwork\labv2_labv2_hdl_info_gen.srs|o|0|0
+Z:\lab2\labv2\source\tonegen.vhd|i|1382328568|9647
+Z:\lab2\labv2\syntax.log|o|1382355155|876
+C:\lscc\diamond\2.2_x64\synpbase\bin64\c_vhdl.exe|i|1362997004|5354496
+C:\lscc\diamond\2.2_x64\synpbase\bin\c_vhdl.exe|i|1362996992|1897984

@@ -1,0 +1,33 @@
+#Build: Synplify Pro J-2015.03L, Build 030R, Apr 20 2015
+#install: /usr/local/diamond/3.5_x64/synpbase
+#OS: Linux 
+#Hostname: ilakovac-hp-elitebook
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 200: [: !=: argument expected
+Running on host :ilakovac-hp-elitebook
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+@E: CD213 :"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":25:1:25:9|Undefined identifier
+@E: CD255 :"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":35:49:35:49|No identifier "top_desno" in scope
+2 errors parsing file /home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:22:19 2015
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 23:22:19 2015
+
+###########################################################]

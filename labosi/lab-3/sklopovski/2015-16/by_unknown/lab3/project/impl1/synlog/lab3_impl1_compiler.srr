@@ -1,0 +1,51 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl: 200: [: !=: argument expected
+Running on host :ilakovac-hp-elitebook
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":7:7:7:11|Top entity is set to slova.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":4:7:4:11|Synthesizing work.slova.behavioral 
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/project/brojke.vhd":4:7:4:12|Synthesizing work.brojke.behavioral 
+Post processing for work.brojke.behavioral
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral 
+@W: CD638 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":54:11:54:20|Signal r_baudrate is undriven 
+Post processing for work.serial_tx.behavioral
+Post processing for work.slova.behavioral
+@W: CL246 :"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":10:2:10:3|Input port bits 3 to 1 of sw(3 downto 0) are unused 
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 22:52:31 2015
+
+###########################################################]
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 186: [: unexpected operator
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter: 200: [: !=: argument expected
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+File /home/ilakovac/faks/diglog/lab3/project/impl1/synwork/layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 22:52:31 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec  6 22:52:31 2015
+
+###########################################################]

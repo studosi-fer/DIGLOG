@@ -1,0 +1,102 @@
+----------------------------------------------------------------------
+Report for cell sviraj.behavioral
+
+Register bits: 324 of 4752 (7%)
+PIC Latch:       0
+I/O cells:       27
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B      138       100.0
+                             EPLLD1        1       100.0
+                            FD1P3AX       18       100.0
+                            FD1P3IX       32       100.0
+                            FD1S3AX      272       100.0
+                            FD1S3IX        2       100.0
+                                GSR        1       100.0
+                                 IB       10       100.0
+                                INV        3       100.0
+                         MULT18X18B        2       100.0
+                         MULT36X36B        1       100.0
+                                 OB       17       100.0
+                           ORCALUT4      201       100.0
+                           PDPW16KB        1       100.0
+                              PFUMX       20       100.0
+                                PUR        1       100.0
+                             SP16KB        2       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+SUB MODULES 
+                            enkoder        1       100.0
+                              fmgen        1       100.0
+                           pll_250m        1       100.0
+                            tonegen        1       100.0
+                          tonegen_1        1       100.0
+                            
+                         TOTAL           729           
+----------------------------------------------------------------------
+Report for cell fmgen.netlist
+     Instance path:  fmgen
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       61        44.2
+                             EPLLD1        1       100.0
+                            FD1S3AX       91        33.5
+                                INV        1        33.3
+                         MULT36X36B        1       100.0
+                           ORCALUT4       12         6.0
+SUB MODULES 
+                           pll_250m        1       100.0
+                            
+                         TOTAL           168           
+----------------------------------------------------------------------
+Report for cell pll_250m.netlist
+     Instance path:  fmgen.I_PLL_250m
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             EPLLD1        1       100.0
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell tonegen_1.netlist
+  Original Cell name tonegen
+     Instance path:  II_tonegen
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       42        30.4
+                            FD1P3AX        6        33.3
+                            FD1P3IX       16        50.0
+                            FD1S3AX       98        36.0
+                            FD1S3IX        1        50.0
+                         MULT18X18B        1        50.0
+                           ORCALUT4       62        30.8
+                           PDPW16KB        1       100.0
+                              PFUMX        2        10.0
+                             SP16KB        1        50.0
+                            
+                         TOTAL           230           
+----------------------------------------------------------------------
+Report for cell tonegen.netlist
+  Original Cell name tonegen
+     Instance path:  I_tonegen
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       35        25.4
+                            FD1P3AX       12        66.7
+                            FD1P3IX       16        50.0
+                            FD1S3AX       83        30.5
+                            FD1S3IX        1        50.0
+                                INV        1        33.3
+                         MULT18X18B        1        50.0
+                           ORCALUT4      101        50.2
+                              PFUMX       18        90.0
+                             SP16KB        1        50.0
+                            
+                         TOTAL           269           
+----------------------------------------------------------------------
+Report for cell enkoder.netlist
+     Instance path:  I_enkoder
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        9         4.5
+                            
+                         TOTAL             9           

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_hdl_.srs  -top  tenk_upravljac  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Tomi\Desktop\tenk\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd  -log  C:\Users\Tomi\Desktop\tenk\impl1\syntax.log  -fileorder  C:\Users\Tomi\Desktop\tenk\impl1\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_hdl_.srs|o|0|0
+C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd|i|1445804051|14480
+C:\Users\Tomi\Desktop\tenk\impl1\syntax.log|o|1445815794|838
+C:\lscc\diamond\3.5_x64\synpbase\bin\c_vhdl.exe|i|1429540128|2318336
+C:\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe|i|1429540330|3172352

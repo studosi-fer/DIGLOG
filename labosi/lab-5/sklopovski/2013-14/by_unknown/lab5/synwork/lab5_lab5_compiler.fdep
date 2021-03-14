@@ -1,0 +1,35 @@
+%%% protect protected_file
+#OPTIONS:"|-prodtype|synplify_pro|-top|work.afsk_modem|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-compiler_compatible|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\bin64\\c_vhdl.exe":1337328578
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\location.map":1337593518
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\std.vhd":1337328810
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1337328810
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\std1164.vhd":1337328810
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\numeric.vhd":1337328810
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\umr_capim.vhd":1337328812
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\arith.vhd":1337328810
+#CUR:"C:\\lscc\\diamond\\2.0\\synpbase\\lib\\vhd\\unsigned.vhd":1337328812
+1 "C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd"
+2 "C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd"
+3 "C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd"
+4 "C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd"
+
+# Dependency Lists (Uses list)
+1 -1
+2 -1
+3 -1
+4 3 2 
+
+# Dependency Lists (Users Of)
+1 -1
+2 4 
+3 4 
+4 -1
+
+# Design Unit to File Association
+arch work afsk_demodulator x 2
+module work afsk_demodulator 2
+arch work afsk_modulator x 3
+module work afsk_modulator 3
+arch work afsk_modem s 4
+module work afsk_modem 4

@@ -1,0 +1,182 @@
+---------------------------------------------------
+Report for cell arduino
+   Instance path: arduino
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2026.00        100.0
+                                 IOLGC	      40.00        100.0
+                                  LUT4	    2485.00        100.0
+                               DISTRAM	     105.00        100.0
+                                 IOREG	         40        100.0
+                                 IOBUF	         54        100.0
+                                PFUREG	       1708        100.0
+                                RIPPLE	        275        100.0
+                                   EBR	          9        100.0
+                            MULT36X36B	          3        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               tonegen	          1         3.2
+                             tonegen_0	          1         3.3
+                                clkgen	          1         0.0
+                         f32c_soc_glue	          1        93.4
+---------------------------------------------------
+Report for cell f32c_soc_glue
+   Instance path: arduino/f32c_soc_glue
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1891.83        93.4
+                                  LUT4	    2371.00        95.4
+                               DISTRAM	     105.00        100.0
+                                PFUREG	       1492        87.4
+                                RIPPLE	        233        84.7
+                                   EBR	          9        100.0
+                            MULT36X36B	          1        33.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   sio	          1         4.5
+                                 timer	          1        22.2
+                              pipeline	          1        54.4
+                                  gpio	          1         8.7
+                                  bram	          1         0.1
+---------------------------------------------------
+Report for cell gpio
+   Instance path: arduino/f32c_soc_glue/G_gpio.0.gpio_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     176.42         8.7
+                                  LUT4	     272.00        10.9
+                                PFUREG	        149         8.7
+---------------------------------------------------
+Report for cell bram
+   Instance path: arduino/f32c_soc_glue/bram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         0.1
+                                  LUT4	       6.00         0.2
+                                   EBR	          8        88.9
+---------------------------------------------------
+Report for cell timer
+   Instance path: arduino/f32c_soc_glue/G_timer.timer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     450.42        22.2
+                                  LUT4	     210.00         8.5
+                               DISTRAM	       9.00         8.6
+                                PFUREG	        463        27.1
+                                RIPPLE	        130        47.3
+---------------------------------------------------
+Report for cell sio
+   Instance path: arduino/f32c_soc_glue/G_sio.0.sio_instance
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      91.00         4.5
+                                  LUT4	      95.00         3.8
+                                PFUREG	        100         5.9
+                                RIPPLE	         35        12.7
+---------------------------------------------------
+Report for cell pipeline
+   Instance path: arduino/f32c_soc_glue/pipeline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1101.67        54.4
+                                  LUT4	    1664.00        67.0
+                               DISTRAM	      96.00        91.4
+                                PFUREG	        748        43.8
+                                RIPPLE	         68        24.7
+                                   EBR	          1        11.1
+                            MULT36X36B	          1        33.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               reg1w2r	          1         6.4
+                                 shift	          1         6.9
+                             loadalign	          1         1.3
+                                   mul	          1         0.1
+                          idecode_mi32	          1        22.4
+                               bptrace	          1         0.0
+                                   alu	          1         1.6
+---------------------------------------------------
+Report for cell mul
+   Instance path: arduino/f32c_soc_glue/pipeline/multiplier
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.33         0.1
+                                  LUT4	       3.00         0.1
+                            MULT36X36B	          1        33.3
+---------------------------------------------------
+Report for cell loadalign
+   Instance path: arduino/f32c_soc_glue/pipeline/G_pipelined_load_aligner.loadalign
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.50         1.3
+                                  LUT4	      54.00         2.2
+---------------------------------------------------
+Report for cell shift
+   Instance path: arduino/f32c_soc_glue/pipeline/shift
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     140.67         6.9
+                                  LUT4	     299.00        12.0
+---------------------------------------------------
+Report for cell alu
+   Instance path: arduino/f32c_soc_glue/pipeline/alu
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.50         1.6
+                                  LUT4	      51.00         2.1
+                                RIPPLE	         17         6.2
+---------------------------------------------------
+Report for cell reg1w2r
+   Instance path: arduino/f32c_soc_glue/pipeline/regfile
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     129.83         6.4
+                                  LUT4	      68.00         2.7
+                               DISTRAM	      96.00        91.4
+---------------------------------------------------
+Report for cell idecode_mi32
+   Instance path: arduino/f32c_soc_glue/pipeline/G_idecode_mi32.idecode
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     453.60        22.4
+                                  LUT4	    1083.33        43.6
+---------------------------------------------------
+Report for cell bptrace
+   Instance path: arduino/f32c_soc_glue/pipeline/G_bp_scoretable.bptrace
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell tonegen_0
+   Instance path: arduino/tonegen_right
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      67.33         3.3
+                                  LUT4	      56.00         2.3
+                                PFUREG	        108         6.3
+                                RIPPLE	         21         7.6
+                            MULT36X36B	          1        33.3
+---------------------------------------------------
+Report for cell tonegen
+   Instance path: arduino/tonegen_left
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      65.83         3.2
+                                  LUT4	      57.00         2.3
+                                PFUREG	        108         6.3
+                                RIPPLE	         21         7.6
+                            MULT36X36B	          1        33.3
+---------------------------------------------------
+Report for cell clkgen
+   Instance path: arduino/clkgen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   pll	          1         0.0
+---------------------------------------------------
+Report for cell pll
+   Instance path: arduino/clkgen/G_pll_325.PLL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

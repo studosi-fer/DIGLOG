@@ -1,0 +1,1620 @@
+
+synpwrap -msg -prj "LV1_tenk_impl1_synplify.tcl" -log "LV1_tenk_impl1.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.9.0.99.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of LV1_tenk_impl1.srf
+#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
+#install: C:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: IVAN-PC
+
+# Sun Oct 22 17:53:58 2017
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":153:8:153:11|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\xp2.v":970:7:970:8|Synthesizing module OB in library work.
+
+@N: CG364 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":3:7:3:20|Synthesizing module tenk_upravljac in library work.
+
+@N: CG794 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":54:13:54:15|Using module rf_modulator from library work
+@W: CG781 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":54:13:54:15|Input top_granata on instance I12 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+VHDL syntax check successful!
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure.
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":225:4:225:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:50:229:65|Referenced variable machinegun_sound is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:31:229:41|Referenced variable gun_fire_bb is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:62:228:70|Referenced variable gun_sound is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:46:228:53|Referenced variable gun_elev is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":230:19:230:27|Referenced variable gun_right is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:31:228:38|Referenced variable gun_left is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":231:45:231:60|Referenced variable drive_left_right is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":230:35:230:47|Referenced variable drive_fwd_rev is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:10:229:21|Referenced variable ignition_key is not in sensitivity list.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":133:20:133:21|Signal fm is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.rf_modulator.structure
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(21) is always 1.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(25) is always 1.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Register bit R_outw(0) is always 1.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 0 of R_outw(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Pruning register bits 27 to 21 of R_fm_inc(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Register bit R_brzina(3) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Register bit R_outw(1) is always 1.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 1 of R_outw(31 downto 1). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 3 of R_brzina(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Pruning register bit 19 of R_fm_inc(20 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 78MB)
+
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@W: Z198 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":149:4:149:12|Unbound component EPLLD1 of instance PLLInst_0 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\synwork\LV1_tenk_impl1_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 22 17:53:58 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 22 17:54:00 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Oct 22 17:54:00 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\LV1_tenk_impl1_scck.rpt 
+Printing clock  summary report in "D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\LV1_tenk_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=9  set on top level netlist tenk_upravljac
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                   Requested     Requested     Clock        Clock                     Clock
+Clock                                   Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------------
+System                                  1.0 MHz       1000.000      system       system_clkgroup           0    
+rf_modulator|clk_pll_inferred_clock     158.0 MHz     6.330         inferred     Autoconstr_clkgroup_0     116  
+================================================================================================================
+
+@W: MT529 :"d:\ivan\faks\1. semestar\diglog\1.lv\impl1\source\rf_modulator.vhd":233:4:233:5|Found inferred clock rf_modulator|clk_pll_inferred_clock which controls 116 sequential elements including I12.R_outw[31:2]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 22 17:54:00 2017
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Oct 22 17:54:00 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+@N: FA113 :"d:\ivan\faks\1. semestar\diglog\1.lv\impl1\source\rf_modulator.vhd":301:17:301:31|Pipelining module un1_R_speed_acc_1[5:1]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\ivan\faks\1. semestar\diglog\1.lv\impl1\source\rf_modulator.vhd":233:4:233:5|Pushed in register R_speed_acc[4:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 148MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 155MB peak: 157MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.40ns		 173 /       117
+   2		0h:00m:02s		    -2.39ns		 170 /       117
+   3		0h:00m:02s		    -2.29ns		 172 /       117
+   4		0h:00m:02s		    -2.39ns		 172 /       117
+   5		0h:00m:02s		    -2.34ns		 173 /       117
+   6		0h:00m:02s		    -2.39ns		 173 /       117
+   7		0h:00m:02s		    -2.34ns		 172 /       117
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\1.lv\impl1\source\rf_modulator.vhd":234:4:234:23|Replicating instance I12.r_clk_acc (in view: work.tenk_upravljac(verilog)) with 32 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance I12.R_speed_acc_pipe (in view: work.tenk_upravljac(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance I12.R_speed_acc_pipe_1 (in view: work.tenk_upravljac(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance I12.R_speed_acc_pipe_2 (in view: work.tenk_upravljac(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance I12.R_speed_acc_pipe_3 (in view: work.tenk_upravljac(verilog)) with 5 loads 1 time to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 5 LUTs via timing driven replication
+
+   8		0h:00m:02s		    -1.80ns		 194 /       121
+   9		0h:00m:02s		    -1.80ns		 201 /       121
+  10		0h:00m:02s		    -1.80ns		 200 /       121
+  11		0h:00m:02s		    -1.80ns		 200 /       121
+  12		0h:00m:02s		    -1.80ns		 199 /       121
+
+
+  13		0h:00m:02s		    -1.80ns		 197 /       121
+  14		0h:00m:02s		    -1.80ns		 202 /       121
+  15		0h:00m:02s		    -1.80ns		 199 /       121
+  16		0h:00m:02s		    -1.80ns		 200 /       121
+  17		0h:00m:02s		    -1.80ns		 199 /       121
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 156MB peak: 157MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 157MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 121 clock pin(s) of sequential element(s)
+0 instances converted, 121 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance       Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       I12.PLLInst_0       EPLLD1                 121        I12.R_clk_acc[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 122MB peak: 157MB)
+
+Writing Analyst data base D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\synwork\LV1_tenk_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 157MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\LV1_tenk_impl1.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 160MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 160MB)
+
+@W: MT246 :"d:\ivan\faks\1. semestar\diglog\1.lv\impl1\tenk_upravljac.v":40:5:40:7|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\ivan\faks\1. semestar\diglog\1.lv\impl1\source\rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 6.17ns. Please declare a user-defined clock on object "n:I12.clk_pll"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Oct 22 17:54:04 2017
+#
+
+
+Top view:               tenk_upravljac
+Requested Frequency:    162.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.089
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     162.1 MHz     137.8 MHz     6.170         7.259         -1.089     inferred     Autoconstr_clkgroup_0
+System                                  1.0 MHz       1.0 MHz       1000.000      1000.336      -0.336     system       system_clkgroup      
+=============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               rf_modulator|clk_pll_inferred_clock  |  6.170       -0.336  |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  6.170       -1.089  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rf_modulator|clk_pll_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                         Arrival           
+Instance                   Reference                               Type        Pin     Net                  Time        Slack 
+                           Clock                                                                                              
+------------------------------------------------------------------------------------------------------------------------------
+I12.R_speed_acc_pipe       rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_speed_acc_pipe     1.307       -1.089
+I12.R_speed_acc_pipe_1     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_speed_accf[0]      1.298       -1.079
+I12.R_speed_acc_pipe_2     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_speed_accf[1]      1.260       -1.042
+I12.R_speed_acc_pipe_4     rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_speed_accf[3]      1.251       -1.032
+I12.R_brzina[0]            rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_brzina[0]          1.368       -0.511
+I12.R_brzina[1]            rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_brzina[1]          1.368       -0.511
+I12.R_natrag               rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       un10[1]              1.368       -0.511
+I12.R_lijevo               rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_lijevo             1.364       -0.506
+I12.R_phase_acc[6]         rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_phase_acc[6]       1.279       -0.501
+I12.R_brzina[2]            rf_modulator|clk_pll_inferred_clock     FD1S3IX     Q       R_brzina[2]          1.354       -0.497
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                       Required           
+Instance            Reference                               Type        Pin     Net                Time         Slack 
+                    Clock                                                                                             
+----------------------------------------------------------------------------------------------------------------------
+I12.R_desno         rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_desno_6          5.434        -1.089
+I12.R_naprijed      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_naprijed_7       5.434        -1.089
+I12.R_natrag        rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_natrag_8         5.434        -1.089
+I12.R_brzina[0]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[0]     5.434        -0.511
+I12.R_brzina[1]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[1]     5.434        -0.511
+I12.R_brzina[2]     rf_modulator|clk_pll_inferred_clock     FD1S3IX     D       R_brzina_12[2]     5.434        -0.440
+I12.R_skretanje     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       N_38_i             5.434        -0.440
+I12.R_outw[3]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[3]        5.434        -0.413
+I12.R_outw[4]       rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[4]        5.434        -0.413
+I12.R_outw[21]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[21]       5.434        -0.413
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      6.523
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.089
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_speed_acc_pipe / Q
+    Ending point:                            I12.R_naprijed / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+I12.R_speed_acc_pipe                FD1S3IX      Q        Out     1.307     1.307       -         
+R_speed_acc_pipe                    Net          -        -       -         -           9         
+I12.R_speed_acc_pipe_2_RNIFMO8      ORCALUT4     B        In      0.000     1.307       -         
+I12.R_speed_acc_pipe_2_RNIFMO8      ORCALUT4     Z        Out     0.883     2.191       -         
+g1_1_1                              Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_3_RNIHA8G      ORCALUT4     D        In      0.000     2.191       -         
+I12.R_speed_acc_pipe_3_RNIHA8G      ORCALUT4     Z        Out     0.883     3.074       -         
+g1_1_3                              Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_5_RNI8O9N1     ORCALUT4     C        In      0.000     3.074       -         
+I12.R_speed_acc_pipe_5_RNI8O9N1     ORCALUT4     Z        Out     1.137     4.211       -         
+R_N_9_mux                           Net          -        -       -         -           6         
+I12.R_naprijed_RNO_3                ORCALUT4     A        In      0.000     4.211       -         
+I12.R_naprijed_RNO_3                ORCALUT4     Z        Out     0.883     5.095       -         
+R_naprijed_RNO_3                    Net          -        -       -         -           1         
+I12.R_naprijed_RNO_0                ORCALUT4     D        In      0.000     5.095       -         
+I12.R_naprijed_RNO_0                ORCALUT4     Z        Out     0.883     5.978       -         
+R_naprijed_m                        Net          -        -       -         -           1         
+I12.R_naprijed_RNO                  ORCALUT4     B        In      0.000     5.978       -         
+I12.R_naprijed_RNO                  ORCALUT4     Z        Out     0.545     6.523       -         
+R_naprijed_7                        Net          -        -       -         -           1         
+I12.R_naprijed                      FD1P3AX      D        In      0.000     6.523       -         
+==================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      6.523
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.089
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_speed_acc_pipe / Q
+    Ending point:                            I12.R_desno / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+I12.R_speed_acc_pipe                FD1S3IX      Q        Out     1.307     1.307       -         
+R_speed_acc_pipe                    Net          -        -       -         -           9         
+I12.R_speed_acc_pipe_2_RNIFMO8      ORCALUT4     B        In      0.000     1.307       -         
+I12.R_speed_acc_pipe_2_RNIFMO8      ORCALUT4     Z        Out     0.883     2.191       -         
+g1_1_1                              Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_3_RNIHA8G      ORCALUT4     D        In      0.000     2.191       -         
+I12.R_speed_acc_pipe_3_RNIHA8G      ORCALUT4     Z        Out     0.883     3.074       -         
+g1_1_3                              Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_5_RNI8O9N1     ORCALUT4     C        In      0.000     3.074       -         
+I12.R_speed_acc_pipe_5_RNI8O9N1     ORCALUT4     Z        Out     1.137     4.211       -         
+R_N_9_mux                           Net          -        -       -         -           6         
+I12.un1_r_clk_acc_12_d_a0           ORCALUT4     B        In      0.000     4.211       -         
+I12.un1_r_clk_acc_12_d_a0           ORCALUT4     Z        Out     0.883     5.095       -         
+un1_r_clk_acc_12_d_a0               Net          -        -       -         -           1         
+I12.R_desno_RNO_0                   ORCALUT4     D        In      0.000     5.095       -         
+I12.R_desno_RNO_0                   ORCALUT4     Z        Out     0.883     5.978       -         
+R_desno_RNO_0                       Net          -        -       -         -           1         
+I12.R_desno_RNO                     ORCALUT4     B        In      0.000     5.978       -         
+I12.R_desno_RNO                     ORCALUT4     Z        Out     0.545     6.523       -         
+R_desno_6                           Net          -        -       -         -           1         
+I12.R_desno                         FD1P3AX      D        In      0.000     6.523       -         
+==================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      6.523
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.089
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_speed_acc_pipe / Q
+    Ending point:                            I12.R_natrag / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+I12.R_speed_acc_pipe                FD1S3IX      Q        Out     1.307     1.307       -         
+R_speed_acc_pipe                    Net          -        -       -         -           9         
+I12.R_speed_acc_pipe_2_RNIFMO8      ORCALUT4     B        In      0.000     1.307       -         
+I12.R_speed_acc_pipe_2_RNIFMO8      ORCALUT4     Z        Out     0.883     2.191       -         
+g1_1_1                              Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_3_RNIHA8G      ORCALUT4     D        In      0.000     2.191       -         
+I12.R_speed_acc_pipe_3_RNIHA8G      ORCALUT4     Z        Out     0.883     3.074       -         
+g1_1_3                              Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_5_RNI8O9N1     ORCALUT4     C        In      0.000     3.074       -         
+I12.R_speed_acc_pipe_5_RNI8O9N1     ORCALUT4     Z        Out     1.137     4.211       -         
+R_N_9_mux                           Net          -        -       -         -           6         
+I12.R_skretanje_1_sqmuxa_i          ORCALUT4     A        In      0.000     4.211       -         
+I12.R_skretanje_1_sqmuxa_i          ORCALUT4     Z        Out     0.883     5.095       -         
+N_52                                Net          -        -       -         -           1         
+I12.R_natrag_RNO_1                  ORCALUT4     C        In      0.000     5.095       -         
+I12.R_natrag_RNO_1                  ORCALUT4     Z        Out     0.883     5.978       -         
+R_natrag_RNO_1                      Net          -        -       -         -           1         
+I12.R_natrag_RNO                    ORCALUT4     C        In      0.000     5.978       -         
+I12.R_natrag_RNO                    ORCALUT4     Z        Out     0.545     6.523       -         
+R_natrag_8                          Net          -        -       -         -           1         
+I12.R_natrag                        FD1P3AX      D        In      0.000     6.523       -         
+==================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      6.514
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.079
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_speed_acc_pipe_1 / Q
+    Ending point:                            I12.R_naprijed / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I12.R_speed_acc_pipe_1               FD1S3IX      Q        Out     1.298     1.298       -         
+R_speed_accf[0]                      Net          -        -       -         -           8         
+I12.R_speed_acc_pipe_4_RNI1OV4       ORCALUT4     A        In      0.000     1.298       -         
+I12.R_speed_acc_pipe_4_RNI1OV4       ORCALUT4     Z        Out     0.883     2.181       -         
+g5_1                                 Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_3_RNIHA8G_0     ORCALUT4     C        In      0.000     2.181       -         
+I12.R_speed_acc_pipe_3_RNIHA8G_0     ORCALUT4     Z        Out     0.883     3.065       -         
+g5                                   Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_5_RNI8O9N1      ORCALUT4     D        In      0.000     3.065       -         
+I12.R_speed_acc_pipe_5_RNI8O9N1      ORCALUT4     Z        Out     1.137     4.202       -         
+R_N_9_mux                            Net          -        -       -         -           6         
+I12.R_naprijed_RNO_3                 ORCALUT4     A        In      0.000     4.202       -         
+I12.R_naprijed_RNO_3                 ORCALUT4     Z        Out     0.883     5.085       -         
+R_naprijed_RNO_3                     Net          -        -       -         -           1         
+I12.R_naprijed_RNO_0                 ORCALUT4     D        In      0.000     5.085       -         
+I12.R_naprijed_RNO_0                 ORCALUT4     Z        Out     0.883     5.969       -         
+R_naprijed_m                         Net          -        -       -         -           1         
+I12.R_naprijed_RNO                   ORCALUT4     B        In      0.000     5.969       -         
+I12.R_naprijed_RNO                   ORCALUT4     Z        Out     0.545     6.514       -         
+R_naprijed_7                         Net          -        -       -         -           1         
+I12.R_naprijed                       FD1P3AX      D        In      0.000     6.514       -         
+===================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      6.514
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.079
+
+    Number of logic level(s):                6
+    Starting point:                          I12.R_speed_acc_pipe_1 / Q
+    Ending point:                            I12.R_desno / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I12.R_speed_acc_pipe_1               FD1S3IX      Q        Out     1.298     1.298       -         
+R_speed_accf[0]                      Net          -        -       -         -           8         
+I12.R_speed_acc_pipe_4_RNI1OV4       ORCALUT4     A        In      0.000     1.298       -         
+I12.R_speed_acc_pipe_4_RNI1OV4       ORCALUT4     Z        Out     0.883     2.181       -         
+g5_1                                 Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_3_RNIHA8G_0     ORCALUT4     C        In      0.000     2.181       -         
+I12.R_speed_acc_pipe_3_RNIHA8G_0     ORCALUT4     Z        Out     0.883     3.065       -         
+g5                                   Net          -        -       -         -           1         
+I12.R_speed_acc_pipe_5_RNI8O9N1      ORCALUT4     D        In      0.000     3.065       -         
+I12.R_speed_acc_pipe_5_RNI8O9N1      ORCALUT4     Z        Out     1.137     4.202       -         
+R_N_9_mux                            Net          -        -       -         -           6         
+I12.un1_r_clk_acc_12_d_a0            ORCALUT4     B        In      0.000     4.202       -         
+I12.un1_r_clk_acc_12_d_a0            ORCALUT4     Z        Out     0.883     5.085       -         
+un1_r_clk_acc_12_d_a0                Net          -        -       -         -           1         
+I12.R_desno_RNO_0                    ORCALUT4     D        In      0.000     5.085       -         
+I12.R_desno_RNO_0                    ORCALUT4     Z        Out     0.883     5.969       -         
+R_desno_RNO_0                        Net          -        -       -         -           1         
+I12.R_desno_RNO                      ORCALUT4     B        In      0.000     5.969       -         
+I12.R_desno_RNO                      ORCALUT4     Z        Out     0.545     6.514       -         
+R_desno_6                            Net          -        -       -         -           1         
+I12.R_desno                          FD1P3AX      D        In      0.000     6.514       -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                Arrival           
+Instance     Reference     Type     Pin     Net      Time        Slack 
+             Clock                                                     
+-----------------------------------------------------------------------
+I8           System        AND2     Z       N_29     0.000       -0.336
+I10          System        AND2     Z       N_17     0.000       -0.336
+I31          System        AND2     Z       N_28     0.000       -0.336
+I32          System        AND2     Z       N_30     0.000       -0.336
+I11          System        AND3     Z       N_16     0.000       1.929 
+I27          System        AND2     Z       N_22     0.000       3.122 
+I28          System        AND2     Z       N_24     0.000       3.122 
+I26          System        AND2     Z       N_23     0.000       4.006 
+I29          System        AND2     Z       N_25     0.000       4.006 
+I30          System        AND2     Z       N_26     0.000       4.006 
+=======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                   Required           
+Instance                   Reference     Type        Pin     Net                      Time         Slack 
+                           Clock                                                                         
+---------------------------------------------------------------------------------------------------------
+I12.R_brzina[0]            System        FD1S3IX     D       R_brzina_12[0]           5.434        -0.336
+I12.R_brzina[1]            System        FD1S3IX     D       R_brzina_12[1]           5.434        -0.336
+I12.R_desno                System        FD1P3AX     D       R_desno_6                5.434        -0.280
+I12.R_naprijed             System        FD1P3AX     D       R_naprijed_7             5.434        -0.280
+I12.R_brzina[2]            System        FD1S3IX     D       R_brzina_12[2]           5.434        -0.261
+I12.R_natrag               System        FD1P3AX     D       R_natrag_8               5.434        -0.195
+I12.R_skretanje            System        FD1P3AX     D       N_38_i                   5.434        0.528 
+I12.R_lijevo               System        FD1P3AX     D       R_lijevo_6               6.727        0.551 
+I12.R_speed_acc_pipe       System        FD1S3IX     CD      R_speed_acc_0_sqmuxa     5.810        1.304 
+I12.R_speed_acc_pipe_1     System        FD1S3IX     CD      R_speed_acc_0_sqmuxa     5.810        1.304 
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      5.770
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.336
+
+    Number of logic level(s):                6
+    Starting point:                          I8 / Z
+    Ending point:                            I12.R_brzina[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+I8                            AND2         Z        Out     0.000     0.000       -         
+N_29                          Net          -        -       -         -           5         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     C        In      0.000     0.000       -         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     Z        Out     1.194     1.194       -         
+N_60                          Net          -        -       -         -           11        
+I12.R_lijevo_RNI2219          ORCALUT4     C        In      0.000     1.194       -         
+I12.R_lijevo_RNI2219          ORCALUT4     Z        Out     0.883     2.077       -         
+g0_2                          Net          -        -       -         -           1         
+I12.R_naprijed_RNICGFU        ORCALUT4     C        In      0.000     2.077       -         
+I12.R_naprijed_RNICGFU        ORCALUT4     Z        Out     1.222     3.299       -         
+un28_r_clk_acc                Net          -        -       -         -           15        
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     B        In      0.000     3.299       -         
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     Z        Out     1.043     4.342       -         
+R_N_4                         Net          -        -       -         -           3         
+I12.R_brzina_RNO_0[0]         ORCALUT4     A        In      0.000     4.342       -         
+I12.R_brzina_RNO_0[0]         ORCALUT4     Z        Out     0.883     5.225       -         
+un1_r_clk_acc_8_0_0_1         Net          -        -       -         -           1         
+I12.R_brzina_RNO[0]           ORCALUT4     C        In      0.000     5.225       -         
+I12.R_brzina_RNO[0]           ORCALUT4     Z        Out     0.545     5.770       -         
+R_brzina_12[0]                Net          -        -       -         -           1         
+I12.R_brzina[0]               FD1S3IX      D        In      0.000     5.770       -         
+============================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      5.770
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.336
+
+    Number of logic level(s):                6
+    Starting point:                          I10 / Z
+    Ending point:                            I12.R_brzina[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+I10                           AND2         Z        Out     0.000     0.000       -         
+N_17                          Net          -        -       -         -           3         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     A        In      0.000     0.000       -         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     Z        Out     1.194     1.194       -         
+N_60                          Net          -        -       -         -           11        
+I12.R_lijevo_RNI2219          ORCALUT4     C        In      0.000     1.194       -         
+I12.R_lijevo_RNI2219          ORCALUT4     Z        Out     0.883     2.077       -         
+g0_2                          Net          -        -       -         -           1         
+I12.R_naprijed_RNICGFU        ORCALUT4     C        In      0.000     2.077       -         
+I12.R_naprijed_RNICGFU        ORCALUT4     Z        Out     1.222     3.299       -         
+un28_r_clk_acc                Net          -        -       -         -           15        
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     B        In      0.000     3.299       -         
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     Z        Out     1.043     4.342       -         
+R_N_4                         Net          -        -       -         -           3         
+I12.R_brzina_RNO_0[0]         ORCALUT4     A        In      0.000     4.342       -         
+I12.R_brzina_RNO_0[0]         ORCALUT4     Z        Out     0.883     5.225       -         
+un1_r_clk_acc_8_0_0_1         Net          -        -       -         -           1         
+I12.R_brzina_RNO[0]           ORCALUT4     C        In      0.000     5.225       -         
+I12.R_brzina_RNO[0]           ORCALUT4     Z        Out     0.545     5.770       -         
+R_brzina_12[0]                Net          -        -       -         -           1         
+I12.R_brzina[0]               FD1S3IX      D        In      0.000     5.770       -         
+============================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      5.770
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.336
+
+    Number of logic level(s):                6
+    Starting point:                          I31 / Z
+    Ending point:                            I12.R_brzina[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+I31                           AND2         Z        Out     0.000     0.000       -         
+N_28                          Net          -        -       -         -           5         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     B        In      0.000     0.000       -         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     Z        Out     1.194     1.194       -         
+N_60                          Net          -        -       -         -           11        
+I12.R_lijevo_RNI2219          ORCALUT4     C        In      0.000     1.194       -         
+I12.R_lijevo_RNI2219          ORCALUT4     Z        Out     0.883     2.077       -         
+g0_2                          Net          -        -       -         -           1         
+I12.R_naprijed_RNICGFU        ORCALUT4     C        In      0.000     2.077       -         
+I12.R_naprijed_RNICGFU        ORCALUT4     Z        Out     1.222     3.299       -         
+un28_r_clk_acc                Net          -        -       -         -           15        
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     B        In      0.000     3.299       -         
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     Z        Out     1.043     4.342       -         
+R_N_4                         Net          -        -       -         -           3         
+I12.R_brzina_RNO_0[0]         ORCALUT4     A        In      0.000     4.342       -         
+I12.R_brzina_RNO_0[0]         ORCALUT4     Z        Out     0.883     5.225       -         
+un1_r_clk_acc_8_0_0_1         Net          -        -       -         -           1         
+I12.R_brzina_RNO[0]           ORCALUT4     C        In      0.000     5.225       -         
+I12.R_brzina_RNO[0]           ORCALUT4     Z        Out     0.545     5.770       -         
+R_brzina_12[0]                Net          -        -       -         -           1         
+I12.R_brzina[0]               FD1S3IX      D        In      0.000     5.770       -         
+============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      5.770
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.336
+
+    Number of logic level(s):                6
+    Starting point:                          I32 / Z
+    Ending point:                            I12.R_brzina[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+I32                           AND2         Z        Out     0.000     0.000       -         
+N_30                          Net          -        -       -         -           5         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     D        In      0.000     0.000       -         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     Z        Out     1.194     1.194       -         
+N_60                          Net          -        -       -         -           11        
+I12.R_lijevo_RNI2219          ORCALUT4     C        In      0.000     1.194       -         
+I12.R_lijevo_RNI2219          ORCALUT4     Z        Out     0.883     2.077       -         
+g0_2                          Net          -        -       -         -           1         
+I12.R_naprijed_RNICGFU        ORCALUT4     C        In      0.000     2.077       -         
+I12.R_naprijed_RNICGFU        ORCALUT4     Z        Out     1.222     3.299       -         
+un28_r_clk_acc                Net          -        -       -         -           15        
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     B        In      0.000     3.299       -         
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     Z        Out     1.043     4.342       -         
+R_N_4                         Net          -        -       -         -           3         
+I12.R_brzina_RNO_0[0]         ORCALUT4     A        In      0.000     4.342       -         
+I12.R_brzina_RNO_0[0]         ORCALUT4     Z        Out     0.883     5.225       -         
+un1_r_clk_acc_8_0_0_1         Net          -        -       -         -           1         
+I12.R_brzina_RNO[0]           ORCALUT4     C        In      0.000     5.225       -         
+I12.R_brzina_RNO[0]           ORCALUT4     Z        Out     0.545     5.770       -         
+R_brzina_12[0]                Net          -        -       -         -           1         
+I12.R_brzina[0]               FD1S3IX      D        In      0.000     5.770       -         
+============================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      6.170
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.434
+
+    - Propagation time:                      5.770
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.336
+
+    Number of logic level(s):                6
+    Starting point:                          I8 / Z
+    Ending point:                            I12.R_brzina[1] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+I8                            AND2         Z        Out     0.000     0.000       -         
+N_29                          Net          -        -       -         -           5         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     C        In      0.000     0.000       -         
+I12.un16_r_clk_acc_i_0_o2     ORCALUT4     Z        Out     1.194     1.194       -         
+N_60                          Net          -        -       -         -           11        
+I12.R_lijevo_RNI2219          ORCALUT4     C        In      0.000     1.194       -         
+I12.R_lijevo_RNI2219          ORCALUT4     Z        Out     0.883     2.077       -         
+g0_2                          Net          -        -       -         -           1         
+I12.R_naprijed_RNICGFU        ORCALUT4     C        In      0.000     2.077       -         
+I12.R_naprijed_RNICGFU        ORCALUT4     Z        Out     1.222     3.299       -         
+un28_r_clk_acc                Net          -        -       -         -           15        
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     B        In      0.000     3.299       -         
+I12.R_brzina_RNIILMF1[2]      ORCALUT4     Z        Out     1.043     4.342       -         
+R_N_4                         Net          -        -       -         -           3         
+I12.R_brzina_RNO_0[1]         ORCALUT4     A        In      0.000     4.342       -         
+I12.R_brzina_RNO_0[1]         ORCALUT4     Z        Out     0.883     5.225       -         
+g0_0_1                        Net          -        -       -         -           1         
+I12.R_brzina_RNO[1]           ORCALUT4     C        In      0.000     5.225       -         
+I12.R_brzina_RNO[1]           ORCALUT4     Z        Out     0.545     5.770       -         
+R_brzina_12[1]                Net          -        -       -         -           1         
+I12.R_brzina[1]               FD1S3IX      D        In      0.000     5.770       -         
+============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 160MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 160MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 121 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       23
+
+
+Details:
+AND2:           9
+AND3:           1
+CCU2B:          32
+FD1P3AX:        42
+FD1S3AX:        57
+FD1S3IX:        21
+GSR:            1
+IB:             10
+IFS1P3DX:       1
+INV:            3
+OB:             13
+ORCALUT4:       192
+PFUMX:          2
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 32MB peak: 160MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Oct 22 17:54:04 2017
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "LatticeXP2" -d LFXP2-5E -path "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1" -path "D:/Ivan/Faks/1. Semestar/DigLog/1.LV"   "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/LV1_tenk_impl1.edi" "LV1_tenk_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="C_inercija"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="C_okret_u_mjestu"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="C_speed_bias"  />
+Writing the design to LV1_tenk_impl1.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "LatticeXP2" -d LFXP2-5E  -p "C:/lscc/diamond/3.9_x64/ispfpga/mg5a00/data"  -p "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1" -p "D:/Ivan/Faks/1. Semestar/DigLog/1.LV"  "LV1_tenk_impl1.ngo" "LV1_tenk_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'LV1_tenk_impl1.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/r_fm_acc_s_27_0_COUT" arg2="I12/r_fm_acc_s_27_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/r_fm_acc_s_27_0_S1" arg2="I12/r_fm_acc_s_27_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/r_fm_acc_cry_0_0_S0" arg2="I12/r_fm_acc_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/r_fm_acc_cry_0_0_S1" arg2="I12/r_fm_acc_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un93_r_clk_acc_1_s_15_0_COUT" arg2="I12/un93_r_clk_acc_1_s_15_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un93_r_clk_acc_1_s_15_0_S1" arg2="I12/un93_r_clk_acc_1_s_15_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un93_r_clk_acc_1_cry_0_0_S0" arg2="I12/un93_r_clk_acc_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un93_r_clk_acc_1_cry_0_0_S1" arg2="I12/un93_r_clk_acc_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un2_r_phase_acc_1_s_7_0_COUT" arg2="I12/un2_r_phase_acc_1_s_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un2_r_phase_acc_1_s_7_0_S1" arg2="I12/un2_r_phase_acc_1_s_7_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un2_r_phase_acc_1_cry_0_0_S0" arg2="I12/un2_r_phase_acc_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/un2_r_phase_acc_1_cry_0_0_S1" arg2="I12/un2_r_phase_acc_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/fwd_rev_cry_3_0_COUT" arg2="I12/fwd_rev_cry_3_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/fwd_rev_cry_0_0_S0" arg2="I12/fwd_rev_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/fwd_rev_cry_0_0_S1" arg2="I12/fwd_rev_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/CLKOS" arg2="I12/CLKOS"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/CLKOK" arg2="I12/CLKOK"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/LOCK" arg2="I12/LOCK"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="I12/CLKINTFB" arg2="I12/CLKINTFB"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="19"  />
+
+Design Results:
+    389 blocks expanded
+Complete the first expansion.
+Writing 'LV1_tenk_impl1.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial   "LV1_tenk_impl1.ngd" -o "LV1_tenk_impl1_map.ncd" -pr "LV1_tenk_impl1.prf" -mp "LV1_tenk_impl1.mrp" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/LV1_tenk_impl1_synplify.lpf" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf"             
+map:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: LV1_tenk_impl1.ngd
+   Picdevice="LFXP2-5E"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-5ETQFP144, Performance used: 5.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(18): Semantic error in &quot;LOCATE COMP &quot;rs232_rx&quot; SITE &quot;10&quot; ;&quot;: " arg1="rs232_rx" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="18"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(19): Semantic error in &quot;LOCATE COMP &quot;rs232_tx&quot; SITE &quot;137&quot; ;&quot;: " arg1="rs232_tx" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="19"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(52): Semantic error in &quot;LOCATE COMP &quot;flash_cen&quot; SITE &quot;13&quot; ;&quot;: " arg1="flash_cen" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="52"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(53): Semantic error in &quot;LOCATE COMP &quot;flash_sck&quot; SITE &quot;16&quot; ;&quot;: " arg1="flash_sck" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="53"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(54): Semantic error in &quot;LOCATE COMP &quot;flash_si&quot; SITE &quot;19&quot; ;&quot;: " arg1="flash_si" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="54"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(55): Semantic error in &quot;LOCATE COMP &quot;flash_so&quot; SITE &quot;18&quot; ;&quot;: " arg1="flash_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="55"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(58): Semantic error in &quot;LOCATE COMP &quot;sdcard_cen&quot; SITE &quot;15&quot; ;&quot;: " arg1="sdcard_cen" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="58"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(59): Semantic error in &quot;LOCATE COMP &quot;sdcard_sck&quot; SITE &quot;20&quot; ;&quot;: " arg1="sdcard_sck" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="59"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(60): Semantic error in &quot;LOCATE COMP &quot;sdcard_si&quot; SITE &quot;17&quot; ;&quot;: " arg1="sdcard_si" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="60"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(61): Semantic error in &quot;LOCATE COMP &quot;sdcard_so&quot; SITE &quot;21&quot; ;&quot;: " arg1="sdcard_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="61"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(64): Semantic error in &quot;LOCATE COMP &quot;sram_wel&quot; SITE &quot;93&quot; ;&quot;: " arg1="sram_wel" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="64"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(65): Semantic error in &quot;LOCATE COMP &quot;sram_lbl&quot; SITE &quot;120&quot; ;&quot;: " arg1="sram_lbl" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="65"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(66): Semantic error in &quot;LOCATE COMP &quot;sram_ubl&quot; SITE &quot;121&quot; ;&quot;: " arg1="sram_ubl" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="66"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(67): Semantic error in &quot;LOCATE COMP &quot;sram_a_0&quot; SITE &quot;101&quot; ;&quot;: " arg1="sram_a_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="67"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(68): Semantic error in &quot;LOCATE COMP &quot;sram_a_1&quot; SITE &quot;103&quot; ;&quot;: " arg1="sram_a_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="68"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(69): Semantic error in &quot;LOCATE COMP &quot;sram_a_2&quot; SITE &quot;104&quot; ;&quot;: " arg1="sram_a_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="69"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(70): Semantic error in &quot;LOCATE COMP &quot;sram_a_3&quot; SITE &quot;107&quot; ;&quot;: " arg1="sram_a_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="70"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(71): Semantic error in &quot;LOCATE COMP &quot;sram_a_4&quot; SITE &quot;108&quot; ;&quot;: " arg1="sram_a_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="71"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(72): Semantic error in &quot;LOCATE COMP &quot;sram_a_5&quot; SITE &quot;125&quot; ;&quot;: " arg1="sram_a_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="72"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(73): Semantic error in &quot;LOCATE COMP &quot;sram_a_6&quot; SITE &quot;127&quot; ;&quot;: " arg1="sram_a_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="73"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(74): Semantic error in &quot;LOCATE COMP &quot;sram_a_7&quot; SITE &quot;122&quot; ;&quot;: " arg1="sram_a_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="74"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(75): Semantic error in &quot;LOCATE COMP &quot;sram_a_8&quot; SITE &quot;58&quot; ;&quot;: " arg1="sram_a_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="75"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(76): Semantic error in &quot;LOCATE COMP &quot;sram_a_9&quot; SITE &quot;53&quot; ;&quot;: " arg1="sram_a_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="76"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(77): Semantic error in &quot;LOCATE COMP &quot;sram_a_10&quot; SITE &quot;54&quot; ;&quot;: " arg1="sram_a_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="77"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(78): Semantic error in &quot;LOCATE COMP &quot;sram_a_11&quot; SITE &quot;55&quot; ;&quot;: " arg1="sram_a_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="78"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(79): Semantic error in &quot;LOCATE COMP &quot;sram_a_12&quot; SITE &quot;56&quot; ;&quot;: " arg1="sram_a_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="79"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(80): Semantic error in &quot;LOCATE COMP &quot;sram_a_13&quot; SITE &quot;57&quot; ;&quot;: " arg1="sram_a_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="80"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(81): Semantic error in &quot;LOCATE COMP &quot;sram_a_14&quot; SITE &quot;73&quot; ;&quot;: " arg1="sram_a_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="81"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(82): Semantic error in &quot;LOCATE COMP &quot;sram_a_15&quot; SITE &quot;74&quot; ;&quot;: " arg1="sram_a_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="82"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(83): Semantic error in &quot;LOCATE COMP &quot;sram_a_16&quot; SITE &quot;77&quot; ;&quot;: " arg1="sram_a_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="83"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(84): Semantic error in &quot;LOCATE COMP &quot;sram_a_17&quot; SITE &quot;78&quot; ;&quot;: " arg1="sram_a_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="84"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(85): Semantic error in &quot;LOCATE COMP &quot;sram_a_18&quot; SITE &quot;94&quot; ;&quot;: " arg1="sram_a_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="85"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(86): Semantic error in &quot;LOCATE COMP &quot;sram_d_0&quot; SITE &quot;98&quot; ;&quot;: " arg1="sram_d_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="86"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(87): Semantic error in &quot;LOCATE COMP &quot;sram_d_1&quot; SITE &quot;96&quot; ;&quot;: " arg1="sram_d_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="87"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(88): Semantic error in &quot;LOCATE COMP &quot;sram_d_2&quot; SITE &quot;92&quot; ;&quot;: " arg1="sram_d_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="88"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(89): Semantic error in &quot;LOCATE COMP &quot;sram_d_3&quot; SITE &quot;91&quot; ;&quot;: " arg1="sram_d_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="89"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(90): Semantic error in &quot;LOCATE COMP &quot;sram_d_4&quot; SITE &quot;89&quot; ;&quot;: " arg1="sram_d_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="90"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(91): Semantic error in &quot;LOCATE COMP &quot;sram_d_5&quot; SITE &quot;88&quot; ;&quot;: " arg1="sram_d_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="91"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(92): Semantic error in &quot;LOCATE COMP &quot;sram_d_6&quot; SITE &quot;87&quot; ;&quot;: " arg1="sram_d_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="92"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(93): Semantic error in &quot;LOCATE COMP &quot;sram_d_7&quot; SITE &quot;90&quot; ;&quot;: " arg1="sram_d_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="93"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(94): Semantic error in &quot;LOCATE COMP &quot;sram_d_8&quot; SITE &quot;61&quot; ;&quot;: " arg1="sram_d_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="94"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(95): Semantic error in &quot;LOCATE COMP &quot;sram_d_9&quot; SITE &quot;62&quot; ;&quot;: " arg1="sram_d_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="95"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(96): Semantic error in &quot;LOCATE COMP &quot;sram_d_10&quot; SITE &quot;99&quot; ;&quot;: " arg1="sram_d_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="96"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(97): Semantic error in &quot;LOCATE COMP &quot;sram_d_11&quot; SITE &quot;100&quot; ;&quot;: " arg1="sram_d_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="97"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(98): Semantic error in &quot;LOCATE COMP &quot;sram_d_12&quot; SITE &quot;102&quot; ;&quot;: " arg1="sram_d_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="98"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(99): Semantic error in &quot;LOCATE COMP &quot;sram_d_13&quot; SITE &quot;113&quot; ;&quot;: " arg1="sram_d_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="99"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(100): Semantic error in &quot;LOCATE COMP &quot;sram_d_14&quot; SITE &quot;116&quot; ;&quot;: " arg1="sram_d_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="100"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(101): Semantic error in &quot;LOCATE COMP &quot;sram_d_15&quot; SITE &quot;119&quot; ;&quot;: " arg1="sram_d_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="101"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(105): Semantic error in &quot;LOCATE COMP &quot;j1_2&quot; SITE &quot;131&quot; ;&quot;: " arg1="j1_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="105"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(106): Semantic error in &quot;LOCATE COMP &quot;j1_3&quot; SITE &quot;134&quot; ;&quot;: " arg1="j1_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="106"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(107): Semantic error in &quot;LOCATE COMP &quot;j1_4&quot; SITE &quot;9&quot; ;&quot;: " arg1="j1_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="107"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(108): Semantic error in &quot;LOCATE COMP &quot;j1_5&quot; SITE &quot;138&quot; ;&quot;: " arg1="j1_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="108"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(109): Semantic error in &quot;LOCATE COMP &quot;j1_6&quot; SITE &quot;6&quot; ;&quot;: " arg1="j1_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="109"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(110): Semantic error in &quot;LOCATE COMP &quot;j1_7&quot; SITE &quot;5&quot; ;&quot;: " arg1="j1_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="110"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(111): Semantic error in &quot;LOCATE COMP &quot;j1_8&quot; SITE &quot;8&quot; ;&quot;: " arg1="j1_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="111"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(112): Semantic error in &quot;LOCATE COMP &quot;j1_9&quot; SITE &quot;7&quot; ;&quot;: " arg1="j1_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="112"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(113): Semantic error in &quot;LOCATE COMP &quot;j1_10&quot; SITE &quot;1&quot; ;&quot;: " arg1="j1_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="113"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(114): Semantic error in &quot;LOCATE COMP &quot;j1_11&quot; SITE &quot;2&quot; ;&quot;: " arg1="j1_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="114"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(115): Semantic error in &quot;LOCATE COMP &quot;j1_12&quot; SITE &quot;144&quot; ;&quot;: " arg1="j1_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="115"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(116): Semantic error in &quot;LOCATE COMP &quot;j1_13&quot; SITE &quot;143&quot; ;&quot;: " arg1="j1_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="116"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(117): Semantic error in &quot;LOCATE COMP &quot;j1_14&quot; SITE &quot;142&quot; ;&quot;: " arg1="j1_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="117"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(118): Semantic error in &quot;LOCATE COMP &quot;j1_15&quot; SITE &quot;141&quot; ;&quot;: " arg1="j1_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="118"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(119): Semantic error in &quot;LOCATE COMP &quot;j1_16&quot; SITE &quot;133&quot; ;&quot;: " arg1="j1_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="119"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(120): Semantic error in &quot;LOCATE COMP &quot;j1_17&quot; SITE &quot;132&quot; ;&quot;: " arg1="j1_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="120"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(121): Semantic error in &quot;LOCATE COMP &quot;j1_19&quot; SITE &quot;123&quot; ;&quot;: " arg1="j1_19" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="121"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(122): Semantic error in &quot;LOCATE COMP &quot;j1_18&quot; SITE &quot;124&quot; ;&quot;: " arg1="j1_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="122"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(123): Semantic error in &quot;LOCATE COMP &quot;j1_20&quot; SITE &quot;115&quot; ;&quot;: " arg1="j1_20" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="123"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(124): Semantic error in &quot;LOCATE COMP &quot;j1_21&quot; SITE &quot;114&quot; ;&quot;: " arg1="j1_21" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="124"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(125): Semantic error in &quot;LOCATE COMP &quot;j1_22&quot; SITE &quot;110&quot; ;&quot;: " arg1="j1_22" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="125"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(126): Semantic error in &quot;LOCATE COMP &quot;j1_23&quot; SITE &quot;109&quot; ;&quot;: " arg1="j1_23" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="126"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(131): Semantic error in &quot;LOCATE COMP &quot;j2_2&quot; SITE &quot;72&quot; ;&quot;: " arg1="j2_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="131"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(132): Semantic error in &quot;LOCATE COMP &quot;j2_3&quot; SITE &quot;71&quot; ;&quot;: " arg1="j2_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="132"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(133): Semantic error in &quot;LOCATE COMP &quot;j2_4&quot; SITE &quot;70&quot; ;&quot;: " arg1="j2_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="133"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(134): Semantic error in &quot;LOCATE COMP &quot;j2_5&quot; SITE &quot;69&quot; ;&quot;: " arg1="j2_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="134"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(135): Semantic error in &quot;LOCATE COMP &quot;j2_6&quot; SITE &quot;66&quot; ;&quot;: " arg1="j2_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="135"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(136): Semantic error in &quot;LOCATE COMP &quot;j2_7&quot; SITE &quot;65&quot; ;&quot;: " arg1="j2_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="136"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(137): Semantic error in &quot;LOCATE COMP &quot;j2_8&quot; SITE &quot;52&quot; ;&quot;: " arg1="j2_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="137"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(138): Semantic error in &quot;LOCATE COMP &quot;j2_9&quot; SITE &quot;50&quot; ;&quot;: " arg1="j2_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="138"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(139): Semantic error in &quot;LOCATE COMP &quot;j2_10&quot; SITE &quot;48&quot; ;&quot;: " arg1="j2_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="139"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(140): Semantic error in &quot;LOCATE COMP &quot;j2_11&quot; SITE &quot;47&quot; ;&quot;: " arg1="j2_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="140"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(141): Semantic error in &quot;LOCATE COMP &quot;j2_12&quot; SITE &quot;40&quot; ;&quot;: " arg1="j2_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="141"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(142): Semantic error in &quot;LOCATE COMP &quot;j2_13&quot; SITE &quot;39&quot; ;&quot;: " arg1="j2_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="142"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(143): Semantic error in &quot;LOCATE COMP &quot;j2_14&quot; SITE &quot;38&quot; ;&quot;: " arg1="j2_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="143"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(144): Semantic error in &quot;LOCATE COMP &quot;j2_15&quot; SITE &quot;22&quot; ;&quot;: " arg1="j2_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="144"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(145): Semantic error in &quot;LOCATE COMP &quot;j2_16&quot; SITE &quot;31&quot; ;&quot;: " arg1="j2_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="145"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(146): Semantic error in &quot;LOCATE COMP &quot;j2_17&quot; SITE &quot;29&quot; ;&quot;: " arg1="j2_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="146"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(147): Semantic error in &quot;LOCATE COMP &quot;j2_18&quot; SITE &quot;37&quot; ;&quot;: " arg1="j2_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="147"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(148): Semantic error in &quot;LOCATE COMP &quot;j2_19&quot; SITE &quot;36&quot; ;&quot;: " arg1="j2_19" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="148"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(149): Semantic error in &quot;LOCATE COMP &quot;j2_20&quot; SITE &quot;35&quot; ;&quot;: " arg1="j2_20" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="149"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(150): Semantic error in &quot;LOCATE COMP &quot;j2_21&quot; SITE &quot;32&quot; ;&quot;: " arg1="j2_21" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="150"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(151): Semantic error in &quot;LOCATE COMP &quot;j2_22&quot; SITE &quot;27&quot; ;&quot;: " arg1="j2_22" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="151"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(152): Semantic error in &quot;LOCATE COMP &quot;j2_23&quot; SITE &quot;28&quot; ;&quot;: " arg1="j2_23" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="152"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(158): Semantic error in &quot;LOCATE COMP &quot;lcd_data_0&quot; SITE &quot;8&quot; ;&quot;: " arg1="lcd_data_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="158"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(159): Semantic error in &quot;LOCATE COMP &quot;lcd_data_1&quot; SITE &quot;9&quot; ;&quot;: " arg1="lcd_data_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="159"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(160): Semantic error in &quot;LOCATE COMP &quot;lcd_data_2&quot; SITE &quot;134&quot; ;&quot;: " arg1="lcd_data_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="160"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(161): Semantic error in &quot;LOCATE COMP &quot;lcd_data_3&quot; SITE &quot;131&quot; ;&quot;: " arg1="lcd_data_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="161"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(162): Semantic error in &quot;LOCATE COMP &quot;lcd_rs&quot; SITE &quot;143&quot; ;&quot;: " arg1="lcd_rs" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="162"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(163): Semantic error in &quot;LOCATE COMP &quot;lcd_e&quot; SITE &quot;7&quot; ;&quot;: " arg1="lcd_e" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="163"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf(184): Semantic error in &quot;IOBUF PORT &quot;sdcard_so&quot; PULLMODE=UP ;&quot;: " arg1="sdcard_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/1.LV/impl1/source/ulx2s.lpf" arg3="184"  />
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+111 CCU2 constant inputs absorbed.
+
+
+
+
+Design Summary:
+   Number of registers:    121 out of  3864 (3%)
+      PFU registers:          120 out of  3564 (3%)
+      PIO registers:            1 out of   300 (0%)
+   Number of SLICEs:       144 out of  2376 (6%)
+      SLICEs as Logic/ROM:    144 out of  2376 (6%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:         32 out of  2376 (1%)
+   Number of LUT4s:        269 out of  4752 (6%)
+      Number used as logic LUTs:        205
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       64
+      Number used as shift registers:     0
+   Number of PIO sites used: 23 out of 100 (23%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  2
+     Net I12.clk_pll: 75 loads, 75 rising, 0 falling (Driver: I12/PLLInst_0 )
+     Net clk_25m_c: 1 loads, 1 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  2
+     Net I12.r_clk_acc: 10 loads, 10 LSLICEs
+     Net I12/un1_r_clk_acc99_i: 15 loads, 15 LSLICEs
+   Number of LSRs:  3
+     Net I11_RNIKPHDC: 2 loads, 2 LSLICEs
+     Net I12/R_speed_acc_0_sqmuxa: 8 loads, 8 LSLICEs
+     Net I12/r_clk_acc_iso: 5 loads, 5 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net I12/VCC: 53 loads
+     Net I12.R_desno: 23 loads
+     Net I12.r_clk_acc: 21 loads
+     Net I12/R_naprijed: 21 loads
+     Net I12/R_brzina[0]: 20 loads
+     Net I12/R_brzina[1]: 20 loads
+     Net I12/R_phase_acc_RNI91371[4]: 20 loads
+     Net I12/un10[1]: 20 loads
+     Net I12.R_lijevo: 19 loads
+     Net sw_c[0]: 18 loads
+ 
+
+   Number of warnings:  99
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 61 MB
+
+Dumping design to file LV1_tenk_impl1_map.ncd.
+
+mpartrce -p "LV1_tenk_impl1.p2t" -f "LV1_tenk_impl1.p3t" -tf "LV1_tenk_impl1.pt" "LV1_tenk_impl1_map.ncd" "LV1_tenk_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "LV1_tenk_impl1_map.ncd"
+Sun Oct 22 17:54:06 2017
+
+PAR: Place And Route Diamond (64-bit) 3.9.0.99.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF LV1_tenk_impl1_map.ncd LV1_tenk_impl1.dir/5_1.ncd LV1_tenk_impl1.prf
+Preference file: LV1_tenk_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file LV1_tenk_impl1_map.ncd.
+Design name: tenk_upravljac
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   IOLOGIC            1/196          <1% used
+   PIO (prelim)      23/174          13% used
+                     23/100          23% bonded
+   SLICE            144/2376          6% used
+
+
+
+Number of Signals: 416
+Number of Connections: 1111
+
+Pin Constraint Summary:
+   23 out of 23 pins locked (100% locked).
+
+    <postMsg mid="61031122" type="Warning" dynamic="3" navigation="0" arg0="clk_25m_c" arg1="I12/PLLInst_0" arg2="CLKI"  />
+The following 1 signal is selected to use the primary clock routing resources:
+    I12.clk_pll (driver: I12/PLLInst_0, clk load #: 75)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 62942.
+Finished Placer Phase 1.  REAL time: 6 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  60947
+Finished Placer Phase 2.  REAL time: 6 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 1 out of 2 (50%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "I12.clk_pll" from CLKOP on comp "I12/PLLInst_0" on PLL site "ULPLL", clk load = 75
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   23 out of 174 (13.2%) PIO sites used.
+   23 out of 100 (23.0%) bonded PIO sites used.
+   Number of PIO comps: 23; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 4 / 20 ( 20%) | 3.3V       | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 6 / 18 ( 33%) | 3.3V       | -          | -          |
+| 6        | 7 / 8 ( 87%)  | 3.3V       | -          | -          |
+| 7        | 6 / 18 ( 33%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B                
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+Total placer CPU time: 5 secs 
+
+Dumping design to file LV1_tenk_impl1.dir/5_1.ncd.
+
+0 connections routed; 1111 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 7 secs 
+
+Start NBR router at 17:54:13 10/22/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 17:54:13 10/22/17
+
+Start NBR section for initial routing at 17:54:13 10/22/17
+Level 1, iteration 1
+12(0.01%) conflicts; 845(76.06%) untouched conns; 180845 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.520ns/-180.846ns; real time: 7 secs 
+Level 2, iteration 1
+78(0.03%) conflicts; 691(62.20%) untouched conns; 88338 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.550ns/-88.338ns; real time: 7 secs 
+Level 3, iteration 1
+65(0.03%) conflicts; 195(17.55%) untouched conns; 170212 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.576ns/-170.212ns; real time: 8 secs 
+Level 4, iteration 1
+38(0.02%) conflicts; 0(0.00%) untouched conn; 207216 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-207.216ns; real time: 8 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 17:54:14 10/22/17
+Level 1, iteration 1
+29(0.01%) conflicts; 22(1.98%) untouched conns; 196867 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-196.868ns; real time: 8 secs 
+Level 1, iteration 2
+22(0.01%) conflicts; 22(1.98%) untouched conns; 195850 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-195.851ns; real time: 8 secs 
+Level 2, iteration 1
+18(0.01%) conflicts; 23(2.07%) untouched conns; 199358 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-199.359ns; real time: 8 secs 
+Level 3, iteration 1
+16(0.01%) conflicts; 14(1.26%) untouched conns; 205709 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-205.709ns; real time: 8 secs 
+Level 4, iteration 1
+15(0.01%) conflicts; 0(0.00%) untouched conn; 209996 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-209.996ns; real time: 8 secs 
+Level 4, iteration 2
+12(0.01%) conflicts; 0(0.00%) untouched conn; 216174 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-216.174ns; real time: 8 secs 
+Level 4, iteration 3
+12(0.01%) conflicts; 0(0.00%) untouched conn; 212878 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-212.878ns; real time: 8 secs 
+Level 4, iteration 4
+7(0.00%) conflicts; 0(0.00%) untouched conn; 212878 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-212.878ns; real time: 8 secs 
+Level 4, iteration 5
+4(0.00%) conflicts; 0(0.00%) untouched conn; 232545 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.788ns/-232.545ns; real time: 8 secs 
+Level 4, iteration 6
+3(0.00%) conflicts; 0(0.00%) untouched conn; 232545 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.788ns/-232.545ns; real time: 8 secs 
+Level 4, iteration 7
+3(0.00%) conflicts; 0(0.00%) untouched conn; 231017 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.788ns/-231.017ns; real time: 8 secs 
+Level 4, iteration 8
+1(0.00%) conflict; 0(0.00%) untouched conn; 231017 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.788ns/-231.017ns; real time: 8 secs 
+Level 4, iteration 9
+0(0.00%) conflict; 0(0.00%) untouched conn; 235422 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.788ns/-235.422ns; real time: 8 secs 
+
+Start NBR section for performance tuning (iteration 1) at 17:54:14 10/22/17
+Level 4, iteration 1
+1(0.00%) conflict; 0(0.00%) untouched conn; 230330 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-230.330ns; real time: 8 secs 
+Level 4, iteration 2
+0(0.00%) conflict; 0(0.00%) untouched conn; 233389 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-233.389ns; real time: 8 secs 
+
+Start NBR section for performance tuning (iteration 2) at 17:54:14 10/22/17
+Level 4, iteration 1
+10(0.00%) conflicts; 0(0.00%) untouched conn; 210569 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.788ns/-210.569ns; real time: 8 secs 
+
+Start NBR section for re-routing at 17:54:15 10/22/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 229331 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-229.331ns; real time: 9 secs 
+
+Start NBR section for post-routing at 17:54:15 10/22/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 320 (28.80%)
+  Estimated worst slack<setup> : -1.585ns
+  Timing score<setup> : 355203
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 9 secs 
+Total REAL time: 10 secs 
+Completely routed.
+End of route.  1111 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 355203 
+
+Dumping design to file LV1_tenk_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -1.585
+PAR_SUMMARY::Timing score<setup/<ns>> = 355.203
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.235
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 9 secs 
+Total REAL time to completion: 10 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "LV1_tenk_impl1.t2b" -w "LV1_tenk_impl1.ncd" -jedec -e -s "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/LV1_tenk.sec" -k "D:/Ivan/Faks/1. Semestar/DigLog/1.LV/LV1_tenk.bek" "LV1_tenk_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.9.0.99.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file LV1_tenk_impl1.ncd.
+Design name: tenk_upravljac
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from LV1_tenk_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     TAG_MEMORY  |                       NORMAL**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "LV1_tenk_impl1.jed".

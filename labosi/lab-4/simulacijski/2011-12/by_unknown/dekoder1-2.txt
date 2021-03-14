@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY dek12 IS PORT(
+	e: IN STD_LOGIC;
+	a: IN STD_LOGIC;
+	y0: OUT STD_LOGIC;
+	y1: OUT STD_LOGIC);
+END dek12;
+
+ARCHITECTURE arch OF dek12 IS 
+
+BEGIN
+y0 <= E AND NOT A AFTER 10 ns;
+y1 <= E AND A AFTER 10 ns;
+
+END arch;

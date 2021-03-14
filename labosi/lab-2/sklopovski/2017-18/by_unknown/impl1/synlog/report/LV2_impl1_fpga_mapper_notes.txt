@@ -1,0 +1,23 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "111111111" on instance I1.R_tx_ser[8:0].
+@N: MO231 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Found counter in view:work.serial_tx(behavioral) instance R_tx_tickcnt[3:0] 
+@N: MF179 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":81:8:81:28|Found 8 by 8 bit equality operator ('==') un1_byte_in (in view: work.serial_tx(behavioral))
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_tx_tickcnt[0] (in view: work.lab2(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_tx_tickcnt[1] (in view: work.lab2(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_debounce_cnt[10] (in view: work.lab2(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_debounce_cnt[8] (in view: work.lab2(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_debounce_cnt[9] (in view: work.lab2(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_debounce_cnt[11] (in view: work.lab2(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_byte_old[4] (in view: work.lab2(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_byte_old[5] (in view: work.lab2(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_byte_old[2] (in view: work.lab2(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_byte_old[6] (in view: work.lab2(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Replicating instance I1.R_tx_tickcnt[2] (in view: work.lab2(verilog)) with 4 loads 1 time to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\Ivan\Faks\1. Semestar\DigLog\LV2\impl1\LV2_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.

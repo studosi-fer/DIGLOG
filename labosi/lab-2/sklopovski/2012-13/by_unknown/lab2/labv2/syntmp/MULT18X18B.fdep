@@ -1,0 +1,27 @@
+#OPTIONS:"|-top|MULT18X18B|-I|C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib|-devicelib|C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\xilinx\\unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|Z:\\lab2\\labv2\\syntmp\\MULT18X18B.param"
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\bin\\c_ver.exe":1362996992
+#CUR:"Z:\\lab2\\labv2\\syntmp\\MULT18X18B.param":1382355163
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\umr_capim.v":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\hypermods.v":1362997382
+#CUR:"Z:\\lab2\\labv2\\syntmp\\MULT18X18B.v":1362997162
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"Z:\lab2\labv2\syntmp\MULT18X18B.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work PUR 0
+module work GSR 0
+module work MULT2 0
+module work MULT9X9ADDSUBSUMB 0
+module work MULT9X9B 0
+module work MULT18X18ADDSUBB 0
+module work MULT18X18ADDSUBSUMB 0
+module work MULT18X18B 0
+module work MULT18X18MACB 0
+module work MULT36X36B 0
+module work MULT9X9ADDSUBB 0

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1389932374"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1389932357">
+            <Task name="Map" build_result="0" update_result="2" update_time="1389932357"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1389932371">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1389932371"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1389932356">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1389932356"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1389969644"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="0" build_time="1389932358">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1389932358"/>
+        </Milestone>
+        <Report name="lab5_lab5.bgn" last_build_time="1389932374" last_build_size="3184"/>
+        <Report name="lab5_lab5.edi" last_build_time="1389932356" last_build_size="167062"/>
+        <Report name="lab5_lab5.jed" last_build_time="1389932374" last_build_size="1268483"/>
+        <Report name="lab5_lab5.ncd" last_build_time="1389932371" last_build_size="167033"/>
+        <Report name="lab5_lab5.ngd" last_build_time="1389932358" last_build_size="166504"/>
+        <Report name="lab5_lab5_map.ncd" last_build_time="1389932357" last_build_size="109850"/>
+    </Strategy>
+</BuildStatus>

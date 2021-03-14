@@ -1,0 +1,71 @@
+-- [DIGLOG] 5. Labos, Simulacijski (2015/16)
+-- 1. Zadatak
+-- 	(a) Izradi sekvsklop
+--
+-- By: DrinkingBuddy
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY sekvsklop IS PORT( 
+	clk: IN STD_LOGIC;
+	p: IN STD_LOGIC;
+	reset: IN STD_LOGIC;
+	q: OUT STD_LOGIC_VECTOR(0 TO 4)
+);
+END sekvsklop;
+
+ARCHITECTURE structural OF sekvsklop IS 
+	SIGNAL sq: STD_LOGIC_VECTOR(0 TO 4); -- signal for temporary outputs
+	SIGNAL i: STD_LOGIC_VECTOR(0 TO 4); -- signal for non static expressions
+BEGIN
+
+	i(0) <= NOT p AND reset;
+	i(1) <= p AND reset;
+	sintff_instance_00: ENTITY work.sintff PORT MAP (clk => clk,
+						clr => i(0),
+						t => '1',
+						st => i(1),
+						q => sq(0),
+						qn => open
+						);
+						
+	sintff_instance_01: ENTITY work.sintff PORT MAP (clk => clk,
+						clr => reset,
+						t => sq(0),
+						st => '0',
+						q => sq(1),
+						qn => open
+						);
+						
+	i(2) <= sq(1) AND sq(0);
+	sintff_instance_02: ENTITY work.sintff PORT MAP (clk => clk,
+						clr => reset,
+						t => i(2),
+						st => '0',
+						q => sq(2),
+						qn => open
+						);
+
+	i(3) <= sq(0) AND sq(1) AND sq(2);
+	sintff_instance_03: ENTITY work.sintff PORT MAP (clk => clk,
+						clr => reset,
+						t => i(3),
+						st => '0',
+						q => sq(3),
+						qn => open
+						);
+
+	i(4) <= sq(0) AND sq(1) AND sq(2) AND sq(3);
+	sintff_instance_04: ENTITY work.sintff PORT MAP (clk => clk,
+						clr => reset,
+						t => i(4),
+						st => '0',
+						q => sq(4),
+						qn => open
+						);
+	q <= sq;
+END structural;

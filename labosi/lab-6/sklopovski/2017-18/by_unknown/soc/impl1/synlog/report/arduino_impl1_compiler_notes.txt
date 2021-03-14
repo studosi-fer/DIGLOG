@@ -1,0 +1,245 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":9:7:9:13|Top entity is set to arduino.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":9:7:9:13|Synthesizing work.arduino.x.
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <29> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <30> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <31> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <32> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <33> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <34> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <35> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <36> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <37> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <38> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <39> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <40> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <41> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <42> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <43> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <44> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <45> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <46> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <47> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <48> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <49> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <50> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <51> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <52> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <53> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <54> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <55> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <56> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <57> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <58> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <59> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <60> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <61> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <62> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <63> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <64> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <65> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <66> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <67> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <68> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <69> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <70> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <71> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <72> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <73> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <74> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <75> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <76> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <77> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <78> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <79> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <80> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <81> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <82> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <83> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <84> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <85> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <86> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <87> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <88> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <89> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <90> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <91> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <92> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <93> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <94> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <95> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <96> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <97> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <98> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <99> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <100> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <101> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <102> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <103> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <104> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <105> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <106> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <107> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <108> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <109> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <110> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <111> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <112> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <113> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <114> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <115> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <116> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <117> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <118> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <119> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <120> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <121> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <122> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <123> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <124> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <125> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <126> connection not specified 
+@N: CD367 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd":49:26:49:43|Instance f32c_soc_glue, Port gpio, Bit <127> connection not specified 
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\tonegen.vhd":7:7:7:13|Synthesizing work.tonegen.x.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd":36:7:36:19|Synthesizing work.f32c_soc_glue.x.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":47:7:47:10|Synthesizing work.bram.x.
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":126:11:126:16|Found RAM bram_3, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":126:11:126:16|Found RAM bram_3, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":125:11:125:16|Found RAM bram_2, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":125:11:125:16|Found RAM bram_2, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":124:11:124:16|Found RAM bram_1, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":124:11:124:16|Found RAM bram_1, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":123:11:123:16|Found RAM bram_0, depth=4096, width=8
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":123:11:123:16|Found RAM bram_0, depth=4096, width=8
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":36:7:36:11|Synthesizing work.timer.arch.
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":215:20:215:23|Found RAM rtmp, depth=16, width=4
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd":215:20:215:23|Found RAM rtmp, depth=16, width=8
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd":36:7:36:10|Synthesizing work.gpio.arch.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd":35:7:35:9|Synthesizing work.sio.behavioral.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":39:7:39:14|Synthesizing work.pipeline.behavioral.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd":32:7:32:9|Synthesizing work.mul.arch_x.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\loadalign.vhd":34:7:34:15|Synthesizing work.loadalign.behavioral.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":35:7:35:11|Synthesizing work.shift.behavioral.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\alu.vhd":30:7:30:9|Synthesizing work.alu.behavioral.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":36:7:36:13|Synthesizing work.reg1w2r.behavioral.
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":52:15:52:16|Found RAM r2, depth=32, width=32
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":52:11:52:12|Found RAM r1, depth=32, width=32
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_mi32.vhd":35:7:35:18|Synthesizing work.idecode_mi32.behavioral.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd":36:7:36:13|Synthesizing work.bptrace.structure.
+@N: CL134 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd":47:11:47:17|Found RAM bptrace, depth=8192, width=2
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":407:1:407:2|Register bit IF_ID_PC_4(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_madd is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_multicycle_lh_lb is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":649:1:649:2|Register bit ID_EX_branch_target(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_multicycle_lh_lb is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EBASE(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(29) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(30) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit R_cop0_EPC(31) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1311:1:1311:2|Register bit MEM_WB_multicycle_lh_lb is always 0.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\clkgen.vhd":37:7:37:12|Synthesizing work.clkgen.behavioral.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":1782:10:1782:12|Synthesizing work.dcs.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":713:10:713:12|Synthesizing work.gsr.syn_black_box.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\pll_xp2_25m.vhd":8:7:8:9|Synthesizing work.pll.structure.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd":767:10:767:15|Synthesizing work.eplld1.syn_black_box.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":42:21:42:28|Input rdd_addr is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd":46:1:46:6|Input rd_clk is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":45:1:45:20|Input mem_multicycle_lh_lb is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":46:1:46:31|Input mem_read_sign_extend_multicycle is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd":47:1:47:19|Input mem_size_multicycle is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd":35:1:35:5|Input start is unused.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(15) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(16) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(17) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(18) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(19) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(20) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(21) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(22) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(23) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(24) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(25) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(26) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(27) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(28) is always 0.
+@N: CL189 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":1006:1:1006:2|Register bit EX_MEM_branch_target(29) is always 0.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":88:1:88:15|Input dmem_cache_wait is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":89:1:89:11|Input snoop_cycle is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":90:1:90:10|Input snoop_addr is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":94:1:94:13|Input debug_in_data is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":95:1:95:15|Input debug_in_strobe is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd":99:1:99:14|Input debug_out_busy is unused.
+@N: CL159 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd":57:1:57:16|Input imem_addr_strobe is unused.
+@N|Running in 64-bit mode
+

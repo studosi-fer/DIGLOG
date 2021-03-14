@@ -1,0 +1,29 @@
+----------------------------------------------------------------------
+Report for cell pogodi_bistabil.x
+
+Register bits: 40 of 4752 (1%)
+PIC Latch:       0
+I/O cells:       18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       17       100.0
+                             DP16KB        4       100.0
+                            FD1P3AX        1       100.0
+                            FD1P3JX        2       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3BX        1       100.0
+                            FD1S3DX        1       100.0
+                            FD1S3IX       25       100.0
+                            FD1S3JX        7       100.0
+                                GSR        1       100.0
+                                 IB       10       100.0
+                           IFS1P3DX        2       100.0
+                            L6MUX21        8       100.0
+                                 OB        8       100.0
+                           ORCALUT4      108       100.0
+                              PFUMX       16       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL           215           

@@ -1,0 +1,10 @@
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe  -prodtype  synplify_pro  -osyn  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synwork\lab5_lab5_compiler.srs  -top  work.afsk_modem  -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\dm  -lite -ll 2000 -compiler_compatible  -ui -fid2 -ram -sharing on  -autosm -ignore_undefined_lib  -lib work C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd -loga  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.srf 
+rc:0 success:1
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synwork\lab5_lab5_compiler.srs|o|1389932351|5908
+C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd|i|1340163864|150376
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd|i|1389883098|1662
+C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd|i|1389932081|1296
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd|i|1389883095|1203
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.srf|o|1389932351|1984
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe|i|1337328578|5310976
+C:\lscc\diamond\2.0\synpbase\bin\c_vhdl.exe|i|1337328574|1862144

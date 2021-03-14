@@ -1,0 +1,8 @@
+na svakoj stranici je zasebno kod za svaki od tri multipleksora koje trebate napravit.
+napravite novi VHDL source za svaki od multipleksora i nazovite ga kao i entity blok.
+napravite tetbench za svaki:
+-2/1 : 16 kombinacija (0000..1111)
+-16/1: proizvoljno nekoliko kombinacija
+-funkcija: 16 kombinacija(0000..1111)
+
+na kraju sve odsimulirate i to je to :)

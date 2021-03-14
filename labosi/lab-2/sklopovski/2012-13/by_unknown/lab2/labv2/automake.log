@@ -1,0 +1,1638 @@
+
+synpwrap -prj "labv2_labv2_synplify.tcl" -log "labv2_labv2.srf"
+Copyright (C) 1992-2013 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 2.2.0.101
+
+==contents of labv2_labv2.srf
+#Build: Synplify Pro G-2012.09L-SP1 , Build 029R, Mar 11 2013
+#install: C:\lscc\diamond\2.2_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: A210-18
+
+#Implementation: labv2
+
+$ Start of Compile
+#Mon Oct 21 13:32:36 2013
+
+Synopsys HDL Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+Synopsys VHDL Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Top entity is set to tonegen.
+VHDL syntax check successful!
+# Mon Oct 21 13:32:36 2013
+
+###########################################################]
+Synopsys Verilog Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\xp2.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v"
+@I::"Z:\lab2\labv2\enkoder.v"
+@I::"Z:\lab2\labv2\sviraj.v"
+Verilog syntax check successful!
+# Mon Oct 21 13:32:36 2013
+
+###########################################################]
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\xp2.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\2.2_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v"
+@I::"Z:\lab2\labv2\enkoder.v"
+@I::"Z:\lab2\labv2\sviraj.v"
+Verilog syntax check successful!
+File Z:\lab2\labv2\enkoder.v changed - recompiling
+File Z:\lab2\labv2\sviraj.v changed - recompiling
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1274:7:1274:9|Synthesizing module VLO
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1106:7:1106:9|Synthesizing module OR4
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":147:7:147:10|Synthesizing module AND2
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1093:7:1093:9|Synthesizing module OR2
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1099:7:1099:9|Synthesizing module OR3
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":797:7:797:9|Synthesizing module INV
+
+@N: CG364 :"Z:\lab2\labv2\enkoder.v":3:7:3:13|Synthesizing module enkoder
+
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":970:7:970:8|Synthesizing module OB
+
+@N: CG364 :"Z:\lab2\labv2\sviraj.v":3:7:3:12|Synthesizing module sviraj
+
+@W: CG781 :"Z:\lab2\labv2\sviraj.v":57:3:57:5|Undriven input I on instance I23, tying to 0
+@N: CG794 :"Z:\lab2\labv2\sviraj.v":63:8:63:9|Using module tonegen from library work
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Top entity is set to tonegen.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+VHDL syntax check successful!
+@N: CD630 :"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Synthesizing work.tonegen.x 
+Post processing for work.tonegen.x
+@W: CL265 :"Z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Pruning bit 32 of R_mul(32 downto 0) -- not in use ... 
+@W: CL271 :"Z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Pruning bits 15 to 0 of R_mul(32 downto 0) -- not in use ... 
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+Synopsys Netlist Linker, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+File layer0.srs changed - recompiling
+File layer1.srs changed - recompiling
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":50:3:50:5|Unbound component OB of instance I29 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":51:3:51:5|Unbound component OB of instance I30 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":52:3:52:5|Unbound component OB of instance I31 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":53:3:53:5|Unbound component OB of instance I32 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":54:3:54:5|Unbound component OB of instance I33 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":55:3:55:5|Unbound component OB of instance I21 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":56:3:56:5|Unbound component OB of instance I22 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":57:3:57:5|Unbound component OB of instance I23 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":58:3:58:5|Unbound component OB of instance I24 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":59:3:59:5|Unbound component OB of instance I25 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":60:3:60:5|Unbound component OB of instance I26 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":61:3:61:5|Unbound component OB of instance I27 
+@W: Z198 :"Z:\lab2\labv2\sviraj.v":62:3:62:5|Unbound component OB of instance I28 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":34:4:34:6|Unbound component VLO of instance I32 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":35:4:35:6|Unbound component OR4 of instance I33 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":36:5:36:7|Unbound component AND2 of instance I34 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":37:5:37:7|Unbound component AND2 of instance I35 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":38:5:38:7|Unbound component AND2 of instance I36 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":39:5:39:7|Unbound component AND2 of instance I37 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":40:5:40:7|Unbound component AND2 of instance I38 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":41:5:41:7|Unbound component AND2 of instance I39 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":42:5:42:7|Unbound component AND2 of instance I40 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":43:4:43:6|Unbound component OR2 of instance I41 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":44:4:44:6|Unbound component OR2 of instance I42 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":45:4:45:6|Unbound component OR3 of instance I43 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":46:4:46:6|Unbound component OR3 of instance I44 
+@W: Z198 :"Z:\lab2\labv2\enkoder.v":47:4:47:6|Unbound component INV of instance I11 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: Z:\lab2\labv2\synwork\labv2_labv2_compiler.linkerlog
+=======================================================================================
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:37 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 618R, Built Mar 14 2013 09:58:16
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+@L: Z:\lab2\labv2\labv2_labv2_scck.rpt 
+Printing clock  summary report in "Z:\lab2\labv2\labv2_labv2_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 106MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+
+
+
+Clock Summary
+**************
+
+Start              Requested     Requested     Clock        Clock                
+Clock              Frequency     Period        Type         Group                
+---------------------------------------------------------------------------------
+sviraj|clk_25m     213.7 MHz     4.680         inferred     Autoconstr_clkgroup_0
+=================================================================================
+
+@W: MT529 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Found inferred clock sviraj|clk_25m which controls 140 sequential elements including I1.R_vol[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist sviraj
+Finished Pre Mapping Phase.Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:39 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 618R, Built Mar 14 2013 09:58:16
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 108MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N:"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Found counter in view:work.tonegen(x) inst R_clkdiv[11:0]
+@N: MF179 :"z:\lab2\labv2\source\tonegen.vhd":205:9:205:24|Found 7 bit by 7 bit '==' comparator, 'un11_r_clkdiv'
+@N: BN362 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code_in[5] in hierarchy view:work.tonegen(x) because there are no references to its outputs 
+@N: BN362 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Removing sequential instance R_code[5] in hierarchy view:work.tonegen(x) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: FX211 |Packed ROM I1.R_sin_1_0[15:0] (8 input, 16 output) to Block SelectRAM 
+@N: FX214 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Generating ROM I1.un2_r_freq_0[31:10]
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[19] reduced to a combinational gate by constant propagation
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[20] reduced to a combinational gate by constant propagation
+@W: MO129 :"z:\lab2\labv2\source\tonegen.vhd":226:24:226:31|Sequential instance I1.un2_r_freq_0_dreg[21] reduced to a combinational gate by constant propagation
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.76ns		  62 /       125
+------------------------------------------------------------
+
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[3]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[6]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[7]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[9]" with 6 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[8]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[14]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[13]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[12]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[15]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Instance "I1.R_vol[11]" with 5 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 10 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.50ns		  70 /       135
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.50ns		  70 /       135
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 135MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 135MB peak: 135MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 136 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance         
+------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_25m             port                   136        I1.un2_r_freq_0_dreg[18]
+================================================================================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base Z:\lab2\labv2\labv2_labv2.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+G-2012.09L-SP1 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 139MB)
+
+@W: MT246 :"z:\lab2\labv2\enkoder.v":46:4:46:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"z:\lab2\labv2\enkoder.v":35:4:35:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sviraj|clk_25m with period 7.31ns. Please declare a user-defined clock on object "p:clk_25m"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 21 13:32:45 2013
+#
+
+
+Top view:               sviraj
+Requested Frequency:    136.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.290
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+sviraj|clk_25m     136.9 MHz     116.3 MHz     7.307         8.596         -1.290     inferred     Autoconstr_clkgroup_0
+System             1.0 MHz       1.0 MHz       1000.000      995.957       4.043      system       system_clkgroup      
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+System          System          |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System          sviraj|clk_25m  |  7.307       4.043     |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m  System          |  7.307       2.150     |  No paths    -      |  No paths    -      |  No paths    -    
+sviraj|clk_25m  sviraj|clk_25m  |  7.307       -1.290    |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sviraj|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                 Arrival           
+Instance             Reference          Type        Pin     Net               Time        Slack 
+                     Clock                                                                      
+------------------------------------------------------------------------------------------------
+I1.R_vol_fast[3]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[3]     1.006       -1.290
+I1.R_vol_fast[6]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[6]     1.006       -1.290
+I1.R_vol_fast[7]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[7]     1.006       -1.290
+I1.R_vol_fast[9]     sviraj|clk_25m     FD1P3IX     Q       R_vol_fast[9]     1.006       -1.290
+I1.R_vol[4]          sviraj|clk_25m     FD1P3IX     Q       R_vol[4]          1.260       -0.660
+I1.R_vol[5]          sviraj|clk_25m     FD1P3IX     Q       R_vol[5]          1.260       -0.660
+I1.R_vol[10]         sviraj|clk_25m     FD1P3IX     Q       R_vol[10]         1.260       -0.660
+I1.R_vol[0]          sviraj|clk_25m     FD1P3IX     Q       R_vol[0]          1.251       -0.650
+I1.R_code_in[0]      sviraj|clk_25m     FD1P3AX     Q       R_code_in[0]      1.166       -0.646
+I1.R_code_in[1]      sviraj|clk_25m     FD1P3AX     Q       R_code_in[1]      1.166       -0.646
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                 Required           
+Instance              Reference          Type        Pin     Net               Time         Slack 
+                      Clock                                                                       
+--------------------------------------------------------------------------------------------------
+I1.R_vol[16]          sviraj|clk_25m     FD1P3AX     D       R_vol_7[16]       6.571        -1.290
+I1.R_vol[15]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[15]     7.196        -0.204
+I1.R_vol_fast[15]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[15]     7.196        -0.204
+I1.R_vol[13]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[13]     7.196        -0.116
+I1.R_vol[14]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[14]     7.196        -0.116
+I1.R_vol_fast[13]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[13]     7.196        -0.116
+I1.R_vol_fast[14]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[14]     7.196        -0.116
+I1.R_vol[11]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[11]     7.196        -0.028
+I1.R_vol[12]          sviraj|clk_25m     FD1P3IX     D       un1_R_vol[12]     7.196        -0.028
+I1.R_vol_fast[11]     sviraj|clk_25m     FD1P3IX     D       un1_R_vol[11]     7.196        -0.028
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[3] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[3]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[3]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     A        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[6] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[6]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[6]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     B        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[7] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[7]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[7]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     C        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.860
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.290
+
+    Number of logic level(s):                13
+    Starting point:                          I1.R_vol_fast[9] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[9]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[9]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     D        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_0_0                 CCU2B        C1       In      0.000     3.995       -         
+I1.un1_R_vol_cry_0_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_0                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_1_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.854       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.854       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.315       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.315       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.860       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.860       -         
+===================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      7.307
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.571
+
+    - Propagation time:                      7.772
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.202
+
+    Number of logic level(s):                12
+    Starting point:                          I1.R_vol_fast[3] / Q
+    Ending point:                            I1.R_vol[16] / D
+    The start point is clocked by            sviraj|clk_25m [rising] on pin CK
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I1.R_vol_fast[3]                     FD1P3IX      Q        Out     1.006     1.006       -         
+R_vol_fast[3]                        Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     A        In      0.000     1.006       -         
+I1.un21_r_clkdivlto15_10_4           ORCALUT4     Z        Out     0.883     1.890       -         
+un21_r_clkdivlto15_10_4              Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_10             ORCALUT4     D        In      0.000     1.890       -         
+I1.un21_r_clkdivlto15_10             ORCALUT4     Z        Out     0.883     2.773       -         
+un21_r_clkdivlto15_10                Net          -        -       -         -           1         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     D        In      0.000     2.773       -         
+I1.un21_r_clkdivlto15_5_RNIKKH11     ORCALUT4     Z        Out     1.222     3.995       -         
+R_N_7_0                              Net          -        -       -         -           15        
+I1.un1_R_vol_cry_1_0                 CCU2B        C0       In      0.000     3.995       -         
+I1.un1_R_vol_cry_1_0                 CCU2B        COUT     Out     1.243     5.238       -         
+un1_R_vol_cry_2                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_3_0                 CCU2B        CIN      In      0.000     5.238       -         
+I1.un1_R_vol_cry_3_0                 CCU2B        COUT     Out     0.088     5.326       -         
+un1_R_vol_cry_4                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_5_0                 CCU2B        CIN      In      0.000     5.326       -         
+I1.un1_R_vol_cry_5_0                 CCU2B        COUT     Out     0.088     5.414       -         
+un1_R_vol_cry_6                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_7_0                 CCU2B        CIN      In      0.000     5.414       -         
+I1.un1_R_vol_cry_7_0                 CCU2B        COUT     Out     0.088     5.502       -         
+un1_R_vol_cry_8                      Net          -        -       -         -           1         
+I1.un1_R_vol_cry_9_0                 CCU2B        CIN      In      0.000     5.502       -         
+I1.un1_R_vol_cry_9_0                 CCU2B        COUT     Out     0.088     5.590       -         
+un1_R_vol_cry_10                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_11_0                CCU2B        CIN      In      0.000     5.590       -         
+I1.un1_R_vol_cry_11_0                CCU2B        COUT     Out     0.088     5.678       -         
+un1_R_vol_cry_12                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_13_0                CCU2B        CIN      In      0.000     5.678       -         
+I1.un1_R_vol_cry_13_0                CCU2B        COUT     Out     0.088     5.766       -         
+un1_R_vol_cry_14                     Net          -        -       -         -           1         
+I1.un1_R_vol_cry_15_0                CCU2B        CIN      In      0.000     5.766       -         
+I1.un1_R_vol_cry_15_0                CCU2B        S1       Out     1.461     7.227       -         
+un1_R_vol_cry_15_0_S1                Net          -        -       -         -           1         
+I1.R_vol_RNO[16]                     ORCALUT4     B        In      0.000     7.227       -         
+I1.R_vol_RNO[16]                     ORCALUT4     Z        Out     0.545     7.772       -         
+R_vol_7[16]                          Net          -        -       -         -           1         
+I1.R_vol[16]                         FD1P3AX      D        In      0.000     7.772       -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                           Arrival          
+Instance             Reference     Type           Pin     Net           Time        Slack
+                     Clock                                                               
+-----------------------------------------------------------------------------------------
+I34.I35              System        AND2           Z       N_13          0.000       4.043
+I34.I43              System        OR3            Z       N_12          0.000       4.043
+I34.I44              System        OR3            Z       N_11          0.000       4.043
+I34.I33              System        OR4            Z       N_16          0.000       4.926
+I34.I34              System        AND2           Z       N_14          0.000       4.926
+I34.I41              System        OR2            Z       N_10          0.000       4.926
+I1.R_mul_1[31:0]     System        MULT18X18B     P25     R_mul[25]     0.000       5.058
+I1.R_mul_1[31:0]     System        MULT18X18B     P26     R_mul[26]     0.000       5.058
+I1.R_mul_1[31:0]     System        MULT18X18B     P27     R_mul[27]     0.000       5.058
+I1.R_mul_1[31:0]     System        MULT18X18B     P28     R_mul[28]     0.000       5.058
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                              Required          
+Instance                    Reference     Type        Pin     Net                 Time         Slack
+                            Clock                                                                   
+----------------------------------------------------------------------------------------------------
+I1.un2_r_freq_0_areg[0]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[1]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[2]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[3]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[4]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.un2_r_freq_0_areg[5]     System        FD1P3AX     SP      R_code_0_sqmuxa     6.947        4.043
+I1.R_step[7]                System        FD1S3AX     D       R_step_5[7]         6.571        5.058
+I1.R_step[9]                System        FD1S3AX     D       R_step_5[9]         6.571        5.058
+I1.R_step[11]               System        FD1S3AX     D       R_step_5[11]        6.571        5.058
+I1.R_step[13]               System        FD1S3AX     D       R_step_5[13]        6.571        5.058
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.307
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.947
+
+    - Propagation time:                      2.904
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.043
+
+    Number of logic level(s):                3
+    Starting point:                          I34.I35 / Z
+    Ending point:                            I1.un2_r_freq_0_areg[0] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sviraj|clk_25m [rising] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+I34.I35                     AND2         Z        Out     0.000     0.000       -         
+N_13                        Net          -        -       -         -           3         
+I1.R_code_0_sqmuxa_1        ORCALUT4     D        In      0.000     0.000       -         
+I1.R_code_0_sqmuxa_1        ORCALUT4     Z        Out     0.883     0.883       -         
+R_code_0_sqmuxa_1           Net          -        -       -         -           1         
+I1.R_code_0_sqmuxa_3        ORCALUT4     A        In      0.000     0.883       -         
+I1.R_code_0_sqmuxa_3        ORCALUT4     Z        Out     0.883     1.767       -         
+R_code_0_sqmuxa_3           Net          -        -       -         -           1         
+I1.R_code_0_sqmuxa          ORCALUT4     B        In      0.000     1.767       -         
+I1.R_code_0_sqmuxa          ORCALUT4     Z        Out     1.137     2.904       -         
+R_code_0_sqmuxa             Net          -        -       -         -           6         
+I1.un2_r_freq_0_areg[0]     FD1P3AX      SP       In      0.000     2.904       -         
+==========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 135 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       21
+Block Rams : 1 of 9 (11%)
+
+DSP primitives:       1 of 12 (8%)
+
+Details:
+AND2:           7
+CCU2B:          42
+FD1P3AX:        13
+FD1P3IX:        26
+FD1S3AX:        94
+FD1S3IX:        2
+GSR:            1
+IB:             8
+INV:            2
+MULT18X18B:     1
+OB:             13
+OR2:            2
+ORCALUT4:       69
+PFUMX:          10
+PUR:            1
+ROM64X1:        19
+SP16KB:         1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 40MB peak: 139MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Mon Oct 21 13:32:46 2013
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "LatticeXP2" -d LFXP2-5E -path "Z:/lab2/labv2" -path "Z:/lab2"  "Z:/lab2/labv2/labv2_labv2.edi" "labv2_labv2.ngo"   
+edif2ngd:  version Diamond (64-bit) 2.2.0.101
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2013 Lattice Semiconductor Corporation,  All rights reserved.
+WARNING - edif2ngd: Unsupported property is_pwr found - ignoring...
+  On or above line 482 in file Z:\lab2\labv2\labv2_labv2.edi
+
+WARNING - edif2ngd: Unsupported property is_pwr found - ignoring...
+  On or above line 490 in file Z:\lab2\labv2\labv2_labv2.edi
+
+WARNING - edif2ngd: Unsupported property orig_inst_of found - ignoring...
+  On or above line 506 in file Z:\lab2\labv2\labv2_labv2.edi
+
+WARNING - edif2ngd: Unsupported property orig_inst_of found - ignoring...
+  On or above line 517 in file Z:\lab2\labv2\labv2_labv2.edi
+
+WARNING - edif2ngd: Unsupported property orig_inst_of found - ignoring...
+  On or above line 3982 in file Z:\lab2\labv2\labv2_labv2.edi
+
+WARNING - edif2ngd: Unsupported property orig_inst_of found - ignoring...
+  On or above line 4114 in file Z:\lab2\labv2\labv2_labv2.edi
+
+WARNING - edif2ngd: Unsupported property orig_inst_of found - ignoring...
+  On or above line 4356 in file Z:\lab2\labv2\labv2_labv2.edi
+
+Writing the design to labv2_labv2.ngo...
+
+
+ngdbuild  -a "LatticeXP2" -d LFXP2-5E  -p "C:/lscc/diamond/2.2_x64/ispfpga/mg5a00/data"  -p "Z:/lab2/labv2" -p "Z:/lab2"  "labv2_labv2.ngo" "labv2_labv2.ngd"  	
+ngdbuild:  version Diamond (64-bit) 2.2.0.101
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2013 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'labv2_labv2.ngo' ...
+Loading NGL library 'C:/lscc/diamond/2.2_x64/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/2.2_x64/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/2.2_x64/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/2.2_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - ngdbuild: logical net 'I1/R_sin_1_0_0_DO16' has no load
+WARNING - ngdbuild: logical net 'I1/R_sin_1_0_0_DO17' has no load
+WARNING - ngdbuild: logical net 'I1/un4_r_pwm_cry_15_0_COUT' has no load
+WARNING - ngdbuild: logical net 'I1/un4_r_pwm_cry_0_0_S0' has no load
+WARNING - ngdbuild: logical net 'I1/un4_r_pwm_cry_0_0_S1' has no load
+WARNING - ngdbuild: logical net 'I1/un3_r_freq_s_31_0_COUT' has no load
+WARNING - ngdbuild: logical net 'I1/un3_r_freq_s_31_0_S1' has no load
+WARNING - ngdbuild: logical net 'I1/un3_r_freq_cry_0_0_S0' has no load
+WARNING - ngdbuild: logical net 'I1/un3_r_freq_cry_0_0_S1' has no load
+WARNING - ngdbuild: logical net 'I1/un1_R_vol_cry_15_0_COUT' has no load
+WARNING - ngdbuild: logical net 'I1/un1_R_vol_cry_0_0_S0' has no load
+WARNING - ngdbuild: logical net 'I1/un1_R_vol_cry_0_0_S1' has no load
+WARNING - ngdbuild: logical net 'I1/R_clkdiv_s_0_COUT[11]' has no load
+WARNING - ngdbuild: logical net 'I1/R_clkdiv_s_0_S1[11]' has no load
+WARNING - ngdbuild: logical net 'I1/R_clkdiv_cry_0_S0[0]' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P35' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P34' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P33' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P32' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P15' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P14' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P13' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P12' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P11' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P10' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P9' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P8' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P7' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P6' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P5' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P4' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P3' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P2' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P1' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_P0' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA17' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA16' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA15' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA14' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA13' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA12' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA11' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA10' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA9' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA8' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA7' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA6' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA5' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA4' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA3' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA2' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA1' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROA0' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB17' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB16' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB15' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB14' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB13' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB12' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB11' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB10' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB9' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB8' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB7' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB6' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB5' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB4' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB3' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB2' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB1' has no load
+WARNING - ngdbuild: logical net 'I1/R_mul_1_SROB0' has no load
+WARNING - ngdbuild: DRC complete with 71 warnings
+
+Design Results:
+    317 blocks expanded
+complete the first expansion
+Writing 'labv2_labv2.ngd' ...
+
+map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial   "labv2_labv2.ngd" -o "labv2_labv2_map.ncd" -pr "labv2_labv2.prf" -mp "labv2_labv2.mrp" "Z:/lab2/labv2/source/ulx2s.lpf"             
+map:  version Diamond (64-bit) 2.2.0.101
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2013 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: labv2_labv2.ngd
+   Picdevice="LFXP2-5E"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-5ETQFP144, Performance used: 5.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (18): Error in LOCATE COMP "rs232_rx" SITE "10" ;
+: COMP "rs232_rx" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (19): Error in LOCATE COMP "rs232_tx" SITE "137" ;
+: COMP "rs232_tx" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (34): Error in LOCATE COMP "sw_2" SITE "129" ;
+: COMP "sw_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (35): Error in LOCATE COMP "sw_3" SITE "130" ;
+: COMP "sw_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (52): Error in LOCATE COMP "flash_cen" SITE "13" ;
+: COMP "flash_cen" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (53): Error in LOCATE COMP "flash_sck" SITE "16" ;
+: COMP "flash_sck" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (54): Error in LOCATE COMP "flash_si" SITE "19" ;
+: COMP "flash_si" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (55): Error in LOCATE COMP "flash_so" SITE "18" ;
+: COMP "flash_so" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (58): Error in LOCATE COMP "sdcard_cen" SITE "15" ;
+: COMP "sdcard_cen" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (59): Error in LOCATE COMP "sdcard_sck" SITE "20" ;
+: COMP "sdcard_sck" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (60): Error in LOCATE COMP "sdcard_si" SITE "17" ;
+: COMP "sdcard_si" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (61): Error in LOCATE COMP "sdcard_so" SITE "21" ;
+: COMP "sdcard_so" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (64): Error in LOCATE COMP "sram_wel" SITE "93" ;
+: COMP "sram_wel" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (65): Error in LOCATE COMP "sram_lbl" SITE "120" ;
+: COMP "sram_lbl" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (66): Error in LOCATE COMP "sram_ubl" SITE "121" ;
+: COMP "sram_ubl" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (67): Error in LOCATE COMP "sram_a_0" SITE "101" ;
+: COMP "sram_a_0" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (68): Error in LOCATE COMP "sram_a_1" SITE "103" ;
+: COMP "sram_a_1" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (69): Error in LOCATE COMP "sram_a_2" SITE "104" ;
+: COMP "sram_a_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (70): Error in LOCATE COMP "sram_a_3" SITE "107" ;
+: COMP "sram_a_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (71): Error in LOCATE COMP "sram_a_4" SITE "108" ;
+: COMP "sram_a_4" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (72): Error in LOCATE COMP "sram_a_5" SITE "125" ;
+: COMP "sram_a_5" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (73): Error in LOCATE COMP "sram_a_6" SITE "127" ;
+: COMP "sram_a_6" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (74): Error in LOCATE COMP "sram_a_7" SITE "122" ;
+: COMP "sram_a_7" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (75): Error in LOCATE COMP "sram_a_8" SITE "58" ;
+: COMP "sram_a_8" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (76): Error in LOCATE COMP "sram_a_9" SITE "53" ;
+: COMP "sram_a_9" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (77): Error in LOCATE COMP "sram_a_10" SITE "54" ;
+: COMP "sram_a_10" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (78): Error in LOCATE COMP "sram_a_11" SITE "55" ;
+: COMP "sram_a_11" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (79): Error in LOCATE COMP "sram_a_12" SITE "56" ;
+: COMP "sram_a_12" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (80): Error in LOCATE COMP "sram_a_13" SITE "57" ;
+: COMP "sram_a_13" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (81): Error in LOCATE COMP "sram_a_14" SITE "73" ;
+: COMP "sram_a_14" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (82): Error in LOCATE COMP "sram_a_15" SITE "74" ;
+: COMP "sram_a_15" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (83): Error in LOCATE COMP "sram_a_16" SITE "77" ;
+: COMP "sram_a_16" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (84): Error in LOCATE COMP "sram_a_17" SITE "78" ;
+: COMP "sram_a_17" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (85): Error in LOCATE COMP "sram_a_18" SITE "94" ;
+: COMP "sram_a_18" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (86): Error in LOCATE COMP "sram_d_0" SITE "98" ;
+: COMP "sram_d_0" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (87): Error in LOCATE COMP "sram_d_1" SITE "96" ;
+: COMP "sram_d_1" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (88): Error in LOCATE COMP "sram_d_2" SITE "92" ;
+: COMP "sram_d_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (89): Error in LOCATE COMP "sram_d_3" SITE "91" ;
+: COMP "sram_d_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (90): Error in LOCATE COMP "sram_d_4" SITE "89" ;
+: COMP "sram_d_4" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (91): Error in LOCATE COMP "sram_d_5" SITE "88" ;
+: COMP "sram_d_5" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (92): Error in LOCATE COMP "sram_d_6" SITE "87" ;
+: COMP "sram_d_6" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (93): Error in LOCATE COMP "sram_d_7" SITE "90" ;
+: COMP "sram_d_7" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (94): Error in LOCATE COMP "sram_d_8" SITE "61" ;
+: COMP "sram_d_8" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (95): Error in LOCATE COMP "sram_d_9" SITE "62" ;
+: COMP "sram_d_9" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (96): Error in LOCATE COMP "sram_d_10" SITE "99" ;
+: COMP "sram_d_10" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (97): Error in LOCATE COMP "sram_d_11" SITE "100" ;
+: COMP "sram_d_11" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (98): Error in LOCATE COMP "sram_d_12" SITE "102" ;
+: COMP "sram_d_12" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (99): Error in LOCATE COMP "sram_d_13" SITE "113" ;
+: COMP "sram_d_13" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (100): Error in LOCATE COMP "sram_d_14" SITE "116" ;
+: COMP "sram_d_14" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (101): Error in LOCATE COMP "sram_d_15" SITE "119" ;
+: COMP "sram_d_15" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (105): Error in LOCATE COMP "j1_2" SITE "131" ;
+: COMP "j1_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (106): Error in LOCATE COMP "j1_3" SITE "134" ;
+: COMP "j1_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (107): Error in LOCATE COMP "j1_4" SITE "9" ;
+: COMP "j1_4" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (108): Error in LOCATE COMP "j1_5" SITE "138" ;
+: COMP "j1_5" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (109): Error in LOCATE COMP "j1_6" SITE "6" ;
+: COMP "j1_6" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (110): Error in LOCATE COMP "j1_7" SITE "5" ;
+: COMP "j1_7" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (111): Error in LOCATE COMP "j1_8" SITE "8" ;
+: COMP "j1_8" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (112): Error in LOCATE COMP "j1_9" SITE "7" ;
+: COMP "j1_9" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (113): Error in LOCATE COMP "j1_10" SITE "1" ;
+: COMP "j1_10" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (114): Error in LOCATE COMP "j1_11" SITE "2" ;
+: COMP "j1_11" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (115): Error in LOCATE COMP "j1_12" SITE "144" ;
+: COMP "j1_12" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (116): Error in LOCATE COMP "j1_13" SITE "143" ;
+: COMP "j1_13" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (117): Error in LOCATE COMP "j1_14" SITE "142" ;
+: COMP "j1_14" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (118): Error in LOCATE COMP "j1_15" SITE "141" ;
+: COMP "j1_15" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (119): Error in LOCATE COMP "j1_16" SITE "133" ;
+: COMP "j1_16" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (120): Error in LOCATE COMP "j1_17" SITE "132" ;
+: COMP "j1_17" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (121): Error in LOCATE COMP "j1_19" SITE "123" ;
+: COMP "j1_19" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (122): Error in LOCATE COMP "j1_18" SITE "124" ;
+: COMP "j1_18" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (123): Error in LOCATE COMP "j1_20" SITE "115" ;
+: COMP "j1_20" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (124): Error in LOCATE COMP "j1_21" SITE "114" ;
+: COMP "j1_21" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (125): Error in LOCATE COMP "j1_22" SITE "110" ;
+: COMP "j1_22" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (126): Error in LOCATE COMP "j1_23" SITE "109" ;
+: COMP "j1_23" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (131): Error in LOCATE COMP "j2_2" SITE "72" ;
+: COMP "j2_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (132): Error in LOCATE COMP "j2_3" SITE "71" ;
+: COMP "j2_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (133): Error in LOCATE COMP "j2_4" SITE "70" ;
+: COMP "j2_4" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (134): Error in LOCATE COMP "j2_5" SITE "69" ;
+: COMP "j2_5" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (135): Error in LOCATE COMP "j2_6" SITE "66" ;
+: COMP "j2_6" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (136): Error in LOCATE COMP "j2_7" SITE "65" ;
+: COMP "j2_7" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (137): Error in LOCATE COMP "j2_8" SITE "52" ;
+: COMP "j2_8" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (138): Error in LOCATE COMP "j2_9" SITE "50" ;
+: COMP "j2_9" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (139): Error in LOCATE COMP "j2_10" SITE "48" ;
+: COMP "j2_10" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (140): Error in LOCATE COMP "j2_11" SITE "47" ;
+: COMP "j2_11" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (141): Error in LOCATE COMP "j2_12" SITE "40" ;
+: COMP "j2_12" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (142): Error in LOCATE COMP "j2_13" SITE "39" ;
+: COMP "j2_13" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (143): Error in LOCATE COMP "j2_14" SITE "38" ;
+: COMP "j2_14" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (144): Error in LOCATE COMP "j2_15" SITE "22" ;
+: COMP "j2_15" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (145): Error in LOCATE COMP "j2_16" SITE "31" ;
+: COMP "j2_16" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (146): Error in LOCATE COMP "j2_17" SITE "29" ;
+: COMP "j2_17" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (147): Error in LOCATE COMP "j2_18" SITE "37" ;
+: COMP "j2_18" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (148): Error in LOCATE COMP "j2_19" SITE "36" ;
+: COMP "j2_19" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (149): Error in LOCATE COMP "j2_20" SITE "35" ;
+: COMP "j2_20" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (150): Error in LOCATE COMP "j2_21" SITE "32" ;
+: COMP "j2_21" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (151): Error in LOCATE COMP "j2_22" SITE "27" ;
+: COMP "j2_22" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (152): Error in LOCATE COMP "j2_23" SITE "28" ;
+: COMP "j2_23" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (165): Error in IOBUF PORT "sw_2" PULLMODE=DOWN ;
+: Port "sw_2" does not exist in the design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (166): Error in IOBUF PORT "sw_3" PULLMODE=DOWN ;
+: Port "sw_3" does not exist in the design. Disbale this preference.
+WARNING - map: Preference parsing results:  96 semantic errors detected
+WARNING - map: There are errors in the preference file, "Z:/lab2/labv2/source/ulx2s.lpf".
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/2.2_x64/ispfpga.
+Package Status:                     Final          Version 1.42
+
+Running general design DRC...
+Removing unused logic...
+Optimizing...
+121 CCU2 constant inputs absorbed.
+
+
+
+Design Summary:
+   Number of registers:    135
+      PFU registers:    135
+      PIO registers:    0
+   Number of SLICEs:           129 out of  2376 (5%)
+      SLICEs(logic/ROM):       129 out of  1971 (7%)
+      SLICEs(logic/ROM/RAM):     0 out of   405 (0%)
+          As RAM:            0 out of   405 (0%)
+          As Logic/ROM:      0 out of   405 (0%)
+   Number of logic LUT4s:     148
+   Number of distributed RAM:   0 (0 LUT4s)
+   Number of ripple logic:     42 (84 LUT4s)
+   Number of shift registers:   0
+   Total number of LUT4s:     232
+   Number of PIO sites used: 21 out of 100 (21%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  1 out of 9 (11%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          1
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  2 out of 24 (8 %)
+   Number of clocks:  1
+     Net clk_25m_c: 90 loads, 90 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  2
+     Net I1/un7_r_clkdiv: 18 loads, 18 LSLICEs
+     Net I1/R_code_0_sqmuxa: 3 loads, 3 LSLICEs
+   Number of LSRs:  2
+     Net I1/R_vol_0_sqmuxa_1_RNIIKK42: 14 loads, 14 LSLICEs
+     Net sw_1_c: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net I1/VCC: 77 loads
+     Net I1/un2_r_freq_0_areg[2]: 64 loads
+     Net I1/un2_r_freq_0_areg[3]: 64 loads
+     Net I1/un2_r_freq_0_areg[1]: 63 loads
+     Net I1/un2_r_freq_0_areg[4]: 60 loads
+     Net I1/un2_r_freq_0_areg[5]: 33 loads
+     Net sw_0_c: 27 loads
+     Net I1/un2_r_freq_0_areg[0]: 23 loads
+     Net I1/un7_r_clkdiv: 20 loads
+     Net sw_1_c: 15 loads
+ 
+   Number of warnings:  98
+   Number of errors:    0
+
+
+. MULT18X18B  I1/R_mul_1[31:0]:
+
+Multiplier
+        Operation               Unsigned
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input                               
+Data
+        Input Registers         CLK     CE      RST  
+        ---------------------------------------------
+                A                                       
+                B                                       
+
+        Pipeline Registers      CLK     CE      RST
+        --------------------------------------------
+                Pipe            CLK0    CE0     RST0
+
+        Output Register         CLK     CE      RST
+        --------------------------------------------
+                Output                              
+Other
+        GSR     DISABLED
+
+Total CPU Time: 0 secs  
+Total REAL Time: 2 secs  
+Peak Memory Usage: 58 MB
+
+Dumping design to file labv2_labv2_map.ncd.
+
+mpartrce -p "labv2_labv2.p2t" -f "labv2_labv2.p3t" -tf "labv2_labv2.pt" "labv2_labv2_map.ncd" "labv2_labv2.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "labv2_labv2_map.ncd"
+Mon Oct 21 13:32:54 2013
+
+PAR: Place And Route Diamond (64-bit) 2.2.0.101.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF labv2_labv2_map.ncd labv2_labv2.dir/5_1.ncd labv2_labv2.prf
+Preference file: labv2_labv2.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file labv2_labv2_map.ncd.
+Design name: sviraj
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/2.2_x64/ispfpga.
+Package Status:                     Final          Version 1.42
+Performance Hardware Data Status:   Final          Version 10.6
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)      21/174          12% used
+                     21/100          21% bonded
+   EBR                1/9            11% used
+   MULT18             1/12            8% used
+   SLICE            129/2376          5% used
+
+
+
+chipcheck: INFO: Design contains pre-loadable EBR during configuration that has a requirement:Since the GSR is disabled for the EBR, make sure write enable and chip enable are inactive during wake-up, so that the pre-loaded initialization values will not be corrupted during wake-up state.
+Number of Signals: 412
+Number of Connections: 1173
+
+Pin Constraint Summary:
+   21 out of 21 pins locked (100% locked).
+
+
+The following 1 signal is selected to use the primary clock routing resources:
+    clk_25m_c (driver: clk_25m, clk load #: 91)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+.........
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+
+Starting Placer Phase 1.
+....................
+Placer score = 52568.
+Finished Placer Phase 1.  REAL time: 12 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  50119
+Finished Placer Phase 2.  REAL time: 12 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 196 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "clk_25m_c" from comp "clk_25m" on PIO site "30 (PL14B)", clk load = 91
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   21 out of 174 (12.1%) PIO sites used.
+   21 out of 100 (21.0%) bonded PIO sites used.
+   Number of PIO comps: 21; differential: 0
+   Number of Vref pins used: 0
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 2 / 20 ( 10%) | 3.3V       | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 6 / 18 ( 33%) | 3.3V       | -          | -          |
+| 6        | 7 / 8 ( 87%)  | 3.3V       | -          | -          |
+| 7        | 6 / 18 ( 33%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B             1  
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+DSP Block  2    Component_Type       Physical_Type        Instance_Name      
+  R22C12          MULT18X18B             MULT18          I1/R_mul_1[31:0]    
+
+Total placer CPU time: 11 secs 
+
+Dumping design to file labv2_labv2.dir/5_1.ncd.
+
+0 connections routed; 1173 unrouted.
+Starting router resource preassignment
+WARNING - par: The driver of primary clock net clk_25m_c is not placed on one of the PIO sites dedicated for primary clocks.  This primary clock will be routed to a H-spine through general routing resource or will be routed as a secondary clock and may suffer from excessive delay or skew.
+
+Completed router resource preassignment. Real time: 14 secs 
+
+Start NBR router at 13:33:08 10/21/13
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design. Thanks.                                       
+*****************************************************************
+
+Start NBR special constraint process at 13:33:08 10/21/13
+
+Start NBR section for initial routing
+Level 4, iteration 1
+29(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 30.861ns/0.000ns; real time: 15 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing
+Level 4, iteration 1
+12(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 30.861ns/0.000ns; real time: 15 secs 
+Level 4, iteration 2
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 30.861ns/0.000ns; real time: 15 secs 
+Level 4, iteration 3
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 30.861ns/0.000ns; real time: 15 secs 
+Level 4, iteration 4
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 30.861ns/0.000ns; real time: 15 secs 
+
+Start NBR section for re-routing
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 30.861ns/0.000ns; real time: 15 secs 
+
+Start NBR section for post-routing
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack : 30.861ns
+  Timing score : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Hold time optimization iteration 0:
+All hold time violations have been successfully corrected in speed grade M
+
+Total CPU time 16 secs 
+Total REAL time: 18 secs 
+Completely routed.
+End of route.  1173 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file labv2_labv2.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 30.861
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.235
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+
+Total CPU  time to completion: 16 secs 
+Total REAL time to completion: 18 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2013 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "labv2_labv2.t2b" -w "labv2_labv2.ncd" -jedec -e -s "Z:/lab2/labv2.sec" -k "Z:/lab2/labv2.bek" "labv2_labv2.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 2.2.0.101
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2013 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file labv2_labv2.ncd.
+Design name: sviraj
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/2.2_x64/ispfpga.
+Package Status:                     Final          Version 1.42
+Performance Hardware Data Status:   Final          Version 10.6
+
+Running DRC.
+chipcheck: INFO: Design contains pre-loadable EBR during configuration that has a requirement:Since the GSR is disabled for the EBR, make sure write enable and chip enable are inactive during wake-up, so that the pre-loaded initialization values will not be corrupted during wake-up state.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from labv2_labv2.prf...
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "labv2_labv2.jed".

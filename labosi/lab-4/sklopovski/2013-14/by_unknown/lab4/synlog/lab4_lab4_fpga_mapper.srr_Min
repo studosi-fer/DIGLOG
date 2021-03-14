@@ -1,0 +1,90 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 18 09:25:03 2013
+#
+
+
+Top view:               datapath
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.683
+
+                     Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack      Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+datapath|clk_25m     200.0 MHz     153.3 MHz     5.000         6.523         -1.523     inferred     Inferred_clkgroup_0
+System               200.0 MHz     463.1 MHz     5.000         2.159         0.276      system       system_clkgroup    
+========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+System            System            |  0.000       1.367  |  No paths    -      |  No paths    -      |  No paths    -    
+System            datapath|clk_25m  |  0.000       1.227  |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m  System            |  0.000       1.079  |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m  datapath|clk_25m  |  0.000       0.683  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port           Starting            User           Arrival     Required          
+Name           Reference           Constraint     Time        Time         Slack
+               Clock                                                            
+--------------------------------------------------------------------------------
+btn_center     System (rising)     NA             0.000       -1.253       1.253
+btn_down       System (rising)     NA             0.000       -3.307       3.307
+btn_left       System (rising)     NA             0.000       -1.226       1.226
+btn_right      System (rising)     NA             0.000       -1.226       1.226
+btn_up         System (rising)     NA             0.000       -1.292       1.292
+clk_25m        NA                  NA             NA          NA           NA   
+sw[0]          System (rising)     NA             0.000       -1.511       1.511
+sw[1]          System (rising)     NA             0.000       -1.478       1.478
+sw[2]          System (rising)     NA             0.000       -1.367       1.367
+sw[3]          System (rising)     NA             0.000       -1.367       1.367
+================================================================================
+
+
+Output Ports: 
+
+Port       Starting                      User           Arrival     Required          
+Name       Reference                     Constraint     Time        Time         Slack
+           Clock                                                                      
+--------------------------------------------------------------------------------------
+led[0]     datapath|clk_25m (rising)     NA             2.822       0.000        2.822
+led[1]     datapath|clk_25m (rising)     NA             2.855       0.000        2.855
+led[2]     datapath|clk_25m (rising)     NA             2.803       0.000        2.803
+led[3]     datapath|clk_25m (rising)     NA             2.803       0.000        2.803
+led[4]     datapath|clk_25m (rising)     NA             2.826       0.000        2.826
+led[5]     datapath|clk_25m (rising)     NA             2.816       0.000        2.816
+led[6]     datapath|clk_25m (rising)     NA             2.816       0.000        2.816
+led[7]     datapath|clk_25m (rising)     NA             2.816       0.000        2.816
+======================================================================================
+
+
+##### END OF TIMING REPORT #####]
+

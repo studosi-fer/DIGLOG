@@ -1,0 +1,34 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\synwork\arduino_impl1_comp.srs"  -top  arduino  -hdllog  "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\synlog\arduino_impl1_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\tonegen.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\alu.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_mi32.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_rv32.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\loadalign.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\defs_bootblock.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_f32c.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\debug.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_mi32.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_rv32.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_rom_mi32el.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_mi32eb.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_mi32el.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_rv32el.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\pll_xp2_25m.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\clkgen.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd" 
+rc:0 success:1 runtime:8
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\synwork\arduino_impl1_comp.srs|io:o|time:1515888398|size:155842|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\impl1\synlog\arduino_impl1_compiler.srr|io:o|time:1515888398|size:98138|exec:0
+file:C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd|io:i|time:1480948030|size:146261|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\tonegen.vhd|io:i|time:1482696364|size:1723|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\alu.vhd|io:i|time:1482330533|size:2578|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\bptrace.vhd|io:i|time:1482330533|size:2227|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_mi32.vhd|io:i|time:1482330534|size:10887|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_rv32.vhd|io:i|time:1482330534|size:3909|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\loadalign.vhd|io:i|time:1482330534|size:4447|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\mul_dsp.vhd|io:i|time:1482330533|size:2686|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\reg1w2r.vhd|io:i|time:1482330534|size:2888|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\sio.vhd|io:i|time:1482330533|size:7380|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\gpio.vhd|io:i|time:1482330533|size:7230|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\timer.vhd|io:i|time:1482330533|size:32894|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\defs_bootblock.vhd|io:i|time:1482330533|size:231|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\defs_f32c.vhd|io:i|time:1482330534|size:3722|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\debug.vhd|io:i|time:1482330534|size:10057|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_mi32.vhd|io:i|time:1482330534|size:17459|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\idecode_rv32.vhd|io:i|time:1482330534|size:10450|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\shift.vhd|io:i|time:1482330534|size:5027|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\cpu\pipeline.vhd|io:i|time:1482330533|size:58518|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_rom_mi32el.vhd|io:i|time:1482330533|size:14605|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_mi32eb.vhd|io:i|time:1482330533|size:932|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_mi32el.vhd|io:i|time:1482330533|size:7437|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bootloader\boot_sio_rv32el.vhd|io:i|time:1482330533|size:7693|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\bram.vhd|io:i|time:1482330533|size:8524|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\f32c_soc_glue.vhd|io:i|time:1482492165|size:13839|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\pll_xp2_25m.vhd|io:i|time:1482330533|size:18878|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\soc\clkgen.vhd|io:i|time:1482330533|size:2631|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV6\soc\arduino.vhd|io:i|time:1514460291|size:3115|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1480984502|size:1338368|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1480984706|size:1754112|exec:1

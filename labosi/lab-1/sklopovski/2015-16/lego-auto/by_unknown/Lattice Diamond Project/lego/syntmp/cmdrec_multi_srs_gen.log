@@ -1,0 +1,8 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter  -link  -top  lego_upravljac  -multisrs  /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_comp.srs  -osyn  /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_mult.srs  -log  /home/dafta/Desktop/FER_DL_LABOS/lego/synlog/lego_lego_multi_srs_gen.srr 
+rc:0 success:1
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_comp.srs|i|1445815385|6058
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_mult.srs|o|1445815386|3701
+/home/dafta/Desktop/FER_DL_LABOS/lego/synlog/lego_lego_multi_srs_gen.srr|o|1445815386|365
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/syn_nfilter|i|1429546455|8808112
+/usr/local/diamond/3.5_x64/synpbase/linux/syn_nfilter|i|1429546504|8213872
+/usr/local/diamond/3.5_x64/synpbase/bin/syn_nfilter|i|1429546084|366

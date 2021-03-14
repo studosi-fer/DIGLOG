@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Top entity is set to tonegen.
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1274:7:1274:9|Synthesizing module VLO
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1106:7:1106:9|Synthesizing module OR4
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":147:7:147:10|Synthesizing module AND2
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1093:7:1093:9|Synthesizing module OR2
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":1099:7:1099:9|Synthesizing module OR3
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":797:7:797:9|Synthesizing module INV
+@N: CG364 :"Z:\lab2\labv2\enkoder.v":3:7:3:13|Synthesizing module enkoder
+@N: CG364 :"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v":970:7:970:8|Synthesizing module OB
+@N: CG364 :"Z:\lab2\labv2\sviraj.v":3:7:3:12|Synthesizing module sviraj
+@N: CG794 :"Z:\lab2\labv2\sviraj.v":63:8:63:9|Using module tonegen from library work
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Top entity is set to tonegen.
+@N: CD630 :"Z:\lab2\labv2\source\tonegen.vhd":8:7:8:13|Synthesizing work.tonegen.x 
+@N|Running in 64-bit mode
+

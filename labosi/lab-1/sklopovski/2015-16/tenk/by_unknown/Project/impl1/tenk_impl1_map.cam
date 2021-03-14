@@ -1,0 +1,63 @@
+[ START MERGED ]
+N_25 btn_center_c
+[ END MERGED ]
+[ START CLIPPED ]
+VCC
+GND
+I12/fwd_rev_0_cry_3_0_COUT
+I12/un2_r_phase_acc_1_cry_0_0_S1
+I12/un2_r_phase_acc_1_cry_0_0_S0
+I12/N_2
+I12/un2_r_phase_acc_1_s_7_0_S1
+I12/un2_r_phase_acc_1_s_7_0_COUT
+I12/un93_r_clk_acc_1_cry_0_0_S1
+I12/un93_r_clk_acc_1_cry_0_0_S0
+I12/N_3
+I12/un93_r_clk_acc_1_s_15_0_S1
+I12/un93_r_clk_acc_1_s_15_0_COUT
+I12/r_fm_acc_cry_0_0_S1
+I12/r_fm_acc_cry_0_0_S0
+I12/N_5
+I12/r_fm_acc_s_27_0_S1
+I12/r_fm_acc_s_27_0_COUT
+I12/CLKINTFB
+I12/LOCK
+I12/CLKOK
+I12/CLKOS
+I12/fwd_rev_0_cry_0_0_S1
+I12/fwd_rev_0_cry_0_0_S0
+I12/N_1
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.5.0.102 -- WARNING: Map write only section -- Mon Oct 26 00:30:06 2015
+
+SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
+LOCATE COMP "p_ring" SITE "44" ;
+LOCATE COMP "btn_center" SITE "22" ;
+LOCATE COMP "sw[3]" SITE "130" ;
+LOCATE COMP "sw[2]" SITE "129" ;
+LOCATE COMP "sw[1]" SITE "46" ;
+LOCATE COMP "sw[0]" SITE "45" ;
+LOCATE COMP "clk_25m" SITE "30" ;
+LOCATE COMP "btn_up" SITE "11" ;
+LOCATE COMP "btn_right" SITE "38" ;
+LOCATE COMP "btn_left" SITE "2" ;
+LOCATE COMP "btn_down" SITE "1" ;
+LOCATE COMP "led[3]" SITE "35" ;
+LOCATE COMP "led[1]" SITE "37" ;
+LOCATE COMP "led[2]" SITE "36" ;
+LOCATE COMP "led[0]" SITE "29" ;
+LOCATE COMP "led[4]" SITE "144" ;
+LOCATE COMP "led[6]" SITE "6" ;
+LOCATE COMP "led[5]" SITE "5" ;
+LOCATE COMP "led[7]" SITE "138" ;
+LOCATE COMP "p_tip[1]" SITE "27" ;
+LOCATE COMP "p_tip[0]" SITE "32" ;
+LOCATE COMP "p_tip[2]" SITE "28" ;
+LOCATE COMP "p_tip[3]" SITE "43" ;
+FREQUENCY NET "I12.clk_pll" 200.000000 MHz ;
+FREQUENCY NET "clk_25m_c" 25.000000 MHz ;
+FREQUENCY PORT "clk_25m" 25.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

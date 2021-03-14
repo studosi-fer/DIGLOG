@@ -1,0 +1,13 @@
+C:\lscc\diamond\2.0\synpbase\bin64\m_gen_lattice.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem"  -part LFXP2_5E  -package TN144C  -grade -5   -maxfan 100     -forcenogsr -fixgatedclocks 3 -fixgeneratedclocks 3  -use_rename_in_edif 1 -auto_constrain_io   -resolveMultipleDriver -summaryfile "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synlog\report\lab6sem_lab6sem_premap.xml" -top_level_module  work.sem  -ta_num_paths 3  -ta_num_points 0  -oedif  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.edi"  -conchk_prepass  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem_cck_prepass.rpt"  -freq 200.000  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_compiler.srs"  -flow prepass  -gcc_prepass  -osrd  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_premap.srd"  -devicelib  C:\lscc\diamond\2.0\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\2.0\synpbase\lib\lucent\pmi_def.v  -ologparam  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\syntmp\lab6sem_lab6sem.plg"  -noforwanno -osyn  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_premap.srd"  -prjdir  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\"  -prjname  proj_1  -log  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synlog\lab6sem_lab6sem_premap.srr" 
+rc:1 success:1
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.edi|o|1390525473|74157
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem_cck_prepass.rpt|o|0|0
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_compiler.srs|i|1390526437|3628
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_premap.srd|o|1390526438|5912
+C:\lscc\diamond\2.0\synpbase\lib\lucent\xp2.v|i|1311936516|86834
+C:\lscc\diamond\2.0\synpbase\lib\lucent\pmi_def.v|i|1337328648|40586
+"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\syntmp\lab6sem_lab6sem.plg"|o|0|0
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_premap.srd|o|1390526438|5912
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synlog\lab6sem_lab6sem_premap.srr|o|1390526438|2853
+C:\lscc\diamond\2.0\synpbase\bin64\m_gen_lattice.exe|i|1342426126|24331264
+C:\lscc\diamond\2.0\synpbase\bin\m_gen_lattice.exe|i|1342426098|20950528

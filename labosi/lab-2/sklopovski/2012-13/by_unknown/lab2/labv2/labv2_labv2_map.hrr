@@ -1,0 +1,34 @@
+---------------------------------------------------
+Report for cell sviraj
+   Instance path: sviraj
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     129.00        100.0
+                                  LUT4	     148.00        100.0
+                                 IOBUF	         21        100.0
+                                PFUREG	        135        100.0
+                                RIPPLE	         42        100.0
+                                   EBR	          1        100.0
+                            MULT18X18B	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               tonegen	          1        97.6
+                               enkoder	          1         1.6
+---------------------------------------------------
+Report for cell tonegen
+   Instance path: sviraj/I1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     125.90        97.6
+                                  LUT4	     140.50        94.9
+                                PFUREG	        135        100.0
+                                RIPPLE	         42        100.0
+                                   EBR	          1        100.0
+                            MULT18X18B	          1        100.0
+---------------------------------------------------
+Report for cell enkoder
+   Instance path: sviraj/I34
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.10         1.6
+                                  LUT4	       6.50         4.4

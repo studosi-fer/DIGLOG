@@ -1,0 +1,6 @@
+#Start recording tcl command: 1/14/2018 01:06:23
+#Project Location: D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc; Project name: arduino
+prj_project open "D:/Ivan/Faks/1. Semestar/DigLog/LV6/soc/arduino.ldf"
+prj_run Export -impl impl1
+prj_project close
+#Stop recording: 1/14/2018 01:32:56

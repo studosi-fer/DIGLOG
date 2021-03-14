@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+Report for cell tenk_toplevel.arch
+
+Register bits: 145 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       56       100.0
+                             EPLLD1        1       100.0
+                            FD1P3AX       53       100.0
+                            FD1S3AX       80       100.0
+                            FD1S3IX        8       100.0
+                            FD1S3JX        2       100.0
+                                GSR        1       100.0
+                                 IB        5       100.0
+                           IFS1P3DX        1       100.0
+                           IFS1P3JX        1       100.0
+                                INV        3       100.0
+                                 OB       13       100.0
+                           ORCALUT4      150       100.0
+                              PFUMX        2       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+SUB MODULES 
+                       rf_modulator        1       100.0
+                       tenk_automat        1       100.0
+                            
+                         TOTAL           381           
+----------------------------------------------------------------------
+Report for cell rf_modulator.netlist
+     Instance path:  odasiljac
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       27        48.2
+                             EPLLD1        1       100.0
+                            FD1P3AX       43        81.1
+                            FD1S3AX       56        70.0
+                            FD1S3IX        8       100.0
+                            FD1S3JX        2       100.0
+                                INV        2        66.7
+                           ORCALUT4      110        73.3
+                              PFUMX        1        50.0
+                            
+                         TOTAL           250           
+----------------------------------------------------------------------
+Report for cell tenk_automat.netlist
+     Instance path:  automat
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B        4         7.1
+                            FD1P3AX       10        18.9
+                           ORCALUT4       37        24.7
+                              PFUMX        1        50.0
+                            
+                         TOTAL            52           

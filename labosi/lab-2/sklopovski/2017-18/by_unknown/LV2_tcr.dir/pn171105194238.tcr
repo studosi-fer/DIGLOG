@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/5/2017 18:43:22
+#Project Location: D:/Ivan/Faks/1. Semestar/DigLog/LV2; Project name: LV2
+prj_project open "D:/Ivan/Faks/1. Semestar/DigLog/LV2/LV2.ldf"
+prj_project save
+prj_project save
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1 -task Bitgen
+prj_project save
+#Stop recording: 11/5/2017 19:42:38

@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"d:\ivan\faks\1. semestar\diglog\lv5\upravljac.vhd":29:1:29:2|Removing sequential instance R_ALUOp[2:0] (in view: work.upravljac(x)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\ivan\faks\1. semestar\diglog\lv5\upravljac.vhd":29:1:29:2|Removing sequential instance R_AddrB[1:0] (in view: work.upravljac(x)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\ivan\faks\1. semestar\diglog\lv5\upravljac.vhd":29:1:29:2|Removing sequential instance R_AddrA[1:0] (in view: work.upravljac(x)) of type view:PrimLib.dff(prim) because it does not drive other instances.

@@ -1,0 +1,1003 @@
+
+synpwrap -prj "lab5_lab5_synplify.tcl" -log "lab5_lab5.srf"
+Copyright (C) 1992-2012 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 2.0.1.184
+
+==contents of lab5_lab5.srf
+#Build: Synplify Pro F-2012.03L-1 , Build 063R, May 17 2012
+#install: C:\lscc\diamond\2.0\synpbase
+#OS: Windows 7 6.1
+#Hostname: MPC
+
+#Implementation: lab5
+
+$ Start of Compile
+#Fri Jan 17 05:19:11 2014
+
+Synopsys VHDL Compiler, version comp201203rcp1, Build 061R, built May 17 2012
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Top entity is set to afsk_modem.
+VHDL syntax check successful!
+File C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd changed - recompiling
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Synthesizing work.afsk_modem.s 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":7:7:7:22|Synthesizing work.afsk_demodulator.x 
+Post processing for work.afsk_demodulator.x
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd":6:7:6:20|Synthesizing work.afsk_modulator.x 
+Post processing for work.afsk_modulator.x
+Post processing for work.afsk_modem.s
+@W: CL189 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Register bit R_cycle_div(11) is always 0, optimizing ...
+@W: CL260 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Pruning register bit 11 of R_cycle_div(11 downto 0)  
+@W: CL246 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":14:4:14:5|Input port bits 2 to 1 of sw(3 downto 0) are unused 
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:11 2014
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@L: C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5_scck.rpt 
+Printing clock  summary report in "C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+
+Clock Summary
+**************
+
+Start                  Requested     Requested     Clock        Clock              
+Clock                  Frequency     Period        Type         Group              
+-----------------------------------------------------------------------------------
+System                 1.0 MHz       1000.000      system       system_clkgroup    
+afsk_modem|clk_25m     200.0 MHz     5.000         inferred     Inferred_clkgroup_0
+===================================================================================
+
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":41:1:41:2|Found inferred clock afsk_modem|clk_25m which controls 130 sequential elements including modulator/br[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist afsk_modem
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:13 2014
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+
+Starting Optimization and Mapping (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_1 on net led_1 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_2 on net led_2 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_3 on net led_3 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_4 on net led_4 has its enable tied to GND (module afsk_modem) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":54:18:54:24|ROM audio_dac_out_1[2:0] mapped in logic.
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":54:18:54:24|ROM audio_dac_out_1[2:0] mapped in logic.
+@N: MO106 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":54:18:54:24|Found ROM, 'audio_dac_out_1[2:0]', 16 words by 3 bits 
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+@N:"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":41:1:41:2|Found counter in view:work.afsk_modulator(x) inst br[31:0]
+@N:"c:\users\dr.chernobyl\desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Found updn counter in view:work.afsk_demodulator(x) inst R_hyster_cnt[11:0] 
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.61ns		  83 /       130
+   2		0h:00m:00s		    -1.61ns		  83 /       130
+------------------------------------------------------------
+
+
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.96ns		  84 /        99
+
+   2		0h:00m:00s		    -1.96ns		  84 /        99
+   3		0h:00m:00s		    -1.96ns		  84 /        99
+   4		0h:00m:00s		    -1.96ns		  84 /        99
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.96ns		  84 /        99
+
+   2		0h:00m:00s		    -1.96ns		  84 /        99
+   3		0h:00m:00s		    -1.96ns		  84 /        99
+   4		0h:00m:00s		    -1.96ns		  84 /        99
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_4_.un1[0] on net led[4] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_5_.un1[0] on net led[5] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_6_.un1[0] on net led[6] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_7_.un1[0] on net led[7] has its enable tied to GND (module afsk_modem) 
+@N: FO126 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Generating RAM demodulator.R_zero_cross_sr_CR0[0:0]
+
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+Writing Analyst data base C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+F-2012.03L-1 
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+@W: MT420 |Found inferred clock afsk_modem|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 17 05:19:14 2014
+#
+
+
+Top view:               afsk_modem
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -2.062
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group              
+--------------------------------------------------------------------------------------------------------------------------
+afsk_modem|clk_25m     200.0 MHz     141.6 MHz     5.000         7.062         -2.062     inferred     Inferred_clkgroup_0
+System                 200.0 MHz     157.6 MHz     5.000         6.344         -1.344     system       system_clkgroup    
+==========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------
+System              System              |  5.000       0.142   |  No paths    -      |  No paths    -      |  No paths    -    
+System              afsk_modem|clk_25m  |  5.000       -1.344  |  No paths    -      |  No paths    -      |  No paths    -    
+afsk_modem|clk_25m  System              |  5.000       0.837   |  No paths    -      |  No paths    -      |  No paths    -    
+afsk_modem|clk_25m  afsk_modem|clk_25m  |  5.000       -2.062  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port         Starting            User           Arrival     Required           
+Name         Reference           Constraint     Time        Time         Slack 
+             Clock                                                             
+-------------------------------------------------------------------------------
+clk_25m      NA                  NA             NA          NA           NA    
+p_ring       System (rising)     NA             0.000       1.366        1.366 
+rs232_rx     System (rising)     NA             0.000       -1.344       -1.344
+sw[0]        System (rising)     NA             0.000       -1.333       -1.333
+sw[1]        NA                  NA             NA          NA           NA    
+sw[2]        NA                  NA             NA          NA           NA    
+sw[3]        System (rising)     NA             0.000       -1.339       -1.339
+===============================================================================
+
+
+Output Ports: 
+
+Port         Starting                        User           Arrival     Required          
+Name         Reference                       Constraint     Time        Time         Slack
+             Clock                                                                        
+------------------------------------------------------------------------------------------
+led[0]       afsk_modem|clk_25m (rising)     NA             2.904       5.000        2.096
+led[1]       System (rising)                 NA             3.974       5.000        1.026
+led[2]       afsk_modem|clk_25m (rising)     NA             3.092       5.000        1.908
+led[3]       System (rising)                 NA             3.634       5.000        1.366
+led[4]       NA                              NA             NA          NA           NA   
+led[5]       NA                              NA             NA          NA           NA   
+led[6]       NA                              NA             NA          NA           NA   
+led[7]       NA                              NA             NA          NA           NA   
+p_tip[0]     afsk_modem|clk_25m (rising)     NA             4.163       5.000        0.837
+p_tip[1]     afsk_modem|clk_25m (rising)     NA             4.163       5.000        0.837
+p_tip[2]     afsk_modem|clk_25m (rising)     NA             4.163       5.000        0.837
+p_tip[3]     afsk_modem|clk_25m (rising)     NA             3.975       5.000        1.025
+rs232_tx     System (rising)                 NA             4.858       5.000        0.142
+==========================================================================================
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 104 of 4752 (2%)
+PIC Latch:       0
+I/O cells:       18
+
+
+Details:
+CCU2B:          51
+DPR16X4B:       2
+FD1P3AX:        39
+FD1S3AX:        62
+FD1S3JX:        1
+GSR:            1
+IB:             5
+IFS1P3DX:       1
+IFS1P3JX:       1
+INV:            1
+OB:             9
+OBZ:            4
+ORCALUT4:       95
+PUR:            1
+VHI:            1
+VLO:            1
+false:          3
+true:           3
+Mapper successful!
+
+At Mapper Exit (Time elapsed 0h:00m:01s; Memory used current: 41MB peak: 137MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:14 2014
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "LatticeXP2" -d LFXP2-5E -path "C:/Users/dr.Chernobyl/Desktop/lab5/lab5" -path "C:/Users/dr.Chernobyl/Desktop/lab5"  "C:/Users/dr.Chernobyl/Desktop/lab5/lab5/lab5_lab5.edi" "lab5_lab5.ngo"   
+edif2ngd:  version Diamond (64-bit) 2.0.1.184
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to lab5_lab5.ngo...
+
+ngdbuild  -a "LatticeXP2" -d LFXP2-5E  -p "C:/lscc/diamond/2.0/ispfpga/mg5a00/data"  -p "C:/Users/dr.Chernobyl/Desktop/lab5/lab5" -p "C:/Users/dr.Chernobyl/Desktop/lab5"  "lab5_lab5.ngo" "lab5_lab5.ngd"  	
+ngdbuild:  version Diamond (64-bit) 2.0.1.184
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'lab5_lab5.ngo' ...
+Loading NGL library 'C:/lscc/diamond/2.0/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/2.0/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/2.0/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/2.0/ispfpga/or5g00/data/orc5glib.ngl'...
+
+Running DRC...
+WARNING - ngdbuild: logical net 'demodulator/R_zero_cross_sr_CR0_ram_0_DO1' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_zero_cross_sr_CR0_ram_0_DO2' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_zero_cross_sr_CR0_ram_0_DO3' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_zero_cross_sr_CR0_ram_DO1' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_zero_cross_sr_CR0_ram_DO2' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_zero_cross_sr_CR0_ram_DO3' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_r_cycle_div_cry_9_0_COUT' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_r_cycle_div_cry_0_0_S0' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_r_cycle_div_cry_0_0_S1' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_R_zero_cross_cnt_s_5_0_COUT' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_R_zero_cross_cnt_s_5_0_S1' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_R_zero_cross_cnt_cry_0_0_S0' has no load
+WARNING - ngdbuild: logical net 'demodulator/un1_R_zero_cross_cnt_cry_0_0_S1' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_hyster_cnt_s_0_COUT[11]' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_hyster_cnt_s_0_S1[11]' has no load
+WARNING - ngdbuild: logical net 'demodulator/R_hyster_cnt_cry_0_S0[0]' has no load
+WARNING - ngdbuild: logical net 'modulator/r_tx_acc_s_31_0_COUT' has no load
+WARNING - ngdbuild: logical net 'modulator/r_tx_acc_s_31_0_S1' has no load
+WARNING - ngdbuild: logical net 'modulator/r_tx_acc_cry_0_0_S0' has no load
+WARNING - ngdbuild: logical net 'modulator/r_tx_acc_cry_0_0_S1' has no load
+WARNING - ngdbuild: logical net 'modulator/br_s_0_COUT[31]' has no load
+WARNING - ngdbuild: logical net 'modulator/br_s_0_S1[31]' has no load
+WARNING - ngdbuild: logical net 'modulator/br_cry_0_S0[0]' has no load
+WARNING - ngdbuild: logical net 'sw[1]' has no load
+WARNING - ngdbuild: logical net 'sw[2]' has no load
+WARNING - ngdbuild: DRC complete with 25 warnings
+
+Design Results:
+    274 blocks expanded
+complete the first expansion
+Writing 'lab5_lab5.ngd' ...
+
+map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial  "lab5_lab5.ngd" -o "lab5_lab5_map.ncd" -pr "lab5_lab5.prf" -mp "lab5_lab5.mrp" "C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf"             
+map:  version Diamond (64-bit) 2.0.1.184
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: lab5_lab5.ngd
+   Picdevice="LFXP2-5E"
+   Pictype="TQFP144"
+   Picspeed=5
+   Remove unused logic
+   Do not produce over sized NCDs.
+Part used: LFXP2-5ETQFP144, Performance used: 5.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (38): Error in LOCATE COMP "btn_up" SITE "11" ;
+     : COMP "btn_up" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (39): Error in LOCATE COMP "btn_down" SITE "1" ;
+     : COMP "btn_down" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (40): Error in LOCATE COMP "btn_left" SITE "2" ;
+     : COMP "btn_left" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (41): Error in LOCATE COMP "btn_right" SITE "38" ;
+     : COMP "btn_right" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (42): Error in LOCATE COMP "btn_center" SITE "22" ;
+     : COMP "btn_center" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (52): Error in LOCATE COMP "flash_cen" SITE "13" ;
+     : COMP "flash_cen" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (53): Error in LOCATE COMP "flash_sck" SITE "16" ;
+     : COMP "flash_sck" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (54): Error in LOCATE COMP "flash_si" SITE "19" ;
+     : COMP "flash_si" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (55): Error in LOCATE COMP "flash_so" SITE "18" ;
+     : COMP "flash_so" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (58): Error in LOCATE COMP "sdcard_cen" SITE "15" ;
+     : COMP "sdcard_cen" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (59): Error in LOCATE COMP "sdcard_sck" SITE "20" ;
+     : COMP "sdcard_sck" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (60): Error in LOCATE COMP "sdcard_si" SITE "17" ;
+     : COMP "sdcard_si" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (61): Error in LOCATE COMP "sdcard_so" SITE "21" ;
+     : COMP "sdcard_so" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (64): Error in LOCATE COMP "sram_wel" SITE "93" ;
+     : COMP "sram_wel" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (65): Error in LOCATE COMP "sram_lbl" SITE "120" ;
+     : COMP "sram_lbl" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (66): Error in LOCATE COMP "sram_ubl" SITE "121" ;
+     : COMP "sram_ubl" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (67): Error in LOCATE COMP "sram_a_0" SITE "101" ;
+     : COMP "sram_a_0" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (68): Error in LOCATE COMP "sram_a_1" SITE "103" ;
+     : COMP "sram_a_1" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (69): Error in LOCATE COMP "sram_a_2" SITE "104" ;
+     : COMP "sram_a_2" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (70): Error in LOCATE COMP "sram_a_3" SITE "107" ;
+     : COMP "sram_a_3" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (71): Error in LOCATE COMP "sram_a_4" SITE "108" ;
+     : COMP "sram_a_4" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (72): Error in LOCATE COMP "sram_a_5" SITE "125" ;
+     : COMP "sram_a_5" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (73): Error in LOCATE COMP "sram_a_6" SITE "127" ;
+     : COMP "sram_a_6" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (74): Error in LOCATE COMP "sram_a_7" SITE "122" ;
+     : COMP "sram_a_7" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (75): Error in LOCATE COMP "sram_a_8" SITE "58" ;
+     : COMP "sram_a_8" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (76): Error in LOCATE COMP "sram_a_9" SITE "53" ;
+     : COMP "sram_a_9" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (77): Error in LOCATE COMP "sram_a_10" SITE "54" ;
+     : COMP "sram_a_10" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (78): Error in LOCATE COMP "sram_a_11" SITE "55" ;
+     : COMP "sram_a_11" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (79): Error in LOCATE COMP "sram_a_12" SITE "56" ;
+     : COMP "sram_a_12" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (80): Error in LOCATE COMP "sram_a_13" SITE "57" ;
+     : COMP "sram_a_13" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (81): Error in LOCATE COMP "sram_a_14" SITE "73" ;
+     : COMP "sram_a_14" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (82): Error in LOCATE COMP "sram_a_15" SITE "74" ;
+     : COMP "sram_a_15" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (83): Error in LOCATE COMP "sram_a_16" SITE "77" ;
+     : COMP "sram_a_16" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (84): Error in LOCATE COMP "sram_a_17" SITE "78" ;
+     : COMP "sram_a_17" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (85): Error in LOCATE COMP "sram_a_18" SITE "94" ;
+     : COMP "sram_a_18" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (86): Error in LOCATE COMP "sram_d_0" SITE "98" ;
+     : COMP "sram_d_0" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (87): Error in LOCATE COMP "sram_d_1" SITE "96" ;
+     : COMP "sram_d_1" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (88): Error in LOCATE COMP "sram_d_2" SITE "92" ;
+     : COMP "sram_d_2" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (89): Error in LOCATE COMP "sram_d_3" SITE "91" ;
+     : COMP "sram_d_3" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (90): Error in LOCATE COMP "sram_d_4" SITE "89" ;
+     : COMP "sram_d_4" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (91): Error in LOCATE COMP "sram_d_5" SITE "88" ;
+     : COMP "sram_d_5" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (92): Error in LOCATE COMP "sram_d_6" SITE "87" ;
+     : COMP "sram_d_6" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (93): Error in LOCATE COMP "sram_d_7" SITE "90" ;
+     : COMP "sram_d_7" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (94): Error in LOCATE COMP "sram_d_8" SITE "61" ;
+     : COMP "sram_d_8" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (95): Error in LOCATE COMP "sram_d_9" SITE "62" ;
+     : COMP "sram_d_9" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (96): Error in LOCATE COMP "sram_d_10" SITE "99" ;
+     : COMP "sram_d_10" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (97): Error in LOCATE COMP "sram_d_11" SITE "100" ;
+     : COMP "sram_d_11" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (98): Error in LOCATE COMP "sram_d_12" SITE "102" ;
+     : COMP "sram_d_12" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (99): Error in LOCATE COMP "sram_d_13" SITE "113" ;
+     : COMP "sram_d_13" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (100): Error in LOCATE COMP "sram_d_14" SITE "116" ;
+     : COMP "sram_d_14" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (101): Error in LOCATE COMP "sram_d_15" SITE "119" ;
+     : COMP "sram_d_15" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (105): Error in LOCATE COMP "j1_2" SITE "131" ;
+     : COMP "j1_2" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (106): Error in LOCATE COMP "j1_3" SITE "134" ;
+     : COMP "j1_3" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (107): Error in LOCATE COMP "j1_4" SITE "9" ;
+     : COMP "j1_4" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (108): Error in LOCATE COMP "j1_5" SITE "138" ;
+     : COMP "j1_5" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (109): Error in LOCATE COMP "j1_6" SITE "6" ;
+     : COMP "j1_6" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (110): Error in LOCATE COMP "j1_7" SITE "5" ;
+     : COMP "j1_7" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (111): Error in LOCATE COMP "j1_8" SITE "8" ;
+     : COMP "j1_8" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (112): Error in LOCATE COMP "j1_9" SITE "7" ;
+     : COMP "j1_9" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (113): Error in LOCATE COMP "j1_10" SITE "1" ;
+     : COMP "j1_10" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (114): Error in LOCATE COMP "j1_11" SITE "2" ;
+     : COMP "j1_11" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (115): Error in LOCATE COMP "j1_12" SITE "144" ;
+     : COMP "j1_12" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (116): Error in LOCATE COMP "j1_13" SITE "143" ;
+     : COMP "j1_13" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (117): Error in LOCATE COMP "j1_14" SITE "142" ;
+     : COMP "j1_14" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (118): Error in LOCATE COMP "j1_15" SITE "141" ;
+     : COMP "j1_15" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (119): Error in LOCATE COMP "j1_16" SITE "133" ;
+     : COMP "j1_16" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (120): Error in LOCATE COMP "j1_17" SITE "132" ;
+     : COMP "j1_17" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (121): Error in LOCATE COMP "j1_19" SITE "123" ;
+     : COMP "j1_19" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (122): Error in LOCATE COMP "j1_18" SITE "124" ;
+     : COMP "j1_18" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (123): Error in LOCATE COMP "j1_20" SITE "115" ;
+     : COMP "j1_20" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (124): Error in LOCATE COMP "j1_21" SITE "114" ;
+     : COMP "j1_21" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (125): Error in LOCATE COMP "j1_22" SITE "110" ;
+     : COMP "j1_22" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (126): Error in LOCATE COMP "j1_23" SITE "109" ;
+     : COMP "j1_23" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (131): Error in LOCATE COMP "j2_2" SITE "72" ;
+     : COMP "j2_2" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (132): Error in LOCATE COMP "j2_3" SITE "71" ;
+     : COMP "j2_3" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (133): Error in LOCATE COMP "j2_4" SITE "70" ;
+     : COMP "j2_4" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (134): Error in LOCATE COMP "j2_5" SITE "69" ;
+     : COMP "j2_5" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (135): Error in LOCATE COMP "j2_6" SITE "66" ;
+     : COMP "j2_6" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (136): Error in LOCATE COMP "j2_7" SITE "65" ;
+     : COMP "j2_7" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (137): Error in LOCATE COMP "j2_8" SITE "52" ;
+     : COMP "j2_8" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (138): Error in LOCATE COMP "j2_9" SITE "50" ;
+     : COMP "j2_9" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (139): Error in LOCATE COMP "j2_10" SITE "48" ;
+     : COMP "j2_10" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (140): Error in LOCATE COMP "j2_11" SITE "47" ;
+     : COMP "j2_11" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (141): Error in LOCATE COMP "j2_12" SITE "40" ;
+     : COMP "j2_12" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (142): Error in LOCATE COMP "j2_13" SITE "39" ;
+     : COMP "j2_13" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (143): Error in LOCATE COMP "j2_14" SITE "38" ;
+     : COMP "j2_14" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (144): Error in LOCATE COMP "j2_15" SITE "22" ;
+     : COMP "j2_15" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (145): Error in LOCATE COMP "j2_16" SITE "31" ;
+     : COMP "j2_16" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (146): Error in LOCATE COMP "j2_17" SITE "29" ;
+     : COMP "j2_17" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (147): Error in LOCATE COMP "j2_18" SITE "37" ;
+     : COMP "j2_18" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (148): Error in LOCATE COMP "j2_19" SITE "36" ;
+     : COMP "j2_19" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (149): Error in LOCATE COMP "j2_20" SITE "35" ;
+     : COMP "j2_20" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (150): Error in LOCATE COMP "j2_21" SITE "32" ;
+     : COMP "j2_21" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (151): Error in LOCATE COMP "j2_22" SITE "27" ;
+     : COMP "j2_22" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (152): Error in LOCATE COMP "j2_23" SITE "28" ;
+     : COMP "j2_23" not found in design. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (164): Error in IOBUF PORT "sw[1]" PULLMODE=DOWN ;
+     : Port "sw[1]" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (165): Error in IOBUF PORT "sw[2]" PULLMODE=DOWN ;
+     : Port "sw[2]" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (167): Error in IOBUF PORT "btn_up" PULLMODE=DOWN ;
+     : Port "btn_up" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (168): Error in IOBUF PORT "btn_down" PULLMODE=DOWN ;
+     : Port "btn_down" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (169): Error in IOBUF PORT "btn_left" PULLMODE=DOWN ;
+     : Port "btn_left" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (170): Error in IOBUF PORT "btn_right" PULLMODE=DOWN ;
+     : Port "btn_right" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (171): Error in IOBUF PORT "btn_center" PULLMODE=DOWN ;
+     : Port "btn_center" does not exist in the design.. Disabled this preference.
+WARNING - map: C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf (174): Error in IOBUF PORT "sdcard_so" PULLMODE=UP ;
+     : Port "sdcard_so" does not exist in the design.. Disabled this preference.
+WARNING - map: Preference parsing results:  103 semantic errors detected
+WARNING - map: There are errors in the preference file, "C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.lpf".
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/2.0/ispfpga.
+Package Status:                     Final          Version 1.42
+
+Running general design DRC...
+Removing unused logic...
+Optimizing...
+190 CCU2 constant inputs absorbed.
+WARNING - map: IO buffer missing for top level port sw[3:0](2)...logic will be discarded.
+WARNING - map: IO buffer missing for top level port sw[3:0](1)...logic will be discarded.
+
+
+
+Design Summary:
+   Number of registers:    104
+      PFU registers:    102
+      PIO registers:    2
+   Number of SLICEs:           109 out of  2376 (5%)
+      SLICEs(logic/ROM):       103 out of  1971 (5%)
+      SLICEs(logic/ROM/RAM):     6 out of   405 (1%)
+          As RAM:            6 out of   405 (1%)
+          As Logic/ROM:      0 out of   405 (0%)
+   Number of logic LUT4s:      98
+   Number of distributed RAM:   6 (12 LUT4s)
+   Number of ripple logic:     51 (102 LUT4s)
+   Number of shift registers:   0
+   Total number of LUT4s:     212
+   Number of PIO sites used: 18 out of 100 (18%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  1
+     Net clk_25m_c: 62 loads, 62 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  3
+     Net demodulator/un1_R_cycle_div: 4 loads, 4 LSLICEs
+     Net demodulator/R_hyster_prev_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net modulator/bre: 16 loads, 16 LSLICEs
+   Number of LSRs:  4
+     Net modulator.tx_active.fb: 1 loads, 0 LSLICEs
+     Net demodulator/R_zero_cross_sr_CR0_and_0: 1 loads, 1 LSLICEs
+     Net demodulator/fb: 1 loads, 1 LSLICEs
+     Net demodulator/R_zero_cross_sr_CR0_and_2: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC: 78 loads
+     Net led_c[1]: 38 loads
+     Net sw_c[3]: 36 loads
+     Net sw_c[0]: 34 loads
+     Net modulator/bre: 16 loads
+     Net demodulator.R_audio_in: 13 loads
+     Net demodulator/un12_r_audio_in: 13 loads
+     Net demodulator/un1_R_cycle_div_5: 13 loads
+     Net demodulator/un1_R_cycle_div_6: 13 loads
+     Net demodulator/un1_R_cycle_div_7: 13 loads
+ 
+   Number of warnings:  107
+   Number of errors:    0
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 57 MB
+
+WARNING - map: There are semantic errors in the preference file, "C:/Users/dr.Chernobyl/Desktop/lab5/lab5/source/ulx2s.prf".
+Dumping design to file lab5_lab5_map.ncd.
+
+mpartrce -p "lab5_lab5.p2t" -f "lab5_lab5.p3t" -tf "lab5_lab5.pt" "lab5_lab5_map.ncd" "lab5_lab5.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "lab5_lab5_map.ncd"
+Fri Jan 17 05:19:18 2014
+
+PAR: Place And Route Diamond (64-bit) 2.0.1.184.
+Command Line: C:/lscc/diamond/2.0/ispfpga\bin\nt64\par -f lab5_lab5.p2t lab5_lab5_map.ncd
+lab5_lab5.dir lab5_lab5.prf
+Preference file: lab5_lab5.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file lab5_lab5_map.ncd.
+Design name: afsk_modem
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/2.0/ispfpga.
+Package Status:                     Final          Version 1.42
+Performance Hardware Data Status:   Final          Version 10.6
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   IOLOGIC            2/196           1% used
+   PIO (prelim)      18/174          10% used
+                     18/100          18% bonded
+   SLICE            109/2376          4% used
+
+
+
+Number of Signals: 359
+Number of Connections: 860
+
+Pin Constraint Summary:
+   18 out of 18 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    clk_25m_c (driver: clk_25m, clk load #: 62)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 0 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 34972.
+Finished Placer Phase 1.  REAL time: 10 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  34817
+Finished Placer Phase 2.  REAL time: 10 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 196 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "clk_25m_c" from comp "clk_25m" on PIO site "30 (PL14B)", clk load = 62
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   18 out of 174 (10.3%) PIO sites used.
+   18 out of 100 (18.0%) bonded PIO sites used.
+   Number of PIO comps: 18; differential: 0
+   Number of Vref pins used: 0
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 4 / 20 ( 20%) | 3.3V       | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 4 / 18 ( 22%) | 3.3V       | -          | -          |
+| 6        | 7 / 8 ( 87%)  | 3.3V       | -          | -          |
+| 7        | 3 / 18 ( 16%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B                
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+Total placer CPU time: 10 secs 
+
+Dumping design to file lab5_lab5.dir/5_1.ncd.
+
+0 connections routed; 860 unrouted.
+Starting router resource preassignment
+WARNING - par: The driver of primary clock net clk_25m_c is not placed on one of the PIO sites dedicated for primary clocks.  This primary clock will be routed to a H-spine through general routing resource or will be routed as a secondary clock and may suffer from excessive delay or skew.
+
+Completed router resource preassignment. Real time: 11 secs 
+
+Start NBR router at 05:19:29 01/17/14
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as shorter as possible. The routing process is said 
+      to be completed when no conflicts exist and all connections
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design. Thanks.                                       
+*****************************************************************
+
+Start NBR special constraint process at 05:19:29 01/17/14
+
+Start NBR section for initial routing
+Level 4, iteration 1
+11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 33.230ns/0.000ns; real time: 12 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing
+Level 4, iteration 1
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 33.230ns/0.000ns; real time: 12 secs 
+Level 4, iteration 2
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 33.230ns/0.000ns; real time: 12 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack: 33.230ns/0.000ns; real time: 12 secs 
+
+Start NBR section for post-routing
+
+Dumping design to file lab5_lab5.dir/5_1.ncd.
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack : 33.230ns
+  Timing score : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+Total CPU time 12 secs 
+Total REAL time: 12 secs 
+Completely routed.
+End of route.  860 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Timing score: 0 
+
+Dumping design to file lab5_lab5.dir/5_1.ncd.
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "lab5_lab5.t2b" -w "lab5_lab5.ncd" -jedec -e -s "C:/Users/dr.Chernobyl/Desktop/lab5/lab5.sec" -k "C:/Users/dr.Chernobyl/Desktop/lab5/lab5.bek" "lab5_lab5.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 2.0.1.184
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file lab5_lab5.ncd.
+Design name: afsk_modem
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/2.0/ispfpga.
+Package Status:                     Final          Version 1.42
+Performance Hardware Data Status:   Final          Version 10.6
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from lab5_lab5.prf...
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "lab5_lab5.jed".

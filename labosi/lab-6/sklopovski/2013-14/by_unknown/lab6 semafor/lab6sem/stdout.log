@@ -1,0 +1,73 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\2.0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\2.0\synpbase
+Date:        Fri Jan 24 02:20:36 2014
+Version:     F-2012.03L-1 
+
+Arguments:   -product synplify_pro  -batch lab6sem_lab6sem_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.srf"
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+
+log file: "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.srf"
+
+
+Running proj_1|lab6sem
+
+Running Compile on proj_1|lab6sem
+
+Running Compile Process on proj_1|lab6sem
+
+Running Compile Input on proj_1|lab6sem
+
+Copied C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_compiler.srs to C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+
+Job Compile Process completed on proj_1|lab6sem
+
+Running Premap on proj_1|lab6sem
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:00s
+
+
+Job Compile completed on proj_1|lab6sem
+
+Running Map on proj_1|lab6sem
+
+Running Map & Optimize on proj_1|lab6sem
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+
+Job Map completed on proj_1|lab6sem
+
+Job Logic Synthesis completed on proj_1|lab6sem
+
+TCL script complete: "lab6sem_lab6sem_synplify.tcl"
+
+exit status=0
+
+

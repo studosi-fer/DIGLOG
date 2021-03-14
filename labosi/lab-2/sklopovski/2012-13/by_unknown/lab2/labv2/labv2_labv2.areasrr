@@ -1,0 +1,65 @@
+----------------------------------------------------------------------
+Report for cell sviraj.verilog
+
+Register bits: 135 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       21
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        7       100.0
+                              CCU2B       42       100.0
+                            FD1P3AX       13       100.0
+                            FD1P3IX       26       100.0
+                            FD1S3AX       94       100.0
+                            FD1S3IX        2       100.0
+                                GSR        1       100.0
+                                 IB        8       100.0
+                                INV        2       100.0
+                         MULT18X18B        1       100.0
+                                 OB       13       100.0
+                                OR2        2       100.0
+                                OR3        2       100.0
+                                OR4        1       100.0
+                           ORCALUT4       69       100.0
+                              PFUMX       10       100.0
+                                PUR        1       100.0
+                            ROM64X1       19       100.0
+                             SP16KB        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                            enkoder        1       100.0
+                            tonegen        1       100.0
+                            
+                         TOTAL           320           
+----------------------------------------------------------------------
+Report for cell tonegen.netlist
+     Instance path:  I1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       42       100.0
+                            FD1P3AX       13       100.0
+                            FD1P3IX       26       100.0
+                            FD1S3AX       94       100.0
+                            FD1S3IX        2       100.0
+                         MULT18X18B        1       100.0
+                           ORCALUT4       69       100.0
+                              PFUMX       10       100.0
+                            ROM64X1       19       100.0
+                             SP16KB        1       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL           279           
+----------------------------------------------------------------------
+Report for cell enkoder.netlist
+     Instance path:  I34
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        7       100.0
+                                INV        1        50.0
+                                OR2        2       100.0
+                                OR3        2       100.0
+                                OR4        1       100.0
+                            
+                         TOTAL            13           

@@ -1,0 +1,24 @@
+---------------------------------------------------
+Report for cell slova
+   Instance path: slova
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     101.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	     123.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         16        100.0
+                                PFUREG	         81        100.0
+                                RIPPLE	         29        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             serial_tx	          1        88.1
+---------------------------------------------------
+Report for cell serial_tx
+   Instance path: slova/serializer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      89.00        88.1
+                                  LUT4	      99.00        80.5
+                                PFUREG	         81        100.0
+                                RIPPLE	         29        100.0

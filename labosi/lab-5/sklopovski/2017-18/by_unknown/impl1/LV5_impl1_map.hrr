@@ -1,0 +1,24 @@
+---------------------------------------------------
+Report for cell broj
+   Instance path: broj
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	      22.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         11        100.0
+                                PFUREG	         40        100.0
+                                RIPPLE	         17        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             upravljac	          1        69.4
+---------------------------------------------------
+Report for cell upravljac
+   Instance path: broj/I_upravljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.83        69.4
+                                  LUT4	       5.00        22.7
+                                PFUREG	         32        80.0
+                                RIPPLE	         17        100.0

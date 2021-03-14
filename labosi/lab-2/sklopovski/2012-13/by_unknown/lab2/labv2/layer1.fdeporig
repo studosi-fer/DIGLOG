@@ -1,0 +1,26 @@
+%%% protect protected_file
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.tonegen|-layerid|1|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\bin64\\c_vhdl.exe":1362997004
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\location.map":1362998848
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\std.vhd":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\std1164.vhd":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\numeric.vhd":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\arith.vhd":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1362997382
+#CUR:"Z:\\lab2\\labv2\\source\\tonegen.vhd":1382328568
+0 "Z:\lab2\labv2\source\tonegen.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work tonegen x 0
+module work tonegen 0
+
+# Unbound Instances to File Association

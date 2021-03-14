@@ -1,0 +1,84 @@
+1.Od čega se sastoji sklop 'Brojilo'?
+-sintff
+-asintff
+-sintff i asintff
+-ni od čega navedenog
+Odgovor je sintff ('Brojilo' se sastoji od 4 sinkrona T bistabila).
+
+2.U koje stanje automat resetira timer?
+-31
+-0
+-1
+-15
+
+Odgovor je 1.
+
+
+3.Sljedeće je pitanje jedino 'duže' i relativno složenije od ostalih (zapravo, bila su dva pitanja ovakvog tipa i nekako mi se čini kao da su ista, možda s nekom sitnom razlikom…), glasi ovako: Blok 'Process' modelira sklop koji određuje izlaz automata, u minimalnoj listi osjetljivosti sadrži signale pobude (ulaza) i signal koji čuva trenutno stanje, samo iz ovog opisa, odredi o kojem se automatu radi
+- Mooreovom
+- Mealyjevom
+- nije automat
+- ne može se procijeniti
+
+Odgovor: Mealyev automat, ako u bloku process imamo signale pobude i signal koji čuva trenutno stanje, znači da će izlaz ovisiti o istima. Poznato je da Mealyev automat kojemu izlaz ovisi o ulazu (podbudi) i o trenutnom stanju.
+
+
+4.U ovoj laboratorijskoj vježbi, sklop Dekoder stanja je: 
+
+- ništa od navedenoga
+- sinkroni sekvencijski sklop
+- kombinacijski sklop
+- asinkroni sekvencijski sklop
+
+Odgovor: Nije sekvencijski jer nema memoriju (ne može pamtiti stanja), a kombinira i prosljeđuje podatke te ima određenu funkciju.
+
+5.Kod kojeg/kojih je automata izlaz u potpunosti definiran stanjem (tj. ako znate samo stanje, onda odmah znate i izlaz)? 
+ 
+- i kod Mooreovog, i kod Mealyjevog
+- samo kod Mealyjevog
+- niti kod jednog od ova dva
+- samo kod Mooreovog
+
+Odgovor: samo kod Mooreovog
+
+6.	Kod kojeg automata na lukove pišemo izlaze
+-	Mooreovog
+-	Mealyevog
+-	I kod jednog i kod drugog
+-	Ne može se definirati
+
+Odgovor: kod Mealyevog
+
+7.	Kod kojeg automata na lukove pišemo stanje ulaza?
+- Mooreovog
+- Mealyevog
+- i kod jednog i kod drugog
+- ne može se definirati
+
+
+8.Sljedeće je pitanje jedino 'duže' i relativno složenije od ostalih (zapravo, bila su dva pitanja ovakvog tipa i nekako mi se čini kao da su ista, možda s nekom sitnom razlikom…), glasi ovako: Blok 'Process' modelira sklop koji određuje izlaz automata, u minimalnoj listi osjetljivosti sadrži signal koji čuva trenutno stanje, samo iz ovog opisa, odredi o kojem se automatu radi
+- Mooreovom
+- Mealyjevom
+- nije automat
+- ne može se procijeniti
+Odgovor: Riječ je o Mooreovom automatu, budući da izlaz ovisi samo o stanju u kojem se nalazi automat.
+
+9. Označimo s fs maksimalnu frekvenciju rada sinkronog binarnog brojila unaprijed sa serijskim prijenosom, a s 
+	fp maksimalnu frekvenciju rada sinkronog binarnog brojila unaprijed s paralelnim prijenosom. Ako promatramo fs i fp za 
+	10-bitno brojilo, tada vrijedi: 
+ 
+- fs može biti jednak fp, a ako nije jednak, onda je veći od fp
+- fs je strogo manji od fp
+- fs može biti jednak fp, a ako nije jednak, onda je manji od fp
+- fs je strogo veći od fp
+
+Odgovor: fs je strogo manji od fp
+
+10. Vrijeme tijekog kojeg ulaz bistabila mora ostati stabilan nakon nailaska nailaska aktivnog brida signala takta naziva se: 
+ 
+- vrijeme otpuštanja (engl. release time)
+- vrijeme postavljanja (engl. setup time)
+- vrijeme kašnjenja (engl. delay time)
+- vrijeme zadržavanja (engl. hold time)
+
+Odgovor: vrijeme zadržavanja (engl. hold time)

@@ -1,0 +1,16 @@
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+                    odasiljac.R_low_high:C              Not Done
+                    automat.R_cekanje[2]:C              Done
+                    automat.R_cekanje[1]:C              Done
+                    automat.R_cekanje[0]:C              Done
+                   automat.R_stanje[6:0]:C              Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+

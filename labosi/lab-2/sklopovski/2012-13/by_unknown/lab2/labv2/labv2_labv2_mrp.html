@@ -1,0 +1,761 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>            Lattice Mapping Report File for Design Module 'sviraj'
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a LatticeXP2 -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial
+     labv2_labv2.ngd -o labv2_labv2_map.ncd -pr labv2_labv2.prf -mp
+     labv2_labv2.mrp Z:/lab2/labv2/source/ulx2s.lpf
+Target Vendor:  LATTICE
+Target Device:  LFXP2-5ETQFP144
+Target Performance:   5
+Mapper:  mg5a00,  version:  Diamond (64-bit) 2.2.0.101
+Mapped on:  10/21/13  13:32:51
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    135
+      PFU registers:    135
+      PIO registers:    0
+   Number of SLICEs:           129 out of  2376 (5%)
+      SLICEs(logic/ROM):       129 out of  1971 (7%)
+      SLICEs(logic/ROM/RAM):     0 out of   405 (0%)
+          As RAM:            0 out of   405 (0%)
+          As Logic/ROM:      0 out of   405 (0%)
+   Number of logic LUT4s:     148
+   Number of distributed RAM:   0 (0 LUT4s)
+   Number of ripple logic:     42 (84 LUT4s)
+   Number of shift registers:   0
+   Total number of LUT4s:     232
+   Number of PIO sites used: 21 out of 100 (21%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  1 out of 9 (11%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          1
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  2 out of 24 (8 %)
+   Number of clocks:  1
+     Net clk_25m_c: 90 loads, 90 rising, 0 falling (Driver: PIO clk_25m )
+
+   Number of Clock Enables:  2
+     Net I1/un7_r_clkdiv: 18 loads, 18 LSLICEs
+     Net I1/R_code_0_sqmuxa: 3 loads, 3 LSLICEs
+   Number of LSRs:  2
+     Net I1/R_vol_0_sqmuxa_1_RNIIKK42: 14 loads, 14 LSLICEs
+     Net sw_1_c: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net I1/VCC: 77 loads
+     Net I1/un2_r_freq_0_areg[2]: 64 loads
+     Net I1/un2_r_freq_0_areg[3]: 64 loads
+     Net I1/un2_r_freq_0_areg[1]: 63 loads
+     Net I1/un2_r_freq_0_areg[4]: 60 loads
+     Net I1/un2_r_freq_0_areg[5]: 33 loads
+     Net sw_0_c: 27 loads
+     Net I1/un2_r_freq_0_areg[0]: 23 loads
+     Net I1/un7_r_clkdiv: 20 loads
+     Net sw_1_c: 15 loads
+
+
+
+
+   Number of warnings:  98
+   Number of errors:    0
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (18): Error in LOCATE COMP
+     "rs232_rx" SITE "10" ;
+: COMP "rs232_rx" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (19): Error in LOCATE COMP
+     "rs232_tx" SITE "137" ;
+: COMP "rs232_tx" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (34): Error in LOCATE COMP "sw_2"
+     SITE "129" ;
+: COMP "sw_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (35): Error in LOCATE COMP "sw_3"
+     SITE "130" ;
+: COMP "sw_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (52): Error in LOCATE COMP
+     "flash_cen" SITE "13" ;
+: COMP "flash_cen" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (53): Error in LOCATE COMP
+     "flash_sck" SITE "16" ;
+: COMP "flash_sck" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (54): Error in LOCATE COMP
+     "flash_si" SITE "19" ;
+: COMP "flash_si" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (55): Error in LOCATE COMP
+     "flash_so" SITE "18" ;
+: COMP "flash_so" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (58): Error in LOCATE COMP
+     "sdcard_cen" SITE "15" ;
+: COMP "sdcard_cen" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (59): Error in LOCATE COMP
+     "sdcard_sck" SITE "20" ;
+: COMP "sdcard_sck" not found in design. Disbale
+     this preference.
+
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (60): Error in LOCATE COMP
+     "sdcard_si" SITE "17" ;
+: COMP "sdcard_si" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (61): Error in LOCATE COMP
+     "sdcard_so" SITE "21" ;
+: COMP "sdcard_so" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (64): Error in LOCATE COMP
+     "sram_wel" SITE "93" ;
+: COMP "sram_wel" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (65): Error in LOCATE COMP
+     "sram_lbl" SITE "120" ;
+: COMP "sram_lbl" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (66): Error in LOCATE COMP
+     "sram_ubl" SITE "121" ;
+: COMP "sram_ubl" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (67): Error in LOCATE COMP
+     "sram_a_0" SITE "101" ;
+: COMP "sram_a_0" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (68): Error in LOCATE COMP
+     "sram_a_1" SITE "103" ;
+: COMP "sram_a_1" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (69): Error in LOCATE COMP
+     "sram_a_2" SITE "104" ;
+: COMP "sram_a_2" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (70): Error in LOCATE COMP
+     "sram_a_3" SITE "107" ;
+: COMP "sram_a_3" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (71): Error in LOCATE COMP
+     "sram_a_4" SITE "108" ;
+: COMP "sram_a_4" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (72): Error in LOCATE COMP
+     "sram_a_5" SITE "125" ;
+: COMP "sram_a_5" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (73): Error in LOCATE COMP
+     "sram_a_6" SITE "127" ;
+: COMP "sram_a_6" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (74): Error in LOCATE COMP
+     "sram_a_7" SITE "122" ;
+: COMP "sram_a_7" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (75): Error in LOCATE COMP
+     "sram_a_8" SITE "58" ;
+: COMP "sram_a_8" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (76): Error in LOCATE COMP
+     "sram_a_9" SITE "53" ;
+: COMP "sram_a_9" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (77): Error in LOCATE COMP
+     "sram_a_10" SITE "54" ;
+: COMP "sram_a_10" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (78): Error in LOCATE COMP
+     "sram_a_11" SITE "55" ;
+: COMP "sram_a_11" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (79): Error in LOCATE COMP
+     "sram_a_12" SITE "56" ;
+: COMP "sram_a_12" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (80): Error in LOCATE COMP
+     "sram_a_13" SITE "57" ;
+: COMP "sram_a_13" not found in design. Disbale
+
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (81): Error in LOCATE COMP
+     "sram_a_14" SITE "73" ;
+: COMP "sram_a_14" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (82): Error in LOCATE COMP
+     "sram_a_15" SITE "74" ;
+: COMP "sram_a_15" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (83): Error in LOCATE COMP
+     "sram_a_16" SITE "77" ;
+: COMP "sram_a_16" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (84): Error in LOCATE COMP
+     "sram_a_17" SITE "78" ;
+: COMP "sram_a_17" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (85): Error in LOCATE COMP
+     "sram_a_18" SITE "94" ;
+: COMP "sram_a_18" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (86): Error in LOCATE COMP
+     "sram_d_0" SITE "98" ;
+: COMP "sram_d_0" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (87): Error in LOCATE COMP
+     "sram_d_1" SITE "96" ;
+: COMP "sram_d_1" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (88): Error in LOCATE COMP
+     "sram_d_2" SITE "92" ;
+: COMP "sram_d_2" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (89): Error in LOCATE COMP
+     "sram_d_3" SITE "91" ;
+: COMP "sram_d_3" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (90): Error in LOCATE COMP
+     "sram_d_4" SITE "89" ;
+: COMP "sram_d_4" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (91): Error in LOCATE COMP
+     "sram_d_5" SITE "88" ;
+: COMP "sram_d_5" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (92): Error in LOCATE COMP
+     "sram_d_6" SITE "87" ;
+: COMP "sram_d_6" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (93): Error in LOCATE COMP
+     "sram_d_7" SITE "90" ;
+: COMP "sram_d_7" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (94): Error in LOCATE COMP
+     "sram_d_8" SITE "61" ;
+: COMP "sram_d_8" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (95): Error in LOCATE COMP
+     "sram_d_9" SITE "62" ;
+: COMP "sram_d_9" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (96): Error in LOCATE COMP
+     "sram_d_10" SITE "99" ;
+: COMP "sram_d_10" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (97): Error in LOCATE COMP
+     "sram_d_11" SITE "100" ;
+: COMP "sram_d_11" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (98): Error in LOCATE COMP
+     "sram_d_12" SITE "102" ;
+: COMP "sram_d_12" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (99): Error in LOCATE COMP
+
+     "sram_d_13" SITE "113" ;
+: COMP "sram_d_13" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (100): Error in LOCATE COMP
+     "sram_d_14" SITE "116" ;
+: COMP "sram_d_14" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (101): Error in LOCATE COMP
+     "sram_d_15" SITE "119" ;
+: COMP "sram_d_15" not found in design. Disbale
+     this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (105): Error in LOCATE COMP "j1_2"
+     SITE "131" ;
+: COMP "j1_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (106): Error in LOCATE COMP "j1_3"
+     SITE "134" ;
+: COMP "j1_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (107): Error in LOCATE COMP "j1_4"
+     SITE "9" ;
+: COMP "j1_4" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (108): Error in LOCATE COMP "j1_5"
+     SITE "138" ;
+: COMP "j1_5" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (109): Error in LOCATE COMP "j1_6"
+     SITE "6" ;
+: COMP "j1_6" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (110): Error in LOCATE COMP "j1_7"
+     SITE "5" ;
+: COMP "j1_7" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (111): Error in LOCATE COMP "j1_8"
+     SITE "8" ;
+: COMP "j1_8" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (112): Error in LOCATE COMP "j1_9"
+     SITE "7" ;
+: COMP "j1_9" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (113): Error in LOCATE COMP
+     "j1_10" SITE "1" ;
+: COMP "j1_10" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (114): Error in LOCATE COMP
+     "j1_11" SITE "2" ;
+: COMP "j1_11" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (115): Error in LOCATE COMP
+     "j1_12" SITE "144" ;
+: COMP "j1_12" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (116): Error in LOCATE COMP
+     "j1_13" SITE "143" ;
+: COMP "j1_13" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (117): Error in LOCATE COMP
+     "j1_14" SITE "142" ;
+: COMP "j1_14" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (118): Error in LOCATE COMP
+     "j1_15" SITE "141" ;
+: COMP "j1_15" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (119): Error in LOCATE COMP
+     "j1_16" SITE "133" ;
+: COMP "j1_16" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (120): Error in LOCATE COMP
+     "j1_17" SITE "132" ;
+: COMP "j1_17" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (121): Error in LOCATE COMP
+     "j1_19" SITE "123" ;
+: COMP "j1_19" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (122): Error in LOCATE COMP
+     "j1_18" SITE "124" ;
+: COMP "j1_18" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (123): Error in LOCATE COMP
+     "j1_20" SITE "115" ;
+: COMP "j1_20" not found in design. Disbale this
+
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (124): Error in LOCATE COMP
+     "j1_21" SITE "114" ;
+: COMP "j1_21" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (125): Error in LOCATE COMP
+     "j1_22" SITE "110" ;
+: COMP "j1_22" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (126): Error in LOCATE COMP
+     "j1_23" SITE "109" ;
+: COMP "j1_23" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (131): Error in LOCATE COMP "j2_2"
+     SITE "72" ;
+: COMP "j2_2" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (132): Error in LOCATE COMP "j2_3"
+     SITE "71" ;
+: COMP "j2_3" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (133): Error in LOCATE COMP "j2_4"
+     SITE "70" ;
+: COMP "j2_4" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (134): Error in LOCATE COMP "j2_5"
+     SITE "69" ;
+: COMP "j2_5" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (135): Error in LOCATE COMP "j2_6"
+     SITE "66" ;
+: COMP "j2_6" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (136): Error in LOCATE COMP "j2_7"
+     SITE "65" ;
+: COMP "j2_7" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (137): Error in LOCATE COMP "j2_8"
+     SITE "52" ;
+: COMP "j2_8" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (138): Error in LOCATE COMP "j2_9"
+     SITE "50" ;
+: COMP "j2_9" not found in design. Disbale this preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (139): Error in LOCATE COMP
+     "j2_10" SITE "48" ;
+: COMP "j2_10" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (140): Error in LOCATE COMP
+     "j2_11" SITE "47" ;
+: COMP "j2_11" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (141): Error in LOCATE COMP
+     "j2_12" SITE "40" ;
+: COMP "j2_12" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (142): Error in LOCATE COMP
+     "j2_13" SITE "39" ;
+: COMP "j2_13" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (143): Error in LOCATE COMP
+     "j2_14" SITE "38" ;
+: COMP "j2_14" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (144): Error in LOCATE COMP
+     "j2_15" SITE "22" ;
+: COMP "j2_15" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (145): Error in LOCATE COMP
+     "j2_16" SITE "31" ;
+: COMP "j2_16" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (146): Error in LOCATE COMP
+     "j2_17" SITE "29" ;
+: COMP "j2_17" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (147): Error in LOCATE COMP
+     "j2_18" SITE "37" ;
+: COMP "j2_18" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (148): Error in LOCATE COMP
+     "j2_19" SITE "36" ;
+: COMP "j2_19" not found in design. Disbale this
+     preference.
+
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (149): Error in LOCATE COMP
+     "j2_20" SITE "35" ;
+: COMP "j2_20" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (150): Error in LOCATE COMP
+     "j2_21" SITE "32" ;
+: COMP "j2_21" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (151): Error in LOCATE COMP
+     "j2_22" SITE "27" ;
+: COMP "j2_22" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (152): Error in LOCATE COMP
+     "j2_23" SITE "28" ;
+: COMP "j2_23" not found in design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (165): Error in IOBUF PORT "sw_2"
+     PULLMODE=DOWN ;
+: Port "sw_2" does not exist in the design. Disbale this
+     preference.
+WARNING - map: Z:/lab2/labv2/source/ulx2s.lpf (166): Error in IOBUF PORT "sw_3"
+     PULLMODE=DOWN ;
+: Port "sw_3" does not exist in the design. Disbale this
+     preference.
+WARNING - map: Preference parsing results:  96 semantic errors detected
+WARNING - map: There are errors in the preference file,
+     "Z:/lab2/labv2/source/ulx2s.lpf".
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| led_0               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_center          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| sw_1                | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| sw_0                | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| clk_25m             | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_up              | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_right           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_left            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_down            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_ring              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip_3             | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip_2             | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip_1             | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip_0             | OUTPUT    | LVCMOS33  |            |            |
+
++---------------------+-----------+-----------+------------+------------+
+| led_4               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led_5               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led_7               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led_6               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led_3               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led_2               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led_1               | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal sw_1_c_i was merged into signal sw_1_c
+Signal I34/N_6 was merged into signal btn_down_c
+Signal VCC undriven or does not drive anything - clipped.
+Signal I1/R_clkdiv_s_0_S1[11] undriven or does not drive anything - clipped.
+Signal I1/R_clkdiv_s_0_COUT[11] undriven or does not drive anything - clipped.
+Signal I1/un1_R_vol_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal I1/un1_R_vol_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal I1/N_30 undriven or does not drive anything - clipped.
+Signal I1/un1_R_vol_cry_15_0_COUT undriven or does not drive anything - clipped.
+Signal I1/un3_r_freq_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal I1/un3_r_freq_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal I1/N_33 undriven or does not drive anything - clipped.
+Signal I1/un3_r_freq_s_31_0_S1 undriven or does not drive anything - clipped.
+Signal I1/un3_r_freq_s_31_0_COUT undriven or does not drive anything - clipped.
+Signal I1/un4_r_pwm_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal I1/un4_r_pwm_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal I1/N_34 undriven or does not drive anything - clipped.
+Signal I1/un4_r_pwm_cry_15_0_COUT undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB0 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB1 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB2 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB3 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB4 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB5 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB6 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB7 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB8 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB9 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB10 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB11 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB12 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB13 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB14 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB15 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROB16 undriven or does not drive anything - clipped.
+
+Signal I1/R_mul_1_SROB17 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA0 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA1 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA2 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA3 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA4 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA5 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA6 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA7 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA8 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA9 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA10 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA11 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA12 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA13 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA14 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA15 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA16 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_SROA17 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P0 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P1 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P2 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P3 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P4 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P5 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P6 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P7 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P8 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P9 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P10 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P11 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P12 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P13 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P14 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P15 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P32 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P33 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P34 undriven or does not drive anything - clipped.
+Signal I1/R_mul_1_P35 undriven or does not drive anything - clipped.
+Signal I1/R_clkdiv_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal I1/N_9 undriven or does not drive anything - clipped.
+Signal I1/R_sin_1_0_0_DO17 undriven or does not drive anything - clipped.
+Signal I1/R_sin_1_0_0_DO16 undriven or does not drive anything - clipped.
+Block sw_1_pad_RNIE497 was optimized away.
+Block I34/I11 was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+/I1:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 125
+    PFU Registers: 129
+    -Contains EBR R_sin_1_0_0:  TYPE= SP16KB,  Width= 16,  Depth= 256,  REGMODE=
+         NOREG,  RESETMODE= SYNC,  WRITEMODE= NORMAL,  GSR= DISABLED
+
+
+
+
+<A name="mrp_dsp"></A><B><U><big>DSP Component Details</big></U></B>
+
+
+. MULT18X18B  I1/R_mul_1[31:0]:
+
+Multiplier
+        Operation               Unsigned
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input
+        Operation Registers     CLK     CE      RST
+        --------------------------------------------
+                Input
+Data
+        Input Registers         CLK     CE      RST
+        ---------------------------------------------
+                A
+                B
+
+        Pipeline Registers      CLK     CE      RST
+        --------------------------------------------
+                Pipe            CLK0    CE0     RST0
+
+        Output Register         CLK     CE      RST
+        --------------------------------------------
+                Output
+Other
+        GSR     DISABLED
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: I1/R_sin_1_0_0
+         Type: SP16KB
+Instance Name: I1/R_mul_1[31:0]
+         Type: MULT18X18B
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 2 secs
+   Peak Memory Usage: 58 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2013 Lattice Semiconductor
+     Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

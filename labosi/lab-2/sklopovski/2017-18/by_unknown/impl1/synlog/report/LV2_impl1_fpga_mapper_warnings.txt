@@ -1,0 +1,5 @@
+@W: MO129 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\source\serial_tx.vhd":78:1:78:2|Sequential instance I1.R_byte_old[7] is reduced to a combinational gate by constant propagation.
+@W: MT246 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\lab2.v":52:4:52:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\lab2.v":37:4:37:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\ivan\faks\1. semestar\diglog\lv2\impl1\lab2.v":36:4:36:6|Blackbox OR5 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock lab2|clk_25m with period 4.55ns. Please declare a user-defined clock on object "p:clk_25m"

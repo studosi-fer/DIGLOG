@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(18): Semantic error in &quot;LOCATE COMP &quot;rs232_rx&quot; SITE &quot;10&quot; ;&quot;: </Dynamic>
+            <Dynamic>rs232_rx</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(45): Semantic error in &quot;LOCATE COMP &quot;p_ring&quot; SITE &quot;44&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(46): Semantic error in &quot;LOCATE COMP &quot;p_tip_0&quot; SITE &quot;32&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip_0</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(47): Semantic error in &quot;LOCATE COMP &quot;p_tip_1&quot; SITE &quot;27&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip_1</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>47</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(48): Semantic error in &quot;LOCATE COMP &quot;p_tip_2&quot; SITE &quot;28&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(49): Semantic error in &quot;LOCATE COMP &quot;p_tip_3&quot; SITE &quot;43&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(52): Semantic error in &quot;LOCATE COMP &quot;flash_cen&quot; SITE &quot;13&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_cen</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(53): Semantic error in &quot;LOCATE COMP &quot;flash_sck&quot; SITE &quot;16&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_sck</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>53</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(54): Semantic error in &quot;LOCATE COMP &quot;flash_si&quot; SITE &quot;19&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_si</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(55): Semantic error in &quot;LOCATE COMP &quot;flash_so&quot; SITE &quot;18&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_so</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>55</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(58): Semantic error in &quot;LOCATE COMP &quot;sdcard_cen&quot; SITE &quot;15&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdcard_cen</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(59): Semantic error in &quot;LOCATE COMP &quot;sdcard_sck&quot; SITE &quot;20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdcard_sck</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>59</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(60): Semantic error in &quot;LOCATE COMP &quot;sdcard_si&quot; SITE &quot;17&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdcard_si</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>60</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(61): Semantic error in &quot;LOCATE COMP &quot;sdcard_so&quot; SITE &quot;21&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdcard_so</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>61</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(64): Semantic error in &quot;LOCATE COMP &quot;sram_wel&quot; SITE &quot;93&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_wel</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>64</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(65): Semantic error in &quot;LOCATE COMP &quot;sram_lbl&quot; SITE &quot;120&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_lbl</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>65</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(66): Semantic error in &quot;LOCATE COMP &quot;sram_ubl&quot; SITE &quot;121&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_ubl</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>66</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(67): Semantic error in &quot;LOCATE COMP &quot;sram_a_0&quot; SITE &quot;101&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_0</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>67</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(68): Semantic error in &quot;LOCATE COMP &quot;sram_a_1&quot; SITE &quot;103&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_1</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>68</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(69): Semantic error in &quot;LOCATE COMP &quot;sram_a_2&quot; SITE &quot;104&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>69</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(70): Semantic error in &quot;LOCATE COMP &quot;sram_a_3&quot; SITE &quot;107&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>70</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(71): Semantic error in &quot;LOCATE COMP &quot;sram_a_4&quot; SITE &quot;108&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_4</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>71</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(72): Semantic error in &quot;LOCATE COMP &quot;sram_a_5&quot; SITE &quot;125&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_5</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(73): Semantic error in &quot;LOCATE COMP &quot;sram_a_6&quot; SITE &quot;127&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_6</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>73</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(74): Semantic error in &quot;LOCATE COMP &quot;sram_a_7&quot; SITE &quot;122&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_7</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>74</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(75): Semantic error in &quot;LOCATE COMP &quot;sram_a_8&quot; SITE &quot;58&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_8</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>75</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(76): Semantic error in &quot;LOCATE COMP &quot;sram_a_9&quot; SITE &quot;53&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_9</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>76</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(77): Semantic error in &quot;LOCATE COMP &quot;sram_a_10&quot; SITE &quot;54&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_10</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>77</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(78): Semantic error in &quot;LOCATE COMP &quot;sram_a_11&quot; SITE &quot;55&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_11</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>78</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(79): Semantic error in &quot;LOCATE COMP &quot;sram_a_12&quot; SITE &quot;56&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_12</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(80): Semantic error in &quot;LOCATE COMP &quot;sram_a_13&quot; SITE &quot;57&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_13</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>80</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(81): Semantic error in &quot;LOCATE COMP &quot;sram_a_14&quot; SITE &quot;73&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_14</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>81</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(82): Semantic error in &quot;LOCATE COMP &quot;sram_a_15&quot; SITE &quot;74&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_15</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>82</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(83): Semantic error in &quot;LOCATE COMP &quot;sram_a_16&quot; SITE &quot;77&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_16</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>83</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(84): Semantic error in &quot;LOCATE COMP &quot;sram_a_17&quot; SITE &quot;78&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_17</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>84</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(85): Semantic error in &quot;LOCATE COMP &quot;sram_a_18&quot; SITE &quot;94&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_a_18</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>85</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(86): Semantic error in &quot;LOCATE COMP &quot;sram_d_0&quot; SITE &quot;98&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_0</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>86</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(87): Semantic error in &quot;LOCATE COMP &quot;sram_d_1&quot; SITE &quot;96&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_1</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>87</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(88): Semantic error in &quot;LOCATE COMP &quot;sram_d_2&quot; SITE &quot;92&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(89): Semantic error in &quot;LOCATE COMP &quot;sram_d_3&quot; SITE &quot;91&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>89</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(90): Semantic error in &quot;LOCATE COMP &quot;sram_d_4&quot; SITE &quot;89&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_4</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>90</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(91): Semantic error in &quot;LOCATE COMP &quot;sram_d_5&quot; SITE &quot;88&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_5</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>91</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(92): Semantic error in &quot;LOCATE COMP &quot;sram_d_6&quot; SITE &quot;87&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_6</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>92</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(93): Semantic error in &quot;LOCATE COMP &quot;sram_d_7&quot; SITE &quot;90&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_7</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>93</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(94): Semantic error in &quot;LOCATE COMP &quot;sram_d_8&quot; SITE &quot;61&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_8</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(95): Semantic error in &quot;LOCATE COMP &quot;sram_d_9&quot; SITE &quot;62&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_9</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>95</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(96): Semantic error in &quot;LOCATE COMP &quot;sram_d_10&quot; SITE &quot;99&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_10</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(97): Semantic error in &quot;LOCATE COMP &quot;sram_d_11&quot; SITE &quot;100&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_11</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>97</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(98): Semantic error in &quot;LOCATE COMP &quot;sram_d_12&quot; SITE &quot;102&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_12</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>98</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(99): Semantic error in &quot;LOCATE COMP &quot;sram_d_13&quot; SITE &quot;113&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_13</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>99</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(100): Semantic error in &quot;LOCATE COMP &quot;sram_d_14&quot; SITE &quot;116&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_14</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>100</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(101): Semantic error in &quot;LOCATE COMP &quot;sram_d_15&quot; SITE &quot;119&quot; ;&quot;: </Dynamic>
+            <Dynamic>sram_d_15</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>101</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(105): Semantic error in &quot;LOCATE COMP &quot;j1_2&quot; SITE &quot;131&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>105</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(106): Semantic error in &quot;LOCATE COMP &quot;j1_3&quot; SITE &quot;134&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>106</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(107): Semantic error in &quot;LOCATE COMP &quot;j1_4&quot; SITE &quot;9&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_4</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>107</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(108): Semantic error in &quot;LOCATE COMP &quot;j1_5&quot; SITE &quot;138&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_5</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>108</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(109): Semantic error in &quot;LOCATE COMP &quot;j1_6&quot; SITE &quot;6&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_6</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>109</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(110): Semantic error in &quot;LOCATE COMP &quot;j1_7&quot; SITE &quot;5&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_7</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>110</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(111): Semantic error in &quot;LOCATE COMP &quot;j1_8&quot; SITE &quot;8&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_8</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>111</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(112): Semantic error in &quot;LOCATE COMP &quot;j1_9&quot; SITE &quot;7&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_9</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>112</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(113): Semantic error in &quot;LOCATE COMP &quot;j1_10&quot; SITE &quot;1&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_10</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>113</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(114): Semantic error in &quot;LOCATE COMP &quot;j1_11&quot; SITE &quot;2&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_11</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(115): Semantic error in &quot;LOCATE COMP &quot;j1_12&quot; SITE &quot;144&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_12</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>115</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(116): Semantic error in &quot;LOCATE COMP &quot;j1_13&quot; SITE &quot;143&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_13</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>116</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(117): Semantic error in &quot;LOCATE COMP &quot;j1_14&quot; SITE &quot;142&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_14</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>117</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(118): Semantic error in &quot;LOCATE COMP &quot;j1_15&quot; SITE &quot;141&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_15</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>118</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(119): Semantic error in &quot;LOCATE COMP &quot;j1_16&quot; SITE &quot;133&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_16</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>119</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(120): Semantic error in &quot;LOCATE COMP &quot;j1_17&quot; SITE &quot;132&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_17</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>120</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(121): Semantic error in &quot;LOCATE COMP &quot;j1_19&quot; SITE &quot;123&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_19</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>121</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(122): Semantic error in &quot;LOCATE COMP &quot;j1_18&quot; SITE &quot;124&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_18</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>122</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(123): Semantic error in &quot;LOCATE COMP &quot;j1_20&quot; SITE &quot;115&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_20</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>123</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(124): Semantic error in &quot;LOCATE COMP &quot;j1_21&quot; SITE &quot;114&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_21</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>124</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(125): Semantic error in &quot;LOCATE COMP &quot;j1_22&quot; SITE &quot;110&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_22</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(126): Semantic error in &quot;LOCATE COMP &quot;j1_23&quot; SITE &quot;109&quot; ;&quot;: </Dynamic>
+            <Dynamic>j1_23</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(131): Semantic error in &quot;LOCATE COMP &quot;j2_2&quot; SITE &quot;72&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>131</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(132): Semantic error in &quot;LOCATE COMP &quot;j2_3&quot; SITE &quot;71&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>132</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(133): Semantic error in &quot;LOCATE COMP &quot;j2_4&quot; SITE &quot;70&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_4</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(134): Semantic error in &quot;LOCATE COMP &quot;j2_5&quot; SITE &quot;69&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_5</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>134</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(135): Semantic error in &quot;LOCATE COMP &quot;j2_6&quot; SITE &quot;66&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_6</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(136): Semantic error in &quot;LOCATE COMP &quot;j2_7&quot; SITE &quot;65&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_7</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>136</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(137): Semantic error in &quot;LOCATE COMP &quot;j2_8&quot; SITE &quot;52&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_8</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>137</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(138): Semantic error in &quot;LOCATE COMP &quot;j2_9&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_9</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(139): Semantic error in &quot;LOCATE COMP &quot;j2_10&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_10</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(140): Semantic error in &quot;LOCATE COMP &quot;j2_11&quot; SITE &quot;47&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_11</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>140</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(141): Semantic error in &quot;LOCATE COMP &quot;j2_12&quot; SITE &quot;40&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_12</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>141</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(142): Semantic error in &quot;LOCATE COMP &quot;j2_13&quot; SITE &quot;39&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_13</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>142</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(143): Semantic error in &quot;LOCATE COMP &quot;j2_14&quot; SITE &quot;38&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_14</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>143</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(144): Semantic error in &quot;LOCATE COMP &quot;j2_15&quot; SITE &quot;22&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_15</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>144</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(145): Semantic error in &quot;LOCATE COMP &quot;j2_16&quot; SITE &quot;31&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_16</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>145</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(146): Semantic error in &quot;LOCATE COMP &quot;j2_17&quot; SITE &quot;29&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_17</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>146</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(147): Semantic error in &quot;LOCATE COMP &quot;j2_18&quot; SITE &quot;37&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_18</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>147</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(148): Semantic error in &quot;LOCATE COMP &quot;j2_19&quot; SITE &quot;36&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_19</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>148</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(149): Semantic error in &quot;LOCATE COMP &quot;j2_20&quot; SITE &quot;35&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_20</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>149</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(150): Semantic error in &quot;LOCATE COMP &quot;j2_21&quot; SITE &quot;32&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_21</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>150</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(151): Semantic error in &quot;LOCATE COMP &quot;j2_22&quot; SITE &quot;27&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_22</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>151</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(152): Semantic error in &quot;LOCATE COMP &quot;j2_23&quot; SITE &quot;28&quot; ;&quot;: </Dynamic>
+            <Dynamic>j2_23</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>152</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(158): Semantic error in &quot;LOCATE COMP &quot;lcd_data_0&quot; SITE &quot;8&quot; ;&quot;: </Dynamic>
+            <Dynamic>lcd_data_0</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>158</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(159): Semantic error in &quot;LOCATE COMP &quot;lcd_data_1&quot; SITE &quot;9&quot; ;&quot;: </Dynamic>
+            <Dynamic>lcd_data_1</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>159</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(160): Semantic error in &quot;LOCATE COMP &quot;lcd_data_2&quot; SITE &quot;134&quot; ;&quot;: </Dynamic>
+            <Dynamic>lcd_data_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>160</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(161): Semantic error in &quot;LOCATE COMP &quot;lcd_data_3&quot; SITE &quot;131&quot; ;&quot;: </Dynamic>
+            <Dynamic>lcd_data_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>161</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(162): Semantic error in &quot;LOCATE COMP &quot;lcd_rs&quot; SITE &quot;143&quot; ;&quot;: </Dynamic>
+            <Dynamic>lcd_rs</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>162</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(163): Semantic error in &quot;LOCATE COMP &quot;lcd_e&quot; SITE &quot;7&quot; ;&quot;: </Dynamic>
+            <Dynamic>lcd_e</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>163</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(174): Semantic error in &quot;IOBUF PORT &quot;sw[1]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[1]</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>174</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(175): Semantic error in &quot;IOBUF PORT &quot;sw[2]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[2]</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>175</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(176): Semantic error in &quot;IOBUF PORT &quot;sw[3]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[3]</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>176</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(184): Semantic error in &quot;IOBUF PORT &quot;sdcard_so&quot; PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>sdcard_so</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>184</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(187): Semantic error in &quot;IOBUF PORT &quot;p_ring&quot; DRIVE=20 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>p_ring</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>187</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(188): Semantic error in &quot;IOBUF PORT &quot;p_tip_0&quot; DRIVE=20 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>p_tip_0</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>188</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(189): Semantic error in &quot;IOBUF PORT &quot;p_tip_1&quot; DRIVE=20 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>p_tip_1</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>189</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(190): Semantic error in &quot;IOBUF PORT &quot;p_tip_2&quot; DRIVE=20 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>p_tip_2</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>190</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf(191): Semantic error in &quot;IOBUF PORT &quot;p_tip_3&quot; DRIVE=20 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>p_tip_3</Dynamic>
+            <Navigation>D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf</Navigation>
+            <Navigation>191</Navigation>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>sw[3:0](3)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>sw[3:0](2)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>sw[3:0](1)</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>62071013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_25m_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_byte_in_0_I_9_0_COUT</Dynamic>
+            <Navigation>serializer/un1_byte_in_0_I_9_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_byte_in_0_I_9_0_S0</Dynamic>
+            <Navigation>serializer/un1_byte_in_0_I_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_byte_in_0_I_21_0_S0</Dynamic>
+            <Navigation>serializer/un1_byte_in_0_I_21_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_byte_in_0_I_21_0_S1</Dynamic>
+            <Navigation>serializer/un1_byte_in_0_I_21_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_byte_in_0_I_1_0_S0</Dynamic>
+            <Navigation>serializer/un1_byte_in_0_I_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_byte_in_0_I_1_0_S1</Dynamic>
+            <Navigation>serializer/un1_byte_in_0_I_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un4_r_baudgen_cry_15_0_COUT</Dynamic>
+            <Navigation>serializer/un4_r_baudgen_cry_15_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un4_r_baudgen_cry_0_0_S0</Dynamic>
+            <Navigation>serializer/un4_r_baudgen_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un4_r_baudgen_cry_0_0_S1</Dynamic>
+            <Navigation>serializer/un4_r_baudgen_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_R_debounce_cnt_3_s_31_s1_0_COUT</Dynamic>
+            <Navigation>serializer/un1_R_debounce_cnt_3_s_31_s1_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_R_debounce_cnt_3_s_31_s1_0_S1</Dynamic>
+            <Navigation>serializer/un1_R_debounce_cnt_3_s_31_s1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_R_debounce_cnt_3_cry_0_s1_0_S0</Dynamic>
+            <Navigation>serializer/un1_R_debounce_cnt_3_cry_0_s1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>serializer/un1_R_debounce_cnt_3_cry_0_s1_0_S1</Dynamic>
+            <Navigation>serializer/un1_R_debounce_cnt_3_cry_0_s1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sw[1]</Dynamic>
+            <Navigation>sw[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sw[2]</Dynamic>
+            <Navigation>sw[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sw[3]</Dynamic>
+            <Navigation>sw[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>16</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\serial_tx.vhd&quot;:54:11:54:20|Signal r_baudrate is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\serial_tx.vhd</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Signal r_baudrate is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\slova.vhd&quot;:10:1:10:2|Input port bits 3 to 1 of sw(3 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\slova.vhd</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Input port bits 3 to 1 of sw(3 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\ivan\faks\1. semestar\diglog\lv3\slova\impl1\source\serial_tx.vhd&quot;:78:1:78:2|Found inferred clock slova|clk_25m which controls 74 sequential elements including serializer.R_tx_ser[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\ivan\faks\1. semestar\diglog\lv3\slova\impl1\source\serial_tx.vhd</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found inferred clock slova|clk_25m which controls 74 sequential elements including serializer.R_tx_ser[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock slova|clk_25m with period 4.65ns. Please declare a user-defined clock on object &quot;p:clk_25m&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock slova|clk_25m with period 4.65ns. Please declare a user-defined clock on object &quot;p:clk_25m&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

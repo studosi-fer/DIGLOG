@@ -1,0 +1,39 @@
+Selecting top level module MULT9X9B
+@N: CG364 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1988:7:1988:14|Synthesizing module MULT9X9B
+
+@W: CG360 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2045:9:2045:27|No assignment to wire reg_ctrl_0_rst_ogsr
+
+@W: CG360 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2046:9:2046:27|No assignment to wire reg_ctrl_1_rst_ogsr
+
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2053:8:2053:22|No assignment to input_a_clk_sig
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2054:8:2054:22|No assignment to input_b_clk_sig
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2055:8:2055:23|No assignment to pipeline_clk_sig
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2056:8:2056:21|No assignment to output_clk_sig
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2057:8:2057:25|No assignment to reg_ctrl_clk_sig_a
+@W: CG133 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2058:8:2058:25|No assignment to reg_ctrl_clk_sig_b
+@W: CG360 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2069:9:2069:15|No assignment to wire PUR_sig
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2551:4:2551:9|Pruning register p_sig_o1[17:0] 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2543:4:2543:9|Pruning register p_sig_o[17:0] 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2511:4:2511:9|Pruning register signedb_reg1 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2499:4:2499:9|Pruning register signeda_reg1 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2477:4:2477:9|Pruning register b_sig_reg[8:0] 
+
+@W: CL169 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":2455:4:2455:9|Pruning register a_sig_reg[8:0] 
+
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:6:1992:8|Input CE0 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:10:1992:12|Input CE1 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:14:1992:16|Input CE2 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:18:1992:20|Input CE3 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:22:1992:25|Input CLK0 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:27:1992:30|Input CLK1 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:32:1992:35|Input CLK2 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:37:1992:40|Input CLK3 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:42:1992:45|Input RST0 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:47:1992:50|Input RST1 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:52:1992:55|Input RST2 is unused
+@W: CL159 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\syntmp\MULT9X9B.v":1992:57:1992:60|Input RST3 is unused

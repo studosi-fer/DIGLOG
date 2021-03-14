@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":78:1:78:2|Found inferred clock slova|clk_25m which controls 74 sequential elements including serializer.R_tx_ser[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,18 @@
+#Build: Synplify Pro G-2012.09L-SP1 , Build 029R, Mar 11 2013
+#install: C:\lscc\diamond\2.2_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: A210-18
+
+$ Start of Compile
+#Mon Oct 21 13:32:35 2013
+
+Synopsys VHDL Compiler, version comp201209rcp1, Build 271R, built Mar 11 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+Top entity isn't set yet!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 13:32:35 2013
+
+###########################################################]

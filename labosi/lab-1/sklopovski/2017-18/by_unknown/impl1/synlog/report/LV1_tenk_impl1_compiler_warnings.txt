@@ -1,0 +1,19 @@
+@W: CG781 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\tenk_upravljac.v":54:13:54:15|Input top_granata on instance I12 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG296 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":225:4:225:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:50:229:65|Referenced variable machinegun_sound is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:31:229:41|Referenced variable gun_fire_bb is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:62:228:70|Referenced variable gun_sound is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:46:228:53|Referenced variable gun_elev is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":230:19:230:27|Referenced variable gun_right is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":228:31:228:38|Referenced variable gun_left is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":231:45:231:60|Referenced variable drive_left_right is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":230:35:230:47|Referenced variable drive_fwd_rev is not in sensitivity list.
+@W: CG290 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":229:10:229:21|Referenced variable ignition_key is not in sensitivity list.
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":133:20:133:21|Signal fm is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 0 of R_outw(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Pruning register bits 27 to 21 of R_fm_inc(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 1 of R_outw(31 downto 1). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":233:4:233:5|Pruning register bit 3 of R_brzina(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":349:1:349:2|Pruning register bit 19 of R_fm_inc(20 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: Z198 :"D:\Ivan\Faks\1. Semestar\DigLog\1.LV\impl1\source\rf_modulator.vhd":149:4:149:12|Unbound component EPLLD1 of instance PLLInst_0 
+

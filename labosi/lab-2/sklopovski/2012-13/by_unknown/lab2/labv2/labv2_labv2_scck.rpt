@@ -1,0 +1,28 @@
+# Synospys Constraint Checker(syntax only), version maplat, Build 618R, built Mar 14 2013
+# Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+# Written on Mon Oct 21 13:32:39 2013
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "sviraj"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start              Requested     Requested     Clock        Clock                
+Clock              Frequency     Period        Type         Group                
+---------------------------------------------------------------------------------
+sviraj|clk_25m     213.7 MHz     4.680         inferred     Autoconstr_clkgroup_0
+=================================================================================

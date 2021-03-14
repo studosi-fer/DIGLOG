@@ -1,0 +1,14 @@
+#Start recording tcl command: 12/3/2017 16:57:28
+#Project Location: D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova; Project name: Slova
+prj_project new -name "Slova" -impl "impl1" -dev LFXP2-5E-5TN144C -synthesis "synplify" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/ulx2s.lpf"
+file copy -force -- "D:/Ivan/Faks/1. Semestar/DigLog/LV3/ulx2s.lpf" "D:/Ivan/Faks/1. Semestar/DigLog/LV3/serial_tx.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV3/slova.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source"
+prj_src add "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/serial_tx.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/impl1/source/slova.vhd"
+prj_project save
+prj_src add "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Slova/brojke.vhd"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 12/3/2017 18:17:11

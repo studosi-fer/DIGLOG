@@ -1,0 +1,175 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: FX469 :|Net G_gpio.0.un1[31] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[30] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[29] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[28] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[27] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[26] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[25] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[24] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[23] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[22] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[21] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[20] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[19] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[18] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[17] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[16] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[15] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[14] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[13] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[12] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[11] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[10] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[9] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[8] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[7] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[6] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[5] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[4] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[3] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[2] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[1] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net G_gpio.0.un1[0] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un50[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un41[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un32[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un68[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un37[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un45[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un31[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un47[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un24[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un71[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un5[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un73[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un22[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un63[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un49[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un35[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un55[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un97[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un61[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un9[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un1[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un11[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un93[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un62[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un7[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un38[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un76[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un23[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un42[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un28[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un94[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un74[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un4[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un67[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un6[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un14[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un34[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un87[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un96[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un88[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un81[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un29[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un65[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un91[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un90[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un10[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un54[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un80[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un33[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un58[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un48[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un99[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un98[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un56[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un16[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un51[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un79[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un78[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un8[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un46[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un44[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un17[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un19[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un75[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un77[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un95[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un43[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un3[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un64[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un40[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un39[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un36[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un20[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un82[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un13[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un84[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un12[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un60[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un52[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un30[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un15[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un89[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un27[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un26[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un21[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un53[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un70[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un25[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un18[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un85[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un92[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un69[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un57[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un72[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un86[127] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[31] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[30] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[29] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[28] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[27] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[26] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[25] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[24] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[23] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[22] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[21] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un100[20] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[31] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[30] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[29] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[28] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[27] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[26] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[25] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[24] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[23] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[22] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un101[21] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.28\.gpio_phys_57[28] (in view: work.arduino(x)) on net j2_16 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.27\.gpio_phys_55[27] (in view: work.arduino(x)) on net j2_13 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.26\.gpio_phys_53[26] (in view: work.arduino(x)) on net j2_12 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.25\.gpio_phys_51[25] (in view: work.arduino(x)) on net j2_11 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.24\.gpio_phys_49[24] (in view: work.arduino(x)) on net j2_10 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.23\.gpio_phys_47[23] (in view: work.arduino(x)) on net j2_9 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.22\.gpio_phys_45[22] (in view: work.arduino(x)) on net j2_8 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.21\.gpio_phys_43[21] (in view: work.arduino(x)) on net j2_7 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.20\.gpio_phys_41[20] (in view: work.arduino(x)) on net j2_6 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.19\.gpio_phys_39[19] (in view: work.arduino(x)) on net j2_5 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.18\.gpio_phys_37[18] (in view: work.arduino(x)) on net j2_4 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.17\.gpio_phys_35[17] (in view: work.arduino(x)) on net j2_3 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.16\.gpio_phys_33[16] (in view: work.arduino(x)) on net j2_2 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.15\.gpio_phys_31[15] (in view: work.arduino(x)) on net j1_23 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.14\.gpio_phys_29[14] (in view: work.arduino(x)) on net j1_22 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.13\.gpio_phys_27[13] (in view: work.arduino(x)) on net j1_21 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.12\.gpio_phys_25[12] (in view: work.arduino(x)) on net j1_20 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.11\.gpio_phys_23[11] (in view: work.arduino(x)) on net j1_19 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.10\.gpio_phys_21[10] (in view: work.arduino(x)) on net j1_18 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.9\.gpio_phys_19[9] (in view: work.arduino(x)) on net j1_17 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO112 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\soc\gpio.vhd":119:19:119:20|Deleting tristate instance each_bit\.8\.gpio_phys_17[8] (in view: work.arduino(x)) on net j1_16 (in view: work.arduino(x)) because its enable is connected to 0.
+@W: MO129 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\cpu\mul_dsp.vhd":53:1:53:2|Sequential instance f32c_soc_glue.pipeline.multiplier.R_mul_run is reduced to a combinational gate by constant propagation.
+@W: MT529 :"d:\ivan\faks\1. semestar\diglog\lv6\soc\tonegen.vhd":37:4:37:5|Found inferred clock pll|CLKOK_inferred_clock which controls 2167 sequential elements including tonegen_left.R_code[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

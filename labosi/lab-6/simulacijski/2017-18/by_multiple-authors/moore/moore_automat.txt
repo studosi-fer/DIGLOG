@@ -1,0 +1,105 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY mooreov_automat IS PORT(
+cp,masreset,t2,t4,t8,t16,t32: IN STD_LOGIC;
+cr,cy,cg,wr,reset: OUT STD_LOGIC);
+END mooreov_automat;
+
+ARCHITECTURE arch OF mooreov_automat IS 
+SIGNAL state_present,state_next: STD_LOGIC_VECTOR(3 downto 0);
+CONSTANT S0:  STD_LOGIC_VECTOR(3 downto 0):="0000";
+CONSTANT S1:  STD_LOGIC_VECTOR(3 downto 0):="0001";
+CONSTANT S2:  STD_LOGIC_VECTOR(3 downto 0):="0010";
+CONSTANT S3:  STD_LOGIC_VECTOR(3 downto 0):="0011";
+CONSTANT S4:  STD_LOGIC_VECTOR(3 downto 0):="0100";
+CONSTANT S5:  STD_LOGIC_VECTOR(3 downto 0):="0101";
+CONSTANT S6:  STD_LOGIC_VECTOR(3 downto 0):="0110";
+CONSTANT S7:  STD_LOGIC_VECTOR(3 downto 0):="0111";
+CONSTANT S8:  STD_LOGIC_VECTOR(3 downto 0):="1000";
+CONSTANT S9:  STD_LOGIC_VECTOR(3 downto 0):="1001";
+CONSTANT S10: STD_LOGIC_VECTOR(3 downto 0):="1010";
+CONSTANT S11: STD_LOGIC_VECTOR(3 downto 0):="1011";
+CONSTANT S12: STD_LOGIC_VECTOR(3 downto 0):="1100";
+
+BEGIN
+PROCESS(t2,t4,t8,t16,t32,state_present)
+BEGIN
+CASE state_present IS
+WHEN S0=> IF(t8='1') THEN state_next<= S1;
+	ELSE state_next<=S0;
+	END IF;
+WHEN S1=> IF(t2='1') THEN state_next<= S3;
+	ELSE state_next<=S2;
+	END IF;
+WHEN S2=> IF(t2='1') THEN state_next<= S3;
+	ELSE state_next<=S2;
+	END IF;
+WHEN S3=> IF(t32='1') THEN state_next<= S5;
+	ELSE state_next<=S4;
+	END IF;
+WHEN S4=> IF(t32='1') THEN state_next<= S5;
+	ELSE state_next<=S4;
+	END IF;
+WHEN S5=> IF(t4='1') THEN state_next<= S7;
+	ELSE state_next<=S6;
+	END IF;
+WHEN S6=> IF(t4='1') THEN state_next<= S7;
+	ELSE state_next<=S6;
+	END IF;
+WHEN S7=> IF(t2='1') THEN state_next<= S9;
+	ELSE state_next<=S8;
+	END IF;
+WHEN S8=> IF(t2='1') THEN state_next<= S9;
+	ELSE state_next<=S8;
+	END IF;
+WHEN S9=> IF(t16='1') THEN state_next<= S11;
+	ELSE state_next<=S10;
+	END IF;
+WHEN S10=> IF(t16='1') THEN state_next<= S11;
+	ELSE state_next<=S10;
+	END IF;
+WHEN S11=> IF(t4='1') THEN state_next<= S1;
+	ELSE state_next<=S12;
+	END IF;
+WHEN S12=> IF(t4='1') THEN state_next<= S1;
+	ELSE state_next<=S12;
+	END IF;
+WHEN OTHERS=>IF(t8='1') THEN state_next<=S1;
+	ELSE state_next<=S0;
+	END IF;
+	END CASE;
+	END PROCESS;
+PROCESS(state_present)
+BEGIN
+CASE state_present IS
+WHEN S0 =>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+WHEN S1=>cr<='1' after 10 ns;cy<='1' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='1' after 10 ns;
+WHEN S2=>cr<='1' after 10 ns;cy<='1' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+WHEN S3=>cr<='0' after 10 ns;cy<='0' after 10 ns;cg<='1' after 10 ns;wr<='0' after 10 ns; reset<='1' after 10 ns;
+WHEN S4=>cr<='0' after 10 ns;cy<='0' after 10 ns;cg<='1' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+WHEN S5=>cr<='0' after 10 ns;cy<='1' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='1' after 10 ns;
+WHEN S6=>cr<='0' after 10 ns;cy<='1' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+WHEN S7=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='1' after 10 ns;
+WHEN S8=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+WHEN S9=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='1' after 10 ns; reset<='1' after 10 ns;
+WHEN S10=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='1' after 10 ns; reset<='0' after 10 ns;
+WHEN S11=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='1' after 10 ns;
+WHEN S12=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+WHEN OTHERS=>cr<='1' after 10 ns;cy<='0' after 10 ns;cg<='0' after 10 ns;wr<='0' after 10 ns; reset<='0' after 10 ns;
+END CASE;
+END PROCESS;
+PROCESS(cp,masreset)
+BEGIN
+IF falling_edge(cp)THEN
+IF(masreset='1')THEN
+state_present<=S0;
+ELSE
+state_present<=state_next;
+END IF;
+END IF;
+END PROCESS;
+END arch;

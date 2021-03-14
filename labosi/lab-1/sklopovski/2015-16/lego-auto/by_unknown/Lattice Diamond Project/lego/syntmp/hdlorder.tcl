@@ -1,0 +1,1 @@
+project -fileorder "/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd" 

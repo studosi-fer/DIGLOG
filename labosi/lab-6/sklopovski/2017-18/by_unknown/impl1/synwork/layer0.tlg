@@ -1,0 +1,5 @@
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_toplevel.vhd":5:7:5:9|Synthesizing work.sem.struct.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_automat_pokvareni.vhd":5:7:5:17|Synthesizing work.sem_automat.mix_moore_mealy.
+Post processing for work.sem_automat.mix_moore_mealy
+Post processing for work.sem.struct
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_toplevel.vhd":9:1:9:2|Input port bits 3 to 1 of sw(3 downto 0) are unused. Assign logic for all port bits or change the input port size.

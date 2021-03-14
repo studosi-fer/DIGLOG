@@ -1,0 +1,309 @@
+----------------------------------------------------------------------
+Report for cell arduino.x
+
+Register bits: 1748 of 4752 (37%)
+PIC Latch:       0
+I/O cells:       54
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        8       100.0
+                              CCU2B      275       100.0
+                             DP16KB        9       100.0
+                           DPR16X4B       35       100.0
+                             EPLLD1        1       100.0
+                            FD1P3AX     1138       100.0
+                            FD1P3AY       15       100.0
+                            FD1P3IX      200       100.0
+                            FD1S3AX      299       100.0
+                            FD1S3AY       10       100.0
+                            FD1S3IX       21       100.0
+                            FD1S3JX       25       100.0
+                                GSR        1       100.0
+                                 IB       32       100.0
+                           IFS1P3DX       39       100.0
+                                INV       14       100.0
+                         MULT36X36B        3       100.0
+                                 OB       14       100.0
+                           OFS1P3BX        1       100.0
+                           ORCALUT4     2474       100.0
+                              PFUMX      176       100.0
+                                PUR        1       100.0
+                                VHI       11       100.0
+                                VLO       18       100.0
+SUB MODULES 
+                                alu        1       100.0
+                            bptrace        1       100.0
+                               bram        1       100.0
+                             clkgen        1       100.0
+                      f32c_soc_glue        1       100.0
+                               gpio        1       100.0
+                       idecode_mi32        1       100.0
+                          loadalign        1       100.0
+                                mul        1       100.0
+                           pipeline        1       100.0
+                                pll        1       100.0
+                            reg1w2r        1       100.0
+                              shift        1       100.0
+                                sio        1       100.0
+                              timer        1       100.0
+                            tonegen        1       100.0
+                          tonegen_0        1       100.0
+                            
+                         TOTAL          4837           
+----------------------------------------------------------------------
+Report for cell f32c_soc_glue.netlist
+     Instance path:  f32c_soc_glue
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B      233        84.7
+                             DP16KB        9       100.0
+                           DPR16X4B       35       100.0
+                            FD1P3AX     1134        99.6
+                            FD1P3AY       15       100.0
+                            FD1P3IX       78        39.0
+                            FD1S3AX      227        75.9
+                            FD1S3AY       10       100.0
+                            FD1S3IX       19        90.5
+                            FD1S3JX        9        36.0
+                                INV       11        78.6
+                         MULT36X36B        1        33.3
+                           ORCALUT4     2364        95.6
+                              PFUMX      176       100.0
+                                VHI        8        72.7
+                                VLO       13        72.2
+SUB MODULES 
+                                alu        1       100.0
+                            bptrace        1       100.0
+                               bram        1       100.0
+                               gpio        1       100.0
+                       idecode_mi32        1       100.0
+                          loadalign        1       100.0
+                                mul        1       100.0
+                           pipeline        1       100.0
+                            reg1w2r        1       100.0
+                              shift        1       100.0
+                                sio        1       100.0
+                              timer        1       100.0
+                            
+                         TOTAL          4354           
+----------------------------------------------------------------------
+Report for cell gpio.netlist
+     Instance path:  f32c_soc_glue.G_gpio.0.gpio_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX      120        10.5
+                            FD1S3AX       29         9.7
+                                INV        8        57.1
+                           ORCALUT4      272        11.0
+                              PFUMX       29        16.5
+                                VLO        1         5.6
+                            
+                         TOTAL           459           
+----------------------------------------------------------------------
+Report for cell bram.netlist
+     Instance path:  f32c_soc_glue.bram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KB        8        88.9
+                           ORCALUT4        6         0.2
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell timer.netlist
+     Instance path:  f32c_soc_glue.G_timer.timer
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B      130        47.3
+                           DPR16X4B        3         8.6
+                            FD1P3AX      432        38.0
+                            FD1S3AX       27         9.0
+                            FD1S3JX        4        16.0
+                           ORCALUT4      209         8.4
+                              PFUMX       12         6.8
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL           819           
+----------------------------------------------------------------------
+Report for cell sio.netlist
+     Instance path:  f32c_soc_glue.G_sio.0.sio_instance
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       35        12.7
+                            FD1P3AX       30         2.6
+                            FD1P3AY       15       100.0
+                            FD1P3IX        6         3.0
+                            FD1S3AX       37        12.4
+                            FD1S3AY       10       100.0
+                            FD1S3IX        2         9.5
+                           ORCALUT4       94         3.8
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL           231           
+----------------------------------------------------------------------
+Report for cell pipeline.netlist
+     Instance path:  f32c_soc_glue.pipeline
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       68        24.7
+                             DP16KB        1        11.1
+                           DPR16X4B       32        91.4
+                            FD1P3AX      520        45.7
+                            FD1P3IX       72        36.0
+                            FD1S3AX      134        44.8
+                            FD1S3IX       17        81.0
+                            FD1S3JX        5        20.0
+                                INV        3        21.4
+                         MULT36X36B        1        33.3
+                           ORCALUT4     1659        67.1
+                              PFUMX      132        75.0
+                                VHI        5        45.5
+                                VLO        8        44.4
+SUB MODULES 
+                                alu        1       100.0
+                            bptrace        1       100.0
+                       idecode_mi32        1       100.0
+                          loadalign        1       100.0
+                                mul        1       100.0
+                            reg1w2r        1       100.0
+                              shift        1       100.0
+                            
+                         TOTAL          2664           
+----------------------------------------------------------------------
+Report for cell mul.netlist
+     Instance path:  f32c_soc_glue.pipeline.multiplier
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                         MULT36X36B        1        33.3
+                           ORCALUT4        3         0.1
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell loadalign.netlist
+     Instance path:  f32c_soc_glue.pipeline.G_pipelined_load_aligner.loadalign
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       54         2.2
+                                VLO        1         5.6
+                            
+                         TOTAL            55           
+----------------------------------------------------------------------
+Report for cell shift.netlist
+     Instance path:  f32c_soc_glue.pipeline.shift
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4      299        12.1
+                              PFUMX       48        27.3
+                                VLO        1         5.6
+                            
+                         TOTAL           348           
+----------------------------------------------------------------------
+Report for cell alu.netlist
+     Instance path:  f32c_soc_glue.pipeline.alu
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       17         6.2
+                           ORCALUT4       50         2.0
+                              PFUMX        1         0.6
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL            70           
+----------------------------------------------------------------------
+Report for cell reg1w2r.netlist
+     Instance path:  f32c_soc_glue.pipeline.regfile
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           DPR16X4B       32        91.4
+                           ORCALUT4       68         2.7
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL           102           
+----------------------------------------------------------------------
+Report for cell idecode_mi32.netlist
+     Instance path:  f32c_soc_glue.pipeline.G_idecode_mi32.idecode
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4     1083        43.8
+                              PFUMX       82        46.6
+                                VLO        1         5.6
+                            
+                         TOTAL          1166           
+----------------------------------------------------------------------
+Report for cell bptrace.netlist
+     Instance path:  f32c_soc_glue.pipeline.G_bp_scoretable.bptrace
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KB        1        11.1
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell tonegen_0.netlist
+  Original Cell name tonegen
+     Instance path:  tonegen_right
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       21         7.6
+                            FD1P3AX        1         0.1
+                            FD1P3IX       62        31.0
+                            FD1S3AX       36        12.0
+                            FD1S3IX        1         4.8
+                            FD1S3JX        8        32.0
+                                INV        1         7.1
+                         MULT36X36B        1        33.3
+                           ORCALUT4       54         2.2
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL           187           
+----------------------------------------------------------------------
+Report for cell tonegen.netlist
+  Original Cell name tonegen
+     Instance path:  tonegen_left
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       21         7.6
+                            FD1P3AX        3         0.3
+                            FD1P3IX       60        30.0
+                            FD1S3AX       36        12.0
+                            FD1S3IX        1         4.8
+                            FD1S3JX        8        32.0
+                                INV        1         7.1
+                         MULT36X36B        1        33.3
+                           ORCALUT4       55         2.2
+                                VHI        1         9.1
+                                VLO        1         5.6
+                            
+                         TOTAL           188           
+----------------------------------------------------------------------
+Report for cell clkgen.netlist
+     Instance path:  clkgen
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             EPLLD1        1       100.0
+                                GSR        1       100.0
+                                INV        1         7.1
+                           ORCALUT4        1         0.0
+                                VLO        2        11.1
+SUB MODULES 
+                                pll        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell pll.netlist
+     Instance path:  clkgen.G_pll_325.PLL
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             EPLLD1        1       100.0
+                                INV        1         7.1
+                                VLO        1         5.6
+                            
+                         TOTAL             3           

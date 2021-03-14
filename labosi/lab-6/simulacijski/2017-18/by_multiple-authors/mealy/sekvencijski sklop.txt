@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY sekvencijski_sklop IS PORT(
+	clk, reset, p: IN std_logic;
+	q: OUT std_logic_vector(4 DOWNTO 0)
+);
+END sekvencijski_sklop;
+
+ARCHITECTURE arch OF sekvencijski_sklop IS 
+	SIGNAL i: std_logic_vector(4 DOWNTO 0);
+	SIGNAL qp: std_logic_vector(4 DOWNTO 0);
+	
+BEGIN
+	i(0)<= NOT p AND reset;
+	i(1)<= p AND reset;
+	i(2)<= qp(0) AND qp(1);
+	i(3)<= i(2) AND qp(2);
+	i(4)<= i(3) AND qp(3);
+	
+	BO: ENTITY work.sintff PORT MAP(clk, '1', i(0), i(1),  qp(0), open);
+	B1: ENTITY work.sintff PORT MAP(clk, qp(0), reset, '0', qp(1),open);
+	B2: ENTITY work.sintff PORT MAP(clk, i(2),  reset, '0',qp(2), open);
+	B3: ENTITY work.sintff PORT MAP(clk, i(3),  reset, '0',qp(3), open);
+	B4: ENTITY work.sintff PORT MAP(clk, i(4),  reset, '0',qp(4), open);		
+	q <= qp; 
+	
+END arch;

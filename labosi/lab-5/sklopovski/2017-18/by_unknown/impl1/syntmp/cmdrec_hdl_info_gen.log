@@ -1,0 +1,9 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe  -osyn  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synwork\LV5_impl1_hdl_.srs"  -top  broj  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\source\broj.vhd" -lib work "D:\Ivan\Faks\1. Semestar\DigLog\LV5\upravljac.vhd"  -log  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\syntax.log"  -fileorder  "D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\syntmp\hdlorder.tcl" 
+rc:0 success:1 runtime:1
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\synwork\LV5_impl1_hdl_.srs|io:o|time:0|size:0|exec:0
+file:C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd|io:i|time:1480948030|size:146261|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\source\broj.vhd|io:i|time:1515183573|size:856|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\upravljac.vhd|io:i|time:1512825334|size:1401|exec:0
+file:D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\syntax.log|io:o|time:1515183578|size:1012|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_vhdl.exe|io:i|time:1480984558|size:2416640|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1480984808|size:3082752|exec:1

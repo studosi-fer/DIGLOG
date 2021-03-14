@@ -1,0 +1,35 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|/home/ilakovac/faks/diglog/lab3_tenk/project/impl1/synwork/lab3_tenk_impl1_comp.srs|-top|work.daljinski_upravljac|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_vhdl":1429546450
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/location.map":1429719394
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/snps_haps_pkg.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std1164.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/numeric.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/umr_capim.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/arith.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/unsigned.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/hyperents.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd":1377025208
+#CUR:"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":1449439956
+#CUR:"/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd":1449440884
+0 "/usr/local/diamond/3.5_x64/cae_library/synthesis/vhdl/xp2.vhd" vhdl
+1 "/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd" vhdl
+2 "/home/ilakovac/faks/diglog/lab3_tenk/project/tenk.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 1 
+
+# Dependency Lists (Users Of)
+0 1 
+1 2 
+2 -1
+
+# Design Unit to File Association
+config work structure_con 1
+arch work rf_modulator structure 1
+module work rf_modulator 1
+arch work daljinski_upravljac behavioral 2
+module work daljinski_upravljac 2

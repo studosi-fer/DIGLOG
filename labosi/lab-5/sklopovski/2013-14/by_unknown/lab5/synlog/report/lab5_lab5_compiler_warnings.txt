@@ -1,0 +1,4 @@
+@W: CL189 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Register bit R_cycle_div(11) is always 0, optimizing ...
+@W: CL260 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Pruning register bit 11 of R_cycle_div(11 downto 0)  
+@W: CL246 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":14:4:14:5|Input port bits 2 to 1 of sw(3 downto 0) are unused 
+

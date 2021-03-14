@@ -1,0 +1,76 @@
+Ptanja za vježbu:
+
+1.Koja je razlika izmeðu Mooreovog i Mealyjevog stroja s konaènim brojem stanja?
+	Kod Mooreovog automata sljedeæe stanje ovisi o trenutnom stanju i pobudi, dok izlazi ovise samo o trenutnom stanju. Kod Mealyevog automata
+	sljedeæe stanje ovisi u pobudi i trenutnom stanju, ali izlaz isto tako ovisi o pobudi (ulazu) i trenutnom stanju. Mealyev automat je 
+	"automat prijelaza". Kod dijagrama stanja Mooreovog automata, izlaze upisujemo u kružiæe, dok pobude upisijemo na lukove. Kod Mealyevog
+	automata izlaze upisujemo i u kružæe i na lukove, a pobude isto kao kod Mooreovog automata na lukove.
+   
+2.O èemu ovisi sljedeæe stanje Mooreovog automata?
+	O pobudi (ulazu) i trenutnom stanju.
+	
+3.O èemu ovisi izlaz Mooreovog automata?
+	O trenutnom stanju. (Jedini on ovisi samo o trenutnom stanju)
+	
+4.O èemu ovisi sljedeæe stanje Mealyjevog automata?
+	O pobudi i trenutnom stanju.
+   
+5.O èemu ovisi izlaz Mealyjevog automata?
+	O pobudi (ulazu) i o stanju automata.
+   
+6.Kako bi se promijenilo ponašanje sklopa kad bi reset prebacio brojilo u stanje '0', a ne u '1'?
+	Signal (koji se treba predati automatu da je odreðeno vrijeme proteklo) bi kasnio. Naš automat mijenja stanje na padajuæi brid; automat æe "promijeniti" signal
+	koji èuva trenutno stanje, ali novo stanje neæe biti aktivno sve do nailaska sljedeæeg aktivnog brida! Primjerice, ako æe do promijene stanja doæi nakon 8T, naš brojaè
+	æe signalizirati automatu da je prošlo 8 ciklusa (8T), ali æe novo stanje biti aktualno tek nakon nailaska sljedeæeg padajuæeg brida (znaèi nakon 9T u našem sluèaju).
+   
+   
+7.Kako bi se promijenilo ponašanje sklopa kad bi reset djelovao asinkrono?
+	Sklop automat bi ušao u petlju nakon nekog vremena i više ne bi mijenjao stanja.
+   
+   
+8. Nacrtaje strukturni model 5-bitnog sinkronog binarnog brojila izvedenog T-bistabilima.
+	Pogledaj 5. labos, sekvsklop, to je modem 5-bitnog sinkronog binarnog brojila.
+	
+9. Napišite ponašajni model 5-bitnog sinkronog binarnog brojila. Pristupite ovom problemu kao da modelirate višebitni registar s paralelnim ulazima i 
+	paralelnim izlazima, pri èemu se izlazi vode na zbrajalo koje trenutnom stanju pridodaje 1 i taj rezultat vraæa na paralelni ulaz registra. 
+	Ovo se sve može riješiti unutar jednog bloka proces i uporabom nekoliko varijabli.
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity brojac_ponasajna is
+	 port(
+	 	 reset : in std_logic;
+	 	 smjer: in std_logic; -- 1 za brojanje od 0 do 31, 0 za brojanje od 31 do 0
+		 clk : in std_logic;
+		 izlaz : out std_logic_vector(0 to 4)
+	     );
+end brojac_ponasajna;
+
+architecture brojac of brojac_ponasajna is
+begin 
+	process(clk)
+		variable qa : std_logic := '0';
+		variable qb : std_logic := '0';
+		variable qc : std_logic := '0';
+		variable qd : std_logic := '0';
+		variable qe : std_logic := '0';
+	begin
+		if reset = '1' then
+			qa := '0';
+			qb := '0';
+			qc := '0';
+			qd := '0';
+			qe := '0';
+		elsif falling_edge(clk) then
+			qa := not qa;
+			qb := qb xor qa;
+			qc := qc xor (qa and qb);
+			qd := qd xor (qa and qb and qc);
+			qe := qe xor (qa and qb and qc and qd);
+		end if;
+		
+		izlaz <= (qe xor smjer) & (qd xor smjer) & (qc xor smjer) & (qb xor smjer) & (qa xor smjer);
+	end process;
+
+end brojac;

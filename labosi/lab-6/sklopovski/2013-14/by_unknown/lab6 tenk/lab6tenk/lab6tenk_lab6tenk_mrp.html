@@ -1,0 +1,720 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>        Lattice Mapping Report File for Design Module 'tenk_toplevel'
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a LatticeXP2 -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial
+     lab6tenk_lab6tenk.ngd -o lab6tenk_lab6tenk_map.ncd -pr
+     lab6tenk_lab6tenk.prf -mp lab6tenk_lab6tenk.mrp
+     C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+Target Vendor:  LATTICE
+Target Device:  LFXP2-5ETQFP144
+Target Performance:   5
+Mapper:  mg5a00,  version:  Diamond (64-bit) 2.0.1.184
+Mapped on:  01/24/14  02:21:13
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    145
+      PFU registers:    143
+      PIO registers:    2
+   Number of SLICEs:           140 out of  2376 (6%)
+      SLICEs(logic/ROM):       140 out of  1971 (7%)
+      SLICEs(logic/ROM/RAM):     0 out of   405 (0%)
+          As RAM:            0 out of   405 (0%)
+          As Logic/ROM:      0 out of   405 (0%)
+   Number of logic LUT4s:     154
+   Number of distributed RAM:   0 (0 LUT4s)
+   Number of ripple logic:     56 (112 LUT4s)
+   Number of shift registers:   0
+   Total number of LUT4s:     266
+   Number of PIO sites used: 18 out of 100 (18%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  2
+
+     Net R_clk_divgen[23]: 20 loads, 20 rising, 0 falling (Driver: PIO clk_25m )
+     Net odasiljac.clk_pll_c: 66 loads, 66 rising, 0 falling (Driver:
+     odasiljac/PLLInst_0 )
+   Number of Clock Enables:  6
+     Net odasiljac/r_clk_acc: 4 loads, 4 LSLICEs
+     Net odasiljac/R_speed_acce: 3 loads, 3 LSLICEs
+     Net odasiljac/un1_r_clk_acc99_i: 15 loads, 15 LSLICEs
+     Net odasiljac/R_natragce: 1 loads, 1 LSLICEs
+     Net un2_r_clk_div_1_s_23_0_RNI258N: 2 loads, 2 LSLICEs
+     Net un2_r_clk_div_1_s_23_0_RNIE5FJ5: 4 loads, 4 LSLICEs
+   Number of LSRs:  2
+     Net odasiljac.R_low_high: 3 loads, 2 LSLICEs
+     Net odasiljac/r_clk_acc_iso: 5 loads, 5 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC: 81 loads
+     Net odasiljac/un3_r_clk_acc: 32 loads
+     Net sw_c[0]: 17 loads
+     Net sw_c[1]: 17 loads
+     Net led_c[2]: 15 loads
+     Net odasiljac/un1_r_clk_acc99_i: 15 loads
+     Net odasiljac.R_low_high: 14 loads
+     Net led_c[1]: 13 loads
+     Net led_c[0]: 11 loads
+     Net odasiljac/R_brzina[0]: 11 loads
+
+
+
+
+   Number of warnings:  105
+   Number of errors:    0
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (18):
+     Error in LOCATE COMP "rs232_rx" SITE "10" ;
+: COMP "rs232_rx" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (19):
+     Error in LOCATE COMP "rs232_tx" SITE "137" ;
+: COMP "rs232_tx" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (34):
+     Error in LOCATE COMP "sw_2" SITE "129" ;
+: COMP "sw_2" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (35):
+     Error in LOCATE COMP "sw_3" SITE "130" ;
+: COMP "sw_3" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (40):
+     Error in LOCATE COMP "btn_left" SITE "2" ;
+: COMP "btn_left" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (41):
+     Error in LOCATE COMP "btn_right" SITE "38" ;
+: COMP "btn_right" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (52):
+     Error in LOCATE COMP "flash_cen" SITE "13" ;
+: COMP "flash_cen" not found in design. Disabled this preference.
+
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (53):
+     Error in LOCATE COMP "flash_sck" SITE "16" ;
+: COMP "flash_sck" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (54):
+     Error in LOCATE COMP "flash_si" SITE "19" ;
+: COMP "flash_si" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (55):
+     Error in LOCATE COMP "flash_so" SITE "18" ;
+: COMP "flash_so" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (58):
+     Error in LOCATE COMP "sdcard_cen" SITE "15" ;
+: COMP "sdcard_cen" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (59):
+     Error in LOCATE COMP "sdcard_sck" SITE "20" ;
+: COMP "sdcard_sck" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (60):
+     Error in LOCATE COMP "sdcard_si" SITE "17" ;
+: COMP "sdcard_si" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (61):
+     Error in LOCATE COMP "sdcard_so" SITE "21" ;
+: COMP "sdcard_so" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (64):
+     Error in LOCATE COMP "sram_wel" SITE "93" ;
+: COMP "sram_wel" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (65):
+     Error in LOCATE COMP "sram_lbl" SITE "120" ;
+: COMP "sram_lbl" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (66):
+     Error in LOCATE COMP "sram_ubl" SITE "121" ;
+: COMP "sram_ubl" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (67):
+     Error in LOCATE COMP "sram_a_0" SITE "101" ;
+: COMP "sram_a_0" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (68):
+     Error in LOCATE COMP "sram_a_1" SITE "103" ;
+: COMP "sram_a_1" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (69):
+     Error in LOCATE COMP "sram_a_2" SITE "104" ;
+: COMP "sram_a_2" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (70):
+     Error in LOCATE COMP "sram_a_3" SITE "107" ;
+: COMP "sram_a_3" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (71):
+     Error in LOCATE COMP "sram_a_4" SITE "108" ;
+: COMP "sram_a_4" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (72):
+     Error in LOCATE COMP "sram_a_5" SITE "125" ;
+: COMP "sram_a_5" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (73):
+     Error in LOCATE COMP "sram_a_6" SITE "127" ;
+: COMP "sram_a_6" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (74):
+     Error in LOCATE COMP "sram_a_7" SITE "122" ;
+: COMP "sram_a_7" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (75):
+     Error in LOCATE COMP "sram_a_8" SITE "58" ;
+
+: COMP "sram_a_8" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (76):
+     Error in LOCATE COMP "sram_a_9" SITE "53" ;
+: COMP "sram_a_9" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (77):
+     Error in LOCATE COMP "sram_a_10" SITE "54" ;
+: COMP "sram_a_10" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (78):
+     Error in LOCATE COMP "sram_a_11" SITE "55" ;
+: COMP "sram_a_11" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (79):
+     Error in LOCATE COMP "sram_a_12" SITE "56" ;
+: COMP "sram_a_12" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (80):
+     Error in LOCATE COMP "sram_a_13" SITE "57" ;
+: COMP "sram_a_13" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (81):
+     Error in LOCATE COMP "sram_a_14" SITE "73" ;
+: COMP "sram_a_14" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (82):
+     Error in LOCATE COMP "sram_a_15" SITE "74" ;
+: COMP "sram_a_15" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (83):
+     Error in LOCATE COMP "sram_a_16" SITE "77" ;
+: COMP "sram_a_16" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (84):
+     Error in LOCATE COMP "sram_a_17" SITE "78" ;
+: COMP "sram_a_17" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (85):
+     Error in LOCATE COMP "sram_a_18" SITE "94" ;
+: COMP "sram_a_18" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (86):
+     Error in LOCATE COMP "sram_d_0" SITE "98" ;
+: COMP "sram_d_0" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (87):
+     Error in LOCATE COMP "sram_d_1" SITE "96" ;
+: COMP "sram_d_1" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (88):
+     Error in LOCATE COMP "sram_d_2" SITE "92" ;
+: COMP "sram_d_2" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (89):
+     Error in LOCATE COMP "sram_d_3" SITE "91" ;
+: COMP "sram_d_3" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (90):
+     Error in LOCATE COMP "sram_d_4" SITE "89" ;
+: COMP "sram_d_4" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (91):
+     Error in LOCATE COMP "sram_d_5" SITE "88" ;
+: COMP "sram_d_5" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (92):
+     Error in LOCATE COMP "sram_d_6" SITE "87" ;
+: COMP "sram_d_6" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (93):
+     Error in LOCATE COMP "sram_d_7" SITE "90" ;
+: COMP "sram_d_7" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (94):
+
+     Error in LOCATE COMP "sram_d_8" SITE "61" ;
+: COMP "sram_d_8" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (95):
+     Error in LOCATE COMP "sram_d_9" SITE "62" ;
+: COMP "sram_d_9" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (96):
+     Error in LOCATE COMP "sram_d_10" SITE "99" ;
+: COMP "sram_d_10" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (97):
+     Error in LOCATE COMP "sram_d_11" SITE "100" ;
+: COMP "sram_d_11" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (98):
+     Error in LOCATE COMP "sram_d_12" SITE "102" ;
+: COMP "sram_d_12" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf (99):
+     Error in LOCATE COMP "sram_d_13" SITE "113" ;
+: COMP "sram_d_13" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (100): Error in LOCATE COMP "sram_d_14" SITE "116" ;
+: COMP "sram_d_14" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (101): Error in LOCATE COMP "sram_d_15" SITE "119" ;
+: COMP "sram_d_15" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (105): Error in LOCATE COMP "j1_2" SITE "131" ;
+: COMP "j1_2" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (106): Error in LOCATE COMP "j1_3" SITE "134" ;
+: COMP "j1_3" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (107): Error in LOCATE COMP "j1_4" SITE "9" ;
+: COMP "j1_4" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (108): Error in LOCATE COMP "j1_5" SITE "138" ;
+: COMP "j1_5" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (109): Error in LOCATE COMP "j1_6" SITE "6" ;
+: COMP "j1_6" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (110): Error in LOCATE COMP "j1_7" SITE "5" ;
+: COMP "j1_7" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (111): Error in LOCATE COMP "j1_8" SITE "8" ;
+: COMP "j1_8" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (112): Error in LOCATE COMP "j1_9" SITE "7" ;
+: COMP "j1_9" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (113): Error in LOCATE COMP "j1_10" SITE "1" ;
+: COMP "j1_10" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (114): Error in LOCATE COMP "j1_11" SITE "2" ;
+: COMP "j1_11" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (115): Error in LOCATE COMP "j1_12" SITE "144" ;
+: COMP "j1_12" not found in design. Disabled this preference.
+
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (116): Error in LOCATE COMP "j1_13" SITE "143" ;
+: COMP "j1_13" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (117): Error in LOCATE COMP "j1_14" SITE "142" ;
+: COMP "j1_14" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (118): Error in LOCATE COMP "j1_15" SITE "141" ;
+: COMP "j1_15" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (119): Error in LOCATE COMP "j1_16" SITE "133" ;
+: COMP "j1_16" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (120): Error in LOCATE COMP "j1_17" SITE "132" ;
+: COMP "j1_17" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (121): Error in LOCATE COMP "j1_19" SITE "123" ;
+: COMP "j1_19" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (122): Error in LOCATE COMP "j1_18" SITE "124" ;
+: COMP "j1_18" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (123): Error in LOCATE COMP "j1_20" SITE "115" ;
+: COMP "j1_20" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (124): Error in LOCATE COMP "j1_21" SITE "114" ;
+: COMP "j1_21" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (125): Error in LOCATE COMP "j1_22" SITE "110" ;
+: COMP "j1_22" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (126): Error in LOCATE COMP "j1_23" SITE "109" ;
+: COMP "j1_23" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (131): Error in LOCATE COMP "j2_2" SITE "72" ;
+: COMP "j2_2" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (132): Error in LOCATE COMP "j2_3" SITE "71" ;
+: COMP "j2_3" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (133): Error in LOCATE COMP "j2_4" SITE "70" ;
+: COMP "j2_4" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (134): Error in LOCATE COMP "j2_5" SITE "69" ;
+: COMP "j2_5" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (135): Error in LOCATE COMP "j2_6" SITE "66" ;
+: COMP "j2_6" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (136): Error in LOCATE COMP "j2_7" SITE "65" ;
+: COMP "j2_7" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (137): Error in LOCATE COMP "j2_8" SITE "52" ;
+: COMP "j2_8" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (138): Error in LOCATE COMP "j2_9" SITE "50" ;
+
+: COMP "j2_9" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (139): Error in LOCATE COMP "j2_10" SITE "48" ;
+: COMP "j2_10" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (140): Error in LOCATE COMP "j2_11" SITE "47" ;
+: COMP "j2_11" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (141): Error in LOCATE COMP "j2_12" SITE "40" ;
+: COMP "j2_12" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (142): Error in LOCATE COMP "j2_13" SITE "39" ;
+: COMP "j2_13" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (143): Error in LOCATE COMP "j2_14" SITE "38" ;
+: COMP "j2_14" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (144): Error in LOCATE COMP "j2_15" SITE "22" ;
+: COMP "j2_15" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (145): Error in LOCATE COMP "j2_16" SITE "31" ;
+: COMP "j2_16" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (146): Error in LOCATE COMP "j2_17" SITE "29" ;
+: COMP "j2_17" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (147): Error in LOCATE COMP "j2_18" SITE "37" ;
+: COMP "j2_18" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (148): Error in LOCATE COMP "j2_19" SITE "36" ;
+: COMP "j2_19" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (149): Error in LOCATE COMP "j2_20" SITE "35" ;
+: COMP "j2_20" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (150): Error in LOCATE COMP "j2_21" SITE "32" ;
+: COMP "j2_21" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (151): Error in LOCATE COMP "j2_22" SITE "27" ;
+: COMP "j2_22" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (152): Error in LOCATE COMP "j2_23" SITE "28" ;
+: COMP "j2_23" not found in design. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (165): Error in IOBUF PORT "sw_2" PULLMODE=DOWN ;
+: Port "sw_2" does not exist in the design.. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (166): Error in IOBUF PORT "sw_3" PULLMODE=DOWN ;
+: Port "sw_3" does not exist in the design.. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (169): Error in IOBUF PORT "btn_left" PULLMODE=DOWN ;
+: Port "btn_left" does not exist in the design.. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (170): Error in IOBUF PORT "btn_right" PULLMODE=DOWN ;
+: Port "btn_right" does not exist in the design.. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+
+     (171): Error in IOBUF PORT "btn_center" PULLMODE=DOWN ;
+: Port "btn_center" does not exist in the design.. Disabled this preference.
+WARNING: C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf
+     (174): Error in IOBUF PORT "sdcard_so" PULLMODE=UP ;
+: Port "sdcard_so" does not exist in the design.. Disabled this preference.
+WARNING: Preference parsing results:  102 semantic errors detected
+WARNING: There are errors in the preference file,
+     "C:/Users/dr.Chernobyl/Desktop/lab6 tenk/lab6tenk/source/ulx2s.lpf".
+WARNING: IO buffer missing for top level port btn_center...logic will be
+     discarded.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| led[0]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| clk_25m             | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_ring              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[3]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[2]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[1]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[0]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[7]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[5]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[3]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[2]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[1]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_down            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_up              | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[1]               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[0]               | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+
+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_3_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_3_0_S0 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_5_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_5_0_S0 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_7_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_7_0_S0 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_9_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_9_0_S0 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_13_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_13_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_17_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_19_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_cry_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_1_s_23_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_s_23_0_COUT undriven or does not drive anything -
+     clipped.
+Signal un2_r_clk_div_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_cry_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal automat/R_stanje_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal automat/R_stanje_cry_0_COUT[5] undriven or does not drive anything -
+     clipped.
+Signal odasiljac/R_speed_acc_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal odasiljac/R_speed_acc_cry_0_COUT[3] undriven or does not drive anything -
+     clipped.
+Signal odasiljac/r_fm_acc_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal odasiljac/r_fm_acc_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal odasiljac/r_fm_acc_s_27_0_S1 undriven or does not drive anything -
+
+     clipped.
+Signal odasiljac/r_fm_acc_s_27_0_COUT undriven or does not drive anything -
+     clipped.
+Signal odasiljac/un93_r_clk_acc_1_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal odasiljac/un93_r_clk_acc_1_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal odasiljac/un93_r_clk_acc_1_s_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal odasiljac/un93_r_clk_acc_1_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal odasiljac/CLKINTFB undriven or does not drive anything - clipped.
+Signal odasiljac/LOCK undriven or does not drive anything - clipped.
+Signal odasiljac/CLKOK undriven or does not drive anything - clipped.
+Signal odasiljac/CLKOS undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un2_r_clk_div_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                odasiljac/PLLInst_0
+  PLL Type:                                         EPLLD
+  Input Clock:                             PIN      R_clk_divgen[23]
+  Output Clock(P):                         NODE     odasiljac.clk_pll_c
+  Output Clock(S):                                  NONE
+  Output Clock(K):                                  NONE
+  PLL Feedback Signal:                     NODE     odasiljac.clk_pll_c
+  PLL Reset Signal:                                 NONE
+  PLL K Divider Reset Signal:                       NONE
+  PLL LOCK Signal:                                  NONE
+  Dynamic Phase Adjust Input 0:                     NONE
+  Dynamic Phase Adjust Input 1:                     NONE
+  Dynamic Phase Adjust Input 2:                     NONE
+  Dynamic Phase Adjust Input 3:                     NONE
+  Dynamic Duty Adjust Input 0:                      NONE
+  Dynamic Duty Adjust Input 1:                      NONE
+  Dynamic Duty Adjust Input 2:                      NONE
+  Dynamic Duty Adjust Input 3:                      NONE
+  Input Clock Frequency (MHz):                      25.0000
+  Output Clock(P) Frequency (MHz):                  200.0000
+  Output Clock(K) Frequency (MHz):                  NA
+  Output Clock(P) Actual Frequency:                 200.0000
+  CLKOP BYPASS:                                     DISABLED
+  CLKOS BYPASS:                                     DISABLED
+  CLKOK BYPASS:                                     DISABLED
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    8
+  CLKOP Divider:                                    4
+  CLKOK Divider:                                    2
+  CLKOS Phase Shift (degree):                       0.0
+  CLKOS Duty Cycle (*1/16):                         8
+  Phase_Duty Control:                               STATIC
+  FB_MODE:                                          NONE
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: odasiljac/PLLInst_0
+         Type: EPLLD
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 57 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2012 Lattice Semiconductor
+     Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1176R, built Apr 20 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Mon Oct 26 00:23:07 2015
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "lego_upravljac"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                      Requested     Requested     Clock        Clock                
+Clock                      Frequency     Period        Type         Group                
+-----------------------------------------------------------------------------------------
+System                     1.0 MHz       1000.000      system       system_clkgroup      
+lego_upravljac|clk_25m     225.7 MHz     4.430         inferred     Autoconstr_clkgroup_0
+=========================================================================================

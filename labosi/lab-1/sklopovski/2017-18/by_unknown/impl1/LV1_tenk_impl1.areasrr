@@ -1,0 +1,46 @@
+----------------------------------------------------------------------
+Report for cell tenk_upravljac.verilog
+
+Register bits: 121 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        9       100.0
+                               AND3        1       100.0
+                              CCU2B       32       100.0
+                             EPLLD1        1       100.0
+                            FD1P3AX       42       100.0
+                            FD1S3AX       57       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB       10       100.0
+                           IFS1P3DX        1       100.0
+                                INV        3       100.0
+                                 OB       13       100.0
+                           ORCALUT4      192       100.0
+                              PFUMX        2       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                       rf_modulator        1       100.0
+                            
+                         TOTAL           391           
+----------------------------------------------------------------------
+Report for cell rf_modulator.netlist
+     Instance path:  I12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       32       100.0
+                             EPLLD1        1       100.0
+                            FD1P3AX       42       100.0
+                            FD1S3AX       57       100.0
+                            FD1S3IX       21       100.0
+                                INV        2        66.7
+                           ORCALUT4      188        97.9
+                              PFUMX        2       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL           347           

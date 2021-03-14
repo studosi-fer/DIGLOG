@@ -1,0 +1,11 @@
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_hdl_info_gen.srs  -top  sviraj  -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\dm  -lite -ll 2000 -compiler_compatible  -ui -fid2 -ram -sharing on  -autosm -ignore_undefined_lib  -lib work C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\enkoder.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd -lib work C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd -loga  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.srf  -fileorder  C:\Users\dr.Chernobyl\Desktop\lab3\lab3\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\synwork\lab3_lab3_hdl_info_gen.srs|o|0|0
+C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd|i|1340163864|150376
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\enkoder.vhd|i|1386113281|943
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\sviraj.vhd|i|1386125796|1862
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\tonegen.vhd|i|1386105198|9647
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\source\fmgen.vhd|i|1386105038|6612
+C:\Users\dr.Chernobyl\Desktop\lab3\lab3\lab3_lab3.srf|o|1386125796|937
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe|i|1337328578|5310976
+C:\lscc\diamond\2.0\synpbase\bin\c_vhdl.exe|i|1337328574|1862144

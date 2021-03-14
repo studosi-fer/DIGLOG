@@ -1,0 +1,655 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+        Lattice Mapping Report File for Design Module 'lego_upravljac'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a LatticeXP2 -p LFXP2-8E -t TQFP144 -s 5 -oc Commercial
+     lego_lego.ngd -o lego_lego_map.ncd -pr lego_lego.prf -mp lego_lego.mrp -lpf
+     /home/dafta/Desktop/FER_DL_LABOS/lego/lego_lego_synplify.lpf -lpf
+     /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf -gui 
+Target Vendor:  LATTICE
+Target Device:  LFXP2-8ETQFP144
+Target Performance:   5
+Mapper:  mg5a00,  version:  Diamond (64-bit) 3.5.0.102
+Mapped on:  10/26/15  00:23:12
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     69 out of  6564 (1%)
+      PFU registers:           69 out of  6264 (1%)
+      PIO registers:            0 out of   300 (0%)
+   Number of SLICEs:        57 out of  4176 (1%)
+      SLICEs as Logic/ROM:     57 out of  4176 (1%)
+      SLICEs as RAM:            0 out of   756 (0%)
+      SLICEs as Carry:         27 out of  4176 (1%)
+   Number of LUT4s:        105 out of  8352 (1%)
+      Number of logic LUTs:       51
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:     27 (54 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 20 out of 100 (20%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 12 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 32 (0 %)
+   Number of clocks:  1
+
+     Net clk_25m_c: 40 loads, 40 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  3
+     Net I9/un5_r_irfreq_acc: 9 loads, 9 LSLICEs
+     Net I9/R_phase_1_sqmuxa: 1 loads, 1 LSLICEs
+     Net I9/R_phase_1_sqmuxa_1: 11 loads, 11 LSLICEs
+   Number of LSRs:  2
+     Net I9/R_delay_acc_1_iso: 7 loads, 7 LSLICEs
+     Net I9/ir4_i: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net I9/VCC: 41 loads
+     Net I9/un25_r_irfreq_acc_2: 17 loads
+     Net I9/un25_r_irfreq_acc_0: 14 loads
+     Net I9/un5_r_irfreq_acc: 13 loads
+     Net I9/R_phase_1_sqmuxa_1: 11 loads
+     Net I9/R_phase[0]: 9 loads
+     Net I9/un1_irfreq_acc_next_axb_23: 9 loads
+     Net I9/R_irfreq_acc[23]: 8 loads
+     Net I9/R_phase[1]: 8 loads
+     Net I9/R_phase[4]: 8 loads
+
+
+
+
+   Number of warnings:  107
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(18): Semantic error in
+     "LOCATE COMP "rs232_rx" SITE "10" ;": COMP "rs232_rx" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(19): Semantic error in
+     "LOCATE COMP "rs232_tx" SITE "137" ;": COMP "rs232_tx" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(34): Semantic error in
+     "LOCATE COMP "sw_2" SITE "129" ;": COMP "sw_2" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(35): Semantic error in
+     "LOCATE COMP "sw_3" SITE "130" ;": COMP "sw_3" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(42): Semantic error in
+     "LOCATE COMP "btn_center" SITE "22" ;": COMP "btn_center" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(52): Semantic error in
+     "LOCATE COMP "flash_cen" SITE "13" ;": COMP "flash_cen" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(53): Semantic error in
+     "LOCATE COMP "flash_sck" SITE "16" ;": COMP "flash_sck" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(54): Semantic error in
+     "LOCATE COMP "flash_si" SITE "19" ;": COMP "flash_si" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(55): Semantic error in
+
+     "LOCATE COMP "flash_so" SITE "18" ;": COMP "flash_so" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(58): Semantic error in
+     "LOCATE COMP "sdcard_cen" SITE "15" ;": COMP "sdcard_cen" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(59): Semantic error in
+     "LOCATE COMP "sdcard_sck" SITE "20" ;": COMP "sdcard_sck" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(60): Semantic error in
+     "LOCATE COMP "sdcard_si" SITE "17" ;": COMP "sdcard_si" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(61): Semantic error in
+     "LOCATE COMP "sdcard_so" SITE "21" ;": COMP "sdcard_so" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(64): Semantic error in
+     "LOCATE COMP "sram_wel" SITE "93" ;": COMP "sram_wel" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(65): Semantic error in
+     "LOCATE COMP "sram_lbl" SITE "120" ;": COMP "sram_lbl" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(66): Semantic error in
+     "LOCATE COMP "sram_ubl" SITE "121" ;": COMP "sram_ubl" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(67): Semantic error in
+     "LOCATE COMP "sram_a_0" SITE "101" ;": COMP "sram_a_0" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(68): Semantic error in
+     "LOCATE COMP "sram_a_1" SITE "103" ;": COMP "sram_a_1" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(69): Semantic error in
+     "LOCATE COMP "sram_a_2" SITE "104" ;": COMP "sram_a_2" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(70): Semantic error in
+     "LOCATE COMP "sram_a_3" SITE "107" ;": COMP "sram_a_3" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(71): Semantic error in
+     "LOCATE COMP "sram_a_4" SITE "108" ;": COMP "sram_a_4" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(72): Semantic error in
+     "LOCATE COMP "sram_a_5" SITE "125" ;": COMP "sram_a_5" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(73): Semantic error in
+     "LOCATE COMP "sram_a_6" SITE "127" ;": COMP "sram_a_6" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(74): Semantic error in
+     "LOCATE COMP "sram_a_7" SITE "122" ;": COMP "sram_a_7" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(75): Semantic error in
+     "LOCATE COMP "sram_a_8" SITE "58" ;": COMP "sram_a_8" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(76): Semantic error in
+     "LOCATE COMP "sram_a_9" SITE "53" ;": COMP "sram_a_9" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(77): Semantic error in
+     "LOCATE COMP "sram_a_10" SITE "54" ;": COMP "sram_a_10" cannot be found in
+     design. This preference has been disabled.
+
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(78): Semantic error in
+     "LOCATE COMP "sram_a_11" SITE "55" ;": COMP "sram_a_11" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(79): Semantic error in
+     "LOCATE COMP "sram_a_12" SITE "56" ;": COMP "sram_a_12" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(80): Semantic error in
+     "LOCATE COMP "sram_a_13" SITE "57" ;": COMP "sram_a_13" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(81): Semantic error in
+     "LOCATE COMP "sram_a_14" SITE "73" ;": COMP "sram_a_14" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(82): Semantic error in
+     "LOCATE COMP "sram_a_15" SITE "74" ;": COMP "sram_a_15" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(83): Semantic error in
+     "LOCATE COMP "sram_a_16" SITE "77" ;": COMP "sram_a_16" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(84): Semantic error in
+     "LOCATE COMP "sram_a_17" SITE "78" ;": COMP "sram_a_17" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(85): Semantic error in
+     "LOCATE COMP "sram_a_18" SITE "94" ;": COMP "sram_a_18" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(86): Semantic error in
+     "LOCATE COMP "sram_d_0" SITE "98" ;": COMP "sram_d_0" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(87): Semantic error in
+     "LOCATE COMP "sram_d_1" SITE "96" ;": COMP "sram_d_1" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(88): Semantic error in
+     "LOCATE COMP "sram_d_2" SITE "92" ;": COMP "sram_d_2" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(89): Semantic error in
+     "LOCATE COMP "sram_d_3" SITE "91" ;": COMP "sram_d_3" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(90): Semantic error in
+     "LOCATE COMP "sram_d_4" SITE "89" ;": COMP "sram_d_4" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(91): Semantic error in
+     "LOCATE COMP "sram_d_5" SITE "88" ;": COMP "sram_d_5" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(92): Semantic error in
+     "LOCATE COMP "sram_d_6" SITE "87" ;": COMP "sram_d_6" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(93): Semantic error in
+     "LOCATE COMP "sram_d_7" SITE "90" ;": COMP "sram_d_7" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(94): Semantic error in
+     "LOCATE COMP "sram_d_8" SITE "61" ;": COMP "sram_d_8" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(95): Semantic error in
+     "LOCATE COMP "sram_d_9" SITE "62" ;": COMP "sram_d_9" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(96): Semantic error in
+     "LOCATE COMP "sram_d_10" SITE "99" ;": COMP "sram_d_10" cannot be found in
+
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(97): Semantic error in
+     "LOCATE COMP "sram_d_11" SITE "100" ;": COMP "sram_d_11" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(98): Semantic error in
+     "LOCATE COMP "sram_d_12" SITE "102" ;": COMP "sram_d_12" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(99): Semantic error in
+     "LOCATE COMP "sram_d_13" SITE "113" ;": COMP "sram_d_13" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(100): Semantic error
+     in "LOCATE COMP "sram_d_14" SITE "116" ;": COMP "sram_d_14" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(101): Semantic error
+     in "LOCATE COMP "sram_d_15" SITE "119" ;": COMP "sram_d_15" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(105): Semantic error
+     in "LOCATE COMP "j1_2" SITE "131" ;": COMP "j1_2" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(106): Semantic error
+     in "LOCATE COMP "j1_3" SITE "134" ;": COMP "j1_3" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(107): Semantic error
+     in "LOCATE COMP "j1_4" SITE "9" ;": COMP "j1_4" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(108): Semantic error
+     in "LOCATE COMP "j1_5" SITE "138" ;": COMP "j1_5" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(109): Semantic error
+     in "LOCATE COMP "j1_6" SITE "6" ;": COMP "j1_6" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(110): Semantic error
+     in "LOCATE COMP "j1_7" SITE "5" ;": COMP "j1_7" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(111): Semantic error
+     in "LOCATE COMP "j1_8" SITE "8" ;": COMP "j1_8" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(112): Semantic error
+     in "LOCATE COMP "j1_9" SITE "7" ;": COMP "j1_9" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(113): Semantic error
+     in "LOCATE COMP "j1_10" SITE "1" ;": COMP "j1_10" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(114): Semantic error
+     in "LOCATE COMP "j1_11" SITE "2" ;": COMP "j1_11" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(115): Semantic error
+     in "LOCATE COMP "j1_12" SITE "144" ;": COMP "j1_12" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(116): Semantic error
+     in "LOCATE COMP "j1_13" SITE "143" ;": COMP "j1_13" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(117): Semantic error
+     in "LOCATE COMP "j1_14" SITE "142" ;": COMP "j1_14" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(118): Semantic error
+
+     in "LOCATE COMP "j1_15" SITE "141" ;": COMP "j1_15" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(119): Semantic error
+     in "LOCATE COMP "j1_16" SITE "133" ;": COMP "j1_16" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(120): Semantic error
+     in "LOCATE COMP "j1_17" SITE "132" ;": COMP "j1_17" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(121): Semantic error
+     in "LOCATE COMP "j1_19" SITE "123" ;": COMP "j1_19" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(122): Semantic error
+     in "LOCATE COMP "j1_18" SITE "124" ;": COMP "j1_18" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(123): Semantic error
+     in "LOCATE COMP "j1_20" SITE "115" ;": COMP "j1_20" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(124): Semantic error
+     in "LOCATE COMP "j1_21" SITE "114" ;": COMP "j1_21" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(125): Semantic error
+     in "LOCATE COMP "j1_22" SITE "110" ;": COMP "j1_22" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(126): Semantic error
+     in "LOCATE COMP "j1_23" SITE "109" ;": COMP "j1_23" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(131): Semantic error
+     in "LOCATE COMP "j2_2" SITE "72" ;": COMP "j2_2" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(132): Semantic error
+     in "LOCATE COMP "j2_3" SITE "71" ;": COMP "j2_3" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(133): Semantic error
+     in "LOCATE COMP "j2_4" SITE "70" ;": COMP "j2_4" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(134): Semantic error
+     in "LOCATE COMP "j2_5" SITE "69" ;": COMP "j2_5" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(135): Semantic error
+     in "LOCATE COMP "j2_6" SITE "66" ;": COMP "j2_6" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(136): Semantic error
+     in "LOCATE COMP "j2_7" SITE "65" ;": COMP "j2_7" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(137): Semantic error
+     in "LOCATE COMP "j2_8" SITE "52" ;": COMP "j2_8" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(138): Semantic error
+     in "LOCATE COMP "j2_9" SITE "50" ;": COMP "j2_9" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(139): Semantic error
+     in "LOCATE COMP "j2_10" SITE "48" ;": COMP "j2_10" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(140): Semantic error
+     in "LOCATE COMP "j2_11" SITE "47" ;": COMP "j2_11" cannot be found in
+     design. This preference has been disabled.
+
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(141): Semantic error
+     in "LOCATE COMP "j2_12" SITE "40" ;": COMP "j2_12" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(142): Semantic error
+     in "LOCATE COMP "j2_13" SITE "39" ;": COMP "j2_13" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(143): Semantic error
+     in "LOCATE COMP "j2_14" SITE "38" ;": COMP "j2_14" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(144): Semantic error
+     in "LOCATE COMP "j2_15" SITE "22" ;": COMP "j2_15" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(145): Semantic error
+     in "LOCATE COMP "j2_16" SITE "31" ;": COMP "j2_16" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(146): Semantic error
+     in "LOCATE COMP "j2_17" SITE "29" ;": COMP "j2_17" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(147): Semantic error
+     in "LOCATE COMP "j2_18" SITE "37" ;": COMP "j2_18" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(148): Semantic error
+     in "LOCATE COMP "j2_19" SITE "36" ;": COMP "j2_19" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(149): Semantic error
+     in "LOCATE COMP "j2_20" SITE "35" ;": COMP "j2_20" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(150): Semantic error
+     in "LOCATE COMP "j2_21" SITE "32" ;": COMP "j2_21" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(151): Semantic error
+     in "LOCATE COMP "j2_22" SITE "27" ;": COMP "j2_22" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(152): Semantic error
+     in "LOCATE COMP "j2_23" SITE "28" ;": COMP "j2_23" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(158): Semantic error
+     in "LOCATE COMP "lcd_data_0" SITE "8" ;": COMP "lcd_data_0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(159): Semantic error
+     in "LOCATE COMP "lcd_data_1" SITE "9" ;": COMP "lcd_data_1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(160): Semantic error
+     in "LOCATE COMP "lcd_data_2" SITE "134" ;": COMP "lcd_data_2" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(161): Semantic error
+     in "LOCATE COMP "lcd_data_3" SITE "131" ;": COMP "lcd_data_3" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(162): Semantic error
+     in "LOCATE COMP "lcd_rs" SITE "143" ;": COMP "lcd_rs" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(163): Semantic error
+     in "LOCATE COMP "lcd_e" SITE "7" ;": COMP "lcd_e" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(175): Semantic error
+     in "IOBUF PORT "sw_2" PULLMODE=DOWN ;": Port "sw_2" does not exist in the
+
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(176): Semantic error
+     in "IOBUF PORT "sw_3" PULLMODE=DOWN ;": Port "sw_3" does not exist in the
+     design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(181): Semantic error
+     in "IOBUF PORT "btn_center" PULLMODE=DOWN ;": Port "btn_center" does not
+     exist in the design. This preference has been disabled.
+WARNING - map: /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf(184): Semantic error
+     in "IOBUF PORT "sdcard_so" PULLMODE=UP ;": Port "sdcard_so" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: Preference parsing results:  105 semantic errors detected.
+WARNING - map: There are semantic errors in the preference file
+     /home/dafta/Desktop/FER_DL_LABOS/ulx2s.lpf.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| led[3]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_down            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[1]               | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| sw[0]               | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| clk_25m             | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_up              | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_right           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| btn_left            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_ring              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[0]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[3]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[2]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| p_tip[1]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[7]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[5]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[0]              | OUTPUT    | LVCMOS33  |            |            |
+
++---------------------+-----------+-----------+------------+------------+
+| led[2]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| led[1]              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal I9/un2_r_delay_acc_s_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un2_r_delay_acc_s_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal I9/un1_irfreq_acc_next_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un1_irfreq_acc_next_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/N_2 undriven or does not drive anything - clipped.
+Signal I9/un1_irfreq_acc_next_s_23_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un1_irfreq_acc_next_s_23_0_COUT undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/N_3 undriven or does not drive anything - clipped.
+Signal I9/un8_r_irfreq_acc_0_I_39_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_39_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_45_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/un8_r_irfreq_acc_0_I_45_0_COUT undriven or does not drive anything -
+     clipped.
+Signal I9/un2_r_delay_acc_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I9/un2_r_delay_acc_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I9/N_1 undriven or does not drive anything - clipped.
+
+
+
+
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 198 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

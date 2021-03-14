@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY MUX_STABLO IS PORT (
+
+	A,B,C,D: IN Std_Logic;
+	Fn: OUT Std_Logic ) ;
+	
+END MUX_STABLO;
+
+ARCHITECTURE arch OF MUX_STABLO IS 
+
+	COMPONENT mux161 IS PORT(
+	D: IN Std_Logic_Vector (0 to 15);
+	S: IN Std_Logic_Vector (0 to 3);
+	E: IN Std_Logic;
+	f: OUT Std_Logic);
+	END COMPONENT;
+
+signal j: Std_Logic_Vector (0 to 3);
+BEGIN
+j <= (D,C,B,A);
+x: mux161 PORT MAP (D=>"0011110111100110", S=>j,E=>'1',f=>Fn);
+
+END arch;

@@ -1,0 +1,11 @@
+C:\lscc\diamond\2.0\synpbase\bin64\m_gen_lattice.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  C:\Users\dr.Chernobyl\Desktop\lab5\lab5  -part LFXP2_5E  -package TN144C  -grade -5   -maxfan 100     -forcenogsr -fixgatedclocks 3 -fixgeneratedclocks 3  -use_rename_in_edif 1 -auto_constrain_io   -resolveMultipleDriver -summaryfile C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synlog\report\lab5_lab5_fpga_mapper.xml -top_level_module  work.afsk_modem  -flow mapping  -ta_num_paths 3  -ta_num_points 0  -oedif  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.edi  -freq 200.000  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synwork\lab5_lab5_premap.srd  -devicelib  C:\lscc\diamond\2.0\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\2.0\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\syntmp\lab5_lab5.plg  -noforwanno -osyn  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.srm  -prjdir  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\  -prjname  proj_1  -log  C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synlog\lab5_lab5_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.edi|o|1389932354|167062
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synwork\lab5_lab5_premap.srd|i|1389932353|9349
+C:\lscc\diamond\2.0\synpbase\lib\lucent\xp2.v|i|1311936516|86834
+C:\lscc\diamond\2.0\synpbase\lib\lucent\pmi_def.v|i|1337328648|40586
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\syntmp\lab5_lab5.plg|o|1389932354|1240
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.srm|o|1389932354|184848
+C:\Users\dr.Chernobyl\Desktop\lab5\lab5\synlog\lab5_lab5_fpga_mapper.srr|o|1389932354|13610
+C:\lscc\diamond\2.0\synpbase\bin64\m_gen_lattice.exe|i|1342426126|24331264
+C:\lscc\diamond\2.0\synpbase\bin\m_gen_lattice.exe|i|1342426098|20950528

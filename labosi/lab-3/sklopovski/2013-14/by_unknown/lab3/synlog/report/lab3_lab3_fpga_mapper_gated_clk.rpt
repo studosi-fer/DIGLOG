@@ -1,0 +1,39 @@
+
+================= Gated clock report =================
+
+
+The following instances have NOT been converted
+Seq Inst             Instance Port     Clock                         Reason for not converting                               
+-----------------------------------------------------------------------------------------------------------------------------
+fmgen.fm_acc[27]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[26]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[25]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[24]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[23]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[22]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[21]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[20]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[19]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[18]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[17]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[16]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[15]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[14]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[13]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[12]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[11]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[10]     CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[9]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[8]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[7]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[6]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[5]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[4]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[3]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[2]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[1]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+fmgen.fm_acc[0]      CK                fmgen.I_PLL_250m.clk_250m     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+=============================================================================================================================
+
+================= End gated clock report =================
+

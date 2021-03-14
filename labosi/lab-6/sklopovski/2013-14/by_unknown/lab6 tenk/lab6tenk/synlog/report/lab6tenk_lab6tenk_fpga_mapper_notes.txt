@@ -1,0 +1,17 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+@N: MF203 |Set autoconstraint_io 
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":46:15:46:22|ROM rom_out[15:8] mapped in logic.
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":46:15:46:22|ROM rom_out[15:8] mapped in logic.
+@N: MO106 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":46:15:46:22|Found ROM, 'rom_out[15:8]', 128 words by 8 bits 
+@N: FX404 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":219:4:219:5|Found addmux in view:work.rf_modulator(structure) inst fwd_rev[4:0] from un1_R_brzina_3[4:0] 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_desno in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_natrag in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_skretanje in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_brzina[2] in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":234:4:234:23|Instance "odasiljac.r_clk_acc" with 20 loads replicated 1 times to improve timing 
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.

@@ -1,0 +1,3 @@
+@W: CD638 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\serial_tx.vhd":54:11:54:20|Signal r_baudrate is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\slova.vhd":10:1:10:2|Input port bits 3 to 1 of sw(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+

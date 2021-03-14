@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":6:7:6:13|Top entity is set to lego_ir.
+@N|Running in 64-bit mode
+@N: CG364 :"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":1093:7:1093:9|Synthesizing module OR2
+@N: CG364 :"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":970:7:970:8|Synthesizing module OB
+@N: CG364 :"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":3:7:3:20|Synthesizing module lego_upravljac
+@N: CG794 :"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":22:8:22:9|Using module lego_ir from library work
+@N: CD720 :"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":6:7:6:13|Top entity is set to lego_ir.
+@N: CD630 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":6:7:6:13|Synthesizing work.lego_ir.arch 
+@N|Running in 64-bit mode
+

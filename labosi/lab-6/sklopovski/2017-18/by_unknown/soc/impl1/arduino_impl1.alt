@@ -1,0 +1,62 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun Jan 14 01:08:32 2018 *
+NOTE DESIGN NAME: arduino *
+NOTE DEVICE NAME: LFXP2-5E-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS j1_2 : 131 : inout *
+NOTE PINS rs232_tx : 137 : out *
+NOTE PINS clk_25m : 30 : in *
+NOTE PINS p_ring : 44 : out *
+NOTE PINS p_tip[3] : 43 : out *
+NOTE PINS p_tip[2] : 28 : out *
+NOTE PINS p_tip[1] : 27 : out *
+NOTE PINS p_tip[0] : 32 : out *
+NOTE PINS sw[3] : 130 : in *
+NOTE PINS sw[2] : 129 : in *
+NOTE PINS sw[1] : 46 : in *
+NOTE PINS sw[0] : 45 : in *
+NOTE PINS btn_center : 22 : in *
+NOTE PINS btn_down : 1 : in *
+NOTE PINS btn_up : 11 : in *
+NOTE PINS btn_right : 38 : in *
+NOTE PINS btn_left : 2 : in *
+NOTE PINS led[7] : 138 : out *
+NOTE PINS led[6] : 6 : out *
+NOTE PINS led[5] : 5 : out *
+NOTE PINS led[4] : 144 : out *
+NOTE PINS led[3] : 35 : out *
+NOTE PINS led[2] : 36 : out *
+NOTE PINS led[1] : 37 : out *
+NOTE PINS led[0] : 29 : out *
+NOTE PINS j2_16 : 31 : in *
+NOTE PINS j2_13 : 39 : in *
+NOTE PINS j2_12 : 40 : in *
+NOTE PINS j2_11 : 47 : in *
+NOTE PINS j2_10 : 48 : in *
+NOTE PINS j2_9 : 50 : in *
+NOTE PINS j2_8 : 52 : in *
+NOTE PINS j2_7 : 65 : in *
+NOTE PINS j2_6 : 66 : in *
+NOTE PINS j2_5 : 69 : in *
+NOTE PINS j2_4 : 70 : in *
+NOTE PINS j2_3 : 71 : in *
+NOTE PINS j2_2 : 72 : in *
+NOTE PINS j1_23 : 109 : in *
+NOTE PINS j1_22 : 110 : in *
+NOTE PINS j1_21 : 114 : in *
+NOTE PINS j1_20 : 115 : in *
+NOTE PINS j1_19 : 123 : in *
+NOTE PINS j1_18 : 124 : in *
+NOTE PINS j1_17 : 132 : in *
+NOTE PINS j1_16 : 133 : in *
+NOTE PINS j1_15 : 141 : inout *
+NOTE PINS j1_14 : 142 : inout *
+NOTE PINS j1_13 : 143 : inout *
+NOTE PINS j1_9 : 7 : inout *
+NOTE PINS j1_8 : 8 : inout *
+NOTE PINS j1_4 : 9 : inout *
+NOTE PINS j1_3 : 134 : inout *
+NOTE PINS rs232_rx : 10 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

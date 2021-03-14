@@ -1,0 +1,9 @@
+#Start recording tcl command: 12/3/2017 20:29:05
+#Project Location: D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil; Project name: Bistabil
+prj_project new -name "Bistabil" -impl "impl1" -dev LFXP2-5E-5TN144C -synthesis "synplify"
+file copy -force -- "D:/Ivan/Faks/1. Semestar/DigLog/LV3/pogodi_bistabil.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil/impl1/source"
+prj_src add "D:/Ivan/Faks/1. Semestar/DigLog/LV3/Bistabil/impl1/source/pogodi_bistabil.vhd"
+prj_project save
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 12/3/2017 20:50:24

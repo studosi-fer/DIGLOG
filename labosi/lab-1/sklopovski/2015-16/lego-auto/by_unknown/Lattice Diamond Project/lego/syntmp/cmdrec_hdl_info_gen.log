@@ -1,0 +1,8 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl  -osyn  /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_hdl_.srs  -top  lego_upravljac  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  /home/dafta/Desktop/FER_DL_LABOS/lego/dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work /home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd  -log  /home/dafta/Desktop/FER_DL_LABOS/lego/syntax.log  -fileorder  /home/dafta/Desktop/FER_DL_LABOS/lego/syntmp/hdlorder.tcl 
+rc:0 success:1
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_hdl_.srs|o|0|0
+/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd|i|1445813528|2136
+/home/dafta/Desktop/FER_DL_LABOS/lego/syntax.log|o|1445815384|858
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_vhdl|i|1429546450|6596528
+/usr/local/diamond/3.5_x64/synpbase/linux/c_vhdl|i|1429546502|4088948
+/usr/local/diamond/3.5_x64/synpbase/bin/c_vhdl|i|1429546083|365

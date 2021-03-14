@@ -1,0 +1,2 @@
+@E: CD358 :"D:\Ivan\Faks\1. Semestar\DigLog\LV3\Slova\impl1\source\slova.vhd":20:16:20:26|No architecture is available for entity brojke
+

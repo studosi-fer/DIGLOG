@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd":5:7:5:9|Top entity is set to sem.
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd":5:7:5:9|Synthesizing work.sem.struct 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 semafor\sem_automat.vhd":5:7:5:17|Synthesizing work.sem_automat.mix_moore_mealy 
+

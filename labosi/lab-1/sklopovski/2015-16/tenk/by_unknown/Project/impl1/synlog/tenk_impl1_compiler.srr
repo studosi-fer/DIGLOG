@@ -1,0 +1,123 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 70MB)
+
+# Mon Oct 26 00:29:55 2015
+
+###########################################################]
+Synopsys Verilog Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v"
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+# Mon Oct 26 00:29:55 2015
+
+###########################################################]
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.5_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v"
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV
+
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2
+
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":153:8:153:11|Synthesizing module AND3
+
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":970:7:970:8|Synthesizing module OB
+
+@N: CG364 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":3:7:3:20|Synthesizing module tenk_upravljac
+
+@N: CG794 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":54:13:54:15|Using module rf_modulator from library work
+@W: CG781 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":54:13:54:15|Undriven input top_granata on instance I12, tying to 0
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+# Mon Oct 26 00:29:55 2015
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure 
+@W: CG296 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":225:4:225:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":229:10:229:21|Referenced variable ignition_key is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":229:50:229:65|Referenced variable machinegun_sound is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":229:31:229:41|Referenced variable gun_fire_bb is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":228:62:228:70|Referenced variable gun_sound is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":228:46:228:53|Referenced variable gun_elev is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":230:19:230:27|Referenced variable gun_right is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":228:31:228:38|Referenced variable gun_left is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":231:45:231:60|Referenced variable drive_left_right is not in sensitivity list
+@W: CG290 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":230:35:230:47|Referenced variable drive_fwd_rev is not in sensitivity list
+@W: CD638 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":133:20:133:21|Signal fm is undriven 
+Post processing for work.rf_modulator.structure
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(21) is always 1, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(22) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(23) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(24) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(25) is always 1, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(26) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Register bit R_fm_inc(27) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":233:4:233:5|Register bit R_outw(0) is always 1, optimizing ...
+@W: CL260 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":233:4:233:5|Pruning register bit 0 of R_outw(31 downto 0)  
+@W: CL279 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Pruning register bits 27 to 21 of R_fm_inc(27 downto 0)  
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":233:4:233:5|Register bit R_brzina(3) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":233:4:233:5|Register bit R_outw(1) is always 1, optimizing ...
+@W: CL260 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":233:4:233:5|Pruning register bit 1 of R_outw(31 downto 1)  
+@W: CL260 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":233:4:233:5|Pruning register bit 3 of R_brzina(3 downto 0)  
+@W: CL260 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":349:1:349:2|Pruning register bit 19 of R_fm_inc(20 downto 0)  
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 78MB)
+
+# Mon Oct 26 00:29:56 2015
+
+###########################################################]
+Inconsistency encountered while reading the file dependency file: C:\Users\Tomi\Desktop\tenk\impl1\synwork\layer1.fdep; problem reading the design unit mappings
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+@W: Z198 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":149:4:149:12|Unbound component EPLLD1 of instance PLLInst_0 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Users\Tomi\Desktop\tenk\impl1\synwork\tenk_impl1_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 26 00:29:56 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 26 00:29:56 2015
+
+###########################################################]

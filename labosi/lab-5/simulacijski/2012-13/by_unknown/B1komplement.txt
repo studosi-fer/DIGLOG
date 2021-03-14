@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY b1komplement IS PORT(
+x: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+y: OUT STD_LOGIC_VECTOR(1 DOWNTO 0));
+END b1komplement;
+
+ARCHITECTURE arch OF b1komplement IS 
+
+BEGIN
+
+y(1)<= not x(1) after 10 ns;
+y(0)<= not x(0) after 10 ns;
+
+END arch;

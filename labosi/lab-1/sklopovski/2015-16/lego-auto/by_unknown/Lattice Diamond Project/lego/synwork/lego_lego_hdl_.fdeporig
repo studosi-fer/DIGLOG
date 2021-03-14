@@ -1,0 +1,24 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|lego_upravljac|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-fileorder|/home/dafta/Desktop/FER_DL_LABOS/lego/syntmp/hdlorder.tcl"
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_vhdl":1429546450
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/location.map":1429719394
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/snps_haps_pkg.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/std1164.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/numeric.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/umr_capim.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/arith.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/unsigned.vhd":1429545830
+#CUR:"/usr/local/diamond/3.5_x64/synpbase/lib/vhd/hyperents.vhd":1429545830
+#CUR:"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":1445813528
+0 "/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work lego_ir arch 0
+module work lego_ir 0

@@ -1,0 +1,11 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/c_hdl  -osyn  /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_comp.srs  -top  lego_upravljac  -hdllog  /home/dafta/Desktop/FER_DL_LABOS/lego/synlog/lego_lego_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  /home/dafta/Desktop/FER_DL_LABOS/lego/dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work /home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd  -verilog  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I /home/dafta/Desktop/FER_DL_LABOS  -I /home/dafta/Desktop/FER_DL_LABOS/lego/  -I /usr/local/diamond/3.5_x64/synpbase/lib   -v2001  -devicelib  /usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v  -devicelib  /usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v  -encrypt  -pro  -dmgen  /home/dafta/Desktop/FER_DL_LABOS/lego/dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work /home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v 
+rc:0 success:1
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_comp.srs|o|1445815385|6058
+/home/dafta/Desktop/FER_DL_LABOS/lego/synlog/lego_lego_compiler.srr|o|1445815385|7335
+/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd|i|1445813528|2136
+/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v|i|1429027884|87079
+/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v|i|1429027884|39414
+/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v|i|1445814726|1122
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/c_hdl|i|1429546445|5115584
+/usr/local/diamond/3.5_x64/synpbase/linux/c_hdl|i|1429546500|4534108
+/usr/local/diamond/3.5_x64/synpbase/bin/c_hdl|i|1429546083|365

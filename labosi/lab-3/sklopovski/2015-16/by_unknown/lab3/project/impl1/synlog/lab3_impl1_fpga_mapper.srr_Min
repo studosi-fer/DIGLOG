@@ -1,0 +1,133 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Dec  6 22:52:36 2015
+#
+
+
+Top view:               slova
+Requested Frequency:    214.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.571
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+slova|clk_25m      214.9 MHz     182.7 MHz     4.652         5.473         -0.821     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+slova|clk_25m  slova|clk_25m  |  0.000       0.571  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: slova|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                       Arrival          
+Instance                            Reference         Type        Pin     Net                      Time        Slack
+                                    Clock                                                                           
+--------------------------------------------------------------------------------------------------------------------
+serializer.R_tx_ser[2]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[2]              0.705       0.571
+serializer.R_tx_ser[3]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[3]              0.705       0.571
+serializer.R_tx_ser[4]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[4]              0.705       0.571
+serializer.R_tx_ser[5]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[5]              0.705       0.571
+serializer.R_tx_ser[6]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[6]              0.705       0.571
+serializer.R_tx_ser[7]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[7]              0.705       0.571
+serializer.R_tx_ser[8]              slova|clk_25m     FD1P3AY     Q       R_tx_ser[8]              0.705       0.571
+serializer.R_tx_tickcnt[1]          slova|clk_25m     FD1P3AX     Q       R_tx_tickcnt[1]          0.816       0.683
+serializer.R_tx_tickcnt[3]          slova|clk_25m     FD1P3AX     Q       R_tx_tickcnt[3]          0.816       0.683
+serializer.R_tx_tickcnt_fast[0]     slova|clk_25m     FD1S3AX     Q       R_tx_tickcnt_fast[0]     0.816       0.683
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                  Required          
+Instance                       Reference         Type        Pin     Net                 Time         Slack
+                               Clock                                                                       
+-----------------------------------------------------------------------------------------------------------
+serializer.R_tx_ser[1]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[1]       0.515        0.571
+serializer.R_tx_ser[2]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[2]       0.515        0.571
+serializer.R_tx_ser[3]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[3]       0.515        0.571
+serializer.R_tx_ser[4]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[4]       0.515        0.571
+serializer.R_tx_ser[5]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[5]       0.515        0.571
+serializer.R_tx_ser[6]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[6]       0.515        0.571
+serializer.R_tx_ser[7]         slova|clk_25m     FD1P3AY     D       R_tx_ser_5[7]       0.515        0.571
+serializer.R_tx_tickcnt[1]     slova|clk_25m     FD1P3AX     D       R_tx_tickcnt_n1     0.515        0.683
+serializer.R_tx_tickcnt[2]     slova|clk_25m     FD1P3AX     D       R_tx_tickcnt_n2     0.515        0.683
+serializer.R_tx_tickcnt[3]     slova|clk_25m     FD1P3AX     D       R_tx_tickcnt_n3     0.515        0.683
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.086
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.571
+
+    Number of logic level(s):                1
+    Starting point:                          serializer.R_tx_ser[2] / Q
+    Ending point:                            serializer.R_tx_ser[1] / D
+    The start point is clocked by            slova|clk_25m [rising] on pin CK
+    The end   point is clocked by            slova|clk_25m [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+serializer.R_tx_ser[2]       FD1P3AY      Q        Out     0.705     0.705       -         
+R_tx_ser[2]                  Net          -        -       -         -           1         
+serializer.R_tx_ser_5[1]     ORCALUT4     B        In      0.000     0.705       -         
+serializer.R_tx_ser_5[1]     ORCALUT4     Z        Out     0.382     1.086       -         
+R_tx_ser_5[1]                Net          -        -       -         -           1         
+serializer.R_tx_ser[1]       FD1P3AY      D        In      0.000     1.086       -         
+===========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,1 @@
+project -fileorder "D:/Ivan/Faks/1.\ Semestar/DigLog/LV2/impl1/source/serial_tx.vhd" 

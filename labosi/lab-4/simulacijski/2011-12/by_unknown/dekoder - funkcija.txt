@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY dek416funkc IS PORT(
+	a: IN STD_LOGIC;
+	b: IN STD_LOGIC;
+	c: IN STD_LOGIC;
+	d: IN STD_LOGIC;
+	f: OUT STD_LOGIC
+);
+END dek416funkc;
+
+ARCHITECTURE arch OF dek416funkc IS 
+
+signal m : std_logic_vector (0 TO 15);
+
+BEGIN
+
+dek00: entity work.dek416 port map ('1', a(0)=>a, a(1)=>b, a(2)=>c, a(3)=>d, y=>m);
+f <= m(0) or m(1) or m(4) or m(6) or m(7) or m(8) or m(10) or m(14);
+
+END arch;

@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Top entity is set to afsk_modem.
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Synthesizing work.afsk_modem.s 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":7:7:7:22|Synthesizing work.afsk_demodulator.x 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd":6:7:6:20|Synthesizing work.afsk_modulator.x 
+

@@ -1,0 +1,428 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro F-2012.03L-1 , Build 063R, May 17 2012
+#install: C:\lscc\diamond\2.0\synpbase
+#OS: Windows 7 6.1
+#Hostname: MPC
+
+#Implementation: lab5
+
+$ Start of Compile
+#Fri Jan 17 05:19:11 2014
+
+Synopsys VHDL Compiler, version comp201203rcp1, Build 061R, built May 17 2012
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Top entity is set to afsk_modem.
+VHDL syntax check successful!
+File C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd changed - recompiling
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":6:7:6:16|Synthesizing work.afsk_modem.s 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":7:7:7:22|Synthesizing work.afsk_demodulator.x 
+Post processing for work.afsk_demodulator.x
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab5\modulator.vhd":6:7:6:20|Synthesizing work.afsk_modulator.x 
+Post processing for work.afsk_modulator.x
+Post processing for work.afsk_modem.s
+@W: CL189 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Register bit R_cycle_div(11) is always 0, optimizing ...
+@W: CL260 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Pruning register bit 11 of R_cycle_div(11 downto 0)  
+@W: CL246 :"C:\Users\dr.Chernobyl\Desktop\lab5\lab5\source\afsk_modem.vhd":14:4:14:5|Input port bits 2 to 1 of sw(3 downto 0) are unused 
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:11 2014
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@L: C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5_scck.rpt 
+Printing clock  summary report in "C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+
+Clock Summary
+**************
+
+Start                  Requested     Requested     Clock        Clock              
+Clock                  Frequency     Period        Type         Group              
+-----------------------------------------------------------------------------------
+System                 1.0 MHz       1000.000      system       system_clkgroup    
+afsk_modem|clk_25m     200.0 MHz     5.000         inferred     Inferred_clkgroup_0
+===================================================================================
+
+@W: MT529 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":41:1:41:2|Found inferred clock afsk_modem|clk_25m which controls 130 sequential elements including modulator/br[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=9  set on top level netlist afsk_modem
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:13 2014
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+
+Starting Optimization and Mapping (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_1 on net led_1 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_2 on net led_2 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_3 on net led_3 has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_4 on net led_4 has its enable tied to GND (module afsk_modem) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":54:18:54:24|ROM audio_dac_out_1[2:0] mapped in logic.
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":54:18:54:24|ROM audio_dac_out_1[2:0] mapped in logic.
+@N: MO106 :"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":54:18:54:24|Found ROM, 'audio_dac_out_1[2:0]', 16 words by 3 bits 
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+@N:"c:\users\dr.chernobyl\desktop\lab5\modulator.vhd":41:1:41:2|Found counter in view:work.afsk_modulator(x) inst br[31:0]
+@N:"c:\users\dr.chernobyl\desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Found updn counter in view:work.afsk_demodulator(x) inst R_hyster_cnt[11:0] 
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.61ns		  83 /       130
+   2		0h:00m:00s		    -1.61ns		  83 /       130
+------------------------------------------------------------
+
+
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.96ns		  84 /        99
+
+   2		0h:00m:00s		    -1.96ns		  84 /        99
+   3		0h:00m:00s		    -1.96ns		  84 /        99
+   4		0h:00m:00s		    -1.96ns		  84 /        99
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.96ns		  84 /        99
+
+   2		0h:00m:00s		    -1.96ns		  84 /        99
+   3		0h:00m:00s		    -1.96ns		  84 /        99
+   4		0h:00m:00s		    -1.96ns		  84 /        99
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_4_.un1[0] on net led[4] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_5_.un1[0] on net led[5] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_6_.un1[0] on net led[6] has its enable tied to GND (module afsk_modem) 
+@W: MO111 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\afsk_modem.vhd":13:4:13:6|Tristate driver led_obuft_7_.un1[0] on net led[7] has its enable tied to GND (module afsk_modem) 
+@N: FO126 :"c:\users\dr.chernobyl\desktop\lab5\lab5\source\demodulator.vhd":26:1:26:2|Generating RAM demodulator.R_zero_cross_sr_CR0[0:0]
+
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+Writing Analyst data base C:\Users\dr.Chernobyl\Desktop\lab5\lab5\lab5_lab5.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+F-2012.03L-1 
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+@W: MT420 |Found inferred clock afsk_modem|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 17 05:19:14 2014
+#
+
+
+Top view:               afsk_modem
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -2.062
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group              
+--------------------------------------------------------------------------------------------------------------------------
+afsk_modem|clk_25m     200.0 MHz     141.6 MHz     5.000         7.062         -2.062     inferred     Inferred_clkgroup_0
+System                 200.0 MHz     157.6 MHz     5.000         6.344         -1.344     system       system_clkgroup    
+==========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------
+System              System              |  5.000       0.142   |  No paths    -      |  No paths    -      |  No paths    -    
+System              afsk_modem|clk_25m  |  5.000       -1.344  |  No paths    -      |  No paths    -      |  No paths    -    
+afsk_modem|clk_25m  System              |  5.000       0.837   |  No paths    -      |  No paths    -      |  No paths    -    
+afsk_modem|clk_25m  afsk_modem|clk_25m  |  5.000       -2.062  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port         Starting            User           Arrival     Required           
+Name         Reference           Constraint     Time        Time         Slack 
+             Clock                                                             
+-------------------------------------------------------------------------------
+clk_25m      NA                  NA             NA          NA           NA    
+p_ring       System (rising)     NA             0.000       1.366        1.366 
+rs232_rx     System (rising)     NA             0.000       -1.344       -1.344
+sw[0]        System (rising)     NA             0.000       -1.333       -1.333
+sw[1]        NA                  NA             NA          NA           NA    
+sw[2]        NA                  NA             NA          NA           NA    
+sw[3]        System (rising)     NA             0.000       -1.339       -1.339
+===============================================================================
+
+
+Output Ports: 
+
+Port         Starting                        User           Arrival     Required          
+Name         Reference                       Constraint     Time        Time         Slack
+             Clock                                                                        
+------------------------------------------------------------------------------------------
+led[0]       afsk_modem|clk_25m (rising)     NA             2.904       5.000        2.096
+led[1]       System (rising)                 NA             3.974       5.000        1.026
+led[2]       afsk_modem|clk_25m (rising)     NA             3.092       5.000        1.908
+led[3]       System (rising)                 NA             3.634       5.000        1.366
+led[4]       NA                              NA             NA          NA           NA   
+led[5]       NA                              NA             NA          NA           NA   
+led[6]       NA                              NA             NA          NA           NA   
+led[7]       NA                              NA             NA          NA           NA   
+p_tip[0]     afsk_modem|clk_25m (rising)     NA             4.163       5.000        0.837
+p_tip[1]     afsk_modem|clk_25m (rising)     NA             4.163       5.000        0.837
+p_tip[2]     afsk_modem|clk_25m (rising)     NA             4.163       5.000        0.837
+p_tip[3]     afsk_modem|clk_25m (rising)     NA             3.975       5.000        1.025
+rs232_tx     System (rising)                 NA             4.858       5.000        0.142
+==========================================================================================
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 104 of 4752 (2%)
+PIC Latch:       0
+I/O cells:       18
+
+
+Details:
+CCU2B:          51
+DPR16X4B:       2
+FD1P3AX:        39
+FD1S3AX:        62
+FD1S3JX:        1
+GSR:            1
+IB:             5
+IFS1P3DX:       1
+IFS1P3JX:       1
+INV:            1
+OB:             9
+OBZ:            4
+ORCALUT4:       95
+PUR:            1
+VHI:            1
+VLO:            1
+false:          3
+true:           3
+Mapper successful!
+
+At Mapper Exit (Time elapsed 0h:00m:01s; Memory used current: 41MB peak: 137MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 17 05:19:14 2014
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

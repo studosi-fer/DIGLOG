@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\2.0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\tenk_toplevel.vhd":6:7:6:19|Top entity is set to tenk_toplevel.
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\tenk_toplevel.vhd":6:7:6:19|Synthesizing work.tenk_toplevel.arch 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure 
+@N: CD630 :"C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd":765:10:765:15|Synthesizing work.eplld1.syn_black_box 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":5:7:5:18|Synthesizing work.tenk_automat.arch 
+

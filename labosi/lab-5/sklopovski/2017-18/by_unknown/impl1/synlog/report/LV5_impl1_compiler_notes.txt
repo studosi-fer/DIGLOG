@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\source\broj.vhd":5:7:5:10|Top entity is set to broj.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV5\impl1\source\broj.vhd":5:7:5:10|Synthesizing work.broj.x.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV5\upravljac.vhd":7:7:7:15|Synthesizing work.upravljac.x.
+@N|Running in 64-bit mode
+

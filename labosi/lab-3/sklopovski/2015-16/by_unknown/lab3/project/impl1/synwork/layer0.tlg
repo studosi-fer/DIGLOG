@@ -1,0 +1,8 @@
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":4:7:4:11|Synthesizing work.slova.behavioral 
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/project/brojke.vhd":4:7:4:12|Synthesizing work.brojke.behavioral 
+Post processing for work.brojke.behavioral
+@N: CD630 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral 
+@W: CD638 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":54:11:54:20|Signal r_baudrate is undriven 
+Post processing for work.serial_tx.behavioral
+Post processing for work.slova.behavioral
+@W: CL246 :"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":10:2:10:3|Input port bits 3 to 1 of sw(3 downto 0) are unused 

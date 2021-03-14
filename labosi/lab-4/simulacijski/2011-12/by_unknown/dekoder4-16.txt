@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY dek416 IS PORT(
+	e: IN STD_LOGIC;
+	a: IN STD_LOGIC_VECTOR(0 TO 3);
+	y: OUT STD_LOGIC_VECTOR(0 TO 15)
+);
+END dek416;
+
+ARCHITECTURE arch OF dek416 IS 
+
+signal z : std_logic_vector (0 to 13);
+
+BEGIN
+
+dek00 : entity work.dek12 port map (e,a(0),z(0),z(1));
+
+dek10 : entity work.dek12 port map (z(0),a(1),z(2),z(3));
+dek11 : entity work.dek12 port map (z(1),a(1),z(4),z(5));
+
+dek20 : entity work.dek12 port map (z(2),a(2),z(6),z(7));
+dek21 : entity work.dek12 port map (z(3),a(2),z(8),z(9));
+dek22 : entity work.dek12 port map (z(4),a(2),z(10),z(11));
+dek23 : entity work.dek12 port map (z(5),a(2),z(12),z(13));
+
+dek30 : entity work.dek12 port map (z(6),a(3),y(0),y(1));
+dek31 : entity work.dek12 port map (z(7),a(3),y(2),y(3));
+dek32 : entity work.dek12 port map (z(8),a(3),y(4),y(5));
+dek33 : entity work.dek12 port map (z(9),a(3),y(6),y(7));
+dek34 : entity work.dek12 port map (z(10),a(3),y(8),y(9));
+dek35 : entity work.dek12 port map (z(11),a(3),y(10),y(11));
+dek36 : entity work.dek12 port map (z(12),a(3),y(12),y(13));
+dek37 : entity work.dek12 port map (z(13),a(3),y(14),y(15));
+
+END arch;

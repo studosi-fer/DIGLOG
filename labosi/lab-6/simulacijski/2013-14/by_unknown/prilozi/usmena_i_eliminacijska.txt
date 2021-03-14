@@ -1,0 +1,85 @@
+Pitanja s usmenog:
+1.Koja je razlika izmeðu Mooreovog i Mealyjevog stroja s konaènim brojem stanja?
+	Kod Mooreovog automata sljedeæe stanje ovisi o trenutnom stanju i pobudi, dok izlazi ovise samo o trenutnom stanju. Kod Mealyevog automata
+	sljedeæe stanje ovisi u pobudi i trenutnom stanju, ali izlaz isto tako ovisi o pobudi (ulazu) i trenutnom stanju. Mealyev automat je 
+	"automat prijelaza". Kod dijagrama stanja Mooreovog automata, izlaze upisujemo u kružiæe, dok pobude upisijemo na lukove. Kod Mealyevog
+	automata izlaze upisujemo i u kružæe i na lukove, a pobude isto kao kod Mooreovog automata na lukove.
+
+2.O èemu ovisi sljedeæe stanje Mooreovog automata?
+   O pobudi (ulazu) i trenutnom stanju.
+   
+
+3.O èemu ovisi izlaz Mooreovog automata?
+   O trenutnom stanju. (Jedini on ovisi samo o trenutnom stanju)
+  
+4.O èemu ovisi sljedeæe stanje Mealyjevog automata?
+   O pobudi i trenutnom stanju.
+   
+5.O èemu ovisi izlaz Mealyjevog automata?
+   O pobudi i trenutnom stanju.
+   
+6.Kako bi se promijenilo ponašanje sklopa kad bi reset prebacio brojilo u stanje '0', a ne u '1'?
+	Signal (koji se treba predati automatu da je odreðeno vrijeme proteklo) bi kasnio. Naš automat mijenja stanje na padajuæi brid; automat æe "promijeniti" signal
+	koji èuva trenutno stanje, ali novo stanje neæe biti aktivno sve do nailaska sljedeæeg aktivnog brida! Primjerice, ako æe do promijene stanja doæi nakon 8T, naš brojaè
+	æe signalizirati automatu da je prošlo 8 ciklusa (8T), ali æe novo stanje biti aktualno tek nakon nailaska sljedeæeg padajuæeg brida (znaèi nakon 9T u našem sluèaju).
+   
+7.Kako bi se promijenilo ponašanje sklopa kad bi reset djelovao asinkrono?
+   Sklop automat bi ušao u petlju nakon nekog vremena i više ne bi mijenjao stanja.
+   
+8.Pokaži listu osjetljivosti u VHDL kodu i definiraj ju. U kojem se sklopu nalazi?
+   Nalazi se u Mooreovom automatu na 3 mjesta (poèetak svakog bloka 'Process'). Lista osjetjivosti su  
+   svi ulazi koji se nalaze u zagradi naredbe 'Process', npr. (crveno)
+   BEGIN
+  PROCESS (t2,t4,t8,t16,t32, state_present)
+
+  Detaljnije objašnjenje pronaði u 6. labosu ispod jednog od pitanja izlaznog testa.
+  
+9.Koji sve dijelovi èine upravljaè semafora?
+   'Sinkroni bistabil T' ('Sintff'), '5-bitno binarno brojilo' ('Sekvencijski sklop'), 'Dekoder', 'Timer', 
+   'Mooreov ili Mealyjev automat', 'Mooreov upravljaè semafora'.
+   
+10.Koji su sve sklopovi raðeni strukturno?
+     Oni sklopovi, koji u  'Architecture' sadrže entity work., su raðeni strukturno. To su: 'Brojilo' (raðeno 
+     od sinkronih T bistabila), 'Timer' (raðen od brojila), 'Mooreov upravljaè' (raðen od 'Timera' i 
+     'Mooreovog upravljaèa').
+	 
+11.Na slici 3. iz pripreme, koji su sekvencijski sklopovi u svojoj suštini?
+      'Mooreov automat' (iako, u 'Timeru', imamo sinkrone bistabile koji su sekvencijski, ali 'Mooreov 
+      automat' je bitan jer mu je zadaæa pamtiti stanja).
+	  
+12.Je li upravljaè semafora sekvencijski ili kombinacijski sklop?
+      Sekvencijski jer ima memoriju (pamti stanja).
+	  
+13.Zašto je sklop sinkron?
+      Jer se sve promjene dogaðaju na (padajuæi) brid signala takta ('Clocka') i to paralelno jer je 'Clock', 
+      od jedne toèke, paralelno razveden na sve ulaze.
+	  
+14.Koliko kasni promjena svjetla u odnosu na trenutak dolaska padajuæeg brida na automat?
+      10 ns kako je odreðeno VHDL kodom.
+	  
+15.Otvori simulaciju. Kreni objašnjavati stanja i promjene svjetla (pokaži mjesta na kojima se 
+       mijenjaju, od kojeg je trenutka koje svjetlo). Objasni koje slovo/a oznaèava/ju koji ulaz/izlaz 
+       (svjetlo).
+       Pogledaj tablice ulaza/izlaza u skripti.
+	   
+16.Objasni ovu pojavu: npr. signal 't8' ide u '1' (signalizira stanje automatu) kad je otkucalo 7 (a ne 8!) 
+      taktova CP-a. Zašto je to tako?
+		Signal (koji se treba predati automatu da je odreðeno vrijeme proteklo) bi kasnio da nije tako. Naš automat mijenja stanje na padajuæi brid; automat æe "promijeniti" signal
+		koji èuva trenutno stanje, ali novo stanje neæe biti aktivno sve do nailaska sljedeæeg aktivnog brida! Primjerice, ako æe do promijene stanja doæi nakon 8T, naš brojaè
+		æe signalizirati automatu da je prošlo 8 ciklusa (8T), ali æe novo stanje biti aktualno tek nakon nailaska sljedeæeg padajuæeg brida (znaèi nakon 9T u našem sluèaju).
+		
+17.Ako oba sklopa u upravljaèu kasne po 10 ns, zašto cijeli sklop kasni samo 10 ns, a ne više?
+      Zato jer je sklop sinkron, tj. CP traje èak 50 ns, što je duže od tog kašnjenja.
+	  
+18.Kako se u VHDL-u opisao automat?
+      Preko suèelja (ulazi: signali 'Timer', izlazi: svjetla i reset za 'Timer') i 3 bloka 'Process' koji opisuju 
+      trenutno i sljedeæe stanje, kao i master reset ulaz.
+      
+19.Kako automat 'zna u kojem je stanju' (koje izlaz treba proslijediti/koje svjetlo treba gorjeti)?
+      Mi to, jednostavno, kodiramo prema priloženoj tablici u skripti.
+	  
+20.Na jednoj od skica automata u praznim poljima skripte, pokaži stanja.
+      Samo pokaži na jedan od krugova.
+	  
+21.Kroz koji se sklop zajedno provode reset i master reset na 'Timeru'?
+      Kroz 'ili' sklop.

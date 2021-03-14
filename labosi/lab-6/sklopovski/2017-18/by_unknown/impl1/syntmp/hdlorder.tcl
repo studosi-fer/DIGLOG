@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.9_x64/cae_library/synthesis/vhdl/xp2.vhd" "D:/Ivan/Faks/1.\ Semestar/DigLog/LV6/impl1/source/sem_automat_pokvareni.vhd" "D:/Ivan/Faks/1.\ Semestar/DigLog/LV6/impl1/source/sem_toplevel.vhd" 

@@ -1,0 +1,36 @@
+---------------------------------------------------
+Report for cell afsk_modem
+   Instance path: afsk_modem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     109.00        100.0
+                                 IOLGC	       2.00        100.0
+                                  LUT4	      98.00        100.0
+                               DISTRAM	       6.00        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	         18        100.0
+                                PFUREG	        102        100.0
+                                RIPPLE	         51        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        afsk_modulator	          1        53.4
+                      afsk_demodulator	          1        39.4
+---------------------------------------------------
+Report for cell afsk_demodulator
+   Instance path: afsk_modem/demodulator
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.00        39.4
+                                  LUT4	      42.00        42.9
+                               DISTRAM	       4.00        66.7
+                                PFUREG	         38        37.3
+                                RIPPLE	         17        33.3
+---------------------------------------------------
+Report for cell afsk_modulator
+   Instance path: afsk_modem/modulator
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      58.17        53.4
+                                  LUT4	      48.00        49.0
+                                PFUREG	         64        62.7
+                                RIPPLE	         34        66.7

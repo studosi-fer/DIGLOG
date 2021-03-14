@@ -1,0 +1,10 @@
+#Start recording tcl command: 1/13/2018 23:36:36
+#Project Location: D:/Ivan/Faks/1. Semestar/DigLog/LV6; Project name: LV6
+prj_project new -name "LV6" -impl "impl1" -dev LFXP2-5E-5TN144C -synthesis "synplify" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf"
+file copy -force -- "D:/Ivan/Faks/1. Semestar/DigLog/LV6/ulx2s.lpf" "D:/Ivan/Faks/1. Semestar/DigLog/LV6/sem_toplevel.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV6/sem_automat_pokvareni.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source"
+prj_src add "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/sem_toplevel.vhd" "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/sem_automat_pokvareni.vhd"
+prj_project save
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 1/14/2018 01:06:23

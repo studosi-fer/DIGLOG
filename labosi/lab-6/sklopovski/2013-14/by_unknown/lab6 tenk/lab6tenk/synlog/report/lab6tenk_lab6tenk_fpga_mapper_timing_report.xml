@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\synlog\lab6tenk_lab6tenk_fpga_mapper.srr</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>rf_modulator|clk_pll_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>160.9 MHz</data>
+<data>-1.216</data>
+</row>
+<row>
+<data>tenk_toplevel|clk_25m</data>
+<data>200.0 MHz</data>
+<data>179.4 MHz</data>
+<data>-0.574</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>190.7 MHz</data>
+<data>-0.245</data>
+</row>
+</report_table>

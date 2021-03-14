@@ -1,0 +1,10 @@
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":8:7:8:14|Synthesizing work.datapath.x 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":22:25:22:29|Signal addrw is undriven 
+@W: CD638 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":25:20:25:20|Signal w is undriven 
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\ALU.vhd":7:7:7:9|Synthesizing work.alu.x 
+Post processing for work.alu.x
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\upravljac.vhd":7:7:7:15|Synthesizing work.upravljac.x 
+Post processing for work.upravljac.x
+@N: CD630 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\rf_4x4_1w_2r.vhd":7:7:7:14|Synthesizing work.reg_file.x 
+Post processing for work.reg_file.x
+Post processing for work.datapath.x

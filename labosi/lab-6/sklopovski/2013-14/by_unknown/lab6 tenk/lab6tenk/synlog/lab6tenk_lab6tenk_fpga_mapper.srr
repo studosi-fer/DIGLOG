@@ -1,0 +1,418 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 437R, Built Jul 16 2012 10:38:54
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03L-1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+@N: MF546 |Generated clock conversion enabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+
+Starting Optimization and Mapping (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_lijevo,  because it is equivalent to instance odasiljac.R_desno
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":174:4:174:10|Removing user instance odasiljac.un1_R_lijevo,  because it is equivalent to instance odasiljac.un1_R_desno
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":249:5:249:6|Removing user instance odasiljac.R_lijevo_6,  because it is equivalent to instance odasiljac.R_desno_6
+@W: BN132 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing user instance odasiljac.un1_r_naprijed_2,  because it is equivalent to instance odasiljac.left_right19
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":46:15:46:22|ROM rom_out[15:8] mapped in logic.
+@N: FA239 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":46:15:46:22|ROM rom_out[15:8] mapped in logic.
+@N: MO106 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":46:15:46:22|Found ROM, 'rom_out[15:8]', 128 words by 8 bits 
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+@N:"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd":64:8:64:9|Found counter in view:work.tenk_automat(arch) inst R_stanje[6:0]
+@N:"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Found counter in view:work.rf_modulator(structure) inst R_speed_acc[4:0]
+@N: FX404 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":219:4:219:5|Found addmux in view:work.rf_modulator(structure) inst fwd_rev[4:0] from un1_R_brzina_3[4:0] 
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+                    odasiljac.R_low_high:C              Not Done
+                    automat.R_cekanje[2]:C              Done
+                    automat.R_cekanje[1]:C              Done
+                    automat.R_cekanje[0]:C              Done
+                   automat.R_stanje[6:0]:C              Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_desno in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Boundary register odasiljac.R_desno packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_natrag in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Boundary register odasiljac.R_natrag packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_skretanje in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Boundary register odasiljac.R_skretanje packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: BN362 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Removing sequential instance odasiljac.R_brzina[2] in hierarchy view:work.tenk_toplevel(arch) because there are no references to its outputs 
+@A: BN291 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":233:4:233:5|Boundary register odasiljac.R_brzina[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.53ns		 140 /       145
+   2		0h:00m:00s		    -2.53ns		 140 /       145
+------------------------------------------------------------
+
+@N: FX271 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":234:4:234:23|Instance "odasiljac.r_clk_acc" with 20 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -1.51ns		 154 /       145
+
+   2		0h:00m:01s		    -1.51ns		 154 /       145
+   3		0h:00m:01s		    -1.51ns		 154 /       145
+   4		0h:00m:01s		    -1.51ns		 154 /       145
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -1.51ns		 154 /       145
+
+   2		0h:00m:01s		    -1.51ns		 154 /       145
+   3		0h:00m:01s		    -1.51ns		 154 /       145
+   4		0h:00m:01s		    -1.51ns		 154 /       145
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 138MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 138MB)
+
+Writing Analyst data base C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 138MB)
+
+Writing EDIF Netlist and constraint files
+F-2012.03L-1 
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+
+================= Gated clock report =================
+
+
+The following instances have NOT been converted
+Seq Inst                     Instance Port     Clock                   Reason for not converting                               
+-------------------------------------------------------------------------------------------------------------------------------
+odasiljac.R_brzina[1]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_brzina[0]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[15]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[14]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[13]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[12]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[11]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[10]      CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[9]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[8]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[7]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[6]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[5]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[4]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[3]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[2]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[1]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_clk_acc[0]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[27]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[26]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[25]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[24]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[23]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[22]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[21]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[20]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[19]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[18]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[17]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[16]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[15]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[14]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[13]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[12]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[11]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[10]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[9]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[8]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[7]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[6]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[5]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[4]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[3]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[2]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[1]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_acc[0]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[20]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[17]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[16]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[15]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[14]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[13]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[12]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[11]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[10]       CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[9]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[7]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[6]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[5]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[4]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[3]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[2]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[1]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_fm_inc[0]        CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_low_high         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_naprijed         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[31]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[30]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[29]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[28]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[27]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[26]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[25]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[24]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[23]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[22]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[21]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[20]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[19]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[18]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[17]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[16]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[15]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[14]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[13]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[12]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[11]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[10]         CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[9]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[8]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[7]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[6]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[5]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[4]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[3]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_outw[2]          CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[7]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[6]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[5]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[4]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[3]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[2]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[1]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_phase_acc[0]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[4]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[3]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[2]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[1]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac.R_speed_acc[0]     CK                odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac_R_fm_incio[18]     SCLK              odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+odasiljac_R_fm_incio[8]      SCLK              odasiljac.clk_pll_c     Gated clock either has NO DRIVER or has MULTIPLE DRIVERS
+===============================================================================================================================
+
+================= End gated clock report =================
+
+
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 140MB)
+
+@W: MT246 :"c:\users\dr.chernobyl\desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock tenk_toplevel|clk_25m with period 5.00ns. Please declare a user-defined clock on object "p:clk_25m"
+
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 5.00ns. Please declare a user-defined clock on object "n:odasiljac.clk_pll"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 24 02:21:11 2014
+#
+
+
+Top view:               tenk_toplevel
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.216
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     200.0 MHz     160.9 MHz     5.000         6.216         -1.216     inferred     Inferred_clkgroup_1
+tenk_toplevel|clk_25m                   200.0 MHz     179.4 MHz     5.000         5.574         -0.574     inferred     Inferred_clkgroup_0
+System                                  200.0 MHz     190.7 MHz     5.000         5.245         -0.245     system       system_clkgroup    
+===========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               tenk_toplevel|clk_25m                |  5.000       -0.245  |  No paths    -      |  No paths    -      |  No paths    -    
+System                               rf_modulator|clk_pll_inferred_clock  |  5.000       1.635   |  No paths    -      |  No paths    -      |  No paths    -    
+tenk_toplevel|clk_25m                System                               |  5.000       1.842   |  No paths    -      |  No paths    -      |  No paths    -    
+tenk_toplevel|clk_25m                tenk_toplevel|clk_25m                |  5.000       -0.574  |  No paths    -      |  No paths    -      |  No paths    -    
+tenk_toplevel|clk_25m                rf_modulator|clk_pll_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  System                               |  5.000       1.927   |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  5.000       -1.216  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port           Starting            User           Arrival     Required           
+Name           Reference           Constraint     Time        Time         Slack 
+               Clock                                                             
+---------------------------------------------------------------------------------
+btn_center     NA                  NA             NA          NA           NA    
+btn_down       System (rising)     NA             0.000       0.667        0.667 
+btn_up         System (rising)     NA             0.000       -0.245       -0.245
+clk_25m        NA                  NA             NA          NA           NA    
+sw[0]          System (rising)     NA             0.000       1.635        1.635 
+sw[1]          System (rising)     NA             0.000       1.635        1.635 
+=================================================================================
+
+
+Output Ports: 
+
+Port         Starting                                         User           Arrival     Required          
+Name         Reference                                        Constraint     Time        Time         Slack
+             Clock                                                                                         
+-----------------------------------------------------------------------------------------------------------
+led[0]       tenk_toplevel|clk_25m (rising)                   NA             3.130       5.000        1.870
+led[1]       tenk_toplevel|clk_25m (rising)                   NA             3.148       5.000        1.852
+led[2]       tenk_toplevel|clk_25m (rising)                   NA             3.158       5.000        1.842
+led[3]       tenk_toplevel|clk_25m (rising)                   NA             3.092       5.000        1.908
+led[4]       tenk_toplevel|clk_25m (rising)                   NA             3.092       5.000        1.908
+led[5]       tenk_toplevel|clk_25m (rising)                   NA             3.092       5.000        1.908
+led[6]       tenk_toplevel|clk_25m (rising)                   NA             3.092       5.000        1.908
+led[7]       tenk_toplevel|clk_25m (rising)                   NA             3.026       5.000        1.974
+p_ring       rf_modulator|clk_pll_inferred_clock (rising)     NA             3.073       5.000        1.927
+p_tip[0]     rf_modulator|clk_pll_inferred_clock (rising)     NA             3.073       5.000        1.927
+p_tip[1]     rf_modulator|clk_pll_inferred_clock (rising)     NA             3.073       5.000        1.927
+p_tip[2]     rf_modulator|clk_pll_inferred_clock (rising)     NA             3.073       5.000        1.927
+p_tip[3]     rf_modulator|clk_pll_inferred_clock (rising)     NA             3.073       5.000        1.927
+===========================================================================================================
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 145 of 4752 (3%)
+PIC Latch:       0
+I/O cells:       18
+
+
+Details:
+CCU2B:          56
+FD1P3AX:        53
+FD1S3AX:        80
+FD1S3IX:        8
+FD1S3JX:        2
+GSR:            1
+IB:             5
+IFS1P3DX:       1
+IFS1P3JX:       1
+INV:            3
+OB:             13
+ORCALUT4:       150
+PFUMX:          2
+PUR:            1
+VHI:            1
+VLO:            1
+false:          3
+true:           3
+Mapper successful!
+
+At Mapper Exit (Time elapsed 0h:00m:02s; Memory used current: 43MB peak: 140MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Jan 24 02:21:11 2014
+
+###########################################################]

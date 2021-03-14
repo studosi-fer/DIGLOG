@@ -1,0 +1,3 @@
+@W: MT246 :"c:\users\tomi\desktop\tenk\impl1\tenk_upravljac.v":40:5:40:7|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\tomi\desktop\tenk\rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 6.23ns. Please declare a user-defined clock on object "n:I12.clk_pll"

@@ -1,0 +1,3 @@
+@W: CD638 :"/home/ilakovac/faks/diglog/lab3/source/serial_tx.vhd":54:11:54:20|Signal r_baudrate is undriven 
+@W: CL246 :"/home/ilakovac/faks/diglog/lab3/source/slova.vhd":10:2:10:3|Input port bits 3 to 1 of sw(3 downto 0) are unused 
+

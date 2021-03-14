@@ -1,0 +1,54 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+VCC
+GND
+odasiljac/fwd_rev_0_cry_3_0_COUT
+odasiljac/r_fm_acc_cry_0_0_S1
+odasiljac/r_fm_acc_cry_0_0_S0
+odasiljac/N_2
+odasiljac/r_fm_acc_s_27_0_S1
+odasiljac/r_fm_acc_s_27_0_COUT
+odasiljac/un2_r_phase_acc_1_cry_0_0_S1
+odasiljac/un2_r_phase_acc_1_cry_0_0_S0
+odasiljac/N_3
+odasiljac/un2_r_phase_acc_1_s_7_0_S1
+odasiljac/un2_r_phase_acc_1_s_7_0_COUT
+odasiljac/un93_r_clk_acc_1_cry_0_0_S1
+odasiljac/un93_r_clk_acc_1_cry_0_0_S0
+odasiljac/N_4
+odasiljac/un93_r_clk_acc_1_s_15_0_S1
+odasiljac/un93_r_clk_acc_1_s_15_0_COUT
+odasiljac/CLKINTFB
+odasiljac/LOCK
+odasiljac/CLKOK
+odasiljac/CLKOS
+odasiljac/fwd_rev_0_cry_0_0_S1
+odasiljac/fwd_rev_0_cry_0_0_S0
+odasiljac/N_1
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.5.0.102 -- WARNING: Map write only section -- Sun Dec  6 23:28:24 2015
+
+SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
+LOCATE COMP "p_tip[0]" SITE "32" ;
+LOCATE COMP "clk_25m" SITE "30" ;
+LOCATE COMP "p_ring" SITE "44" ;
+LOCATE COMP "p_tip[3]" SITE "43" ;
+LOCATE COMP "p_tip[2]" SITE "28" ;
+LOCATE COMP "p_tip[1]" SITE "27" ;
+LOCATE COMP "btn_center" SITE "22" ;
+LOCATE COMP "btn_down" SITE "1" ;
+LOCATE COMP "btn_up" SITE "11" ;
+LOCATE COMP "btn_right" SITE "38" ;
+LOCATE COMP "btn_left" SITE "2" ;
+LOCATE COMP "sw[3]" SITE "130" ;
+LOCATE COMP "sw[2]" SITE "129" ;
+LOCATE COMP "sw[1]" SITE "46" ;
+LOCATE COMP "sw[0]" SITE "45" ;
+FREQUENCY NET "clk_25m_c" 25.000000 MHz ;
+FREQUENCY NET "odasiljac.clk_pll" 200.000000 MHz ;
+FREQUENCY PORT "clk_25m" 25.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

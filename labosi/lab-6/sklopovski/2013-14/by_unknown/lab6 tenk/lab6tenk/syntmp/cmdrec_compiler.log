@@ -1,0 +1,13 @@
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe  -prodtype  synplify_pro  -osyn  "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\synwork\lab6tenk_lab6tenk_compiler.srs"  -top  work.tenk_toplevel  -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\dm"  -lite -ll 2000 -compiler_compatible  -ui -fid2 -ram -sharing on  -autosm -ignore_undefined_lib  -lib work C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd -lib work "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\tenk_automat.vhd" -lib work "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\rf_modulator.vhd" -lib work "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\source\tenk_toplevel.vhd" -loga  "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srf" 
+rc:0 success:1
+C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\synwork\lab6tenk_lab6tenk_compiler.srs|o|1390526467|14780
+C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd|i|1340163864|150376
+"C:\Users\dr.Chernobyl\Desktop\lab6|i|0|0
+tenk\lab6tenk\source\tenk_automat.vhd"|i|0|0
+"C:\Users\dr.Chernobyl\Desktop\lab6|i|0|0
+tenk\lab6tenk\source\rf_modulator.vhd"|i|0|0
+"C:\Users\dr.Chernobyl\Desktop\lab6|i|0|0
+tenk\lab6tenk\source\tenk_toplevel.vhd"|i|0|0
+C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srf|o|1390526467|6111
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe|i|1337328578|5310976
+C:\lscc\diamond\2.0\synpbase\bin\c_vhdl.exe|i|1337328574|1862144

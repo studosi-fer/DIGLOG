@@ -1,0 +1,4 @@
+@E: CD126 :"C:\Users\dr.Chernobyl\Desktop\lab4\ALU.vhd":14:1:14:1|Expecting identifier
+@E: CD126 :"C:\Users\dr.Chernobyl\Desktop\lab4\lab4\source\datapath.vhd":18:4:18:4|Expecting identifier
+@E|Parse errors encountered - exiting
+

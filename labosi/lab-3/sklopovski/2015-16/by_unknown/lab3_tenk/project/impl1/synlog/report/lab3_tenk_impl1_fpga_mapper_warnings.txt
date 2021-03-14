@@ -1,0 +1,2 @@
+@W: MT246 :"/home/ilakovac/faks/diglog/lab3_tenk/source/rf_modulator.vhd":149:4:149:12|Blackbox EPLLD1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock rf_modulator|clk_pll_inferred_clock with period 6.40ns. Please declare a user-defined clock on object "n:odasiljac.clk_pll"

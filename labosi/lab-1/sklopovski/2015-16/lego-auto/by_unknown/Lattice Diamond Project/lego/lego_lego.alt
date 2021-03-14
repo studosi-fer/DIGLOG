@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Oct 26 00:23:44 2015 *
+NOTE DESIGN NAME: lego_upravljac *
+NOTE DEVICE NAME: LFXP2-8E-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[3] : 35 : out *
+NOTE PINS btn_down : 1 : in *
+NOTE PINS sw[1] : 46 : in *
+NOTE PINS sw[0] : 45 : in *
+NOTE PINS clk_25m : 30 : in *
+NOTE PINS btn_up : 11 : in *
+NOTE PINS btn_right : 38 : in *
+NOTE PINS btn_left : 2 : in *
+NOTE PINS p_ring : 44 : out *
+NOTE PINS p_tip[0] : 32 : out *
+NOTE PINS p_tip[3] : 43 : out *
+NOTE PINS p_tip[2] : 28 : out *
+NOTE PINS p_tip[1] : 27 : out *
+NOTE PINS led[7] : 138 : out *
+NOTE PINS led[5] : 5 : out *
+NOTE PINS led[6] : 6 : out *
+NOTE PINS led[4] : 144 : out *
+NOTE PINS led[0] : 29 : out *
+NOTE PINS led[2] : 36 : out *
+NOTE PINS led[1] : 37 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

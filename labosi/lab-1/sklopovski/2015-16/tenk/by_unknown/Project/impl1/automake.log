@@ -1,0 +1,8 @@
+
+sch2vlog -FPGA -i C:/Users/Tomi/Desktop/tenk/tenk_upravljac.sch -o C:/Users/Tomi/Desktop/tenk/impl1/tenk_upravljac.v -gui -msgset C:/Users/Tomi/Desktop/tenk/promote.xml
+    <postMsg mid="2381001" type="Warning" dynamic="1" navigation="0" arg0="Symbol rf_modulator is out of date in C:/Users/Tomi/Desktop/tenk/tenk_upravljac.sch"  />
+    <postMsg mid="2381002" type="Warning" dynamic="1" navigation="0" arg0="Check library paths or update schematic"  />
+
+sch2vlog -FPGA -i C:/Users/Tomi/Desktop/tenk/Test1.sch -o C:/Users/Tomi/Desktop/tenk/impl1/Test1.v -gui -msgset C:/Users/Tomi/Desktop/tenk/promote.xml
+
+sch2vlog -FPGA -i C:/Users/Tomi/Desktop/tenk/test2.sch -o C:/Users/Tomi/Desktop/tenk/impl1/test2.v -gui -msgset C:/Users/Tomi/Desktop/tenk/promote.xml

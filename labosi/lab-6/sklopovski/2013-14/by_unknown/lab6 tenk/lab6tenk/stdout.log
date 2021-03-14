@@ -1,0 +1,75 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\2.0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\2.0\synpbase
+Date:        Fri Jan 24 02:21:06 2014
+Version:     F-2012.03L-1 
+
+Arguments:   -product synplify_pro  -batch lab6tenk_lab6tenk_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srf"
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+
+Copied C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srf to C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\backup\lab6tenk_lab6tenk.srf
+
+log file: "C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srf"
+
+
+Running proj_1|lab6tenk
+
+Running Compile on proj_1|lab6tenk
+
+Running Compile Process on proj_1|lab6tenk
+
+Running Compile Input on proj_1|lab6tenk
+
+Copied C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\synwork\lab6tenk_lab6tenk_compiler.srs to C:\Users\dr.Chernobyl\Desktop\lab6 tenk\lab6tenk\lab6tenk_lab6tenk.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+
+Job Compile Process completed on proj_1|lab6tenk
+
+Running Premap on proj_1|lab6tenk
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:00s
+
+
+Job Compile completed on proj_1|lab6tenk
+
+Running Map on proj_1|lab6tenk
+
+Running Map & Optimize on proj_1|lab6tenk
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:04s
+
+
+Job Map completed on proj_1|lab6tenk
+
+Job Logic Synthesis completed on proj_1|lab6tenk
+
+TCL script complete: "lab6tenk_lab6tenk_synplify.tcl"
+
+exit status=0
+
+

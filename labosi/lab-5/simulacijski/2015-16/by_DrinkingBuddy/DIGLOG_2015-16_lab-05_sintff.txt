@@ -1,0 +1,46 @@
+-- [DIGLOG] 5. Labos, Simulacijski (2015/16)
+-- 1. Zadatak
+-- 	(a) Izradi asinkroni T bitstabil
+--
+-- By: DrinkingBuddy
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- warning: this file will not be saved if:
+--     * following entity block contains any syntactic errors (e.g. port list isn't separated with ; character)
+--     * following entity name and current file name differ (e.g. if file is named mux41 then entity must also be named mux41 and vice versa)
+ENTITY sintff IS PORT(
+	clk: IN STD_LOGIC;
+	t: IN STD_LOGIC;
+	clr: IN STD_LOGIC;
+	st: IN STD_LOGIC;
+	q: OUT STD_LOGIC;
+	qn: OUT STD_LOGIC
+);
+END sintff;
+
+ARCHITECTURE behavioral OF sintff IS 
+
+BEGIN
+
+	PROCESS(clk)
+		VARIABLE state: STD_LOGIC;
+	BEGIN
+	
+		IF falling_edge(clk) THEN
+			IF clr = '1' THEN
+				state := '0';
+			ELSIF st = '1' THEN
+				state :=  '1';
+			ELSE 
+				state := state XOR t;
+			END IF;
+		END IF;
+		
+		q <= state AFTER 10 ns;
+		qn <= NOT state AFTER 10 ns;
+
+	END PROCESS;
+	
+END behavioral;

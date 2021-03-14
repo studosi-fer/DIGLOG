@@ -1,0 +1,12 @@
+		MUX 2/1
+doslovno sve precrtate, to je ujedno i testbench(samo bez funkcije na kraju)
+
+		funkcija
+A,B,C,D precrtate, to su sve kombinacije 0000..1111
+f ovisi o vasoj funkciji --> jedan je tamo gdje je suma minterma
+
+		MUX 16/1
+-to je sve proizvoljno osim funkcije na kraju
+-ovisno o S3-S0 funkcija prima razlièite vrijednosti
+-ako je kombinacija kao kod mene 1010 (=10) gledamo D10 i funkcija poprima istu vrijednost kao i on
+-poseban sluèaj ako je E=0, funkcija je 0 bez obzira na sve

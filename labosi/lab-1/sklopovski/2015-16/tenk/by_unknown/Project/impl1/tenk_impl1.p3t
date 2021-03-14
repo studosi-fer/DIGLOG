@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "tenk_impl1.log"
+-o "tenk_impl1.csv"
+-pr "tenk_impl1.prf"

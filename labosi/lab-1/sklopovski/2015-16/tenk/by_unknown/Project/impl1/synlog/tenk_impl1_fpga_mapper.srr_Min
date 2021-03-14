@@ -1,0 +1,323 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 26 00:30:03 2015
+#
+
+
+Top view:               tenk_upravljac
+Requested Frequency:    160.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.134
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+rf_modulator|clk_pll_inferred_clock     160.5 MHz     136.4 MHz     6.230         7.330         -1.099     inferred     Autoconstr_clkgroup_0
+System                                  1.0 MHz       1.0 MHz       1000.000      1000.134      -0.134     system       system_clkgroup      
+=============================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               rf_modulator|clk_pll_inferred_clock  |  0.000       -0.134  |  No paths    -      |  No paths    -      |  No paths    -    
+rf_modulator|clk_pll_inferred_clock  rf_modulator|clk_pll_inferred_clock  |  0.000       0.571   |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rf_modulator|clk_pll_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                   Arrival          
+Instance           Reference                               Type        Pin     Net            Time        Slack
+                   Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------
+I12.R_outw[5]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[5]      0.705       0.571
+I12.R_outw[6]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[6]      0.705       0.571
+I12.R_outw[7]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[7]      0.705       0.571
+I12.R_outw[8]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[8]      0.705       0.571
+I12.R_outw[9]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[9]      0.705       0.571
+I12.R_outw[10]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[10]     0.705       0.571
+I12.R_outw[11]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[11]     0.705       0.571
+I12.R_outw[12]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[12]     0.705       0.571
+I12.R_outw[13]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[13]     0.705       0.571
+I12.R_outw[14]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     Q       R_outw[14]     0.705       0.571
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                                     Required          
+Instance           Reference                               Type        Pin     Net              Time         Slack
+                   Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------
+I12.R_outw[6]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[6]      0.515        0.571
+I12.R_outw[7]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[7]      0.515        0.571
+I12.R_outw[8]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[8]      0.515        0.571
+I12.R_outw[9]      rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[9]      0.515        0.571
+I12.R_outw[10]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[10]     0.515        0.571
+I12.R_outw[11]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[11]     0.515        0.571
+I12.R_outw[12]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[12]     0.515        0.571
+I12.R_outw[13]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[13]     0.515        0.571
+I12.R_outw[14]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[14]     0.515        0.571
+I12.R_outw[15]     rf_modulator|clk_pll_inferred_clock     FD1P3AX     D       R_outw_5[15]     0.515        0.571
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.086
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.571
+
+    Number of logic level(s):                1
+    Starting point:                          I12.R_outw[5] / Q
+    Ending point:                            I12.R_outw[6] / D
+    The start point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+I12.R_outw[5]       FD1P3AX      Q        Out     0.705     0.705       -         
+R_outw[5]           Net          -        -       -         -           1         
+I12.R_outw_5[6]     ORCALUT4     A        In      0.000     0.705       -         
+I12.R_outw_5[6]     ORCALUT4     Z        Out     0.382     1.086       -         
+R_outw_5[6]         Net          -        -       -         -           1         
+I12.R_outw[6]       FD1P3AX      D        In      0.000     1.086       -         
+==================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                Arrival           
+Instance     Reference     Type     Pin     Net      Time        Slack 
+             Clock                                                     
+-----------------------------------------------------------------------
+I10          System        AND2     Z       N_17     0.000       -0.134
+I11          System        AND3     Z       N_16     0.000       -0.134
+I26          System        AND2     Z       N_19     0.000       -0.134
+I27          System        AND2     Z       N_20     0.000       -0.134
+I28          System        AND2     Z       N_21     0.000       -0.134
+I29          System        AND2     Z       N_22     0.000       -0.134
+I30          System        AND2     Z       N_23     0.000       -0.134
+I31          System        AND2     Z       N_26     0.000       -0.134
+I32          System        AND2     Z       N_24     0.000       -0.134
+I8           System        AND2     Z       N_18     0.000       0.485 
+=======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                             Required           
+Instance            Reference     Type        Pin     Net                Time         Slack 
+                    Clock                                                                   
+--------------------------------------------------------------------------------------------
+I12.R_desno         System        FD1P3AX     D       R_desno_6          0.515        -0.134
+I12.R_lijevo        System        FD1P3AX     D       R_lijevo_6         0.515        -0.134
+I12.R_naprijed      System        FD1P3AX     D       R_naprijed_7       0.515        -0.134
+I12.R_outw[6]       System        FD1P3AX     D       R_outw_5[6]        0.515        -0.134
+I12.R_outw[7]       System        FD1P3AX     D       R_outw_5[7]        0.515        -0.134
+I12.R_outw[14]      System        FD1P3AX     D       R_outw_5[14]       0.515        -0.134
+I12.R_outw[15]      System        FD1P3AX     D       R_outw_5[15]       0.515        -0.134
+I12.R_outw[16]      System        FD1P3AX     D       R_outw_5[16]       0.515        -0.134
+I12.R_outw[17]      System        FD1P3AX     D       R_outw_5[17]       0.515        -0.134
+I12.R_brzina[0]     System        FD1S3IX     D       R_brzina_12[0]     0.515        0.485 
+============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I10 / Z
+    Ending point:                            I12.R_naprijed / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+I10                    AND2         Z        Out     0.000     0.000       -         
+N_17                   Net          -        -       -         -           4         
+I12.R_naprijed_RNO     ORCALUT4     D        In      0.000     0.000       -         
+I12.R_naprijed_RNO     ORCALUT4     Z        Out     0.382     0.382       -         
+R_naprijed_7           Net          -        -       -         -           1         
+I12.R_naprijed         FD1P3AX      D        In      0.000     0.382       -         
+=====================================================================================
+
+
+Path information for path number 2: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I11 / Z
+    Ending point:                            I12.R_outw[7] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+I11                 AND3         Z        Out     0.000     0.000       -         
+N_16                Net          -        -       -         -           9         
+I12.R_outw_5[7]     ORCALUT4     C        In      0.000     0.000       -         
+I12.R_outw_5[7]     ORCALUT4     Z        Out     0.382     0.382       -         
+R_outw_5[7]         Net          -        -       -         -           1         
+I12.R_outw[7]       FD1P3AX      D        In      0.000     0.382       -         
+==================================================================================
+
+
+Path information for path number 3: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I26 / Z
+    Ending point:                            I12.R_outw[6] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+I26                 AND2         Z        Out     0.000     0.000       -         
+N_19                Net          -        -       -         -           2         
+I12.R_outw_5[6]     ORCALUT4     C        In      0.000     0.000       -         
+I12.R_outw_5[6]     ORCALUT4     Z        Out     0.382     0.382       -         
+R_outw_5[6]         Net          -        -       -         -           1         
+I12.R_outw[6]       FD1P3AX      D        In      0.000     0.382       -         
+==================================================================================
+
+
+Path information for path number 4: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I27 / Z
+    Ending point:                            I12.R_outw[14] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+I27                  AND2         Z        Out     0.000     0.000       -         
+N_20                 Net          -        -       -         -           5         
+I12.R_outw_5[14]     ORCALUT4     C        In      0.000     0.000       -         
+I12.R_outw_5[14]     ORCALUT4     Z        Out     0.382     0.382       -         
+R_outw_5[14]         Net          -        -       -         -           1         
+I12.R_outw[14]       FD1P3AX      D        In      0.000     0.382       -         
+===================================================================================
+
+
+Path information for path number 5: 
+    Propagation time:                        0.382
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.515
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.134
+
+    Number of logic level(s):                1
+    Starting point:                          I28 / Z
+    Ending point:                            I12.R_outw[14] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            rf_modulator|clk_pll_inferred_clock [rising] on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+I28                  AND2         Z        Out     0.000     0.000       -         
+N_21                 Net          -        -       -         -           5         
+I12.R_outw_5[14]     ORCALUT4     D        In      0.000     0.000       -         
+I12.R_outw_5[14]     ORCALUT4     Z        Out     0.382     0.382       -         
+R_outw_5[14]         Net          -        -       -         -           1         
+I12.R_outw[14]       FD1P3AX      D        In      0.000     0.382       -         
+===================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,14 @@
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice  -prodtype  synplify_pro  -encrypt  -pro  -rundir  /home/dafta/Desktop/FER_DL_LABOS/lego   -part LFXP2_8E  -package TN144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile /home/dafta/Desktop/FER_DL_LABOS/lego/synlog/report/lego_lego_premap.xml  -top_level_module  lego_upravljac  -oedif  /home/dafta/Desktop/FER_DL_LABOS/lego/lego_lego.edi  -conchk_prepass  /home/dafta/Desktop/FER_DL_LABOS/lego/lego_lego_cck_prepass.rpt   -autoconstraint  -freq 1.000   /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_mult.srs  -flow prepass  -gcc_prepass  -osrd  /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_prem.srd  -devicelib  /usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v  -devicelib  /usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v  -ologparam  /home/dafta/Desktop/FER_DL_LABOS/lego/syntmp/lego_lego.plg  -osyn  /home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_prem.srd  -prjdir  /home/dafta/Desktop/FER_DL_LABOS/lego/  -prjname  proj_1  -log  /home/dafta/Desktop/FER_DL_LABOS/lego/synlog/lego_lego_premap.srr 
+rc:1 success:1
+/home/dafta/Desktop/FER_DL_LABOS/lego/lego_lego.edi|o|0|0
+/home/dafta/Desktop/FER_DL_LABOS/lego/lego_lego_cck_prepass.rpt|o|0|0
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_mult.srs|i|1445815386|3701
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_prem.srd|o|1445815388|7685
+/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v|i|1429027884|87079
+/usr/local/diamond/3.5_x64/synpbase/lib/lucent/pmi_def.v|i|1429027884|39414
+/home/dafta/Desktop/FER_DL_LABOS/lego/syntmp/lego_lego.plg|o|1445815387|0
+/home/dafta/Desktop/FER_DL_LABOS/lego/synwork/lego_lego_prem.srd|o|1445815388|7685
+/home/dafta/Desktop/FER_DL_LABOS/lego/synlog/lego_lego_premap.srr|o|1445815388|2829
+/usr/local/diamond/3.5_x64/synpbase/linux_a_64/m_gen_lattice|i|1429548929|27875408
+/usr/local/diamond/3.5_x64/synpbase/linux/m_gen_lattice|i|1429548956|26324328
+/usr/local/diamond/3.5_x64/synpbase/bin/m_gen_lattice|i|1429546756|345

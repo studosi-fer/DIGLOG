@@ -1,0 +1,2 @@
+set_option -top_module work.datapath
+project -fileorder "C:/lscc/diamond/2.0/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/dr.Chernobyl/Desktop/lab4/lab4/source/rf_4x4_1w_2r.vhd" "C:/Users/dr.Chernobyl/Desktop/lab4/lab4/source/upravljac.vhd" "C:/Users/dr.Chernobyl/Desktop/lab4/ALU.vhd" "C:/Users/dr.Chernobyl/Desktop/lab4/lab4/source/datapath.vhd" 

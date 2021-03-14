@@ -1,0 +1,9 @@
+JMBAG: xxxxxxxxxx
+LED(x): SR
+LED(x): D latch
+LED(x): D flip-flop
+LED(x): D flip-flop, asinkroni SR
+LED(x): D flip-flop, sinkroni SR
+LED(x): D flip-flop s enable ulazom, sinkroni SR
+LED(x): JK
+LED(x): T

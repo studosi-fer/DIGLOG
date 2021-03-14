@@ -1,0 +1,2 @@
+@W: BN132 :"/home/dafta/Desktop/FER_DL_LABOS/lego_ir.vhd":41:4:41:5|Removing instance I9.R_delay_lim[9],  because it is equivalent to instance I9.R_delay_lim[6]
+@W: MT420 |Found inferred clock lego_upravljac|clk_25m with period 5.13ns. Please declare a user-defined clock on object "p:clk_25m"

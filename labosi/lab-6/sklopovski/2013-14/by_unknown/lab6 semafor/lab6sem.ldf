@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="2.0" title="lab6sem" device="LFXP2-5E-5TN144C" default_implementation="lab6sem">
+    <Options/>
+    <Implementation title="lab6sem" dir="lab6sem" description="lab6sem" default_strategy="Strategy1">
+        <Options/>
+        <Source name="lab6sem/source/sem_toplevel.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="sem"/>
+        </Source>
+        <Source name="sem_automat_pokvareni.vhd" type="VHDL" type_short="VHDL" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="sem_automat.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="lab6sem/source/ulx2s.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Strategy1.sty"/>
+</BaliProject>

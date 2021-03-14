@@ -1,0 +1,13 @@
+---------------------------------------------------
+Report for cell pogodi_bistabil
+   Instance path: pogodi_bistabil
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      78.00        100.0
+                                 IOLGC	       2.00        100.0
+                                  LUT4	     109.00        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	         18        100.0
+                                PFUREG	         38        100.0
+                                RIPPLE	         17        100.0
+                                   EBR	          4        100.0

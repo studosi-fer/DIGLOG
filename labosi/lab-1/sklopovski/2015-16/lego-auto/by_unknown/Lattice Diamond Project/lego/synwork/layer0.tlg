@@ -1,0 +1,7 @@
+@N: CG364 :"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":1093:7:1093:9|Synthesizing module OR2
+
+@N: CG364 :"/usr/local/diamond/3.5_x64/synpbase/lib/lucent/xp2.v":970:7:970:8|Synthesizing module OB
+
+@N: CG364 :"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":3:7:3:20|Synthesizing module lego_upravljac
+
+@N: CG794 :"/home/dafta/Desktop/FER_DL_LABOS/lego/lego_upravljac.v":22:8:22:9|Using module lego_ir from library work

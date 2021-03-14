@@ -1,0 +1,54 @@
+----------------------------------------------------------------------
+Report for cell afsk_modem.s
+
+Register bits: 104 of 4752 (2%)
+PIC Latch:       0
+I/O cells:       18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       51       100.0
+                           DPR16X4B        2       100.0
+                            FD1P3AX       39       100.0
+                            FD1S3AX       62       100.0
+                            FD1S3JX        1       100.0
+                                GSR        1       100.0
+                                 IB        5       100.0
+                           IFS1P3DX        1       100.0
+                           IFS1P3JX        1       100.0
+                                INV        1       100.0
+                                 OB        9       100.0
+                                OBZ        4       100.0
+                           ORCALUT4       95       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+SUB MODULES 
+                   afsk_demodulator        1       100.0
+                     afsk_modulator        1       100.0
+                            
+                         TOTAL           277           
+----------------------------------------------------------------------
+Report for cell afsk_demodulator.netlist
+     Instance path:  demodulator
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       17        33.3
+                           DPR16X4B        2       100.0
+                            FD1P3AX        7        17.9
+                            FD1S3AX       30        48.4
+                            FD1S3JX        1       100.0
+                                INV        1       100.0
+                           ORCALUT4       41        43.2
+                            
+                         TOTAL            99           
+----------------------------------------------------------------------
+Report for cell afsk_modulator.netlist
+     Instance path:  modulator
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B       34        66.7
+                            FD1P3AX       32        82.1
+                            FD1S3AX       32        51.6
+                           ORCALUT4       48        50.5
+                            
+                         TOTAL           146           

@@ -1,0 +1,81 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\2.2_x64\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\2.2_x64\synpbase
+Date:        Mon Oct 21 13:32:35 2013
+Version:     G-2012.09L-SP1 
+
+Arguments:   -product synplify_pro  -batch labv2_labv2_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+Copied Z:\lab2\labv2\labv2_labv2.srr to Z:\lab2\labv2\backup\labv2_labv2.srr
+
+log file: "Z:\lab2\labv2\labv2_labv2.srr"
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+
+Copied Z:\lab2\labv2\labv2_labv2.srr to Z:\lab2\labv2\labv2_labv2.srf
+
+log file: "Z:\lab2\labv2\labv2_labv2.srr"
+
+
+Running proj_1|labv2
+
+Running Compile on proj_1|labv2
+
+Running Compile Process on proj_1|labv2
+
+Running Compile Input on proj_1|labv2
+
+Copied Z:\lab2\labv2\synwork\labv2_labv2_compiler.srs to Z:\lab2\labv2\labv2_labv2.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:03s
+
+
+Copied Z:\lab2\labv2\labv2_labv2.srr to Z:\lab2\labv2\labv2_labv2.srf
+
+Job Compile Process completed on proj_1|labv2
+
+Running Premap on proj_1|labv2
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+
+Job Compile completed on proj_1|labv2
+
+Running Map on proj_1|labv2
+
+Running Map & Optimize on proj_1|labv2
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:06s
+
+
+Job Map completed on proj_1|labv2
+
+Copied Z:\lab2\labv2\labv2_labv2.srr to Z:\lab2\labv2\labv2_labv2.srf
+
+Job Logic Synthesis completed on proj_1|labv2
+
+TCL script complete: "labv2_labv2_synplify.tcl"
+
+exit status=0
+
+

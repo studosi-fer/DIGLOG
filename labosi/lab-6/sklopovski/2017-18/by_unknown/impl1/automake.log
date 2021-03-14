@@ -1,0 +1,1253 @@
+
+synpwrap -msg -prj "LV6_impl1_synplify.tcl" -log "LV6_impl1.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.9.0.99.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of LV6_impl1.srf
+#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
+#install: C:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: IVAN-PC
+
+# Sun Jan 14 00:08:54 2018
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_toplevel.vhd":5:7:5:9|Top entity is set to sem.
+VHDL syntax check successful!
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_toplevel.vhd":5:7:5:9|Synthesizing work.sem.struct.
+@N: CD630 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_automat_pokvareni.vhd":5:7:5:17|Synthesizing work.sem_automat.mix_moore_mealy.
+Post processing for work.sem_automat.mix_moore_mealy
+Post processing for work.sem.struct
+@W: CL246 :"D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\source\sem_toplevel.vhd":9:1:9:2|Input port bits 3 to 1 of sw(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 14 00:08:54 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 14 00:08:55 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 14 00:08:55 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 14 00:08:56 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Jan 14 00:08:56 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\LV6_impl1_scck.rpt 
+Printing clock  summary report in "D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\LV6_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=9  set on top level netlist sem
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+Clock Summary
+*****************
+
+Start                               Requested     Requested     Clock                          Clock                     Clock
+Clock                               Frequency     Period        Type                           Group                     Load 
+------------------------------------------------------------------------------------------------------------------------------
+sem|R_clk_div_derived_clock[23]     1.0 MHz       1000.000      derived (from sem|clk_25m)     Autoconstr_clkgroup_0     7    
+sem|clk_25m                         1.0 MHz       1000.000      inferred                       Autoconstr_clkgroup_0     24   
+==============================================================================================================================
+
+@W: MT529 :"d:\ivan\faks\1. semestar\diglog\lv6\impl1\source\sem_toplevel.vhd":20:4:20:12|Found inferred clock sem|clk_25m which controls 24 sequential elements including R_clk_div[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jan 14 00:08:57 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Jan 14 00:08:57 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: FA113 :"d:\ivan\faks\1. semestar\diglog\lv6\impl1\source\sem_toplevel.vhd":20:17:20:31|Pipelining module un2_r_clk_div[23:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\ivan\faks\1. semestar\diglog\lv6\impl1\source\sem_toplevel.vhd":20:4:20:12|Pushed in register R_clk_div[23:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.64ns		  26 /        32
+   2		0h:00m:00s		    -1.64ns		  25 /        32
+   3		0h:00m:00s		    -1.22ns		  25 /        32
+
+   4		0h:00m:00s		    -1.06ns		  35 /        32
+
+   5		0h:00m:00s		    -1.06ns		  35 /        32
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+@N: MT611 :|Automatically generated clock sem|R_clk_div_derived_clock[23] is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 32 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+7 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_25m             port                   32         R_clk_div[23]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 141MB)
+
+Writing Analyst data base D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\synwork\LV6_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Ivan\Faks\1. Semestar\DigLog\LV6\impl1\LV6_impl1.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+@W: MT420 |Found inferred clock sem|clk_25m with period 4.06ns. Please declare a user-defined clock on object "p:clk_25m"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Jan 14 00:08:58 2018
+#
+
+
+Top view:               sem
+Requested Frequency:    246.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.717
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+sem|clk_25m        246.1 MHz     209.2 MHz     4.064         4.781         -0.717     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------
+sem|clk_25m  sem|clk_25m  |  4.064       -0.717  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sem|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                 Arrival           
+Instance                  Reference       Type        Pin     Net                  Time        Slack 
+                          Clock                                                                      
+-----------------------------------------------------------------------------------------------------
+R_clk_div_pipe_24         sem|clk_25m     FD1S3AX     Q       un2_r_clk_div[0]     1.166       -0.717
+I_automat.R_stanje[2]     sem|clk_25m     FD1P3AX     Q       R_stanje[2]          1.345       -0.593
+I_automat.R_stanje[0]     sem|clk_25m     FD1P3AX     Q       R_stanje[0]          1.335       -0.583
+I_automat.R_stanje[1]     sem|clk_25m     FD1P3AX     Q       R_stanje[1]          1.335       -0.583
+I_automat.R_timer[0]      sem|clk_25m     FD1S3IX     Q       R_timer[0]           1.307       -0.555
+R_clk_div_pipe_25         sem|clk_25m     FD1S3AX     Q       un2_r_clk_div[1]     1.091       -0.554
+R_clk_div_pipe_26         sem|clk_25m     FD1S3AX     Q       un2_r_clk_div[2]     1.091       -0.554
+I_automat.R_timer[1]      sem|clk_25m     FD1P3IX     Q       R_timer[1]           1.298       -0.546
+R_clk_div_pipe_27         sem|clk_25m     FD1S3AX     Q       un2_r_clk_div[3]     1.091       -0.466
+R_clk_div_pipe_28         sem|clk_25m     FD1S3AX     Q       un2_r_clk_div[4]     1.091       -0.466
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                        Required           
+Instance                  Reference       Type        Pin     Net                         Time         Slack 
+                          Clock                                                                              
+-------------------------------------------------------------------------------------------------------------
+R_clk_div_pipe_23         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0_0_0[23]     4.121        -0.717
+R_clk_div_pipe_45         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0[21]         4.121        -0.629
+R_clk_div_pipe_46         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0[22]         4.121        -0.629
+I_automat.R_stanje[0]     sem|clk_25m     FD1P3AX     SP      un6_mijenjaj_stanje_0       3.704        -0.593
+I_automat.R_stanje[1]     sem|clk_25m     FD1P3AX     SP      un6_mijenjaj_stanje_0       3.704        -0.593
+I_automat.R_stanje[2]     sem|clk_25m     FD1P3AX     SP      un6_mijenjaj_stanje_0       3.704        -0.593
+R_clk_div_pipe_43         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0[19]         4.121        -0.541
+R_clk_div_pipe_44         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0[20]         4.121        -0.541
+R_clk_div_pipe_41         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0[17]         4.121        -0.453
+R_clk_div_pipe_42         sem|clk_25m     FD1S3AX     D       un2_r_clk_div_0[18]         4.121        -0.453
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.064
+    - Setup time:                            -0.057
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.121
+
+    - Propagation time:                      4.839
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.717
+
+    Number of logic level(s):                13
+    Starting point:                          R_clk_div_pipe_24 / Q
+    Ending point:                            R_clk_div_pipe_23 / D
+    The start point is clocked by            sem|clk_25m [rising] on pin CK
+    The end   point is clocked by            sem|clk_25m [rising] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                         Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+R_clk_div_pipe_24            FD1S3AX     Q        Out     1.166     1.166       -         
+un2_r_clk_div[0]             Net         -        -       -         -           3         
+un2_r_clk_div_1_cry_0_0      CCU2B       A1       In      0.000     1.166       -         
+un2_r_clk_div_1_cry_0_0      CCU2B       COUT     Out     1.243     2.409       -         
+un2_r_clk_div_1_cry_0        Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_1_0      CCU2B       CIN      In      0.000     2.409       -         
+un2_r_clk_div_1_cry_1_0      CCU2B       COUT     Out     0.088     2.497       -         
+un2_r_clk_div_1_cry_2        Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_3_0      CCU2B       CIN      In      0.000     2.497       -         
+un2_r_clk_div_1_cry_3_0      CCU2B       COUT     Out     0.088     2.585       -         
+un2_r_clk_div_1_cry_4        Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_5_0      CCU2B       CIN      In      0.000     2.585       -         
+un2_r_clk_div_1_cry_5_0      CCU2B       COUT     Out     0.088     2.673       -         
+un2_r_clk_div_1_cry_6        Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_7_0      CCU2B       CIN      In      0.000     2.673       -         
+un2_r_clk_div_1_cry_7_0      CCU2B       COUT     Out     0.088     2.761       -         
+un2_r_clk_div_1_cry_8        Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_9_0      CCU2B       CIN      In      0.000     2.761       -         
+un2_r_clk_div_1_cry_9_0      CCU2B       COUT     Out     0.088     2.849       -         
+un2_r_clk_div_1_cry_10       Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_11_0     CCU2B       CIN      In      0.000     2.849       -         
+un2_r_clk_div_1_cry_11_0     CCU2B       COUT     Out     0.088     2.937       -         
+un2_r_clk_div_1_cry_12       Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_13_0     CCU2B       CIN      In      0.000     2.937       -         
+un2_r_clk_div_1_cry_13_0     CCU2B       COUT     Out     0.088     3.025       -         
+un2_r_clk_div_1_cry_14       Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_15_0     CCU2B       CIN      In      0.000     3.025       -         
+un2_r_clk_div_1_cry_15_0     CCU2B       COUT     Out     0.088     3.113       -         
+un2_r_clk_div_1_cry_16       Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_17_0     CCU2B       CIN      In      0.000     3.113       -         
+un2_r_clk_div_1_cry_17_0     CCU2B       COUT     Out     0.088     3.201       -         
+un2_r_clk_div_1_cry_18       Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_19_0     CCU2B       CIN      In      0.000     3.201       -         
+un2_r_clk_div_1_cry_19_0     CCU2B       COUT     Out     0.088     3.289       -         
+un2_r_clk_div_1_cry_20       Net         -        -       -         -           1         
+un2_r_clk_div_1_cry_21_0     CCU2B       CIN      In      0.000     3.289       -         
+un2_r_clk_div_1_cry_21_0     CCU2B       COUT     Out     0.088     3.377       -         
+un2_r_clk_div_1_cry_22       Net         -        -       -         -           1         
+un2_r_clk_div_1_s_23_0       CCU2B       CIN      In      0.000     3.377       -         
+un2_r_clk_div_1_s_23_0       CCU2B       S0       Out     1.461     4.839       -         
+un2_r_clk_div_0_0_0[23]      Net         -        -       -         -           1         
+R_clk_div_pipe_23            FD1S3AX     D        In      0.000     4.839       -         
+==========================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      4.064
+    - Setup time:                            -0.057
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.121
+
+    - Propagation time:                      4.751
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.629
+
+    Number of logic level(s):                12
+    Starting point:                          R_clk_div_pipe_24 / Q
+    Ending point:                            R_clk_div_pipe_46 / D
+    The start point is clocked by            sem|clk_25m [rising] on pin CK
+    The end   point is clocked by            sem|clk_25m [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+R_clk_div_pipe_24          FD1S3AX     Q        Out     1.166     1.166       -         
+un2_r_clk_div[0]           Net         -        -       -         -           3         
+un2_r_clk_div_cry_0_0      CCU2B       A1       In      0.000     1.166       -         
+un2_r_clk_div_cry_0_0      CCU2B       COUT     Out     1.243     2.409       -         
+un2_r_clk_div_cry_0        Net         -        -       -         -           1         
+un2_r_clk_div_cry_1_0      CCU2B       CIN      In      0.000     2.409       -         
+un2_r_clk_div_cry_1_0      CCU2B       COUT     Out     0.088     2.497       -         
+un2_r_clk_div_cry_2        Net         -        -       -         -           1         
+un2_r_clk_div_cry_3_0      CCU2B       CIN      In      0.000     2.497       -         
+un2_r_clk_div_cry_3_0      CCU2B       COUT     Out     0.088     2.585       -         
+un2_r_clk_div_cry_4        Net         -        -       -         -           1         
+un2_r_clk_div_cry_5_0      CCU2B       CIN      In      0.000     2.585       -         
+un2_r_clk_div_cry_5_0      CCU2B       COUT     Out     0.088     2.673       -         
+un2_r_clk_div_cry_6        Net         -        -       -         -           1         
+un2_r_clk_div_cry_7_0      CCU2B       CIN      In      0.000     2.673       -         
+un2_r_clk_div_cry_7_0      CCU2B       COUT     Out     0.088     2.761       -         
+un2_r_clk_div_cry_8        Net         -        -       -         -           1         
+un2_r_clk_div_cry_9_0      CCU2B       CIN      In      0.000     2.761       -         
+un2_r_clk_div_cry_9_0      CCU2B       COUT     Out     0.088     2.849       -         
+un2_r_clk_div_cry_10       Net         -        -       -         -           1         
+un2_r_clk_div_cry_11_0     CCU2B       CIN      In      0.000     2.849       -         
+un2_r_clk_div_cry_11_0     CCU2B       COUT     Out     0.088     2.937       -         
+un2_r_clk_div_cry_12       Net         -        -       -         -           1         
+un2_r_clk_div_cry_13_0     CCU2B       CIN      In      0.000     2.937       -         
+un2_r_clk_div_cry_13_0     CCU2B       COUT     Out     0.088     3.025       -         
+un2_r_clk_div_cry_14       Net         -        -       -         -           1         
+un2_r_clk_div_cry_15_0     CCU2B       CIN      In      0.000     3.025       -         
+un2_r_clk_div_cry_15_0     CCU2B       COUT     Out     0.088     3.113       -         
+un2_r_clk_div_cry_16       Net         -        -       -         -           1         
+un2_r_clk_div_cry_17_0     CCU2B       CIN      In      0.000     3.113       -         
+un2_r_clk_div_cry_17_0     CCU2B       COUT     Out     0.088     3.201       -         
+un2_r_clk_div_cry_18       Net         -        -       -         -           1         
+un2_r_clk_div_cry_19_0     CCU2B       CIN      In      0.000     3.201       -         
+un2_r_clk_div_cry_19_0     CCU2B       COUT     Out     0.088     3.289       -         
+un2_r_clk_div_cry_20       Net         -        -       -         -           1         
+un2_r_clk_div_cry_21_0     CCU2B       CIN      In      0.000     3.289       -         
+un2_r_clk_div_cry_21_0     CCU2B       S1       Out     1.461     4.751       -         
+un2_r_clk_div_0[22]        Net         -        -       -         -           1         
+R_clk_div_pipe_46          FD1S3AX     D        In      0.000     4.751       -         
+========================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      4.064
+    - Setup time:                            -0.057
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.121
+
+    - Propagation time:                      4.751
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.629
+
+    Number of logic level(s):                12
+    Starting point:                          R_clk_div_pipe_24 / Q
+    Ending point:                            R_clk_div_pipe_45 / D
+    The start point is clocked by            sem|clk_25m [rising] on pin CK
+    The end   point is clocked by            sem|clk_25m [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+R_clk_div_pipe_24          FD1S3AX     Q        Out     1.166     1.166       -         
+un2_r_clk_div[0]           Net         -        -       -         -           3         
+un2_r_clk_div_cry_0_0      CCU2B       A1       In      0.000     1.166       -         
+un2_r_clk_div_cry_0_0      CCU2B       COUT     Out     1.243     2.409       -         
+un2_r_clk_div_cry_0        Net         -        -       -         -           1         
+un2_r_clk_div_cry_1_0      CCU2B       CIN      In      0.000     2.409       -         
+un2_r_clk_div_cry_1_0      CCU2B       COUT     Out     0.088     2.497       -         
+un2_r_clk_div_cry_2        Net         -        -       -         -           1         
+un2_r_clk_div_cry_3_0      CCU2B       CIN      In      0.000     2.497       -         
+un2_r_clk_div_cry_3_0      CCU2B       COUT     Out     0.088     2.585       -         
+un2_r_clk_div_cry_4        Net         -        -       -         -           1         
+un2_r_clk_div_cry_5_0      CCU2B       CIN      In      0.000     2.585       -         
+un2_r_clk_div_cry_5_0      CCU2B       COUT     Out     0.088     2.673       -         
+un2_r_clk_div_cry_6        Net         -        -       -         -           1         
+un2_r_clk_div_cry_7_0      CCU2B       CIN      In      0.000     2.673       -         
+un2_r_clk_div_cry_7_0      CCU2B       COUT     Out     0.088     2.761       -         
+un2_r_clk_div_cry_8        Net         -        -       -         -           1         
+un2_r_clk_div_cry_9_0      CCU2B       CIN      In      0.000     2.761       -         
+un2_r_clk_div_cry_9_0      CCU2B       COUT     Out     0.088     2.849       -         
+un2_r_clk_div_cry_10       Net         -        -       -         -           1         
+un2_r_clk_div_cry_11_0     CCU2B       CIN      In      0.000     2.849       -         
+un2_r_clk_div_cry_11_0     CCU2B       COUT     Out     0.088     2.937       -         
+un2_r_clk_div_cry_12       Net         -        -       -         -           1         
+un2_r_clk_div_cry_13_0     CCU2B       CIN      In      0.000     2.937       -         
+un2_r_clk_div_cry_13_0     CCU2B       COUT     Out     0.088     3.025       -         
+un2_r_clk_div_cry_14       Net         -        -       -         -           1         
+un2_r_clk_div_cry_15_0     CCU2B       CIN      In      0.000     3.025       -         
+un2_r_clk_div_cry_15_0     CCU2B       COUT     Out     0.088     3.113       -         
+un2_r_clk_div_cry_16       Net         -        -       -         -           1         
+un2_r_clk_div_cry_17_0     CCU2B       CIN      In      0.000     3.113       -         
+un2_r_clk_div_cry_17_0     CCU2B       COUT     Out     0.088     3.201       -         
+un2_r_clk_div_cry_18       Net         -        -       -         -           1         
+un2_r_clk_div_cry_19_0     CCU2B       CIN      In      0.000     3.201       -         
+un2_r_clk_div_cry_19_0     CCU2B       COUT     Out     0.088     3.289       -         
+un2_r_clk_div_cry_20       Net         -        -       -         -           1         
+un2_r_clk_div_cry_21_0     CCU2B       CIN      In      0.000     3.289       -         
+un2_r_clk_div_cry_21_0     CCU2B       S0       Out     1.461     4.751       -         
+un2_r_clk_div_0[21]        Net         -        -       -         -           1         
+R_clk_div_pipe_45          FD1S3AX     D        In      0.000     4.751       -         
+========================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      4.064
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.704
+
+    - Propagation time:                      4.297
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.593
+
+    Number of logic level(s):                4
+    Starting point:                          I_automat.R_stanje[2] / Q
+    Ending point:                            I_automat.R_stanje[0] / SP
+    The start point is clocked by            sem|clk_25m [rising] on pin CK
+    The end   point is clocked by            sem|clk_25m [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+I_automat.R_stanje[2]                     FD1P3AX      Q        Out     1.345     1.345       -         
+R_stanje[2]                               Net          -        -       -         -           15        
+I_automat.un6_mijenjaj_stanje_0_RNO_4     ORCALUT4     B        In      0.000     1.345       -         
+I_automat.un6_mijenjaj_stanje_0_RNO_4     ORCALUT4     Z        Out     0.883     2.228       -         
+g0_5_a4_0_3                               Net          -        -       -         -           1         
+I_automat.un6_mijenjaj_stanje_0_RNO_1     ORCALUT4     A        In      0.000     2.228       -         
+I_automat.un6_mijenjaj_stanje_0_RNO_1     ORCALUT4     Z        Out     0.883     3.112       -         
+un6_mijenjaj_stanje_0_RNO_1               Net          -        -       -         -           1         
+I_automat.un6_mijenjaj_stanje_0_RNO_0     PFUMX        ALUT     In      0.000     3.112       -         
+I_automat.un6_mijenjaj_stanje_0_RNO_0     PFUMX        Z        Out     0.142     3.254       -         
+un6_mijenjaj_stanje_0_2                   Net          -        -       -         -           1         
+I_automat.un6_mijenjaj_stanje_0           ORCALUT4     B        In      0.000     3.254       -         
+I_automat.un6_mijenjaj_stanje_0           ORCALUT4     Z        Out     1.043     4.297       -         
+un6_mijenjaj_stanje_0                     Net          -        -       -         -           3         
+I_automat.R_stanje[0]                     FD1P3AX      SP       In      0.000     4.297       -         
+========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      4.064
+    - Setup time:                            0.360
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.704
+
+    - Propagation time:                      4.297
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.593
+
+    Number of logic level(s):                4
+    Starting point:                          I_automat.R_stanje[2] / Q
+    Ending point:                            I_automat.R_stanje[0] / SP
+    The start point is clocked by            sem|clk_25m [rising] on pin CK
+    The end   point is clocked by            sem|clk_25m [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+I_automat.R_stanje[2]                     FD1P3AX      Q        Out     1.345     1.345       -         
+R_stanje[2]                               Net          -        -       -         -           15        
+I_automat.un6_mijenjaj_stanje_0_RNO_5     ORCALUT4     B        In      0.000     1.345       -         
+I_automat.un6_mijenjaj_stanje_0_RNO_5     ORCALUT4     Z        Out     0.883     2.228       -         
+N_7_i                                     Net          -        -       -         -           1         
+I_automat.un6_mijenjaj_stanje_0_RNO_2     ORCALUT4     A        In      0.000     2.228       -         
+I_automat.un6_mijenjaj_stanje_0_RNO_2     ORCALUT4     Z        Out     0.883     3.112       -         
+un6_mijenjaj_stanje_0_RNO_2               Net          -        -       -         -           1         
+I_automat.un6_mijenjaj_stanje_0_RNO_0     PFUMX        BLUT     In      0.000     3.112       -         
+I_automat.un6_mijenjaj_stanje_0_RNO_0     PFUMX        Z        Out     0.142     3.254       -         
+un6_mijenjaj_stanje_0_2                   Net          -        -       -         -           1         
+I_automat.un6_mijenjaj_stanje_0           ORCALUT4     B        In      0.000     3.254       -         
+I_automat.un6_mijenjaj_stanje_0           ORCALUT4     Z        Out     1.043     4.297       -         
+un6_mijenjaj_stanje_0                     Net          -        -       -         -           3         
+I_automat.R_stanje[0]                     FD1P3AX      SP       In      0.000     4.297       -         
+========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 32 of 4752 (1%)
+PIC Latch:       0
+I/O cells:       11
+
+
+Details:
+CCU2B:          25
+FD1P3AX:        3
+FD1P3IX:        3
+FD1S3AX:        25
+FD1S3IX:        1
+GSR:            1
+IB:             3
+INV:            1
+OB:             8
+ORCALUT4:       33
+PFUMX:          1
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 145MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jan 14 00:08:58 2018
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "LatticeXP2" -d LFXP2-5E -path "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1" -path "D:/Ivan/Faks/1. Semestar/DigLog/LV6"   "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/LV6_impl1.edi" "LV6_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to LV6_impl1.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "LatticeXP2" -d LFXP2-5E  -p "C:/lscc/diamond/3.9_x64/ispfpga/mg5a00/data"  -p "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1" -p "D:/Ivan/Faks/1. Semestar/DigLog/LV6"  "LV6_impl1.ngo" "LV6_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'LV6_impl1.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_cry_0_0_S0" arg2="un2_r_clk_div_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_cry_0_0_S1" arg2="un2_r_clk_div_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_cry_21_0_COUT" arg2="un2_r_clk_div_cry_21_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_0_0_S0" arg2="un2_r_clk_div_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_0_0_S1" arg2="un2_r_clk_div_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_1_0_S0" arg2="un2_r_clk_div_1_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_1_0_S1" arg2="un2_r_clk_div_1_cry_1_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_3_0_S0" arg2="un2_r_clk_div_1_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_3_0_S1" arg2="un2_r_clk_div_1_cry_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_5_0_S0" arg2="un2_r_clk_div_1_cry_5_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_5_0_S1" arg2="un2_r_clk_div_1_cry_5_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_7_0_S0" arg2="un2_r_clk_div_1_cry_7_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_7_0_S1" arg2="un2_r_clk_div_1_cry_7_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_9_0_S0" arg2="un2_r_clk_div_1_cry_9_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_9_0_S1" arg2="un2_r_clk_div_1_cry_9_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_11_0_S0" arg2="un2_r_clk_div_1_cry_11_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_11_0_S1" arg2="un2_r_clk_div_1_cry_11_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_13_0_S0" arg2="un2_r_clk_div_1_cry_13_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_13_0_S1" arg2="un2_r_clk_div_1_cry_13_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_15_0_S0" arg2="un2_r_clk_div_1_cry_15_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_15_0_S1" arg2="un2_r_clk_div_1_cry_15_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_17_0_S0" arg2="un2_r_clk_div_1_cry_17_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_17_0_S1" arg2="un2_r_clk_div_1_cry_17_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_19_0_S0" arg2="un2_r_clk_div_1_cry_19_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_19_0_S1" arg2="un2_r_clk_div_1_cry_19_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_21_0_S0" arg2="un2_r_clk_div_1_cry_21_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_cry_21_0_S1" arg2="un2_r_clk_div_1_cry_21_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_s_23_0_S1" arg2="un2_r_clk_div_1_s_23_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="un2_r_clk_div_1_s_23_0_COUT" arg2="un2_r_clk_div_1_s_23_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="sw[1]" arg2="sw[1]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="sw[2]" arg2="sw[2]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="sw[3]" arg2="sw[3]"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="32"  />
+
+Design Results:
+    108 blocks expanded
+Complete the first expansion.
+Writing 'LV6_impl1.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 5 -oc Commercial   "LV6_impl1.ngd" -o "LV6_impl1_map.ncd" -pr "LV6_impl1.prf" -mp "LV6_impl1.mrp" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/LV6_impl1_synplify.lpf" -lpf "D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf"             
+map:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: LV6_impl1.ngd
+   Picdevice="LFXP2-5E"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-5ETQFP144, Performance used: 5.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(18): Semantic error in &quot;LOCATE COMP &quot;rs232_rx&quot; SITE &quot;10&quot; ;&quot;: " arg1="rs232_rx" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="18"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(19): Semantic error in &quot;LOCATE COMP &quot;rs232_tx&quot; SITE &quot;137&quot; ;&quot;: " arg1="rs232_tx" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="19"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(38): Semantic error in &quot;LOCATE COMP &quot;btn_up&quot; SITE &quot;11&quot; ;&quot;: " arg1="btn_up" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="38"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(40): Semantic error in &quot;LOCATE COMP &quot;btn_left&quot; SITE &quot;2&quot; ;&quot;: " arg1="btn_left" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="40"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(41): Semantic error in &quot;LOCATE COMP &quot;btn_right&quot; SITE &quot;38&quot; ;&quot;: " arg1="btn_right" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="41"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(42): Semantic error in &quot;LOCATE COMP &quot;btn_center&quot; SITE &quot;22&quot; ;&quot;: " arg1="btn_center" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="42"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(45): Semantic error in &quot;LOCATE COMP &quot;p_ring&quot; SITE &quot;44&quot; ;&quot;: " arg1="p_ring" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="45"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(46): Semantic error in &quot;LOCATE COMP &quot;p_tip_0&quot; SITE &quot;32&quot; ;&quot;: " arg1="p_tip_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="46"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(47): Semantic error in &quot;LOCATE COMP &quot;p_tip_1&quot; SITE &quot;27&quot; ;&quot;: " arg1="p_tip_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="47"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(48): Semantic error in &quot;LOCATE COMP &quot;p_tip_2&quot; SITE &quot;28&quot; ;&quot;: " arg1="p_tip_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="48"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(49): Semantic error in &quot;LOCATE COMP &quot;p_tip_3&quot; SITE &quot;43&quot; ;&quot;: " arg1="p_tip_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="49"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(52): Semantic error in &quot;LOCATE COMP &quot;flash_cen&quot; SITE &quot;13&quot; ;&quot;: " arg1="flash_cen" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="52"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(53): Semantic error in &quot;LOCATE COMP &quot;flash_sck&quot; SITE &quot;16&quot; ;&quot;: " arg1="flash_sck" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="53"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(54): Semantic error in &quot;LOCATE COMP &quot;flash_si&quot; SITE &quot;19&quot; ;&quot;: " arg1="flash_si" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="54"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(55): Semantic error in &quot;LOCATE COMP &quot;flash_so&quot; SITE &quot;18&quot; ;&quot;: " arg1="flash_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="55"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(58): Semantic error in &quot;LOCATE COMP &quot;sdcard_cen&quot; SITE &quot;15&quot; ;&quot;: " arg1="sdcard_cen" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="58"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(59): Semantic error in &quot;LOCATE COMP &quot;sdcard_sck&quot; SITE &quot;20&quot; ;&quot;: " arg1="sdcard_sck" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="59"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(60): Semantic error in &quot;LOCATE COMP &quot;sdcard_si&quot; SITE &quot;17&quot; ;&quot;: " arg1="sdcard_si" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="60"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(61): Semantic error in &quot;LOCATE COMP &quot;sdcard_so&quot; SITE &quot;21&quot; ;&quot;: " arg1="sdcard_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="61"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(64): Semantic error in &quot;LOCATE COMP &quot;sram_wel&quot; SITE &quot;93&quot; ;&quot;: " arg1="sram_wel" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="64"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(65): Semantic error in &quot;LOCATE COMP &quot;sram_lbl&quot; SITE &quot;120&quot; ;&quot;: " arg1="sram_lbl" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="65"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(66): Semantic error in &quot;LOCATE COMP &quot;sram_ubl&quot; SITE &quot;121&quot; ;&quot;: " arg1="sram_ubl" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="66"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(67): Semantic error in &quot;LOCATE COMP &quot;sram_a_0&quot; SITE &quot;101&quot; ;&quot;: " arg1="sram_a_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="67"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(68): Semantic error in &quot;LOCATE COMP &quot;sram_a_1&quot; SITE &quot;103&quot; ;&quot;: " arg1="sram_a_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="68"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(69): Semantic error in &quot;LOCATE COMP &quot;sram_a_2&quot; SITE &quot;104&quot; ;&quot;: " arg1="sram_a_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="69"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(70): Semantic error in &quot;LOCATE COMP &quot;sram_a_3&quot; SITE &quot;107&quot; ;&quot;: " arg1="sram_a_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="70"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(71): Semantic error in &quot;LOCATE COMP &quot;sram_a_4&quot; SITE &quot;108&quot; ;&quot;: " arg1="sram_a_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="71"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(72): Semantic error in &quot;LOCATE COMP &quot;sram_a_5&quot; SITE &quot;125&quot; ;&quot;: " arg1="sram_a_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="72"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(73): Semantic error in &quot;LOCATE COMP &quot;sram_a_6&quot; SITE &quot;127&quot; ;&quot;: " arg1="sram_a_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="73"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(74): Semantic error in &quot;LOCATE COMP &quot;sram_a_7&quot; SITE &quot;122&quot; ;&quot;: " arg1="sram_a_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="74"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(75): Semantic error in &quot;LOCATE COMP &quot;sram_a_8&quot; SITE &quot;58&quot; ;&quot;: " arg1="sram_a_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="75"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(76): Semantic error in &quot;LOCATE COMP &quot;sram_a_9&quot; SITE &quot;53&quot; ;&quot;: " arg1="sram_a_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="76"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(77): Semantic error in &quot;LOCATE COMP &quot;sram_a_10&quot; SITE &quot;54&quot; ;&quot;: " arg1="sram_a_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="77"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(78): Semantic error in &quot;LOCATE COMP &quot;sram_a_11&quot; SITE &quot;55&quot; ;&quot;: " arg1="sram_a_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="78"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(79): Semantic error in &quot;LOCATE COMP &quot;sram_a_12&quot; SITE &quot;56&quot; ;&quot;: " arg1="sram_a_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="79"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(80): Semantic error in &quot;LOCATE COMP &quot;sram_a_13&quot; SITE &quot;57&quot; ;&quot;: " arg1="sram_a_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="80"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(81): Semantic error in &quot;LOCATE COMP &quot;sram_a_14&quot; SITE &quot;73&quot; ;&quot;: " arg1="sram_a_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="81"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(82): Semantic error in &quot;LOCATE COMP &quot;sram_a_15&quot; SITE &quot;74&quot; ;&quot;: " arg1="sram_a_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="82"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(83): Semantic error in &quot;LOCATE COMP &quot;sram_a_16&quot; SITE &quot;77&quot; ;&quot;: " arg1="sram_a_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="83"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(84): Semantic error in &quot;LOCATE COMP &quot;sram_a_17&quot; SITE &quot;78&quot; ;&quot;: " arg1="sram_a_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="84"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(85): Semantic error in &quot;LOCATE COMP &quot;sram_a_18&quot; SITE &quot;94&quot; ;&quot;: " arg1="sram_a_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="85"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(86): Semantic error in &quot;LOCATE COMP &quot;sram_d_0&quot; SITE &quot;98&quot; ;&quot;: " arg1="sram_d_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="86"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(87): Semantic error in &quot;LOCATE COMP &quot;sram_d_1&quot; SITE &quot;96&quot; ;&quot;: " arg1="sram_d_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="87"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(88): Semantic error in &quot;LOCATE COMP &quot;sram_d_2&quot; SITE &quot;92&quot; ;&quot;: " arg1="sram_d_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="88"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(89): Semantic error in &quot;LOCATE COMP &quot;sram_d_3&quot; SITE &quot;91&quot; ;&quot;: " arg1="sram_d_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="89"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(90): Semantic error in &quot;LOCATE COMP &quot;sram_d_4&quot; SITE &quot;89&quot; ;&quot;: " arg1="sram_d_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="90"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(91): Semantic error in &quot;LOCATE COMP &quot;sram_d_5&quot; SITE &quot;88&quot; ;&quot;: " arg1="sram_d_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="91"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(92): Semantic error in &quot;LOCATE COMP &quot;sram_d_6&quot; SITE &quot;87&quot; ;&quot;: " arg1="sram_d_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="92"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(93): Semantic error in &quot;LOCATE COMP &quot;sram_d_7&quot; SITE &quot;90&quot; ;&quot;: " arg1="sram_d_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="93"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(94): Semantic error in &quot;LOCATE COMP &quot;sram_d_8&quot; SITE &quot;61&quot; ;&quot;: " arg1="sram_d_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="94"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(95): Semantic error in &quot;LOCATE COMP &quot;sram_d_9&quot; SITE &quot;62&quot; ;&quot;: " arg1="sram_d_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="95"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(96): Semantic error in &quot;LOCATE COMP &quot;sram_d_10&quot; SITE &quot;99&quot; ;&quot;: " arg1="sram_d_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="96"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(97): Semantic error in &quot;LOCATE COMP &quot;sram_d_11&quot; SITE &quot;100&quot; ;&quot;: " arg1="sram_d_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="97"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(98): Semantic error in &quot;LOCATE COMP &quot;sram_d_12&quot; SITE &quot;102&quot; ;&quot;: " arg1="sram_d_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="98"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(99): Semantic error in &quot;LOCATE COMP &quot;sram_d_13&quot; SITE &quot;113&quot; ;&quot;: " arg1="sram_d_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="99"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(100): Semantic error in &quot;LOCATE COMP &quot;sram_d_14&quot; SITE &quot;116&quot; ;&quot;: " arg1="sram_d_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="100"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(101): Semantic error in &quot;LOCATE COMP &quot;sram_d_15&quot; SITE &quot;119&quot; ;&quot;: " arg1="sram_d_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="101"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(105): Semantic error in &quot;LOCATE COMP &quot;j1_2&quot; SITE &quot;131&quot; ;&quot;: " arg1="j1_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="105"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(106): Semantic error in &quot;LOCATE COMP &quot;j1_3&quot; SITE &quot;134&quot; ;&quot;: " arg1="j1_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="106"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(107): Semantic error in &quot;LOCATE COMP &quot;j1_4&quot; SITE &quot;9&quot; ;&quot;: " arg1="j1_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="107"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(108): Semantic error in &quot;LOCATE COMP &quot;j1_5&quot; SITE &quot;138&quot; ;&quot;: " arg1="j1_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="108"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(109): Semantic error in &quot;LOCATE COMP &quot;j1_6&quot; SITE &quot;6&quot; ;&quot;: " arg1="j1_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="109"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(110): Semantic error in &quot;LOCATE COMP &quot;j1_7&quot; SITE &quot;5&quot; ;&quot;: " arg1="j1_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="110"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(111): Semantic error in &quot;LOCATE COMP &quot;j1_8&quot; SITE &quot;8&quot; ;&quot;: " arg1="j1_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="111"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(112): Semantic error in &quot;LOCATE COMP &quot;j1_9&quot; SITE &quot;7&quot; ;&quot;: " arg1="j1_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="112"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(113): Semantic error in &quot;LOCATE COMP &quot;j1_10&quot; SITE &quot;1&quot; ;&quot;: " arg1="j1_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="113"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(114): Semantic error in &quot;LOCATE COMP &quot;j1_11&quot; SITE &quot;2&quot; ;&quot;: " arg1="j1_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="114"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(115): Semantic error in &quot;LOCATE COMP &quot;j1_12&quot; SITE &quot;144&quot; ;&quot;: " arg1="j1_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="115"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(116): Semantic error in &quot;LOCATE COMP &quot;j1_13&quot; SITE &quot;143&quot; ;&quot;: " arg1="j1_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="116"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(117): Semantic error in &quot;LOCATE COMP &quot;j1_14&quot; SITE &quot;142&quot; ;&quot;: " arg1="j1_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="117"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(118): Semantic error in &quot;LOCATE COMP &quot;j1_15&quot; SITE &quot;141&quot; ;&quot;: " arg1="j1_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="118"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(119): Semantic error in &quot;LOCATE COMP &quot;j1_16&quot; SITE &quot;133&quot; ;&quot;: " arg1="j1_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="119"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(120): Semantic error in &quot;LOCATE COMP &quot;j1_17&quot; SITE &quot;132&quot; ;&quot;: " arg1="j1_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="120"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(121): Semantic error in &quot;LOCATE COMP &quot;j1_19&quot; SITE &quot;123&quot; ;&quot;: " arg1="j1_19" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="121"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(122): Semantic error in &quot;LOCATE COMP &quot;j1_18&quot; SITE &quot;124&quot; ;&quot;: " arg1="j1_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="122"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(123): Semantic error in &quot;LOCATE COMP &quot;j1_20&quot; SITE &quot;115&quot; ;&quot;: " arg1="j1_20" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="123"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(124): Semantic error in &quot;LOCATE COMP &quot;j1_21&quot; SITE &quot;114&quot; ;&quot;: " arg1="j1_21" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="124"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(125): Semantic error in &quot;LOCATE COMP &quot;j1_22&quot; SITE &quot;110&quot; ;&quot;: " arg1="j1_22" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="125"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(126): Semantic error in &quot;LOCATE COMP &quot;j1_23&quot; SITE &quot;109&quot; ;&quot;: " arg1="j1_23" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="126"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(131): Semantic error in &quot;LOCATE COMP &quot;j2_2&quot; SITE &quot;72&quot; ;&quot;: " arg1="j2_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="131"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(132): Semantic error in &quot;LOCATE COMP &quot;j2_3&quot; SITE &quot;71&quot; ;&quot;: " arg1="j2_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="132"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(133): Semantic error in &quot;LOCATE COMP &quot;j2_4&quot; SITE &quot;70&quot; ;&quot;: " arg1="j2_4" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="133"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(134): Semantic error in &quot;LOCATE COMP &quot;j2_5&quot; SITE &quot;69&quot; ;&quot;: " arg1="j2_5" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="134"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(135): Semantic error in &quot;LOCATE COMP &quot;j2_6&quot; SITE &quot;66&quot; ;&quot;: " arg1="j2_6" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="135"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(136): Semantic error in &quot;LOCATE COMP &quot;j2_7&quot; SITE &quot;65&quot; ;&quot;: " arg1="j2_7" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="136"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(137): Semantic error in &quot;LOCATE COMP &quot;j2_8&quot; SITE &quot;52&quot; ;&quot;: " arg1="j2_8" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="137"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(138): Semantic error in &quot;LOCATE COMP &quot;j2_9&quot; SITE &quot;50&quot; ;&quot;: " arg1="j2_9" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="138"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(139): Semantic error in &quot;LOCATE COMP &quot;j2_10&quot; SITE &quot;48&quot; ;&quot;: " arg1="j2_10" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="139"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(140): Semantic error in &quot;LOCATE COMP &quot;j2_11&quot; SITE &quot;47&quot; ;&quot;: " arg1="j2_11" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="140"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(141): Semantic error in &quot;LOCATE COMP &quot;j2_12&quot; SITE &quot;40&quot; ;&quot;: " arg1="j2_12" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="141"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(142): Semantic error in &quot;LOCATE COMP &quot;j2_13&quot; SITE &quot;39&quot; ;&quot;: " arg1="j2_13" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="142"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(143): Semantic error in &quot;LOCATE COMP &quot;j2_14&quot; SITE &quot;38&quot; ;&quot;: " arg1="j2_14" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="143"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(144): Semantic error in &quot;LOCATE COMP &quot;j2_15&quot; SITE &quot;22&quot; ;&quot;: " arg1="j2_15" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="144"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(145): Semantic error in &quot;LOCATE COMP &quot;j2_16&quot; SITE &quot;31&quot; ;&quot;: " arg1="j2_16" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="145"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(146): Semantic error in &quot;LOCATE COMP &quot;j2_17&quot; SITE &quot;29&quot; ;&quot;: " arg1="j2_17" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="146"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(147): Semantic error in &quot;LOCATE COMP &quot;j2_18&quot; SITE &quot;37&quot; ;&quot;: " arg1="j2_18" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="147"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(148): Semantic error in &quot;LOCATE COMP &quot;j2_19&quot; SITE &quot;36&quot; ;&quot;: " arg1="j2_19" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="148"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(149): Semantic error in &quot;LOCATE COMP &quot;j2_20&quot; SITE &quot;35&quot; ;&quot;: " arg1="j2_20" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="149"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(150): Semantic error in &quot;LOCATE COMP &quot;j2_21&quot; SITE &quot;32&quot; ;&quot;: " arg1="j2_21" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="150"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(151): Semantic error in &quot;LOCATE COMP &quot;j2_22&quot; SITE &quot;27&quot; ;&quot;: " arg1="j2_22" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="151"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(152): Semantic error in &quot;LOCATE COMP &quot;j2_23&quot; SITE &quot;28&quot; ;&quot;: " arg1="j2_23" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="152"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(158): Semantic error in &quot;LOCATE COMP &quot;lcd_data_0&quot; SITE &quot;8&quot; ;&quot;: " arg1="lcd_data_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="158"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(159): Semantic error in &quot;LOCATE COMP &quot;lcd_data_1&quot; SITE &quot;9&quot; ;&quot;: " arg1="lcd_data_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="159"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(160): Semantic error in &quot;LOCATE COMP &quot;lcd_data_2&quot; SITE &quot;134&quot; ;&quot;: " arg1="lcd_data_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="160"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(161): Semantic error in &quot;LOCATE COMP &quot;lcd_data_3&quot; SITE &quot;131&quot; ;&quot;: " arg1="lcd_data_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="161"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(162): Semantic error in &quot;LOCATE COMP &quot;lcd_rs&quot; SITE &quot;143&quot; ;&quot;: " arg1="lcd_rs" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="162"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(163): Semantic error in &quot;LOCATE COMP &quot;lcd_e&quot; SITE &quot;7&quot; ;&quot;: " arg1="lcd_e" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="163"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(174): Semantic error in &quot;IOBUF PORT &quot;sw[1]&quot; PULLMODE=DOWN ;&quot;: " arg1="sw[1]" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="174"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(175): Semantic error in &quot;IOBUF PORT &quot;sw[2]&quot; PULLMODE=DOWN ;&quot;: " arg1="sw[2]" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="175"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(176): Semantic error in &quot;IOBUF PORT &quot;sw[3]&quot; PULLMODE=DOWN ;&quot;: " arg1="sw[3]" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="176"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(177): Semantic error in &quot;IOBUF PORT &quot;btn_up&quot; PULLMODE=DOWN ;&quot;: " arg1="btn_up" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="177"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(179): Semantic error in &quot;IOBUF PORT &quot;btn_left&quot; PULLMODE=DOWN ;&quot;: " arg1="btn_left" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="179"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(180): Semantic error in &quot;IOBUF PORT &quot;btn_right&quot; PULLMODE=DOWN ;&quot;: " arg1="btn_right" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="180"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(181): Semantic error in &quot;IOBUF PORT &quot;btn_center&quot; PULLMODE=DOWN ;&quot;: " arg1="btn_center" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="181"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(184): Semantic error in &quot;IOBUF PORT &quot;sdcard_so&quot; PULLMODE=UP ;&quot;: " arg1="sdcard_so" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="184"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(187): Semantic error in &quot;IOBUF PORT &quot;p_ring&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_ring" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="187"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(188): Semantic error in &quot;IOBUF PORT &quot;p_tip_0&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_0" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="188"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(189): Semantic error in &quot;IOBUF PORT &quot;p_tip_1&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_1" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="189"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(190): Semantic error in &quot;IOBUF PORT &quot;p_tip_2&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_2" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="190"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf(191): Semantic error in &quot;IOBUF PORT &quot;p_tip_3&quot; DRIVE=20 PULLMODE=NONE ;&quot;: " arg1="p_tip_3" arg2="D:/Ivan/Faks/1. Semestar/DigLog/LV6/impl1/source/ulx2s.lpf" arg3="191"  />
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+128 CCU2 constant inputs absorbed.
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="sw[3:0](3)"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="sw[3:0](2)"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="sw[3:0](1)"  />
+
+
+
+Design Summary:
+   Number of registers:     32 out of  3864 (1%)
+      PFU registers:           32 out of  3564 (1%)
+      PIO registers:            0 out of   300 (0%)
+   Number of SLICEs:        48 out of  2376 (2%)
+      SLICEs as Logic/ROM:     48 out of  2376 (2%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:         25 out of  2376 (1%)
+   Number of LUT4s:         86 out of  4752 (2%)
+      Number used as logic LUTs:         36
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       50
+      Number used as shift registers:     0
+   Number of PIO sites used: 11 out of 100 (11%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  1
+     Net clk_25m_c: 19 loads, 19 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  2
+     Net R_clk_div_RNI83PD[23]: 2 loads, 2 LSLICEs
+     Net I_automat/un6_mijenjaj_stanje_0: 2 loads, 2 LSLICEs
+   Number of LSRs:  1
+     Net R_clk_div_RNISPED6[23]: 3 loads, 3 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC: 25 loads
+     Net I_automat.R_stanje[2]: 15 loads
+     Net I_automat.R_stanje[0]: 13 loads
+     Net I_automat/R_stanje[1]: 13 loads
+     Net I_automat/R_timer[0]: 9 loads
+     Net I_automat.R_timer[1]: 8 loads
+     Net un2_r_clk_div_1_axb_23: 8 loads
+     Net I_automat.R_timer[2]: 7 loads
+     Net R_clk_div_i[23]: 7 loads
+     Net btn_down_c: 5 loads
+ 
+
+   Number of warnings:  123
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 2 secs  
+Peak Memory Usage: 58 MB
+
+Dumping design to file LV6_impl1_map.ncd.
+
+mpartrce -p "LV6_impl1.p2t" -f "LV6_impl1.p3t" -tf "LV6_impl1.pt" "LV6_impl1_map.ncd" "LV6_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "LV6_impl1_map.ncd"
+Sun Jan 14 00:09:04 2018
+
+PAR: Place And Route Diamond (64-bit) 3.9.0.99.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF LV6_impl1_map.ncd LV6_impl1.dir/5_1.ncd LV6_impl1.prf
+Preference file: LV6_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file LV6_impl1_map.ncd.
+Design name: sem
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)      11/174           6% used
+                     11/100          11% bonded
+   SLICE             48/2376          2% used
+
+
+
+Number of Signals: 116
+Number of Connections: 269
+
+Pin Constraint Summary:
+   11 out of 11 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    clk_25m_c (driver: clk_25m, clk load #: 19)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+..................
+Placer score = 14094.
+Finished Placer Phase 1.  REAL time: 4 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  13473
+Finished Placer Phase 2.  REAL time: 4 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 196 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "clk_25m_c" from comp "clk_25m" on PIO site "30 (PL14B)", clk load = 19
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   11 out of 174 (6.3%) PIO sites used.
+   11 out of 100 (11.0%) bonded PIO sites used.
+   Number of PIO comps: 11; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 2 / 20 ( 10%) | 3.3V       | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 2 / 18 ( 11%) | 3.3V       | -          | -          |
+| 6        | 4 / 8 ( 50%)  | 3.3V       | -          | -          |
+| 7        | 3 / 18 ( 16%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B                
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+Total placer CPU time: 3 secs 
+
+Dumping design to file LV6_impl1.dir/5_1.ncd.
+
+0 connections routed; 269 unrouted.
+Starting router resource preassignment
+    <postMsg mid="62071013" type="Warning" dynamic="1" navigation="0" arg0="clk_25m_c"  />
+
+Completed router resource preassignment. Real time: 5 secs 
+
+Start NBR router at 00:09:09 01/14/18
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 00:09:10 01/14/18
+
+Start NBR section for initial routing at 00:09:10 01/14/18
+Level 4, iteration 1
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 34.138ns/0.000ns; real time: 6 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 00:09:10 01/14/18
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 34.138ns/0.000ns; real time: 6 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 00:09:10 01/14/18
+
+Start NBR section for re-routing at 00:09:10 01/14/18
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 34.138ns/0.000ns; real time: 6 secs 
+
+Start NBR section for post-routing at 00:09:10 01/14/18
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 34.138ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 5 secs 
+Total REAL time: 7 secs 
+Completely routed.
+End of route.  269 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file LV6_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 34.138
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.235
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 5 secs 
+Total REAL time to completion: 7 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "LV6_impl1.t2b" -w "LV6_impl1.ncd" -jedec -e -s "D:/Ivan/Faks/1. Semestar/DigLog/LV6/LV6.sec" -k "D:/Ivan/Faks/1. Semestar/DigLog/LV6/LV6.bek" "LV6_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.9.0.99.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file LV6_impl1.ncd.
+Design name: sem
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from LV6_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     TAG_MEMORY  |                       NORMAL**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "LV6_impl1.jed".

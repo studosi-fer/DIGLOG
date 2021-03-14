@@ -1,0 +1,12 @@
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV
+
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2
+
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":153:8:153:11|Synthesizing module AND3
+
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":970:7:970:8|Synthesizing module OB
+
+@N: CG364 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":3:7:3:20|Synthesizing module tenk_upravljac
+
+@N: CG794 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":54:13:54:15|Using module rf_modulator from library work
+@W: CG781 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":54:13:54:15|Undriven input top_granata on instance I12, tying to 0

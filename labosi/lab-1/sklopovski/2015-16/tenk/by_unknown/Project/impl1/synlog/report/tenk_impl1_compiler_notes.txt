@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":153:8:153:11|Synthesizing module AND3
+@N: CG364 :"C:\lscc\diamond\3.5_x64\synpbase\lib\lucent\xp2.v":970:7:970:8|Synthesizing module OB
+@N: CG364 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":3:7:3:20|Synthesizing module tenk_upravljac
+@N: CG794 :"C:\Users\Tomi\Desktop\tenk\impl1\tenk_upravljac.v":54:13:54:15|Using module rf_modulator from library work
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":37:7:37:18|Top entity is set to rf_modulator.
+@N: CD630 :"C:\Users\Tomi\Desktop\tenk\rf_modulator.vhd":37:7:37:18|Synthesizing work.rf_modulator.structure 
+@N|Running in 64-bit mode
+

@@ -1,0 +1,11 @@
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe  -osyn  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_hdl_info_gen.srs"  -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\dm"  -lite -ll 2000 -compiler_compatible  -ui -fid2 -ram -sharing on  -autosm -ignore_undefined_lib  -lib work C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd -lib work "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\source\sem_toplevel.vhd" -lib work "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\sem_automat.vhd" -loga  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.srf"  -fileorder  "C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\syntmp\hdlorder.tcl" 
+rc:0 success:1
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\synwork\lab6sem_lab6sem_hdl_info_gen.srs|o|0|0
+C:\lscc\diamond\2.0\cae_library\synthesis\vhdl\xp2.vhd|i|1340163864|150376
+"C:\Users\dr.Chernobyl\Desktop\lab6|i|0|0
+semafor\lab6sem\source\sem_toplevel.vhd"|i|0|0
+"C:\Users\dr.Chernobyl\Desktop\lab6|i|0|0
+semafor\sem_automat.vhd"|i|0|0
+C:\Users\dr.Chernobyl\Desktop\lab6 semafor\lab6sem\lab6sem_lab6sem.srf|o|1390526436|981
+C:\lscc\diamond\2.0\synpbase\bin64\c_vhdl.exe|i|1337328578|5310976
+C:\lscc\diamond\2.0\synpbase\bin\c_vhdl.exe|i|1337328574|1862144

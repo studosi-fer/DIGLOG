@@ -1,0 +1,199 @@
+#OPTIONS:"|-mixedhdl|-modhint|_verilog_hintfile|-top|sviraj|-layerid|0|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-divnmod|-I|Z:\\lab2|-I|Z:\\lab2\\labv2\\|-I|C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\lucent\\xp2.v|-devicelib|C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\bin64\\c_ver.exe":1362997004
+#CUR:"_verilog_hintfile":1382354871
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\lucent\\xp2.v":1362997166
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\lucent\\pmi_def.v":1362997164
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\umr_capim.v":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\synpbase\\lib\\vlog\\hypermods.v":1362997382
+#CUR:"C:\\lscc\\diamond\\2.2_x64\\cae_library\\synthesis\\verilog\\xp2.v":1347621894
+#CUR:"Z:\\lab2\\labv2\\enkoder.v":1382355149
+#CUR:"Z:\\lab2\\labv2\\sviraj.v":1382355149
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\lscc\diamond\2.2_x64\cae_library\synthesis\verilog\xp2.v" verilog
+1			"Z:\lab2\labv2\enkoder.v" verilog
+2			"Z:\lab2\labv2\sviraj.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+#Dependency Lists(Users Of)
+0 -1
+1 2
+2 -1
+#Design Unit to File Association
+module work ILVDS 0
+module work OLVDS 0
+module work FL1S3AX 0
+module work FL1S3AY 0
+module work DPR16X4A 0
+module work DPR16X4B 0
+module work SPR16X4A 0
+module work SPR16X4B 0
+module work MULT2 0
+module work CB2 0
+module work FADSU2 0
+module work AGEB2 0
+module work ALEB2 0
+module work AND2 0
+module work AND3 0
+module work AND4 0
+module work AND5 0
+module work ANEB2 0
+module work BB 0
+module work BBPD 0
+module work BBPU 0
+module work BBW 0
+module work CD2 0
+module work CU2 0
+module work DCS 0
+module work EPLLD 0
+module work EPLLD1 0
+module work EHXPLLE 0
+module work EHXPLLE1 0
+module work FADD2B 0
+module work CCU2B 0
+module work FD1P3AX 0
+module work FD1P3AY 0
+module work FD1P3BX 0
+module work FD1P3DX 0
+module work FD1P3IX 0
+module work FD1P3JX 0
+module work FD1S3AX 0
+module work FD1S3AY 0
+module work FD1S3BX 0
+module work FD1S3DX 0
+module work FD1S3IX 0
+module work FD1S3JX 0
+module work FL1P3AY 0
+module work FL1P3AZ 0
+module work FL1P3BX 0
+module work FL1P3DX 0
+module work FL1P3IY 0
+module work FL1P3JY 0
+module work FSUB2B 0
+module work SGSR 0
+module work GSR 0
+module work JTAGE 0
+module work IB 0
+module work IBPD 0
+module work IBPU 0
+module work IFS1P3BX 0
+module work IFS1P3DX 0
+module work IFS1P3IX 0
+module work IFS1P3JX 0
+module work IFS1S1B 0
+module work IFS1S1D 0
+module work IFS1S1I 0
+module work IFS1S1J 0
+module work IDDRXC 0
+module work IDDRFXA 0
+module work IDDRX2B 0
+module work IDDRMX1A 0
+module work IDDRMFX1A 0
+module work ODDRXC 0
+module work ODDRMXA 0
+module work ODDRX2B 0
+module work DQSDLL 0
+module work DQSBUFC 0
+module work CLKDIVB 0
+module work OSCE 0
+module work IOWAKEUPA 0
+module work DELAYB 0
+module work STFA 0
+module work SEDBA 0
+module work SEDBB 0
+module work SSPIA 0
+module work INV 0
+module work L6MUX21 0
+module work MUX161 0
+module work MUX21 0
+module work MUX321 0
+module work MUX41 0
+module work MUX81 0
+module work ND2 0
+module work ND3 0
+module work ND4 0
+module work ND5 0
+module work NR2 0
+module work NR3 0
+module work NR4 0
+module work NR5 0
+module work OB 0
+module work OBCO 0
+module work OBW 0
+module work OBZ 0
+module work OBZPD 0
+module work OBZPU 0
+module work OFE1P3BX 0
+module work OFE1P3DX 0
+module work OFE1P3IX 0
+module work OFE1P3JX 0
+module work OFS1P3BX 0
+module work OFS1P3DX 0
+module work OFS1P3IX 0
+module work OFS1P3JX 0
+module work OR2 0
+module work OR3 0
+module work OR4 0
+module work OR5 0
+module work ORCALUT4 0
+module work ORCALUT5 0
+module work ORCALUT6 0
+module work ORCALUT7 0
+module work ORCALUT8 0
+module work PFUMX 0
+module work PUR 0
+module work ROM128X1 0
+module work ROM16X1 0
+module work ROM256X1 0
+module work ROM32X1 0
+module work ROM64X1 0
+module work START 0
+module work VHI 0
+module work VLO 0
+module work XNOR2 0
+module work XNOR3 0
+module work XNOR4 0
+module work XNOR5 0
+module work XOR11 0
+module work XOR2 0
+module work XOR21 0
+module work XOR3 0
+module work XOR4 0
+module work XOR5 0
+module work SP16KB 0
+module work PDPW16KB 0
+module work DP16KB 0
+module work MULT9X9B 0
+module work MULT9X9ADDSUBB 0
+module work MULT9X9ADDSUBSUMB 0
+module work MULT18X18B 0
+module work MULT18X18ADDSUBB 0
+module work MULT18X18ADDSUBSUMB 0
+module work MULT18X18MACB 0
+module work MULT36X36B 0
+module work LB2P3AX 0
+module work LB2P3AY 0
+module work LB2P3BX 0
+module work LB2P3DX 0
+module work LB2P3IX 0
+module work LB2P3JX 0
+module work LD2P3AX 0
+module work LD2P3AY 0
+module work LD2P3BX 0
+module work LD2P3DX 0
+module work LD2P3IX 0
+module work LD2P3JX 0
+module work LU2P3AX 0
+module work LU2P3AY 0
+module work LU2P3BX 0
+module work LU2P3DX 0
+module work LU2P3IX 0
+module work LU2P3JX 0
+module work enkoder 1
+module work sviraj 2
+#Unbound instances to file Association.
+inst work sviraj tonegen 2

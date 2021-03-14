@@ -1,0 +1,1 @@
+@W: MT529 :"z:\lab2\labv2\source\tonegen.vhd":200:1:200:2|Found inferred clock sviraj|clk_25m which controls 140 sequential elements including I1.R_vol[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
